@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import { Colors, NAV_LABELS, Screen, Theme } from '@/lib/theme';
 
 interface TopNavProps {
@@ -23,6 +24,7 @@ export default function TopNav({
   screen,
   onNavigate,
   onGoInicio,
+  theme,
   onToggleTheme,
   isMobile,
   mobileMenuOpen,
@@ -53,16 +55,32 @@ export default function TopNav({
         <div
           onClick={onGoInicio}
           style={{
-            fontFamily: 'var(--font-lora), serif',
-            fontWeight: 600,
-            fontSize: 22,
-            color: colors.accent,
+            display: 'flex',
+            alignItems: 'center',
+            gap: 9,
             cursor: 'pointer',
-            whiteSpace: 'nowrap',
             flexShrink: 0,
           }}
         >
-          Mateo
+          <Image
+            src={theme === 'dark' ? '/darkmode.png' : '/iconosinfondo.png'}
+            alt=""
+            width={26}
+            height={26}
+            style={{ display: 'block' }}
+            priority
+          />
+          <div
+            style={{
+              fontFamily: 'var(--font-lora), serif',
+              fontWeight: 600,
+              fontSize: 22,
+              color: colors.accent,
+              whiteSpace: 'nowrap',
+            }}
+          >
+            Basileia
+          </div>
         </div>
 
         <div style={{ flex: 1 }} />

@@ -16,9 +16,9 @@ const lora = Lora({
 });
 
 export const metadata: Metadata = {
-  title: "Estudio de Mateo",
+  title: "Basileia",
   description:
-    "Plataforma de estudio del Evangelio de Mateo: análisis griego, contexto histórico-cultural y comentario capítulo a capítulo.",
+    "Basileia — plataforma de estudio del Evangelio de Mateo: análisis griego, contexto histórico-cultural y comentario capítulo a capítulo.",
 };
 
 export default function RootLayout({

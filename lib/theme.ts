@@ -40,7 +40,10 @@ export type Screen =
   | 'personajes'
   | 'glosario'
   | 'contexto'
-  | 'notas';
+  | 'notas'
+  | 'nosotros'
+  | 'privacidad'
+  | 'terminos';
 
 export const NAV_LABELS: [Screen, string][] = [
   ['indice', 'Índice'],
@@ -49,4 +52,5 @@ export const NAV_LABELS: [Screen, string][] = [
   ['glosario', 'Glosario'],
   ['contexto', 'Contexto'],
   ['notas', 'Notas'],
+  ['nosotros', 'Sobre nosotros'],
 ];

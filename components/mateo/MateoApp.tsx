@@ -16,6 +16,10 @@ import PersonajesScreen from './PersonajesScreen';
 import GlosarioScreen from './GlosarioScreen';
 import ContextoScreen from './ContextoScreen';
 import NotasScreen from './NotasScreen';
+import SobreNosotrosScreen from './SobreNosotrosScreen';
+import PrivacidadScreen from './PrivacidadScreen';
+import TerminosScreen from './TerminosScreen';
+import Footer from './Footer';
 
 export default function MateoApp() {
   const persisted = usePersistedState();
@@ -63,8 +67,22 @@ export default function MateoApp() {
     window.scrollTo({ top: 0 });
   };
 
+  const toggleRead = (n: number) => {
+    writePersistedState({ readChapters: { ...readChapters, [n]: !readChapters[n] } });
+  };
+
   return (
-    <div style={{ minHeight: '100vh', background: colors.bg, color: colors.text, fontFamily: 'var(--font-inter), sans-serif', transition: 'background .2s,color .2s' }}>
+    <div
+      style={{
+        minHeight: '100vh',
+        display: 'flex',
+        flexDirection: 'column',
+        background: colors.bg,
+        color: colors.text,
+        fontFamily: 'var(--font-inter), sans-serif',
+        transition: 'background .2s,color .2s',
+      }}
+    >
       <TopNav
         colors={colors}
         screen={screen}
@@ -99,6 +117,7 @@ export default function MateoApp() {
         />
       )}
 
+      <main style={{ flex: 1 }}>
       {screen === 'inicio' && (
         <InicioScreen
           colors={colors}
@@ -113,7 +132,14 @@ export default function MateoApp() {
       )}
 
       {screen === 'indice' && (
-        <IndiceScreen colors={colors} indexFilter={indexFilter} onSetIndexFilter={setIndexFilter} onGoToChapter={goToChapter} />
+        <IndiceScreen
+          colors={colors}
+          indexFilter={indexFilter}
+          onSetIndexFilter={setIndexFilter}
+          onGoToChapter={goToChapter}
+          readChapters={readChapters}
+          onToggleRead={toggleRead}
+        />
       )}
 
       {screen === 'capitulo' && (
@@ -143,7 +169,14 @@ export default function MateoApp() {
       )}
 
       {screen === 'mapa' && (
-        <MapaScreen colors={colors} mapSelected={mapSelected} onSelect={setMapSelected} onGoToChapter={goToChapter} />
+        <MapaScreen
+          colors={colors}
+          isMobile={isMobile}
+          mapSelected={mapSelected}
+          onSelect={setMapSelected}
+          onClose={() => setMapSelected(null)}
+          onGoToChapter={goToChapter}
+        />
       )}
 
       {screen === 'personajes' && (
@@ -163,15 +196,18 @@ export default function MateoApp() {
 
       {screen === 'contexto' && <ContextoScreen colors={colors} />}
 
+      {screen === 'nosotros' && <SobreNosotrosScreen colors={colors} />}
+
+      {screen === 'privacidad' && <PrivacidadScreen colors={colors} />}
+
+      {screen === 'terminos' && <TerminosScreen colors={colors} />}
+
       {screen === 'notas' && (
-        <NotasScreen
-          colors={colors}
-          readChapters={readChapters}
-          onToggleRead={(n) => writePersistedState({ readChapters: { ...readChapters, [n]: !readChapters[n] } })}
-          notes={notes}
-          onGoToChapter={goToChapter}
-        />
+        <NotasScreen colors={colors} readChapters={readChapters} onToggleRead={toggleRead} notes={notes} onGoToChapter={goToChapter} />
       )}
+      </main>
+
+      <Footer colors={colors} theme={theme} isMobile={isMobile} onNavigate={goTo} />
     </div>
   );
 }

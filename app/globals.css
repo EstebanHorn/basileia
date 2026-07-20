@@ -39,3 +39,67 @@ textarea::placeholder {
     transform: translateY(0);
   }
 }
+
+.map-pin {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  margin-left: -9px;
+  margin-top: -9px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: transform 0.15s ease;
+}
+
+.map-pin:hover {
+  transform: scale(1.25);
+}
+
+.map-pin-dot {
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  border: 3px solid #fff;
+}
+
+.map-pin-pulse {
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  animation: mapPinPulse 2.2s infinite;
+}
+
+.map-pin-label {
+  position: absolute;
+  top: 22px;
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  font-size: 11.5px;
+  font-weight: 600;
+  padding: 2px 7px;
+  border-radius: 4px;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.15s ease;
+  z-index: 5;
+}
+
+.map-pin:hover .map-pin-label {
+  opacity: 1;
+}
+
+@keyframes mapPinPulse {
+  0% {
+    box-shadow: 0 0 0 0 currentColor;
+    opacity: 0.55;
+  }
+  70% {
+    box-shadow: 0 0 0 12px currentColor;
+    opacity: 0;
+  }
+  100% {
+    box-shadow: 0 0 0 0 currentColor;
+    opacity: 0;
+  }
+}

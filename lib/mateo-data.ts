@@ -367,14 +367,14 @@ export const CHARACTERS: Character[] = [
 ];
 
 export const MAP_PLACES: MapPlace[] = [
-  { name: 'Nazaret', x: 50.3, y: 26.1, region: 'Galilea', note: 'Pueblo pequeño y de mala reputación ("¿de Nazaret puede salir algo bueno?") donde Jesús creció.', chapters: [2] },
-  { name: 'Mar de Galilea', x: 75, y: 21.7, region: 'Galilea', note: 'Centro de la actividad pesquera y del ministerio público de Jesús: llamado de los discípulos, milagros, caminar sobre el agua.', chapters: [4, 8, 14] },
-  { name: 'Cafarnaún', x: 72.9, y: 18.3, region: 'Galilea', note: 'Base de operaciones de Jesús durante su ministerio en Galilea, a orillas del lago.', chapters: [4, 8, 9] },
-  { name: 'Río Jordán', x: 70.8, y: 43.5, region: 'Frontera Galilea-Judea', note: 'Donde Juan el Bautista predicaba y bautizó a Jesús.', chapters: [3] },
-  { name: 'Desierto de la tentación', x: 61.7, y: 62.2, region: 'Judea', note: 'Tradicionalmente cerca de Jericó; lugar de los cuarenta días de ayuno y la tentación de Jesús.', chapters: [4] },
-  { name: 'Jerusalén', x: 42.8, y: 66.6, region: 'Judea', note: 'Centro religioso y político, sede del Templo y el Sanedrín. Escenario de la Semana de Pasión.', chapters: [21, 26, 27, 28] },
-  { name: 'Getsemaní', x: 43.6, y: 65.4, region: 'Judea', note: 'Huerto en el Monte de los Olivos, frente a Jerusalén, donde Jesús oró antes de su arresto.', chapters: [26] },
-  { name: 'Belén', x: 42.7, y: 69.3, region: 'Judea', note: 'Ciudad de David; lugar del nacimiento de Jesús, cumpliendo la profecía de Miqueas.', chapters: [2] },
+  { name: 'Nazaret', x: 40, y: 40, region: 'Galilea', note: 'Pueblo pequeño y de mala reputación ("¿de Nazaret puede salir algo bueno?") donde Jesús creció.', chapters: [2] },
+  { name: 'Mar de Galilea', x: 58, y: 30, region: 'Galilea', note: 'Centro de la actividad pesquera y del ministerio público de Jesús: llamado de los discípulos, milagros, caminar sobre el agua.', chapters: [4, 8] },
+  { name: 'Cafarnaún', x: 53, y: 27, region: 'Galilea', note: 'Base de operaciones de Jesús durante su ministerio en Galilea, a orillas del lago.', chapters: [4, 8, 9] },
+  { name: 'Río Jordán', x: 54, y: 78, region: 'Frontera Galilea-Judea', note: 'Donde Juan el Bautista predicaba y bautizó a Jesús.', chapters: [3] },
+  { name: 'Desierto de la tentación', x: 78, y: 53, region: 'Judea', note: 'Tradicionalmente cerca de Jericó; lugar de los cuarenta días de ayuno y la tentación de Jesús.', chapters: [4] },
+  { name: 'Jerusalén', x: 45, y: 82, region: 'Judea', note: 'Centro religioso y político, sede del Templo y el Sanedrín. Escenario de la Semana de Pasión.', chapters: [2] },
+  { name: 'Getsemaní', x: 47, y: 80, region: 'Judea', note: 'Huerto en el Monte de los Olivos, frente a Jerusalén, donde Jesús oró antes de su arresto.', chapters: [] },
+  { name: 'Belén', x: 45, y: 86, region: 'Judea', note: 'Ciudad de David; lugar del nacimiento de Jesús, cumpliendo la profecía de Miqueas.', chapters: [2] },
 ];
 
 export const CONTEXT_TOPICS: ContextTopic[] = [
