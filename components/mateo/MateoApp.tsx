@@ -55,6 +55,7 @@ export default function MateoApp() {
     setScreen(s);
     setMapSelected(null);
     setMobileMenuOpen(false);
+    window.scrollTo({ top: 0 });
   };
 
   const goToChapter = (n: number) => {
