@@ -91,8 +91,7 @@ export default function MateoApp() {
         onGoInicio={() => goTo('inicio')}
         theme={theme}
         onToggleTheme={() => writePersistedState({ theme: theme === 'dark' ? 'light' : 'dark' })}
-        isMobile={isMobile}
-        mobileMenuOpen={isMobile && mobileMenuOpen}
+        mobileMenuOpen={mobileMenuOpen}
         onToggleMobileMenu={() => setMobileMenuOpen((v) => !v)}
         onOpenLogin={() => {
           setAuthModal(true);

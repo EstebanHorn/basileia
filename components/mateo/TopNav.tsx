@@ -10,7 +10,6 @@ interface TopNavProps {
   onGoInicio: () => void;
   theme: Theme;
   onToggleTheme: () => void;
-  isMobile: boolean;
   mobileMenuOpen: boolean;
   onToggleMobileMenu: () => void;
   onOpenLogin: () => void;
@@ -26,7 +25,6 @@ export default function TopNav({
   onGoInicio,
   theme,
   onToggleTheme,
-  isMobile,
   mobileMenuOpen,
   onToggleMobileMenu,
   onOpenLogin,
@@ -85,25 +83,23 @@ export default function TopNav({
 
         <div style={{ flex: 1 }} />
 
-        {!isMobile && (
-          <div style={{ display: 'flex', gap: 16, alignItems: 'center', flexShrink: 0 }}>
-            {navItems.map((item) => (
-              <div
-                key={item.key}
-                onClick={() => onNavigate(item.key)}
-                style={{
-                  cursor: 'pointer',
-                  fontSize: 14,
-                  fontWeight: item.weight,
-                  color: item.color,
-                  whiteSpace: 'nowrap',
-                }}
-              >
-                {item.label}
-              </div>
-            ))}
-          </div>
-        )}
+        <div className="topnav-desktop-only" style={{ gap: 16, alignItems: 'center', flexShrink: 0 }}>
+          {navItems.map((item) => (
+            <div
+              key={item.key}
+              onClick={() => onNavigate(item.key)}
+              style={{
+                cursor: 'pointer',
+                fontSize: 14,
+                fontWeight: item.weight,
+                color: item.color,
+                whiteSpace: 'nowrap',
+              }}
+            >
+              {item.label}
+            </div>
+          ))}
+        </div>
 
         <div
           onClick={onToggleTheme}
@@ -132,71 +128,67 @@ export default function TopNav({
           </svg>
         </div>
 
-        {!isMobile && (
-          <div style={{ display: 'flex', gap: 16, alignItems: 'center', flexShrink: 0 }}>
-            {userLabel ? (
-              <>
-                <div style={{ fontSize: 13.5, color: colors.muted, whiteSpace: 'nowrap' }}>{userLabel}</div>
-                <div
-                  onClick={onLogout}
-                  style={{ cursor: 'pointer', fontSize: 14, fontWeight: 600, color: colors.text, whiteSpace: 'nowrap' }}
-                >
-                  Cerrar sesión
-                </div>
-              </>
-            ) : (
-              <>
-                <div
-                  onClick={onOpenLogin}
-                  style={{ cursor: 'pointer', fontSize: 14, fontWeight: 600, color: colors.text, whiteSpace: 'nowrap' }}
-                >
-                  Iniciar sesión
-                </div>
-                <div
-                  onClick={onOpenRegister}
-                  style={{
-                    cursor: 'pointer',
-                    fontSize: 14,
-                    fontWeight: 600,
-                    color: '#fff',
-                    background: colors.accent,
-                    padding: '9px 16px',
-                    borderRadius: 8,
-                    whiteSpace: 'nowrap',
-                  }}
-                >
-                  Registrarse
-                </div>
-              </>
-            )}
-          </div>
-        )}
+        <div className="topnav-desktop-only" style={{ gap: 16, alignItems: 'center', flexShrink: 0 }}>
+          {userLabel ? (
+            <>
+              <div style={{ fontSize: 13.5, color: colors.muted, whiteSpace: 'nowrap' }}>{userLabel}</div>
+              <div
+                onClick={onLogout}
+                style={{ cursor: 'pointer', fontSize: 14, fontWeight: 600, color: colors.text, whiteSpace: 'nowrap' }}
+              >
+                Cerrar sesión
+              </div>
+            </>
+          ) : (
+            <>
+              <div
+                onClick={onOpenLogin}
+                style={{ cursor: 'pointer', fontSize: 14, fontWeight: 600, color: colors.text, whiteSpace: 'nowrap' }}
+              >
+                Iniciar sesión
+              </div>
+              <div
+                onClick={onOpenRegister}
+                style={{
+                  cursor: 'pointer',
+                  fontSize: 14,
+                  fontWeight: 600,
+                  color: '#fff',
+                  background: colors.accent,
+                  padding: '9px 16px',
+                  borderRadius: 8,
+                  whiteSpace: 'nowrap',
+                }}
+              >
+                Registrarse
+              </div>
+            </>
+          )}
+        </div>
 
-        {isMobile && (
-          <div
-            onClick={onToggleMobileMenu}
-            style={{
-              cursor: 'pointer',
-              flexShrink: 0,
-              width: 34,
-              height: 34,
-              borderRadius: 8,
-              border: `1px solid ${colors.border}`,
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'center',
-            }}
-          >
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke={colors.text} strokeWidth={2}>
-              <line x1="3" y1="6" x2="21" y2="6"></line>
-              <line x1="3" y1="12" x2="21" y2="12"></line>
-              <line x1="3" y1="18" x2="21" y2="18"></line>
-            </svg>
-          </div>
-        )}
+        <div
+          className="topnav-mobile-only"
+          onClick={onToggleMobileMenu}
+          style={{
+            cursor: 'pointer',
+            flexShrink: 0,
+            width: 34,
+            height: 34,
+            borderRadius: 8,
+            border: `1px solid ${colors.border}`,
+            alignItems: 'center',
+            justifyContent: 'center',
+          }}
+        >
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke={colors.text} strokeWidth={2}>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </div>
       </div>
 
-      {isMobile && mobileMenuOpen && (
+      {mobileMenuOpen && (
         <div
           style={{
             borderTop: `1px solid ${colors.border}`,

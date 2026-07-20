@@ -103,3 +103,21 @@ textarea::placeholder {
     opacity: 0;
   }
 }
+
+.topnav-mobile-only {
+  display: flex;
+}
+
+.topnav-desktop-only {
+  display: none;
+}
+
+@media (min-width: 860px) {
+  .topnav-mobile-only {
+    display: none;
+  }
+
+  .topnav-desktop-only {
+    display: flex;
+  }
+}
