@@ -42,3 +42,7 @@ next-env.d.ts
 
 # claude code local settings
 .claude/settings.local.json
+
+# source material, not for the public repo
+/Mateo.pdf
+/brief-estudio-mateo.md
