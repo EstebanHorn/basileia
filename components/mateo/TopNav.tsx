@@ -28,7 +28,6 @@ export default function TopNav() {
     ['glosario', dict.nav.glosario],
     ['contexto', dict.nav.contexto],
     ['notas', dict.nav.notas],
-    ['nosotros', dict.nav.nosotros],
   ].map(([key, label]) => [key, label]);
 
   const userLabel = user ? user.user_metadata?.nombre || user.email || null : null;

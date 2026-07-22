@@ -24,6 +24,7 @@ export interface GlosarioTermino {
   griego: string;
   transliteracion: string;
   significado: string;
+  palabra: string;
   nota: string;
   capitulos: number[];
 }

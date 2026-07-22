@@ -10,22 +10,49 @@ interface MapaScreenProps {
   lugares: Lugar[];
 }
 
-const MAP_RATIO = mapaImg.width / mapaImg.height;
-const DESKTOP_MAX_WIDTH = 1170; // 900 * 1.3
-const MOBILE_CONTENT_WIDTH = 1300; // rendered larger than the viewport so it can be panned
+const SCALE = 1.6; // how much bigger the map layer is than the visible viewport
+const DRAG_THRESHOLD = 6; // px of movement before a press counts as a drag, not a click
 
 export default function MapaScreen({ lugares }: MapaScreenProps) {
-  const { colors, isMobile, lang, dict } = useApp();
+  const { colors, lang, dict } = useApp();
   const [mapSelected, setMapSelected] = useState<Lugar | null>(null);
-  const scrollRef = useRef<HTMLDivElement>(null);
+  const containerRef = useRef<HTMLDivElement>(null);
+  const [pos, setPos] = useState({ x: 0, y: 0 });
+  const drag = useRef<{ startX: number; startY: number; posX: number; posY: number; moved: boolean } | null>(null);
+
+  const clamp = (x: number, y: number) => {
+    const el = containerRef.current;
+    if (!el) return { x, y };
+    const w = el.clientWidth;
+    const h = el.clientHeight;
+    const minX = w * (1 - SCALE);
+    const minY = h * (1 - SCALE);
+    return { x: Math.min(0, Math.max(minX, x)), y: Math.min(0, Math.max(minY, y)) };
+  };
 
   useEffect(() => {
-    if (!isMobile) return;
-    const el = scrollRef.current;
+    const el = containerRef.current;
     if (!el) return;
-    el.scrollLeft = (el.scrollWidth - el.clientWidth) / 2;
-    el.scrollTop = (el.scrollHeight - el.clientHeight) / 2.6;
-  }, [isMobile]);
+    const center = clamp((el.clientWidth * (1 - SCALE)) / 2, (el.clientHeight * (1 - SCALE)) / 2);
+    setPos(center);
+  }, []);
+
+  const onPointerDown = (e: React.PointerEvent) => {
+    e.currentTarget.setPointerCapture(e.pointerId);
+    drag.current = { startX: e.clientX, startY: e.clientY, posX: pos.x, posY: pos.y, moved: false };
+  };
+
+  const onPointerMove = (e: React.PointerEvent) => {
+    if (!drag.current) return;
+    const dx = e.clientX - drag.current.startX;
+    const dy = e.clientY - drag.current.startY;
+    if (Math.abs(dx) > DRAG_THRESHOLD || Math.abs(dy) > DRAG_THRESHOLD) drag.current.moved = true;
+    setPos(clamp(drag.current.posX + dx, drag.current.posY + dy));
+  };
+
+  const endDrag = () => {
+    drag.current = null;
+  };
 
   const places = lugares.filter((l) => l.top !== null && l.left !== null);
 
@@ -36,7 +63,10 @@ export default function MapaScreen({ lugares }: MapaScreenProps) {
         key={place.id}
         className="map-pin"
         style={{ top: `${place.top}%`, left: `${place.left}%` }}
-        onClick={() => setMapSelected(place)}
+        onClick={() => {
+          if (drag.current?.moved) return;
+          setMapSelected(place);
+        }}
       >
         <div
           className="map-pin-pulse"
@@ -54,72 +84,36 @@ export default function MapaScreen({ lugares }: MapaScreenProps) {
   });
 
   return (
-    <div style={{ maxWidth: DESKTOP_MAX_WIDTH, margin: '0 auto', padding: isMobile ? '24px 24px 60px' : '40px 24px 80px' }}>
-      <div style={{ height: 2, width: 56, background: colors.accent, marginBottom: 20 }} />
-      <h1 style={{ fontFamily: 'var(--font-lora), serif', fontSize: isMobile ? 26 : 32, fontWeight: 600, margin: '0 0 6px' }}>
-        {dict.mapa.title}
-      </h1>
-      <p style={{ fontSize: 14, color: colors.muted, margin: isMobile ? '0 0 16px' : '0 0 28px' }}>
-        {isMobile ? dict.mapa.subtitleMobile : dict.mapa.subtitleDesktop}
-      </p>
-
-      {isMobile ? (
-        <div
-          ref={scrollRef}
-          style={{
-            marginLeft: -24,
-            marginRight: -24,
-            width: 'calc(100% + 48px)',
-            height: 'min(74vh, 600px)',
-            overflow: 'auto',
-            WebkitOverflowScrolling: 'touch',
-            background: colors.subtle,
-            touchAction: 'pan-x pan-y',
-          }}
-        >
-          <div
-            style={{
-              position: 'relative',
-              width: MOBILE_CONTENT_WIDTH,
-              height: MOBILE_CONTENT_WIDTH / MAP_RATIO,
-            }}
-          >
-            <Image
-              src={mapaImg}
-              alt={dict.mapa.title}
-              fill
-              sizes={`${MOBILE_CONTENT_WIDTH}px`}
-              style={{ objectFit: 'cover' }}
-              priority
-            />
-            {pins}
-          </div>
-        </div>
-      ) : (
-        <div
-          style={{
-            position: 'relative',
-            width: '100%',
-            aspectRatio: `${mapaImg.width} / ${mapaImg.height}`,
-            borderRadius: 14,
-            overflow: 'hidden',
-            border: `1px solid ${colors.border}`,
-            boxShadow: '0 12px 36px rgba(0,0,0,.18)',
-          }}
-        >
-          <Image
-            src={mapaImg}
-            alt={dict.mapa.title}
-            fill
-            sizes={`${DESKTOP_MAX_WIDTH}px`}
-            style={{ objectFit: 'cover' }}
-            priority
-          />
-          {pins}
-        </div>
-      )}
-
-      <p style={{ fontSize: 12, color: colors.muted, textAlign: 'center', margin: '14px 0 0' }}>{dict.mapa.disclaimer}</p>
+    <div
+      ref={containerRef}
+      onPointerDown={onPointerDown}
+      onPointerMove={onPointerMove}
+      onPointerUp={endDrag}
+      onPointerCancel={endDrag}
+      onPointerLeave={endDrag}
+      style={{
+        position: 'relative',
+        flex: 1,
+        width: '100%',
+        overflow: 'hidden',
+        cursor: 'grab',
+        touchAction: 'none',
+        userSelect: 'none',
+      }}
+    >
+      <div
+        style={{
+          position: 'absolute',
+          top: 0,
+          left: 0,
+          width: `${SCALE * 100}%`,
+          height: `${SCALE * 100}%`,
+          transform: `translate3d(${pos.x}px, ${pos.y}px, 0)`,
+        }}
+      >
+        <Image src={mapaImg} alt={dict.mapa.title} fill sizes="160vw" style={{ objectFit: 'cover' }} priority draggable={false} />
+        {pins}
+      </div>
 
       {mapSelected && (
         <div

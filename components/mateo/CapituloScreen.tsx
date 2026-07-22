@@ -21,6 +21,43 @@ interface CapituloScreenProps {
   lugaresById: Record<string, Lugar>;
 }
 
+interface Segment {
+  plain: boolean;
+  text: string;
+  term?: GlosarioTermino;
+}
+
+function segmentText(text: string, terms: GlosarioTermino[]): Segment[] {
+  const lower = text.toLowerCase();
+  const matches = terms
+    .filter((t) => t.palabra)
+    .map((t) => {
+      const idx = lower.indexOf(t.palabra.toLowerCase());
+      return idx >= 0 ? { start: idx, end: idx + t.palabra.length, term: t } : null;
+    })
+    .filter((m): m is { start: number; end: number; term: GlosarioTermino } => m !== null)
+    .sort((a, b) => a.start - b.start);
+
+  const filtered: typeof matches = [];
+  let lastEnd = 0;
+  for (const m of matches) {
+    if (m.start >= lastEnd) {
+      filtered.push(m);
+      lastEnd = m.end;
+    }
+  }
+
+  const segments: Segment[] = [];
+  let pos = 0;
+  for (const m of filtered) {
+    if (m.start > pos) segments.push({ plain: true, text: text.slice(pos, m.start) });
+    segments.push({ plain: false, text: text.slice(m.start, m.end), term: m.term });
+    pos = m.end;
+  }
+  if (pos < text.length) segments.push({ plain: true, text: text.slice(pos) });
+  return segments;
+}
+
 export default function CapituloScreen({
   currentChapter,
   blocks,
@@ -37,6 +74,51 @@ export default function CapituloScreen({
   const [soloTexto, setSoloTexto] = useState(false);
   const [openTerm, setOpenTerm] = useState<string | null>(null);
   const [openContextId, setOpenContextId] = useState<string | null>(contextos[0]?.id ?? null);
+
+  function TermSpan({ id, term, children }: { id: string; term: GlosarioTermino; children: string }) {
+    const open = openTerm === id;
+    return (
+      <span style={{ position: 'relative', display: 'inline-block' }}>
+        <span
+          onClick={() => setOpenTerm(open ? null : id)}
+          onMouseEnter={() => !isMobile && setOpenTerm(id)}
+          onMouseLeave={() => !isMobile && setOpenTerm((cur) => (cur === id ? null : cur))}
+          style={{ color: colors.accent, borderBottom: `2px solid ${colors.accent}`, cursor: 'pointer', fontWeight: 600 }}
+        >
+          {children}
+        </span>
+        {open && (
+          <span
+            style={{
+              position: 'absolute',
+              top: '100%',
+              left: 0,
+              zIndex: 10,
+              marginTop: 6,
+              padding: '12px 14px',
+              background: colors.panel,
+              border: `1px solid ${colors.border}`,
+              borderRadius: 8,
+              fontSize: 14,
+              fontStyle: 'normal',
+              fontWeight: 400,
+              lineHeight: 1.5,
+              width: 260,
+              display: 'block',
+              boxShadow: '0 8px 24px rgba(0,0,0,.15)',
+              whiteSpace: 'normal',
+            }}
+          >
+            <span style={{ display: 'block', marginBottom: 6 }}>
+              <span style={{ fontFamily: 'var(--font-lora), serif', fontSize: 17, marginRight: 8 }}>{term.griego}</span>
+              <span style={{ fontWeight: 700 }}>{term.transliteracion}</span> — {term.significado}
+            </span>
+            <span style={{ display: 'block', color: colors.muted, fontSize: 13 }}>{term.nota}</span>
+          </span>
+        )}
+      </span>
+    );
+  }
 
   useEffect(() => {
     writePersistedState({ lastChapter: currentChapter });
@@ -112,6 +194,12 @@ export default function CapituloScreen({
               const greekTerms = block.greekIds.map((id) => glosarioById[id]).filter(Boolean);
               const personajes = block.personajeIds.map((id) => personajesById[id]).filter(Boolean);
               const lugares = block.lugarIds.map((id) => lugaresById[id]).filter(Boolean);
+              const textSegments = segmentText(block.text, greekTerms);
+              const commentaryParagraphs = block.commentary
+                .split('\n\n')
+                .map((p) => p.trim())
+                .filter(Boolean)
+                .map((p) => segmentText(p, greekTerms));
 
               return (
                 <div key={i} style={{ marginBottom: 34 }}>
@@ -129,63 +217,35 @@ export default function CapituloScreen({
                       lineHeight: 1.6,
                     }}
                   >
-                    {block.text}
+                    {textSegments.map((seg, si) =>
+                      seg.term ? (
+                        <TermSpan key={si} id={`${i}-text-${seg.term.id}`} term={seg.term}>
+                          {seg.text}
+                        </TermSpan>
+                      ) : (
+                        <span key={si}>{seg.text}</span>
+                      )
+                    )}
                   </blockquote>
 
                   {showFullChapter && (
                     <div>
-                      <p style={{ fontSize: 16, lineHeight: 1.7, margin: '0 0 14px' }}>{block.commentary}</p>
+                      {commentaryParagraphs.map((segments, pi) => (
+                        <p key={pi} style={{ fontSize: 16, lineHeight: 1.7, margin: '0 0 14px' }}>
+                          {segments.map((seg, si) =>
+                            seg.term ? (
+                              <TermSpan key={si} id={`${i}-commentary-${pi}-${seg.term.id}`} term={seg.term}>
+                                {seg.text}
+                              </TermSpan>
+                            ) : (
+                              <span key={si}>{seg.text}</span>
+                            )
+                          )}
+                        </p>
+                      ))}
 
-                      {(greekTerms.length > 0 || personajes.length > 0 || lugares.length > 0) && (
+                      {(personajes.length > 0 || lugares.length > 0) && (
                         <div style={{ display: 'flex', flexWrap: 'wrap', gap: 8, marginBottom: 14 }}>
-                          {greekTerms.map((term) => {
-                            const chipId = `${i}-griego-${term.id}`;
-                            const open = openTerm === chipId;
-                            return (
-                              <div key={chipId} style={{ position: 'relative' }}>
-                                <span
-                                  onClick={() => setOpenTerm(open ? null : chipId)}
-                                  style={{
-                                    display: 'inline-block',
-                                    fontSize: 12.5,
-                                    fontWeight: 600,
-                                    padding: '5px 10px',
-                                    borderRadius: 14,
-                                    background: colors.subtle,
-                                    color: colors.accent,
-                                    cursor: 'pointer',
-                                  }}
-                                >
-                                  {term.griego} · {term.transliteracion}
-                                </span>
-                                {open && (
-                                  <div
-                                    style={{
-                                      position: 'absolute',
-                                      top: '100%',
-                                      left: 0,
-                                      zIndex: 10,
-                                      marginTop: 6,
-                                      padding: '12px 14px',
-                                      background: colors.panel,
-                                      border: `1px solid ${colors.border}`,
-                                      borderRadius: 8,
-                                      fontSize: 14,
-                                      lineHeight: 1.5,
-                                      width: 260,
-                                      boxShadow: '0 8px 24px rgba(0,0,0,.15)',
-                                    }}
-                                  >
-                                    <div style={{ marginBottom: 6 }}>
-                                      <span style={{ fontFamily: 'var(--font-lora), serif', fontSize: 17, marginRight: 8 }}>{term.griego}</span>
-                                      <span style={{ fontWeight: 700 }}>{term.transliteracion}</span> — {term.significado}
-                                    </div>
-                                    <div style={{ color: colors.muted, fontSize: 13 }}>{term.nota}</div>
-                                  </div>
-                                )}
-                              </div>
-                            );
-                          })}
                           {personajes.map((p) => (
                             <Link
                               key={p.id}

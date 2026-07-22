@@ -3,8 +3,8 @@
     {
       "id": "belen",
       "nombre": "Belén",
-      "top": 86,
-      "left": 45,
+      "top": 73,
+      "left": 48,
       "nota": "Aldea pequeña de Judea, sin relevancia política ni económica en el siglo I; no era el lugar lógico para buscar a un rey. Sin embargo, era la ciudad de David y el lugar profetizado por el profeta Miqueas como cuna del Mesías. Mateo subraya así que Dios cumple sus promesas desde la humildad, no desde los centros de poder.",
       "capitulos": [
         2
@@ -13,24 +13,31 @@
     {
       "id": "jerusalen",
       "nombre": "Jerusalén",
-      "top": 82,
-      "left": 45,
-      "nota": "La ciudad santa, sede del templo y del poder religioso judío. Cuando los sabios preguntan por el rey recién nacido, 'toda Jerusalén' se turba junto con Herodes: la ciudad que tenía las Escrituras al alcance de la mano no reconoce al Mesías cuando llega, en contraste con los sabios extranjeros que vienen de lejos a adorarlo.",
+      "top": 70,
+      "left": 47,
+      "nota": "La ciudad santa, sede del templo y del poder religioso judío. Cuando los sabios preguntan por el rey recién nacido, 'toda Jerusalén' se turba junto con Herodes: la ciudad que tenía las Escrituras al alcance de la mano no reconoce al Mesías cuando llega.",
       "capitulos": [
         2,
         3,
         4,
         5,
         6,
-        10
+        10,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27
       ]
     },
     {
       "id": "judea",
       "nombre": "Judea",
-      "top": 74,
-      "left": 38,
-      "nota": "Región al sur de Israel donde se ubica Belén y donde predica Juan el Bautista en el desierto. Territorio bajo dominio romano, gobernado en tiempos de Jesús por Herodes y luego por su hijo Arquelao, cuyo temido reinado hace que José evite instalarse allí al regresar de Egipto.",
+      "top": 77,
+      "left": 41,
+      "nota": "Región al sur de Israel donde se ubica Belén y donde predica Juan el Bautista en el desierto. Territorio bajo dominio romano, gobernado en tiempos de Jesús por Herodes y luego por su hijo Arquelao.",
       "capitulos": [
         2,
         3,
@@ -41,9 +48,9 @@
     {
       "id": "egipto",
       "nombre": "Egipto",
-      "top": 92,
-      "left": 14,
-      "nota": "Lugar de refugio al que José huye de noche con María y Jesús para escapar de la matanza ordenada por Herodes, permaneciendo allí hasta la muerte del rey. Mateo conecta esta huida con la profecía de Oseas ('De Egipto llamé a mi hijo'), recordando el éxodo del pueblo de Israel.",
+      "top": 90,
+      "left": 8,
+      "nota": "Lugar de refugio al que José huye de noche con María y Jesús para escapar de la matanza ordenada por Herodes. Mateo conecta esta huida con la profecía de Oseas ('De Egipto llamé a mi hijo').",
       "capitulos": [
         2
       ]
@@ -51,20 +58,57 @@
     {
       "id": "rama",
       "nombre": "Ramá",
-      "top": 78,
-      "left": 42,
-      "nota": "Lugar mencionado en la profecía de Jeremías que Mateo cita al narrar la matanza de los niños de Belén ordenada por Herodes: 'Se oye un grito en Ramá, llanto y gran lamentación... es Raquel que llora por sus hijos'. Nota: el PDF no desarrolla comentario propio sobre este lugar más allá de la cita profética.",
+      "top": 72,
+      "left": 49,
+      "nota": "Lugar mencionado en la profecía de Jeremías que Mateo cita al narrar la matanza de los niños de Belén: 'Se oye un grito en Ramá... es Raquel que llora por sus hijos'.",
       "capitulos": [
         2,
         5
       ]
     },
     {
+      "id": "desierto-de-judea",
+      "nombre": "Desierto (de Judea / de la tentación)",
+      "top": 62,
+      "left": 53,
+      "nota": "Escenario tanto de la predicación de Juan el Bautista como del ayuno y la tentación de Jesús por 40 días tras su bautismo.",
+      "capitulos": [
+        3,
+        4,
+        6,
+        11
+      ]
+    },
+    {
+      "id": "sodoma-y-gomorra",
+      "nombre": "Sodoma y Gomorra",
+      "top": 78,
+      "left": 54,
+      "nota": "Ciudades del Antiguo Testamento, símbolo bíblico de juicio y destrucción merecida. Jesús las usa como vara de comparación de juicio.",
+      "capitulos": [
+        10,
+        11
+      ]
+    },
+    {
+      "id": "mar-de-galilea",
+      "nombre": "Mar (lago) de Galilea",
+      "top": 30,
+      "left": 58,
+      "nota": "Lago junto al cual Jesús llama a sus primeros discípulos mientras trabajaban como pescadores, y donde más adelante calma una tormenta violenta ante el asombro de sus discípulos.",
+      "capitulos": [
+        4,
+        8,
+        11,
+        14
+      ]
+    },
+    {
       "id": "nazaret",
       "nombre": "Nazaret",
-      "top": 40,
-      "left": 40,
-      "nota": "Pueblo de Galilea donde la familia de Jesús se instala al regresar de Egipto, evitando la Judea gobernada por Arquelao. Mateo señala que esto cumple lo dicho por los profetas: 'Lo llamarán nazareno'. Más adelante, Jesús parte desde allí para establecerse en Capernaúm al iniciar su ministerio público.",
+      "top": 35,
+      "left": 48,
+      "nota": "Pueblo de Galilea donde la familia de Jesús se instala al regresar de Egipto. Mateo señala que esto cumple lo dicho por los profetas: 'Lo llamarán nazareno'.",
       "capitulos": [
         2,
         4,
@@ -74,9 +118,9 @@
     {
       "id": "galilea",
       "nombre": "Galilea",
-      "top": 22,
-      "left": 46,
-      "nota": "Región del norte de Israel, considerada culturalmente mezclada y despreciada por los centros religiosos de Jerusalén ('Galilea de los gentiles'). Jesús elige comenzar y desarrollar la mayor parte de su ministerio público precisamente allí y no desde el centro religioso, cumpliendo la profecía de Isaías sobre una luz que resplandece en la oscuridad.",
+      "top": 30,
+      "left": 49,
+      "nota": "Región del norte de Israel, considerada culturalmente mezclada y despreciada por los centros religiosos de Jerusalén ('Galilea de los gentiles'). Jesús desarrolla allí la mayor parte de su ministerio público.",
       "capitulos": [
         2,
         3,
@@ -87,103 +131,24 @@
       ]
     },
     {
-      "id": "desierto-de-judea",
-      "nombre": "Desierto (de Judea / de la tentación)",
-      "top": 53,
-      "left": 78,
-      "nota": "Escenario tanto de la predicación de Juan el Bautista ('el desierto de Judea') como del ayuno y la tentación de Jesús por 40 días tras su bautismo. Es el lugar de preparación y prueba antes del ministerio público: 'antes de la misión viene la preparación y la fidelidad en lo secreto'.",
-      "capitulos": [
-        3,
-        4,
-        6,
-        11
-      ]
-    },
-    {
-      "id": "rio-jordan",
-      "nombre": "Río Jordán",
-      "top": 78,
-      "left": 54,
-      "nota": "Río donde Juan el Bautista bautizaba a quienes confesaban sus pecados, y donde Jesús mismo es bautizado por Juan, identificándose con los pecadores antes de comenzar su ministerio, en el momento en que el cielo se abre y el Espíritu desciende como paloma.",
-      "capitulos": [
-        3,
-        4,
-        11
-      ]
-    },
-    {
       "id": "capernaum",
       "nombre": "Capernaúm",
-      "top": 27,
-      "left": 53,
-      "nota": "Ciudad portuaria junto al Mar de Galilea, con presencia militar romana permanente, que se convierte en la base de operaciones del ministerio de Jesús en Galilea tras dejar Nazaret. Allí vive Pedro (cuya suegra es sanada por Jesús) y allí se acerca el centurión romano cuya fe sorprende a Jesús.",
+      "top": 24,
+      "left": 56,
+      "nota": "Ciudad portuaria junto al Mar de Galilea, con presencia militar romana permanente, que se convierte en la base de operaciones del ministerio de Jesús en Galilea tras dejar Nazaret.",
       "capitulos": [
         4,
         8,
-        11
-      ]
-    },
-    {
-      "id": "mar-de-galilea",
-      "nombre": "Mar (lago) de Galilea",
-      "top": 30,
-      "left": 58,
-      "nota": "Lago junto al cual Jesús llama a sus primeros discípulos -Pedro, Andrés, Santiago y Juan- mientras trabajaban como pescadores, y donde más adelante calma una tormenta violenta ante el asombro de sus discípulos: '¿Qué clase de hombre es este que hasta los vientos y el mar le obedecen?'.",
-      "capitulos": [
-        4,
-        8,
-        11
-      ]
-    },
-    {
-      "id": "decapolis",
-      "nombre": "Decápolis",
-      "top": 34,
-      "left": 70,
-      "nota": "Región de diez ciudades helenísticas mencionada como uno de los lugares de origen de las multitudes que seguían a Jesús junto con Galilea, Jerusalén, Judea y la zona más allá del Jordán. Nota: el PDF la menciona de paso, sin comentario propio adicional.",
-      "capitulos": [
-        4
-      ]
-    },
-    {
-      "id": "tiro-y-sidon",
-      "nombre": "Tiro y Sidón",
-      "top": 8,
-      "left": 33,
-      "nota": "Ciudades fenicias al norte de Israel, famosas en el Antiguo Testamento por su orgullo e idolatría, denunciadas por profetas como Amós y Ezequiel. Jesús las usa como punto de comparación al reprochar a Corazín y Betsaida: si los milagros que ellas vieron se hubieran hecho en Tiro y Sidón, estas ciudades paganas ya se habrían arrepentido.",
-      "capitulos": [
-        6,
-        7,
-        11
-      ]
-    },
-    {
-      "id": "region-de-los-gadarenos",
-      "nombre": "Región de los gadarenos",
-      "top": 32,
-      "left": 64,
-      "nota": "Territorio al otro lado del Mar de Galilea donde Jesús libera a dos endemoniados y permite que los demonios entren en una manada de cerdos. Nota: el PDF no desarrolla comentario propio adicional sobre esta región más allá del relato bíblico.",
-      "capitulos": [
-        8
+        11,
+        17
       ]
     },
     {
       "id": "betsaida",
       "nombre": "Betsaida",
-      "top": 23,
-      "left": 57,
-      "nota": "Ciudad de la orilla norte del lago de Galilea, junto con Corazín y Capernaúm, donde Jesús concentró buena parte de su ministerio y sus milagros. Es también la ciudad de origen del apóstol Felipe (y de Pedro y Andrés). Pese a haber visto más milagros que cualquier otro lugar, Jesús la reprende por no arrepentirse.",
-      "capitulos": [
-        10,
-        11
-      ]
-    },
-    {
-      "id": "sodoma-y-gomorra",
-      "nombre": "Sodoma y Gomorra",
-      "top": 96,
-      "left": 50,
-      "nota": "Ciudades del Antiguo Testamento convertidas en símbolo bíblico de juicio y destrucción merecida. Jesús las usa dos veces como vara de comparación: será más tolerable el castigo para Sodoma en el juicio que para los pueblos que rechazan a los doce enviados, y que para Capernaúm, que tuvo acceso directo a los milagros del Mesías y no se arrepintió.",
+      "top": 27,
+      "left": 60,
+      "nota": "Ciudad de la orilla norte del lago de Galilea, junto con Corazín y Capernaúm, donde Jesús concentró buena parte de su ministerio. Ciudad de origen del apóstol Felipe, Pedro y Andrés.",
       "capitulos": [
         10,
         11
@@ -192,11 +157,161 @@
     {
       "id": "corazin",
       "nombre": "Corazín",
-      "top": 20,
-      "left": 55,
-      "nota": "Ciudad de la orilla norte del lago de Galilea, una de las que más milagros de Jesús presenció junto con Betsaida y Capernaúm. Recibe uno de los reproches más severos del evangelio por no haberse arrepentido pese a la evidencia recibida.",
+      "top": 27,
+      "left": 54,
+      "nota": "Ciudad de la orilla norte del lago de Galilea, una de las que más milagros de Jesús presenció junto con Betsaida y Capernaúm. Recibe uno de los reproches más severos del evangelio.",
       "capitulos": [
         11
+      ]
+    },
+    {
+      "id": "region-de-los-gadarenos",
+      "nombre": "Región de los gadarenos",
+      "top": 32,
+      "left": 65,
+      "nota": "Territorio al otro lado del Mar de Galilea donde Jesús libera a dos endemoniados y permite que los demonios entren en una manada de cerdos.",
+      "capitulos": [
+        8
+      ]
+    },
+    {
+      "id": "magdala",
+      "nombre": "Magdala (Magadán)",
+      "top": 31,
+      "left": 56,
+      "nota": "Región junto al Mar de Galilea a la que Jesús llega en barca tras la segunda multiplicación de los panes, justo antes del enfrentamiento con fariseos y saduceos que piden una señal del cielo.",
+      "capitulos": [
+        15
+      ]
+    },
+    {
+      "id": "tiro-y-sidon",
+      "nombre": "Tiro y Sidón",
+      "top": 4,
+      "left": 46,
+      "nota": "Ciudades fenicias al norte de Israel, famosas en el Antiguo Testamento por su orgullo e idolatría. Jesús las usa como punto de comparación al reprochar a Corazín y Betsaida.",
+      "capitulos": [
+        6,
+        7,
+        11,
+        15
+      ]
+    },
+    {
+      "id": "cesarea-de-filipo",
+      "nombre": "Cesarea de Filipo",
+      "top": 10,
+      "left": 62,
+      "nota": "Ciudad al pie del Monte Hermón, en el extremo norte del territorio. Allí Pedro confiesa que Jesús es el Cristo, el Hijo del Dios viviente — momento bisagra del evangelio.",
+      "capitulos": [
+        16
+      ]
+    },
+    {
+      "id": "rio-jordan",
+      "nombre": "Río Jordán",
+      "top": 50,
+      "left": 58,
+      "nota": "Río donde Juan el Bautista bautizaba a quienes confesaban sus pecados, y donde Jesús mismo es bautizado por Juan, identificándose con los pecadores antes de comenzar su ministerio.",
+      "capitulos": [
+        3,
+        4,
+        11,
+        19
+      ]
+    },
+    {
+      "id": "decapolis",
+      "nombre": "Decápolis",
+      "top": 44,
+      "left": 79,
+      "nota": "Región de diez ciudades helenísticas mencionada como uno de los lugares de origen de las multitudes que seguían a Jesús junto con Galilea, Jerusalén, Judea y la zona más allá del Jordán.",
+      "capitulos": [
+        4
+      ]
+    },
+    {
+      "id": "perea",
+      "nombre": "Perea (más allá del Jordán)",
+      "top": 55,
+      "left": 62,
+      "nota": "Región al este del río Jordán. Mateo la menciona al describir de dónde venían las multitudes que seguían a Jesús, y también cuando Jesús se dirige hacia Judea 'al otro lado del Jordán'.",
+      "capitulos": [
+        4,
+        19
+      ]
+    },
+    {
+      "id": "monte-de-los-olivos",
+      "nombre": "Monte de los Olivos",
+      "top": 69,
+      "left": 49,
+      "nota": "Monte frente a Jerusalén, cruzando el valle de Cedrón. Escenario de la entrada triunfal, del discurso escatológico y del camino hacia Getsemaní la noche del arresto.",
+      "capitulos": [
+        21,
+        24,
+        26
+      ]
+    },
+    {
+      "id": "getsemani",
+      "nombre": "Getsemaní",
+      "top": 70,
+      "left": 49,
+      "nota": "Huerto en la ladera del Monte de los Olivos donde Jesús oró en agonía antes de ser arrestado, mientras sus discípulos más cercanos se quedaban dormidos.",
+      "capitulos": [
+        26
+      ]
+    },
+    {
+      "id": "betania",
+      "nombre": "Betania",
+      "top": 70,
+      "left": 50,
+      "nota": "Pueblo cercano a Jerusalén, al otro lado del Monte de los Olivos, donde Jesús se hospeda durante la Semana de la Pasión y donde una mujer lo unge con perfume costoso.",
+      "capitulos": [
+        21,
+        26
+      ]
+    },
+    {
+      "id": "betfage",
+      "nombre": "Betfagé",
+      "top": 69,
+      "left": 49,
+      "nota": "Aldea junto al Monte de los Olivos, punto de partida de la entrada triunfal de Jesús a Jerusalén sobre un asno, cumpliendo la profecía de Zacarías.",
+      "capitulos": [
+        21
+      ]
+    },
+    {
+      "id": "golgota",
+      "nombre": "Gólgota",
+      "top": 69,
+      "left": 46,
+      "nota": "'Lugar de la Calavera', fuera de los muros de Jerusalén, donde Jesús fue crucificado.",
+      "capitulos": [
+        27
+      ]
+    },
+    {
+      "id": "jerico",
+      "nombre": "Jericó",
+      "top": 66,
+      "left": 55,
+      "nota": "Ciudad en el camino final hacia Jerusalén, donde Jesús sana a dos ciegos que claman 'Hijo de David, ten misericordia de nosotros' pese a los intentos de la multitud por callarlos.",
+      "capitulos": [
+        20
+      ]
+    },
+    {
+      "id": "samaria",
+      "nombre": "Samaria",
+      "top": 50,
+      "left": 44,
+      "nota": "Región entre Galilea y Judea. Jesús la menciona por contraste al enviar a los doce: 'no entréis en ciudad de samaritanos', instruyéndolos a concentrarse primero en las 'ovejas perdidas de la casa de Israel'.",
+      "capitulos": [
+        10
       ]
     }
   ]

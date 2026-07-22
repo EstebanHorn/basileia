@@ -8,7 +8,8 @@
       "nota": "Não descreve uma emoção momentânea, como a alegria por algo que dá certo, nem uma promessa de que tudo estará externamente bem. Descreve um estado profundo de plenitude e bem-estar que não depende das circunstâncias: a condição de quem está bem por dentro porque está alinhado com Deus.",
       "capitulos": [
         5
-      ]
+      ],
+      "palabra": "bem-aventurad"
     },
     {
       "id": "ptochos",
@@ -18,7 +19,8 @@
       "nota": "Não descreve pobreza moderada, mas indigência completa: alguém que não tem nada próprio de que depender e vive em dependência total. Aplicado ao espírito, é reconhecer que não temos mérito nem conquista espiritual própria da qual nos orgulhar diante de Deus.",
       "capitulos": [
         5
-      ]
+      ],
+      "palabra": "pobres"
     },
     {
       "id": "pentheo",
@@ -28,7 +30,8 @@
       "nota": "É o termo mais forte que existe em grego para expressar luto e lamento profundo, o tipo de dor que não se pode esconder. Era a palavra usada para o choro pela morte de um ente querido: um quebrantamento visível e real, não uma tristeza passageira.",
       "capitulos": [
         5
-      ]
+      ],
+      "palabra": "choram"
     },
     {
       "id": "parakaleo",
@@ -38,7 +41,8 @@
       "nota": "Vem da mesma raiz que Parákletos, nome que Jesus usa para o Espírito Santo. Significa chamar alguém para que esteja perto, exortar, fortalecer, acompanhar: não é apenas aliviar a dor, mas a presença ativa de alguém que vem para te sustentar.",
       "capitulos": [
         5
-      ]
+      ],
+      "palabra": "consolados"
     },
     {
       "id": "praus",
@@ -49,7 +53,8 @@
       "capitulos": [
         5,
         11
-      ]
+      ],
+      "palabra": "humilde"
     },
     {
       "id": "peinao",
@@ -59,7 +64,8 @@
       "nota": "Junto com dipsao (sede), não descreve um apetite moderado nem um desejo ocasional, mas uma necessidade vital, urgente e constante — aplicada aqui à fome e à sede de justiça.",
       "capitulos": [
         5
-      ]
+      ],
+      "palabra": "fome"
     },
     {
       "id": "dipsao",
@@ -69,7 +75,8 @@
       "nota": "Junto com peinao (fome), descreve uma necessidade vital e urgente, não um desejo passageiro: a intensidade com que o discípulo deveria ansiar pela justiça de Deus.",
       "capitulos": [
         5
-      ]
+      ],
+      "palabra": "sede"
     },
     {
       "id": "dikaiosyne",
@@ -79,7 +86,8 @@
       "nota": "Tem uma dupla dimensão que não deve ser separada: a justiça como estar bem diante de Deus (justificação) e a justiça como viver corretamente diante dos outros (justiça prática, ética).",
       "capitulos": [
         5
-      ]
+      ],
+      "palabra": "justiça"
     },
     {
       "id": "chortazo",
@@ -89,7 +97,8 @@
       "nota": "Originalmente era usada para descrever os animais que haviam comido até ficar completamente satisfeitos, sem mais nada a desejar. Aplicada à justiça, descreve uma satisfação total, não parcial.",
       "capitulos": [
         5
-      ]
+      ],
+      "palabra": "satisfeitos"
     },
     {
       "id": "eleemon",
@@ -99,7 +108,8 @@
       "nota": "Vai muito além de simplesmente 'ser gentil' ou 'ter pena': descreve alguém que entra ativamente no sofrimento alheio e responde com compaixão concreta, não apenas com sentimento.",
       "capitulos": [
         5
-      ]
+      ],
+      "palabra": "misericordiosos"
     },
     {
       "id": "katharos",
@@ -109,7 +119,8 @@
       "nota": "Dessa palavra vem o termo 'catarse'. Aplicado ao coração, descreve alguém cuja vida interior e exterior são a mesma coisa: sem duplicidade, sem máscara.",
       "capitulos": [
         5
-      ]
+      ],
+      "palabra": "puros"
     },
     {
       "id": "eirenopoios",
@@ -119,7 +130,8 @@
       "nota": "Vem de duas palavras: eirene (paz) e poieo (fazer). Não descreve alguém passivo que simplesmente evita o conflito, mas alguém que trabalha ativamente para construir a paz.",
       "capitulos": [
         5
-      ]
+      ],
+      "palabra": "pacificadores"
     },
     {
       "id": "eirene",
@@ -129,7 +141,8 @@
       "nota": "É o equivalente grego do hebraico shalom, que também não significa simplesmente ausência de conflito, mas plenitude, bem-estar integral e relações restauradas.",
       "capitulos": [
         5
-      ]
+      ],
+      "palabra": "paz"
     },
     {
       "id": "poieo",
@@ -139,7 +152,8 @@
       "nota": "Parte composta de eirenopoios (o que 'faz' a paz): destaca que a paz bíblica não é passividade, mas uma ação deliberada.",
       "capitulos": [
         5
-      ]
+      ],
+      "palabra": "pacificadores"
     },
     {
       "id": "dioko",
@@ -149,7 +163,8 @@
       "nota": "No uso cotidiano descrevia a ação de perseguir ativamente, como um caçador que corre atrás de sua presa sem parar. Quem experimenta dioko não é apenas malvisto: é ativamente procurado para ser prejudicado.",
       "capitulos": [
         5
-      ]
+      ],
+      "palabra": "perseguidos"
     },
     {
       "id": "oneidizo",
@@ -159,7 +174,8 @@
       "nota": "Descreve o ato de envergonhar publicamente alguém, atacando sua reputação e sua honra diante dos outros.",
       "capitulos": [
         5
-      ]
+      ],
+      "palabra": "insultarem"
     },
     {
       "id": "pseudomai",
@@ -169,7 +185,8 @@
       "nota": "Traduzida como 'calúnias': mentiras fabricadas intencionalmente para destruir a reputação de alguém.",
       "capitulos": [
         5
-      ]
+      ],
+      "palabra": "mentindo"
     },
     {
       "id": "chairo",
@@ -179,7 +196,8 @@
       "nota": "Descreve uma alegria interior, profunda e estável; compartilha a raiz com a palavra charis, graça.",
       "capitulos": [
         5
-      ]
+      ],
+      "palabra": "alegrem"
     },
     {
       "id": "agalliao",
@@ -189,7 +207,8 @@
       "nota": "Mais intensa que chairo: descreve um júbilo transbordante, quase incontrolável, o tipo de alegria que não cabe por dentro e precisa se expressar para fora.",
       "capitulos": [
         5
-      ]
+      ],
+      "palabra": "regozijem"
     },
     {
       "id": "misthos",
@@ -199,7 +218,8 @@
       "nota": "No mundo do século I descrevia o salário que um trabalhador recebia no final do dia: o que lhe correspondia por justiça pelo seu trabalho, não um presente arbitrário.",
       "capitulos": [
         5
-      ]
+      ],
+      "palabra": "recompensa"
     },
     {
       "id": "polys",
@@ -209,7 +229,8 @@
       "nota": "Adjetivo usado para descrever a magnitude da recompensa no céu prometida aos perseguidos por causa da justiça.",
       "capitulos": [
         5
-      ]
+      ],
+      "palabra": "grande"
     },
     {
       "id": "halas",
@@ -219,7 +240,8 @@
       "nota": "No mundo do século I o sal não era simplesmente um tempero, mas um conservante e um elemento de valor essencial na vida cotidiana.",
       "capitulos": [
         5
-      ]
+      ],
+      "palabra": "sal"
     },
     {
       "id": "moraino",
@@ -229,7 +251,8 @@
       "nota": "Não significa apenas perder o sabor, mas também tornar-se insosso, tolo, sem sentido: a imagem de um sal que deixou de cumprir seu propósito.",
       "capitulos": [
         5
-      ]
+      ],
+      "palabra": "sabor"
     },
     {
       "id": "phos",
@@ -239,7 +262,8 @@
       "nota": "Jesus a usa para descrever algo que por sua própria natureza não pode se ocultar: assim como a luz se manifesta, também deve se manifestar a vida do discípulo.",
       "capitulos": [
         5
-      ]
+      ],
+      "palabra": "luz"
     },
     {
       "id": "lychnia",
@@ -249,7 +273,8 @@
       "nota": "Suporte onde se colocava a lâmpada de azeite doméstica para que sua luz chegasse a todo o cômodo, em vez de escondê-la.",
       "capitulos": [
         5
-      ]
+      ],
+      "palabra": "lâmpada"
     },
     {
       "id": "modios",
@@ -259,7 +284,8 @@
       "nota": "Vasilha de medida usada no comércio de grãos; Jesus a menciona como o objeto absurdo sob o qual ninguém esconderia uma lâmpada acesa.",
       "capitulos": [
         5
-      ]
+      ],
+      "palabra": "vasilha"
     },
     {
       "id": "doxazo",
@@ -269,7 +295,8 @@
       "nota": "Significa reconhecer e proclamar o valor, a honra e a grandeza de alguém; aplicado a Deus, é a resposta esperada ao ver as boas obras do discípulo.",
       "capitulos": [
         5
-      ]
+      ],
+      "palabra": "glorifiquem"
     },
     {
       "id": "pleroo",
@@ -279,7 +306,8 @@
       "nota": "Palavra-chave em 'não vim abolir a Lei... mas cumpri-la': não se trata de anular, mas de levar à sua plenitude e sentido mais profundo.",
       "capitulos": [
         5
-      ]
+      ],
+      "palabra": "cumpri"
     },
     {
       "id": "iota",
@@ -289,7 +317,8 @@
       "nota": "O yod era apenas um traço, a letra menor do alfabeto hebraico; Jesus a usa para destacar que nem o detalhe mais mínimo da Lei fica sem se cumprir.",
       "capitulos": [
         5
-      ]
+      ],
+      "palabra": "letra"
     },
     {
       "id": "keraia",
@@ -299,7 +328,8 @@
       "nota": "O pequeno gancho ou til que diferenciava uma letra hebraica de outra visualmente parecida; junto com iota, expressa a precisão absoluta com que a Lei se cumpre.",
       "capitulos": [
         5
-      ]
+      ],
+      "palabra": "traço"
     },
     {
       "id": "perisseuo",
@@ -309,7 +339,8 @@
       "nota": "Palavra usada em 'a menos que a justiça de vocês seja muito superior à dos fariseus': não uma superioridade moral externa, mas uma justiça que transborda porque nasce do coração.",
       "capitulos": [
         5
-      ]
+      ],
+      "palabra": "superior"
     },
     {
       "id": "orgizo",
@@ -319,7 +350,8 @@
       "nota": "Não descreve a reação do primeiro segundo quando algo nos surpreende ou nos dói, mas uma ira sustentada e alimentada, a raiz interior que Jesus equipara ao homicídio no coração.",
       "capitulos": [
         5
-      ]
+      ],
+      "palabra": "irar"
     },
     {
       "id": "kodrantes",
@@ -329,7 +361,8 @@
       "nota": "Usada em 'até que você pague o último centavo': a moeda de menor valor em todo o sistema romano, para destacar que não ficará nenhuma dívida, por menor que seja, sem ser saldada.",
       "capitulos": [
         5
-      ]
+      ],
+      "palabra": ""
     },
     {
       "id": "epithumeo",
@@ -339,7 +372,8 @@
       "nota": "Descreve um desejo intenso e deliberado, um olhar que não é acidental, mas que se entretém, se alimenta e permanece: a raiz interior do adultério segundo Jesus.",
       "capitulos": [
         5
-      ]
+      ],
+      "palabra": "desejá"
     },
     {
       "id": "geenna",
@@ -349,7 +383,8 @@
       "nota": "Fazia referência ao Vale de Hinom, um lugar nos arredores de Jerusalém onde historicamente se queimava lixo de maneira permanente e onde em tempos antigos haviam sido realizados sacrifícios pagãos.",
       "capitulos": [
         5
-      ]
+      ],
+      "palabra": "inferno"
     },
     {
       "id": "porneia",
@@ -359,7 +394,8 @@
       "nota": "Palavra usada na exceção que Jesus menciona sobre o divórcio ('exceto por imoralidade sexual'): descreve uma infidelidade sexual grave, não qualquer desacordo conjugal.",
       "capitulos": [
         5
-      ]
+      ],
+      "palabra": "imoralidade sexual"
     },
     {
       "id": "omnuo",
@@ -369,7 +405,8 @@
       "nota": "Descreve o ato formal de invocar algo superior (o céu, a terra, Jerusalém, a própria cabeça) como garantia da própria palavra.",
       "capitulos": [
         5
-      ]
+      ],
+      "palabra": "jur"
     },
     {
       "id": "agapao",
@@ -379,7 +416,8 @@
       "nota": "Descreve o amor mais elevado que existe no grego bíblico: não eros (amor romântico) nem philia (afeto entre amigos), mas um amor de vontade e decisão, capaz de amar até o inimigo.",
       "capitulos": [
         5
-      ]
+      ],
+      "palabra": "amem"
     },
     {
       "id": "teleios",
@@ -389,7 +427,8 @@
       "nota": "Não descreve uma perfeição moral sem defeitos, algo impossível para qualquer ser humano. Significa completo, maduro, que chegou ao seu propósito final — um chamado à integridade, não ao perfeccionismo.",
       "capitulos": [
         5
-      ]
+      ],
+      "palabra": "perfeitos"
     },
     {
       "id": "theathenai",
@@ -399,7 +438,8 @@
       "nota": "Vem da mesma raiz de onde vem nossa palavra 'teatro': descreve fazer algo religioso para ser observado e admirado por outros, em vez de fazê-lo diante de Deus.",
       "capitulos": [
         6
-      ]
+      ],
+      "palabra": "vistos"
     },
     {
       "id": "hypokritai",
@@ -409,7 +449,8 @@
       "nota": "No mundo grego descrevia os atores de teatro: pessoas que usavam uma máscara para representar um papel diferente do de sua vida real.",
       "capitulos": [
         6
-      ]
+      ],
+      "palabra": "hipócritas"
     },
     {
       "id": "tameion",
@@ -419,7 +460,8 @@
       "nota": "Um cômodo interior sem janelas usado para guardar provisões, o lugar mais reservado da casa: o espaço de oração secreta que Jesus recomenda.",
       "capitulos": [
         6
-      ]
+      ],
+      "palabra": "quarto"
     },
     {
       "id": "battalogeo",
@@ -429,7 +471,8 @@
       "nota": "Descreve o balbucio vazio, as palavras multiplicadas sem sentido, a repetição ritual desconectada de qualquer intenção real — o oposto da oração genuína que Jesus ensina.",
       "capitulos": [
         6
-      ]
+      ],
+      "palabra": "por falar"
     },
     {
       "id": "mamonas",
@@ -439,7 +482,8 @@
       "nota": "Termo aramaico que personifica as riquezas quase como uma entidade com vontade própria, capaz de exigir a lealdade que só pertence a Deus.",
       "capitulos": [
         6
-      ]
+      ],
+      "palabra": "dinheiro"
     },
     {
       "id": "merimnao",
@@ -449,7 +493,8 @@
       "nota": "Descreve uma mente dividida, partida entre o presente e o futuro imaginado, incapaz de estar em um só lugar: a ansiedade que Jesus contrasta com a confiança no Pai.",
       "capitulos": [
         6
-      ]
+      ],
+      "palabra": "preocupem"
     },
     {
       "id": "krino",
@@ -459,7 +504,8 @@
       "nota": "Não descreve simplesmente opinar ou avaliar, mas o ato de condenar, de decretar sentença sobre outro — o que Jesus proíbe fazer com o coração hipócrita.",
       "capitulos": [
         7
-      ]
+      ],
+      "palabra": "julguem"
     },
     {
       "id": "aiteo",
@@ -469,7 +515,8 @@
       "nota": "Uma das três palavras que Jesus usa no presente contínuo ('peçam, busquem, batam'), descrevendo uma atitude persistente e confiante na oração.",
       "capitulos": [
         7
-      ]
+      ],
+      "palabra": "peçam"
     },
     {
       "id": "zeteo",
@@ -479,7 +526,8 @@
       "nota": "Junto com aiteo (pedir) e krouo (bater), no presente contínuo: uma busca ativa e sustentada, não uma tentativa única.",
       "capitulos": [
         7
-      ]
+      ],
+      "palabra": "busc"
     },
     {
       "id": "krouo",
@@ -489,7 +537,8 @@
       "nota": "Junto com aiteo (pedir) e zeteo (buscar), no presente contínuo: a imagem de alguém que persiste batendo a uma porta até que se abra.",
       "capitulos": [
         7
-      ]
+      ],
+      "palabra": "bat"
     },
     {
       "id": "polloi",
@@ -499,7 +548,8 @@
       "nota": "Parte da expressão ochloi polloi: descreve uma massa de gente enorme, numerosa e variada, que seguia Jesus depois do Sermão do Monte.",
       "capitulos": [
         8
-      ]
+      ],
+      "palabra": "multidões"
     },
     {
       "id": "lepra",
@@ -509,7 +559,8 @@
       "nota": "Junto com o termo hebraico tzara'at, abrangia diferentes tipos de doenças de pele no século I, não apenas a lepra no sentido médico moderno, e trazia consigo impureza ritual e exclusão social.",
       "capitulos": [
         8
-      ]
+      ],
+      "palabra": "leproso"
     },
     {
       "id": "proskuneo",
@@ -519,7 +570,8 @@
       "nota": "Descreve o ato de se prostrar em adoração, a mesma palavra usada para adorar a Deus — o gesto do centurião e de outros que se aproximam de Jesus reconhecendo quem Ele é.",
       "capitulos": [
         8
-      ]
+      ],
+      "palabra": "prostrou"
     },
     {
       "id": "splagchnizomai",
@@ -529,7 +581,8 @@
       "nota": "Descreve uma comoção que vem das entranhas, um movimento visceral e físico por dentro: a compaixão de Jesus ao ver as multidões aflitas e desamparadas.",
       "capitulos": [
         9
-      ]
+      ],
+      "palabra": "compaixão"
     },
     {
       "id": "homologeo",
@@ -539,7 +592,8 @@
       "nota": "Literalmente significa falar o mesmo, estar de acordo, declarar publicamente: o que Jesus pede a quem quer reconhecê-lo diante dos outros.",
       "capitulos": [
         10
-      ]
+      ],
+      "palabra": "confess"
     },
     {
       "id": "skandalizomai",
@@ -549,7 +603,8 @@
       "nota": "Descreve o ato de tropeçar numa pedra de tropeço no caminho, cair por causa de algo que se revela um obstáculo — a advertência de Jesus a João Batista e a todo aquele que duvida dele.",
       "capitulos": [
         11
-      ]
+      ],
+      "palabra": "tropeça"
     },
     {
       "id": "nepioi",
@@ -559,7 +614,8 @@
       "nota": "Os 'pequenos' a quem o Pai revela o que escondeu dos sábios e instruídos: os que não têm pretensões de conhecimento, os que recebem sem calcular.",
       "capitulos": [
         11
-      ]
+      ],
+      "palabra": "simples"
     },
     {
       "id": "kopiao",
@@ -569,7 +625,8 @@
       "nota": "Descreve o cansaço que vem de um trabalho pesado, o tipo de esgotamento que deixa sem forças — linguagem do trabalho duro sob o sol que Jesus aplica ao esgotamento espiritual.",
       "capitulos": [
         11
-      ]
+      ],
+      "palabra": "cansados"
     },
     {
       "id": "phortizo",
@@ -579,7 +636,8 @@
       "nota": "Descreve estar carregado com um peso que esmaga; junto com kopiao, descreve aqueles a quem Jesus convida a descansar em Mateus 11:28.",
       "capitulos": [
         11
-      ]
+      ],
+      "palabra": "sobrecarregados"
     },
     {
       "id": "anapausis",
@@ -589,7 +647,8 @@
       "nota": "Descreve um estado de repouso ativo, não apenas a ausência de esforço, mas a presença de paz: o descanso que vem de ter encontrado o que se buscava.",
       "capitulos": [
         11
-      ]
+      ],
+      "palabra": "descanso"
     },
     {
       "id": "tapeinos",
@@ -599,7 +658,8 @@
       "nota": "Descreve alguém de posição baixa no sentido de não exigir posição própria; Jesus se descreve assim na única autocaracterização direta de todo o evangelho.",
       "capitulos": [
         11
-      ]
+      ],
+      "palabra": "humilde"
     }
   ]
 }

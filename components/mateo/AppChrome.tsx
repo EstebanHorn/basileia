@@ -1,18 +1,23 @@
 'use client';
 
 import type { ReactNode } from 'react';
+import { usePathname } from 'next/navigation';
 import { useApp } from '@/lib/app-context';
 import TopNav from './TopNav';
 import AuthModal from './AuthModal';
 import Footer from './Footer';
 
 export default function AppChrome({ children }: { children: ReactNode }) {
-  const { colors, authModal, authMode, openAuthModal, closeAuthModal } = useApp();
+  const { colors, lang, authModal, authMode, openAuthModal, closeAuthModal } = useApp();
+  const pathname = usePathname();
+  const isFullBleed = pathname === `/${lang}/mapa`;
 
   return (
     <div
       style={{
-        minHeight: '100vh',
+        height: isFullBleed ? '100vh' : undefined,
+        minHeight: isFullBleed ? undefined : '100vh',
+        overflow: isFullBleed ? 'hidden' : undefined,
         display: 'flex',
         flexDirection: 'column',
         background: colors.bg,
@@ -32,9 +37,9 @@ export default function AppChrome({ children }: { children: ReactNode }) {
         />
       )}
 
-      <main style={{ flex: 1 }}>{children}</main>
+      <main style={{ flex: 1, display: isFullBleed ? 'flex' : undefined, minHeight: 0 }}>{children}</main>
 
-      <Footer />
+      {!isFullBleed && <Footer />}
     </div>
   );
 }
