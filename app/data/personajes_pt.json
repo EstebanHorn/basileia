@@ -1,0 +1,236 @@
+{
+  "personajes": [
+    {
+      "id": "jesus",
+      "nombre": "Jesus",
+      "categoria": "principal",
+      "descripcion": "O Messias prometido, Filho de Davi e Filho de Deus. Mateus o apresenta como o cumprimento da Lei e dos Profetas: um Rei que não governa a partir do poder, mas da humildade, que se identifica com os pecadores antes de fazer um único milagre, que ensina com autoridade, cura com compaixão e chama a um discipulado custoso, mas leve nele.",
+      "capitulos": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "id": "abraham",
+      "nombre": "Abraão",
+      "categoria": "otro",
+      "descripcion": "Pai da fé, chamado por Deus e receptor da promessa de que por meio de sua descendência todas as nações seriam abençoadas. Mateus abre a genealogia de Jesus com ele para mostrar que o Messias é o cumprimento definitivo dessa promessa: não era perfeito, mas creu e obedeceu contra toda lógica humana.",
+      "capitulos": [
+        1,
+        3,
+        8,
+        10
+      ]
+    },
+    {
+      "id": "david",
+      "nombre": "Davi",
+      "categoria": "otro",
+      "descripcion": "O rei escolhido por Deus, a quem foi prometido um reino eterno apesar de ser um rei profundamente imperfeito (mulherengo, violento). Jesus é apresentado como 'Filho de Davi', o Rei prometido cujo reino não terá fim; na numerologia hebraica, o nome Davi soma exatamente 14, o que reforça a estrutura da genealogia messiânica.",
+      "capitulos": [
+        1,
+        2,
+        5,
+        6,
+        9
+      ]
+    },
+    {
+      "id": "maria",
+      "nombre": "Maria",
+      "categoria": "otro",
+      "descripcion": "Uma jovem virgem de aproximadamente 15 anos, comprometida com José, que engravida por obra do Espírito Santo. Sua inclusão como a quinta mulher da genealogia -depois de Tamar, Raabe, Rute e Bate-Seba, todas com histórias comprometedoras- mostra que Jesus não vem de uma história 'limpa', mas redimida.",
+      "capitulos": [
+        1,
+        2,
+        10,
+        11
+      ]
+    },
+    {
+      "id": "jose",
+      "nombre": "José",
+      "categoria": "otro",
+      "descripcion": "Esposo de Maria, descrito como 'um homem justo'. Ao saber da gravidez de Maria, decide protegê-la se divorciando em segredo em vez de expô-la à lei, e depois obedece sem questionar as instruções que recebe de um anjo em sonhos, mesmo quando implicam fugir de noite para o Egito. Sua obediência é custosa, silenciosa e profunda.",
+      "capitulos": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "jeremias",
+      "nombre": "Jeremias",
+      "categoria": "otro",
+      "descripcion": "Profeta do Antigo Testamento, chamado 'o profeta chorão' por seu lamento genuíno diante do pecado de Israel. Mateus cita sua profecia sobre o choro de Raquel ao narrar a matança das crianças de Belém ordenada por Herodes. A tradição diz que foi jogado numa cisterna por anunciar a verdade de Deus a um povo que não queria ouvi-la.",
+      "capitulos": [
+        1,
+        2,
+        3,
+        5
+      ]
+    },
+    {
+      "id": "isaias",
+      "nombre": "Isaías",
+      "categoria": "otro",
+      "descripcion": "Profeta do Antigo Testamento (740-701 a.C.) cujas profecias Mateus cita repetidamente como cumpridas em Jesus: o nascimento virginal e o nome Emanuel (Is 7:14), e a luz que resplandece na Galileia dos gentios (Is 9:1-2). Segundo a tradição, foi serrado ao meio por sua fidelidade a Deus.",
+      "capitulos": [
+        1,
+        3,
+        4,
+        5,
+        8,
+        11
+      ]
+    },
+    {
+      "id": "herodes",
+      "nombre": "Herodes",
+      "categoria": "autoridad-politica",
+      "descripcion": "Herodes, o Grande, rei imposto por Roma sobre a Judeia, de linhagem idumeia e não davídica. Seu poder se sustentava pela violência, pela manipulação política e pelo medo: mandou matar membros de sua própria família diante da menor suspeita de traição, e ordenou a matança das crianças de Belém ao se sentir enganado pelos magos. Representa o poder político que se sente ameaçado pelo verdadeiro Rei.",
+      "capitulos": [
+        2,
+        10,
+        11
+      ]
+    },
+    {
+      "id": "maestros-de-la-ley",
+      "nombre": "Mestres da Lei",
+      "categoria": "autoridad-religiosa",
+      "descripcion": "Os especialistas na Escritura e na Lei judaica, também chamados de escribas. Aparecem consultados por Herodes sobre o lugar de nascimento do Messias, e depois como interlocutores constantes -muitas vezes críticos- de Jesus ao longo do evangelho, representando uma religiosidade de conhecimento sem necessariamente transformação do coração.",
+      "capitulos": [
+        2,
+        5,
+        7,
+        8,
+        9,
+        11
+      ]
+    },
+    {
+      "id": "juan-bautista",
+      "nombre": "João Batista",
+      "categoria": "otro",
+      "descripcion": "O mensageiro anunciado por Malaquias que prepara o caminho do Senhor. Prega arrependimento genuíno no deserto da Judeia, veste-se de pelos de camelo e come gafanhotos e mel silvestre, e batiza Jesus mesmo se sentindo indigno de fazê-lo. Mais adiante, da prisão, envia seus discípulos para perguntar a Jesus se ele realmente é 'aquele que havia de vir', mostrando que até o precursor do Messias atravessou uma crise de fé.",
+      "capitulos": [
+        3,
+        10,
+        11
+      ]
+    },
+    {
+      "id": "fariseos",
+      "nombre": "Fariseus",
+      "categoria": "autoridad-religiosa",
+      "descripcion": "Um dos grupos religiosos mais influentes da época, junto com os saduceus. Conheciam as Escrituras e cumpriam cuidadosamente práticas e tradições, mas João Batista e depois Jesus os confrontam por terem 'religião, mas não transformação; tradição, mas não um coração rendido'. Se opõem cada vez mais a Jesus ao longo do evangelho.",
+      "capitulos": [
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        11
+      ]
+    },
+    {
+      "id": "saduceos",
+      "nombre": "Saduceus",
+      "categoria": "autoridad-religiosa",
+      "descripcion": "Junto com os fariseus, um dos grupos religiosos mais influentes do judaísmo do século I que se aproximam do batismo de João e recebem dele uma forte confrontação por buscar a forma religiosa sem arrependimento genuíno.",
+      "capitulos": [
+        3
+      ]
+    },
+    {
+      "id": "satanas",
+      "nombre": "Satanás",
+      "categoria": "otro",
+      "descripcion": "Também chamado 'o Diabo' ou 'o tentador'. No deserto tenta Jesus em três frentes -necessidade física, exposição pública/orgulho, e poder sem cruz- atacando primeiro sua identidade como Filho de Deus. Usa até a Escritura, citando-a fora de contexto, mostrando que conhece a Bíblia, mas a manipula para enganar.",
+      "capitulos": [
+        4,
+        7,
+        9,
+        10
+      ]
+    },
+    {
+      "id": "pedro",
+      "nombre": "Pedro",
+      "categoria": "discipulo",
+      "descripcion": "Simão, chamado Pedro: pescador da Galileia, impulsivo, apaixonado e contraditório. É um dos primeiros chamados junto com seu irmão André, e sua casa em Cafarnaum é cenário da cura de sua sogra. Sua história -incluindo a futura negação e restauração- é, segundo o PDF, a demonstração mais clara de que o chamado de Jesus não depende da perfeição de quem é chamado.",
+      "capitulos": [
+        4,
+        5,
+        8,
+        10,
+        11
+      ]
+    },
+    {
+      "id": "santiago-hijo-de-zebedeo",
+      "nombre": "Tiago, filho de Zebedeu",
+      "categoria": "discipulo",
+      "descripcion": "Um dos 'filhos do trovão', apelido dado por Jesus provavelmente por seu temperamento. Pescador da Galileia, irmão de João, chamado junto com ele enquanto remendavam as redes com seu pai Zebedeu. Segundo o PDF, será o primeiro apóstolo martirizado.",
+      "capitulos": [
+        4,
+        5,
+        10
+      ]
+    },
+    {
+      "id": "andres",
+      "nombre": "André",
+      "categoria": "discipulo",
+      "descripcion": "Irmão de Simão Pedro, também pescador da Galileia. Antes de seguir Jesus foi discípulo de João Batista. No evangelho aparece frequentemente como aquele que conecta outros a Jesus: um homem de segundo plano com um ministério de conexão.",
+      "capitulos": [
+        4,
+        10
+      ]
+    },
+    {
+      "id": "juan-apostol",
+      "nombre": "João, filho de Zebedeu",
+      "categoria": "discipulo",
+      "descripcion": "O outro 'filho do trovão', irmão de Tiago. Pescador chamado junto com seu irmão e seu pai Zebedeu enquanto remendavam as redes no barco, deixando tudo imediatamente para seguir Jesus.",
+      "capitulos": [
+        4,
+        10
+      ]
+    },
+    {
+      "id": "mateo",
+      "nombre": "Mateus (Levi)",
+      "categoria": "discipulo",
+      "descripcion": "O próprio autor do evangelho: cobrador de impostos, desprezado tanto pelos judeus (como traidor e pecador) quanto pelos romanos (como instrumento, sem ser considerado um dos seus). Jesus o chama com uma única palavra -'Siga-me'- enquanto ele estava sentado na coletoria, e ele se levanta imediatamente. Sua história é a de alguém que passou de rejeitado a incluído e enviado ao Reino de Deus.",
+      "capitulos": [
+        5,
+        6,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "id": "centurion-de-capernaum",
+      "nombre": "Centurião de Cafarnaum",
+      "categoria": "otro",
+      "descripcion": "Oficial do exército romano no comando de uma centúria (80 a 100 soldados), representante visível da ocupação romana numa cidade com presença militar permanente. Aproxima-se de Jesus com humildade ('não mereço que entres debaixo do meu teto') e intercede por seu servo doente com uma fé que, segundo o texto, surpreendeu Jesus mais do que qualquer uma que ele tivesse encontrado em Israel.",
+      "capitulos": [
+        8,
+        10,
+        11
+      ]
+    }
+  ]
+}

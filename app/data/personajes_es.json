@@ -1,0 +1,236 @@
+{
+  "personajes": [
+    {
+      "id": "jesus",
+      "nombre": "Jesús",
+      "categoria": "principal",
+      "descripcion": "El Mesías prometido, Hijo de David e Hijo de Dios. Mateo lo presenta como el cumplimiento de la Ley y los Profetas: un Rey que no gobierna desde el poder sino desde la humildad, que se identifica con los pecadores antes de hacer un solo milagro, que enseña con autoridad, sana con compasión y llama a un discipulado costoso pero liviano en Él.",
+      "capitulos": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "id": "abraham",
+      "nombre": "Abraham",
+      "categoria": "otro",
+      "descripcion": "Padre de la fe, llamado por Dios y receptor de la promesa de que por su descendencia todas las naciones serían bendecidas. Mateo abre la genealogía de Jesús con él para mostrar que el Mesías es el cumplimiento definitivo de esa promesa: no era perfecto, pero creyó y obedeció contra toda lógica humana.",
+      "capitulos": [
+        1,
+        3,
+        8,
+        10
+      ]
+    },
+    {
+      "id": "david",
+      "nombre": "David",
+      "categoria": "otro",
+      "descripcion": "El rey elegido por Dios, a quien se le prometió un reino eterno pese a ser un rey profundamente imperfecto (mujeriego, violento). Jesús es presentado como 'Hijo de David', el Rey prometido cuyo reino no tendrá fin; en la numerología hebrea, el nombre David suma exactamente 14, lo que refuerza la estructura de la genealogía mesiánica.",
+      "capitulos": [
+        1,
+        2,
+        5,
+        6,
+        9
+      ]
+    },
+    {
+      "id": "maria",
+      "nombre": "María",
+      "categoria": "otro",
+      "descripcion": "Una joven virgen de aproximadamente 15 años, comprometida con José, que queda embarazada por obra del Espíritu Santo. Su inclusión como la quinta mujer de la genealogía -después de Tamar, Rahab, Rut y Betsabé, todas con historias comprometedoras- muestra que Jesús no viene de una historia 'limpia' sino redimida.",
+      "capitulos": [
+        1,
+        2,
+        10,
+        11
+      ]
+    },
+    {
+      "id": "jose",
+      "nombre": "José",
+      "categoria": "otro",
+      "descripcion": "Esposo de María, descrito como 'un hombre justo'. Al enterarse del embarazo de María, decide protegerla divorciándose en secreto en lugar de exponerla a la ley, y luego obedece sin cuestionar las instrucciones que recibe de un ángel en sueños, incluso cuando implican huir de noche a Egipto. Su obediencia es costosa, silenciosa y profunda.",
+      "capitulos": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "jeremias",
+      "nombre": "Jeremías",
+      "categoria": "otro",
+      "descripcion": "Profeta del Antiguo Testamento, llamado 'el profeta llorón' por su lamento genuino ante el pecado de Israel. Mateo cita su profecía sobre el llanto de Raquel al narrar la matanza de los niños de Belén ordenada por Herodes. La tradición dice que fue arrojado a una cisterna por anunciar la verdad de Dios a un pueblo que no quería escucharla.",
+      "capitulos": [
+        1,
+        2,
+        3,
+        5
+      ]
+    },
+    {
+      "id": "isaias",
+      "nombre": "Isaías",
+      "categoria": "otro",
+      "descripcion": "Profeta del Antiguo Testamento (740-701 a.C.) cuyas profecías Mateo cita repetidamente como cumplidas en Jesús: el nacimiento virginal y el nombre Emanuel (Is 7:14), y la luz que resplandece en Galilea de los gentiles (Is 9:1-2). Según la tradición, fue aserrado por la mitad por su fidelidad a Dios.",
+      "capitulos": [
+        1,
+        3,
+        4,
+        5,
+        8,
+        11
+      ]
+    },
+    {
+      "id": "herodes",
+      "nombre": "Herodes",
+      "categoria": "autoridad-politica",
+      "descripcion": "Herodes el Grande, rey impuesto por Roma sobre Judea, de linaje idumeo y no davídico. Su poder se sostenía por la violencia, la manipulación política y el miedo: mandó matar a miembros de su propia familia ante la mínima sospecha de traición, y ordenó la matanza de los niños de Belén al sentirse burlado por los sabios. Representa el poder político que se siente amenazado por el verdadero Rey.",
+      "capitulos": [
+        2,
+        10,
+        11
+      ]
+    },
+    {
+      "id": "maestros-de-la-ley",
+      "nombre": "Maestros de la Ley",
+      "categoria": "autoridad-religiosa",
+      "descripcion": "Los expertos en la Escritura y la Ley judía, también llamados escribas. Aparecen consultados por Herodes sobre el lugar de nacimiento del Mesías, y luego como interlocutores constantes -a menudo críticos- de Jesús a lo largo del evangelio, representando una religiosidad de conocimiento sin necesariamente transformación del corazón.",
+      "capitulos": [
+        2,
+        5,
+        7,
+        8,
+        9,
+        11
+      ]
+    },
+    {
+      "id": "juan-bautista",
+      "nombre": "Juan el Bautista",
+      "categoria": "otro",
+      "descripcion": "El mensajero anunciado por Malaquías que prepara el camino del Señor. Predica arrepentimiento genuino en el desierto de Judea, viste de pelo de camello y come langostas y miel silvestre, y bautiza a Jesús pese a sentirse indigno de hacerlo. Más adelante, desde la cárcel, envía a sus discípulos a preguntarle a Jesús si realmente es 'el que ha de venir', mostrando que incluso el precursor del Mesías atravesó una crisis de fe.",
+      "capitulos": [
+        3,
+        10,
+        11
+      ]
+    },
+    {
+      "id": "fariseos",
+      "nombre": "Fariseos",
+      "categoria": "autoridad-religiosa",
+      "descripcion": "Uno de los grupos religiosos más influyentes de la época, junto a los saduceos. Conocían las Escrituras y cumplían cuidadosamente prácticas y tradiciones, pero Juan el Bautista y luego Jesús los confrontan por tener 'religión, pero no transformación; tradición, pero no un corazón rendido'. Se oponen crecientemente a Jesús a lo largo del evangelio.",
+      "capitulos": [
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        11
+      ]
+    },
+    {
+      "id": "saduceos",
+      "nombre": "Saduceos",
+      "categoria": "autoridad-religiosa",
+      "descripcion": "Junto con los fariseos, uno de los grupos religiosos más influyentes del judaísmo del siglo I que se acercan al bautismo de Juan y reciben de él una fuerte confrontación por buscar la forma religiosa sin arrepentimiento genuino.",
+      "capitulos": [
+        3
+      ]
+    },
+    {
+      "id": "satanas",
+      "nombre": "Satanás",
+      "categoria": "otro",
+      "descripcion": "Llamado también 'el diablo' o 'el tentador'. En el desierto tienta a Jesús en tres frentes -necesidad física, exposición pública/orgullo, y poder sin cruz- atacando primero su identidad como Hijo de Dios. Usa incluso la Escritura, citándola fuera de contexto, mostrando que conoce la Biblia pero la manipula para el engaño.",
+      "capitulos": [
+        4,
+        7,
+        9,
+        10
+      ]
+    },
+    {
+      "id": "pedro",
+      "nombre": "Pedro",
+      "categoria": "discipulo",
+      "descripcion": "Simón, llamado Pedro: pescador de Galilea, impulsivo, apasionado y contradictorio. Es de los primeros llamados junto a su hermano Andrés, y su casa en Capernaúm es escenario de la sanidad de su suegra. Su historia -incluida la futura negación y restauración- es, según el PDF, la demostración más clara de que el llamado de Jesús no depende de la perfección del llamado.",
+      "capitulos": [
+        4,
+        5,
+        8,
+        10,
+        11
+      ]
+    },
+    {
+      "id": "santiago-hijo-de-zebedeo",
+      "nombre": "Santiago, hijo de Zebedeo",
+      "categoria": "discipulo",
+      "descripcion": "Uno de los 'hijos del trueno', apodo puesto por Jesús probablemente por su temperamento. Pescador de Galilea, hermano de Juan, llamado junto a él mientras remendaban las redes con su padre Zebedeo. Según el PDF, será el primer apóstol martirizado.",
+      "capitulos": [
+        4,
+        5,
+        10
+      ]
+    },
+    {
+      "id": "andres",
+      "nombre": "Andrés",
+      "categoria": "discipulo",
+      "descripcion": "Hermano de Simón Pedro, también pescador de Galilea. Antes de seguir a Jesús fue discípulo de Juan el Bautista. En el evangelio aparece frecuentemente como el que conecta a otros con Jesús: un hombre de segundo plano con un ministerio de conexión.",
+      "capitulos": [
+        4,
+        10
+      ]
+    },
+    {
+      "id": "juan-apostol",
+      "nombre": "Juan, hijo de Zebedeo",
+      "categoria": "discipulo",
+      "descripcion": "El otro 'hijo del trueno', hermano de Santiago. Pescador llamado junto con su hermano y su padre Zebedeo mientras remendaban las redes en la barca, dejándolo todo de inmediato para seguir a Jesús.",
+      "capitulos": [
+        4,
+        10
+      ]
+    },
+    {
+      "id": "mateo",
+      "nombre": "Mateo (Leví)",
+      "categoria": "discipulo",
+      "descripcion": "El propio autor del evangelio: recaudador de impuestos, despreciado tanto por los judíos (como traidor y pecador) como por los romanos (como instrumento sin ser considerado uno de los suyos). Jesús lo llama con una sola palabra -'Sígueme'- mientras estaba sentado a la mesa de recaudación, y él se levanta de inmediato. Su historia es la de alguien que pasó de ser rechazado a ser incluido y enviado al Reino de Dios.",
+      "capitulos": [
+        5,
+        6,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "id": "centurion-de-capernaum",
+      "nombre": "Centurión de Capernaúm",
+      "categoria": "otro",
+      "descripcion": "Oficial del ejército romano al mando de una centuria (80-100 soldados), representante visible de la ocupación romana en una ciudad con presencia militar permanente. Se acerca a Jesús con humildad ('no merezco que entres bajo mi techo') e intercede por su siervo enfermo con una fe que, según el texto, sorprendió a Jesús más que cualquiera que hubiera encontrado en Israel.",
+      "capitulos": [
+        8,
+        10,
+        11
+      ]
+    }
+  ]
+}

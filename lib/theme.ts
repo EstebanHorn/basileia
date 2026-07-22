@@ -32,25 +32,3 @@ export const DARK: Colors = {
 };
 
 export type Theme = 'light' | 'dark';
-export type Screen =
-  | 'inicio'
-  | 'indice'
-  | 'capitulo'
-  | 'mapa'
-  | 'personajes'
-  | 'glosario'
-  | 'contexto'
-  | 'notas'
-  | 'nosotros'
-  | 'privacidad'
-  | 'terminos';
-
-export const NAV_LABELS: [Screen, string][] = [
-  ['indice', 'Índice'],
-  ['mapa', 'Mapa'],
-  ['personajes', 'Personajes'],
-  ['glosario', 'Glosario'],
-  ['contexto', 'Contexto'],
-  ['notas', 'Notas'],
-  ['nosotros', 'Sobre nosotros'],
-];

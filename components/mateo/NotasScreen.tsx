@@ -1,34 +1,34 @@
 'use client';
 
-import { Colors } from '@/lib/theme';
+import Link from 'next/link';
+import { useApp } from '@/lib/app-context';
+import { usePersistedState, writePersistedState } from '@/lib/persisted-state';
+import { useNotes } from '@/lib/supabase/use-notes';
+import { MAX_CHAPTER } from '@/lib/content/editorial';
 
-interface NotasScreenProps {
-  colors: Colors;
-  readChapters: Record<number, boolean>;
-  onToggleRead: (n: number) => void;
-  notes: Record<number, string>;
-  onGoToChapter: (n: number) => void;
-}
+export default function NotasScreen() {
+  const { colors, lang, dict } = useApp();
+  const { readChapters } = usePersistedState();
+  const { notes } = useNotes();
 
-export default function NotasScreen({ colors, readChapters, onToggleRead, notes, onGoToChapter }: NotasScreenProps) {
   const readCount = Object.values(readChapters).filter(Boolean).length;
   const notesEntries = Object.entries(notes).filter(([, text]) => text && text.trim());
 
+  const toggleRead = (n: number) => {
+    writePersistedState({ readChapters: { ...readChapters, [n]: !readChapters[n] } });
+  };
+
   return (
     <div style={{ maxWidth: 760, margin: '0 auto', padding: '40px 24px 80px' }}>
-      <h1 style={{ fontFamily: 'var(--font-lora), serif', fontSize: 32, fontWeight: 600, margin: '0 0 6px' }}>
-        Mis notas y progreso
-      </h1>
-      <p style={{ fontSize: 14, color: colors.muted, margin: '0 0 24px' }}>
-        {readCount} de 28 capítulos marcados como leídos.
-      </p>
+      <h1 style={{ fontFamily: 'var(--font-lora), serif', fontSize: 32, fontWeight: 600, margin: '0 0 6px' }}>{dict.notas.title}</h1>
+      <p style={{ fontSize: 14, color: colors.muted, margin: '0 0 24px' }}>{dict.notas.stats(readCount, MAX_CHAPTER)}</p>
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill,minmax(210px,1fr))', gap: 8, marginBottom: 36 }}>
-        {Array.from({ length: 28 }, (_, i) => i + 1).map((n) => {
+        {Array.from({ length: MAX_CHAPTER }, (_, i) => i + 1).map((n) => {
           const checked = !!readChapters[n];
           return (
             <div
               key={n}
-              onClick={() => onToggleRead(n)}
+              onClick={() => toggleRead(n)}
               style={{
                 display: 'flex',
                 alignItems: 'center',
@@ -58,7 +58,9 @@ export default function NotasScreen({ colors, readChapters, onToggleRead, notes,
                   </svg>
                 )}
               </div>
-              <span style={{ fontSize: 13.5 }}>Mateo {n}</span>
+              <span style={{ fontSize: 13.5 }}>
+                {dict.capitulo.mateoPrefix} {n}
+              </span>
             </div>
           );
         })}
@@ -66,17 +68,19 @@ export default function NotasScreen({ colors, readChapters, onToggleRead, notes,
       {notesEntries.length > 0 && (
         <div>
           <div style={{ fontSize: 13, fontWeight: 700, textTransform: 'uppercase', letterSpacing: '.05em', color: colors.muted, marginBottom: 12 }}>
-            Notas guardadas en esta sesión
+            {dict.notas.notasGuardadas}
           </div>
           {notesEntries.map(([num, text]) => (
-            <div
+            <Link
               key={num}
-              onClick={() => onGoToChapter(parseInt(num, 10))}
-              style={{ background: colors.subtle, borderRadius: 10, padding: '14px 18px', marginBottom: 10, cursor: 'pointer' }}
+              href={`/${lang}/capitulo/${num}`}
+              style={{ display: 'block', background: colors.subtle, borderRadius: 10, padding: '14px 18px', marginBottom: 10, cursor: 'pointer' }}
             >
-              <div style={{ fontSize: 12, fontWeight: 700, color: colors.accent, marginBottom: 4 }}>MATEO {num}</div>
-              <div style={{ fontSize: 14, lineHeight: 1.5 }}>{text}</div>
-            </div>
+              <div style={{ fontSize: 12, fontWeight: 700, color: colors.accent, marginBottom: 4 }}>
+                {dict.capitulo.mateoPrefix.toUpperCase()} {num}
+              </div>
+              <div style={{ fontSize: 14, lineHeight: 1.5, color: colors.text }}>{text}</div>
+            </Link>
           ))}
         </div>
       )}

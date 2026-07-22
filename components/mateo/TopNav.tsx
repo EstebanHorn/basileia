@@ -1,43 +1,43 @@
 'use client';
 
+import { useState } from 'react';
 import Image from 'next/image';
-import { Colors, NAV_LABELS, Screen, Theme } from '@/lib/theme';
+import Link from 'next/link';
+import { usePathname, useRouter } from 'next/navigation';
+import { useApp } from '@/lib/app-context';
+import { useAuth } from '@/lib/supabase/auth-context';
+import { locales } from '@/lib/i18n/config';
 
-interface TopNavProps {
-  colors: Colors;
-  screen: Screen;
-  onNavigate: (s: Screen) => void;
-  onGoInicio: () => void;
-  theme: Theme;
-  onToggleTheme: () => void;
-  mobileMenuOpen: boolean;
-  onToggleMobileMenu: () => void;
-  onOpenLogin: () => void;
-  onOpenRegister: () => void;
-  userLabel: string | null;
-  onLogout: () => void;
+function setLocaleCookie(next: string) {
+  document.cookie = `NEXT_LOCALE=${next}; path=/; max-age=31536000`;
 }
 
-export default function TopNav({
-  colors,
-  screen,
-  onNavigate,
-  onGoInicio,
-  theme,
-  onToggleTheme,
-  mobileMenuOpen,
-  onToggleMobileMenu,
-  onOpenLogin,
-  onOpenRegister,
-  userLabel,
-  onLogout,
-}: TopNavProps) {
-  const navItems = NAV_LABELS.map(([key, label]) => ({
-    key,
-    label,
-    color: screen === key ? colors.accent : colors.text,
-    weight: screen === key ? 700 : 500,
-  }));
+export default function TopNav() {
+  const { colors, theme, toggleTheme, lang, dict, openAuthModal } = useApp();
+  const { user, signOut } = useAuth();
+  const pathname = usePathname();
+  const router = useRouter();
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+
+  const activeSegment = pathname.replace(new RegExp(`^/${lang}`), '').split('/').filter(Boolean)[0] ?? '';
+
+  const navItems: [string, string][] = [
+    ['indice', dict.nav.indice],
+    ['mapa', dict.nav.mapa],
+    ['personajes', dict.nav.personajes],
+    ['glosario', dict.nav.glosario],
+    ['contexto', dict.nav.contexto],
+    ['notas', dict.nav.notas],
+    ['nosotros', dict.nav.nosotros],
+  ].map(([key, label]) => [key, label]);
+
+  const userLabel = user ? user.user_metadata?.nombre || user.email || null : null;
+
+  const switchLocale = (next: string) => {
+    setLocaleCookie(next);
+    const rest = pathname.replace(new RegExp(`^/${lang}`), '');
+    router.push(`/${next}${rest}`);
+  };
 
   return (
     <div
@@ -50,8 +50,8 @@ export default function TopNav({
       }}
     >
       <div style={{ display: 'flex', alignItems: 'center', gap: 20, padding: '12px 24px' }}>
-        <div
-          onClick={onGoInicio}
+        <Link
+          href={`/${lang}`}
           style={{
             display: 'flex',
             alignItems: 'center',
@@ -79,30 +79,51 @@ export default function TopNav({
           >
             Basileia
           </div>
-        </div>
+        </Link>
 
         <div style={{ flex: 1 }} />
 
         <div className="topnav-desktop-only" style={{ gap: 16, alignItems: 'center', flexShrink: 0 }}>
-          {navItems.map((item) => (
-            <div
-              key={item.key}
-              onClick={() => onNavigate(item.key)}
+          {navItems.map(([key, label]) => (
+            <Link
+              key={key}
+              href={`/${lang}/${key}`}
               style={{
                 cursor: 'pointer',
                 fontSize: 14,
-                fontWeight: item.weight,
-                color: item.color,
+                fontWeight: activeSegment === key ? 700 : 500,
+                color: activeSegment === key ? colors.accent : colors.text,
                 whiteSpace: 'nowrap',
               }}
             >
-              {item.label}
+              {label}
+            </Link>
+          ))}
+        </div>
+
+        <div style={{ display: 'flex', gap: 4, flexShrink: 0 }}>
+          {locales.map((l) => (
+            <div
+              key={l}
+              onClick={() => switchLocale(l)}
+              style={{
+                cursor: 'pointer',
+                fontSize: 12,
+                fontWeight: 700,
+                padding: '6px 8px',
+                borderRadius: 6,
+                color: l === lang ? '#fff' : colors.muted,
+                background: l === lang ? colors.accent : 'transparent',
+                textTransform: 'uppercase',
+              }}
+            >
+              {l}
             </div>
           ))}
         </div>
 
         <div
-          onClick={onToggleTheme}
+          onClick={toggleTheme}
           style={{
             cursor: 'pointer',
             flexShrink: 0,
@@ -133,22 +154,22 @@ export default function TopNav({
             <>
               <div style={{ fontSize: 13.5, color: colors.muted, whiteSpace: 'nowrap' }}>{userLabel}</div>
               <div
-                onClick={onLogout}
+                onClick={signOut}
                 style={{ cursor: 'pointer', fontSize: 14, fontWeight: 600, color: colors.text, whiteSpace: 'nowrap' }}
               >
-                Cerrar sesión
+                {dict.topnav.logout}
               </div>
             </>
           ) : (
             <>
               <div
-                onClick={onOpenLogin}
+                onClick={() => openAuthModal('login')}
                 style={{ cursor: 'pointer', fontSize: 14, fontWeight: 600, color: colors.text, whiteSpace: 'nowrap' }}
               >
-                Iniciar sesión
+                {dict.topnav.login}
               </div>
               <div
-                onClick={onOpenRegister}
+                onClick={() => openAuthModal('register')}
                 style={{
                   cursor: 'pointer',
                   fontSize: 14,
@@ -160,7 +181,7 @@ export default function TopNav({
                   whiteSpace: 'nowrap',
                 }}
               >
-                Registrarse
+                {dict.topnav.register}
               </div>
             </>
           )}
@@ -168,7 +189,7 @@ export default function TopNav({
 
         <div
           className="topnav-mobile-only"
-          onClick={onToggleMobileMenu}
+          onClick={() => setMobileMenuOpen((v) => !v)}
           style={{
             cursor: 'pointer',
             flexShrink: 0,
@@ -198,27 +219,28 @@ export default function TopNav({
             gap: 2,
           }}
         >
-          {navItems.map((item) => (
-            <div
-              key={item.key}
-              onClick={() => onNavigate(item.key)}
+          {navItems.map(([key, label]) => (
+            <Link
+              key={key}
+              href={`/${lang}/${key}`}
+              onClick={() => setMobileMenuOpen(false)}
               style={{
                 cursor: 'pointer',
                 padding: '11px 4px',
                 fontSize: 15,
-                fontWeight: item.weight,
-                color: item.color,
+                fontWeight: activeSegment === key ? 700 : 500,
+                color: activeSegment === key ? colors.accent : colors.text,
                 borderBottom: `1px solid ${colors.border}`,
               }}
             >
-              {item.label}
-            </div>
+              {label}
+            </Link>
           ))}
           {userLabel ? (
             <div style={{ marginTop: 14 }}>
               <div style={{ fontSize: 13.5, color: colors.muted, marginBottom: 10 }}>{userLabel}</div>
               <div
-                onClick={onLogout}
+                onClick={signOut}
                 style={{
                   textAlign: 'center',
                   cursor: 'pointer',
@@ -230,13 +252,16 @@ export default function TopNav({
                   borderRadius: 8,
                 }}
               >
-                Cerrar sesión
+                {dict.topnav.logout}
               </div>
             </div>
           ) : (
             <div style={{ display: 'flex', gap: 10, marginTop: 14 }}>
               <div
-                onClick={onOpenLogin}
+                onClick={() => {
+                  setMobileMenuOpen(false);
+                  openAuthModal('login');
+                }}
                 style={{
                   flex: 1,
                   textAlign: 'center',
@@ -249,10 +274,13 @@ export default function TopNav({
                   borderRadius: 8,
                 }}
               >
-                Iniciar sesión
+                {dict.topnav.login}
               </div>
               <div
-                onClick={onOpenRegister}
+                onClick={() => {
+                  setMobileMenuOpen(false);
+                  openAuthModal('register');
+                }}
                 style={{
                   flex: 1,
                   textAlign: 'center',
@@ -265,7 +293,7 @@ export default function TopNav({
                   borderRadius: 8,
                 }}
               >
-                Registrarse
+                {dict.topnav.register}
               </div>
             </div>
           )}

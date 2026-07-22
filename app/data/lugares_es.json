@@ -1,0 +1,203 @@
+{
+  "lugares": [
+    {
+      "id": "belen",
+      "nombre": "Belén",
+      "top": 86,
+      "left": 45,
+      "nota": "Aldea pequeña de Judea, sin relevancia política ni económica en el siglo I; no era el lugar lógico para buscar a un rey. Sin embargo, era la ciudad de David y el lugar profetizado por el profeta Miqueas como cuna del Mesías. Mateo subraya así que Dios cumple sus promesas desde la humildad, no desde los centros de poder.",
+      "capitulos": [
+        2
+      ]
+    },
+    {
+      "id": "jerusalen",
+      "nombre": "Jerusalén",
+      "top": 82,
+      "left": 45,
+      "nota": "La ciudad santa, sede del templo y del poder religioso judío. Cuando los sabios preguntan por el rey recién nacido, 'toda Jerusalén' se turba junto con Herodes: la ciudad que tenía las Escrituras al alcance de la mano no reconoce al Mesías cuando llega, en contraste con los sabios extranjeros que vienen de lejos a adorarlo.",
+      "capitulos": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        10
+      ]
+    },
+    {
+      "id": "judea",
+      "nombre": "Judea",
+      "top": 74,
+      "left": 38,
+      "nota": "Región al sur de Israel donde se ubica Belén y donde predica Juan el Bautista en el desierto. Territorio bajo dominio romano, gobernado en tiempos de Jesús por Herodes y luego por su hijo Arquelao, cuyo temido reinado hace que José evite instalarse allí al regresar de Egipto.",
+      "capitulos": [
+        2,
+        3,
+        4,
+        10
+      ]
+    },
+    {
+      "id": "egipto",
+      "nombre": "Egipto",
+      "top": 92,
+      "left": 14,
+      "nota": "Lugar de refugio al que José huye de noche con María y Jesús para escapar de la matanza ordenada por Herodes, permaneciendo allí hasta la muerte del rey. Mateo conecta esta huida con la profecía de Oseas ('De Egipto llamé a mi hijo'), recordando el éxodo del pueblo de Israel.",
+      "capitulos": [
+        2
+      ]
+    },
+    {
+      "id": "rama",
+      "nombre": "Ramá",
+      "top": 78,
+      "left": 42,
+      "nota": "Lugar mencionado en la profecía de Jeremías que Mateo cita al narrar la matanza de los niños de Belén ordenada por Herodes: 'Se oye un grito en Ramá, llanto y gran lamentación... es Raquel que llora por sus hijos'. Nota: el PDF no desarrolla comentario propio sobre este lugar más allá de la cita profética.",
+      "capitulos": [
+        2,
+        5
+      ]
+    },
+    {
+      "id": "nazaret",
+      "nombre": "Nazaret",
+      "top": 40,
+      "left": 40,
+      "nota": "Pueblo de Galilea donde la familia de Jesús se instala al regresar de Egipto, evitando la Judea gobernada por Arquelao. Mateo señala que esto cumple lo dicho por los profetas: 'Lo llamarán nazareno'. Más adelante, Jesús parte desde allí para establecerse en Capernaúm al iniciar su ministerio público.",
+      "capitulos": [
+        2,
+        4,
+        10
+      ]
+    },
+    {
+      "id": "galilea",
+      "nombre": "Galilea",
+      "top": 22,
+      "left": 46,
+      "nota": "Región del norte de Israel, considerada culturalmente mezclada y despreciada por los centros religiosos de Jerusalén ('Galilea de los gentiles'). Jesús elige comenzar y desarrollar la mayor parte de su ministerio público precisamente allí y no desde el centro religioso, cumpliendo la profecía de Isaías sobre una luz que resplandece en la oscuridad.",
+      "capitulos": [
+        2,
+        3,
+        4,
+        8,
+        10,
+        11
+      ]
+    },
+    {
+      "id": "desierto-de-judea",
+      "nombre": "Desierto (de Judea / de la tentación)",
+      "top": 53,
+      "left": 78,
+      "nota": "Escenario tanto de la predicación de Juan el Bautista ('el desierto de Judea') como del ayuno y la tentación de Jesús por 40 días tras su bautismo. Es el lugar de preparación y prueba antes del ministerio público: 'antes de la misión viene la preparación y la fidelidad en lo secreto'.",
+      "capitulos": [
+        3,
+        4,
+        6,
+        11
+      ]
+    },
+    {
+      "id": "rio-jordan",
+      "nombre": "Río Jordán",
+      "top": 78,
+      "left": 54,
+      "nota": "Río donde Juan el Bautista bautizaba a quienes confesaban sus pecados, y donde Jesús mismo es bautizado por Juan, identificándose con los pecadores antes de comenzar su ministerio, en el momento en que el cielo se abre y el Espíritu desciende como paloma.",
+      "capitulos": [
+        3,
+        4,
+        11
+      ]
+    },
+    {
+      "id": "capernaum",
+      "nombre": "Capernaúm",
+      "top": 27,
+      "left": 53,
+      "nota": "Ciudad portuaria junto al Mar de Galilea, con presencia militar romana permanente, que se convierte en la base de operaciones del ministerio de Jesús en Galilea tras dejar Nazaret. Allí vive Pedro (cuya suegra es sanada por Jesús) y allí se acerca el centurión romano cuya fe sorprende a Jesús.",
+      "capitulos": [
+        4,
+        8,
+        11
+      ]
+    },
+    {
+      "id": "mar-de-galilea",
+      "nombre": "Mar (lago) de Galilea",
+      "top": 30,
+      "left": 58,
+      "nota": "Lago junto al cual Jesús llama a sus primeros discípulos -Pedro, Andrés, Santiago y Juan- mientras trabajaban como pescadores, y donde más adelante calma una tormenta violenta ante el asombro de sus discípulos: '¿Qué clase de hombre es este que hasta los vientos y el mar le obedecen?'.",
+      "capitulos": [
+        4,
+        8,
+        11
+      ]
+    },
+    {
+      "id": "decapolis",
+      "nombre": "Decápolis",
+      "top": 34,
+      "left": 70,
+      "nota": "Región de diez ciudades helenísticas mencionada como uno de los lugares de origen de las multitudes que seguían a Jesús junto con Galilea, Jerusalén, Judea y la zona más allá del Jordán. Nota: el PDF la menciona de paso, sin comentario propio adicional.",
+      "capitulos": [
+        4
+      ]
+    },
+    {
+      "id": "tiro-y-sidon",
+      "nombre": "Tiro y Sidón",
+      "top": 8,
+      "left": 33,
+      "nota": "Ciudades fenicias al norte de Israel, famosas en el Antiguo Testamento por su orgullo e idolatría, denunciadas por profetas como Amós y Ezequiel. Jesús las usa como punto de comparación al reprochar a Corazín y Betsaida: si los milagros que ellas vieron se hubieran hecho en Tiro y Sidón, estas ciudades paganas ya se habrían arrepentido.",
+      "capitulos": [
+        6,
+        7,
+        11
+      ]
+    },
+    {
+      "id": "region-de-los-gadarenos",
+      "nombre": "Región de los gadarenos",
+      "top": 32,
+      "left": 64,
+      "nota": "Territorio al otro lado del Mar de Galilea donde Jesús libera a dos endemoniados y permite que los demonios entren en una manada de cerdos. Nota: el PDF no desarrolla comentario propio adicional sobre esta región más allá del relato bíblico.",
+      "capitulos": [
+        8
+      ]
+    },
+    {
+      "id": "betsaida",
+      "nombre": "Betsaida",
+      "top": 23,
+      "left": 57,
+      "nota": "Ciudad de la orilla norte del lago de Galilea, junto con Corazín y Capernaúm, donde Jesús concentró buena parte de su ministerio y sus milagros. Es también la ciudad de origen del apóstol Felipe (y de Pedro y Andrés). Pese a haber visto más milagros que cualquier otro lugar, Jesús la reprende por no arrepentirse.",
+      "capitulos": [
+        10,
+        11
+      ]
+    },
+    {
+      "id": "sodoma-y-gomorra",
+      "nombre": "Sodoma y Gomorra",
+      "top": 96,
+      "left": 50,
+      "nota": "Ciudades del Antiguo Testamento convertidas en símbolo bíblico de juicio y destrucción merecida. Jesús las usa dos veces como vara de comparación: será más tolerable el castigo para Sodoma en el juicio que para los pueblos que rechazan a los doce enviados, y que para Capernaúm, que tuvo acceso directo a los milagros del Mesías y no se arrepintió.",
+      "capitulos": [
+        10,
+        11
+      ]
+    },
+    {
+      "id": "corazin",
+      "nombre": "Corazín",
+      "top": 20,
+      "left": 55,
+      "nota": "Ciudad de la orilla norte del lago de Galilea, una de las que más milagros de Jesús presenció junto con Betsaida y Capernaúm. Recibe uno de los reproches más severos del evangelio por no haberse arrepentido pese a la evidencia recibida.",
+      "capitulos": [
+        11
+      ]
+    }
+  ]
+}

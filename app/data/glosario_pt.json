@@ -1,0 +1,605 @@
+{
+  "terminos": [
+    {
+      "id": "makarios",
+      "griego": "μακάριος",
+      "transliteracion": "makarios",
+      "significado": "bem-aventurado, feliz",
+      "nota": "Não descreve uma emoção momentânea, como a alegria por algo que dá certo, nem uma promessa de que tudo estará externamente bem. Descreve um estado profundo de plenitude e bem-estar que não depende das circunstâncias: a condição de quem está bem por dentro porque está alinhado com Deus.",
+      "capitulos": [
+        5
+      ]
+    },
+    {
+      "id": "ptochos",
+      "griego": "πτωχός",
+      "transliteracion": "ptochos",
+      "significado": "pobre, indigente",
+      "nota": "Não descreve pobreza moderada, mas indigência completa: alguém que não tem nada próprio de que depender e vive em dependência total. Aplicado ao espírito, é reconhecer que não temos mérito nem conquista espiritual própria da qual nos orgulhar diante de Deus.",
+      "capitulos": [
+        5
+      ]
+    },
+    {
+      "id": "pentheo",
+      "griego": "πενθέω",
+      "transliteracion": "pentheo",
+      "significado": "chorar, fazer luto",
+      "nota": "É o termo mais forte que existe em grego para expressar luto e lamento profundo, o tipo de dor que não se pode esconder. Era a palavra usada para o choro pela morte de um ente querido: um quebrantamento visível e real, não uma tristeza passageira.",
+      "capitulos": [
+        5
+      ]
+    },
+    {
+      "id": "parakaleo",
+      "griego": "παρακαλέω",
+      "transliteracion": "parakaleo",
+      "significado": "consolar, exortar, chamar para estar ao lado",
+      "nota": "Vem da mesma raiz que Parákletos, nome que Jesus usa para o Espírito Santo. Significa chamar alguém para que esteja perto, exortar, fortalecer, acompanhar: não é apenas aliviar a dor, mas a presença ativa de alguém que vem para te sustentar.",
+      "capitulos": [
+        5
+      ]
+    },
+    {
+      "id": "praus",
+      "griego": "πραΰς",
+      "transliteracion": "praus",
+      "significado": "manso, humilde (força submissa)",
+      "nota": "Uma das palavras mais mal compreendidas do Sermão do Monte. No mundo grego descrevia um animal selvagem que havia sido domado: não ausência de força, mas força colocada sob controle. Jesus a usa também para descrever a si mesmo em Mateus 11:29.",
+      "capitulos": [
+        5,
+        11
+      ]
+    },
+    {
+      "id": "peinao",
+      "griego": "πεινάω",
+      "transliteracion": "peinao",
+      "significado": "ter fome (intensa)",
+      "nota": "Junto com dipsao (sede), não descreve um apetite moderado nem um desejo ocasional, mas uma necessidade vital, urgente e constante — aplicada aqui à fome e à sede de justiça.",
+      "capitulos": [
+        5
+      ]
+    },
+    {
+      "id": "dipsao",
+      "griego": "διψάω",
+      "transliteracion": "dipsao",
+      "significado": "ter sede (intensa)",
+      "nota": "Junto com peinao (fome), descreve uma necessidade vital e urgente, não um desejo passageiro: a intensidade com que o discípulo deveria ansiar pela justiça de Deus.",
+      "capitulos": [
+        5
+      ]
+    },
+    {
+      "id": "dikaiosyne",
+      "griego": "δικαιοσύνη",
+      "transliteracion": "dikaiosyne",
+      "significado": "justiça",
+      "nota": "Tem uma dupla dimensão que não deve ser separada: a justiça como estar bem diante de Deus (justificação) e a justiça como viver corretamente diante dos outros (justiça prática, ética).",
+      "capitulos": [
+        5
+      ]
+    },
+    {
+      "id": "chortazo",
+      "griego": "χορτάζω",
+      "transliteracion": "chortazo",
+      "significado": "saciar por completo",
+      "nota": "Originalmente era usada para descrever os animais que haviam comido até ficar completamente satisfeitos, sem mais nada a desejar. Aplicada à justiça, descreve uma satisfação total, não parcial.",
+      "capitulos": [
+        5
+      ]
+    },
+    {
+      "id": "eleemon",
+      "griego": "ἐλεήμων",
+      "transliteracion": "eleemon",
+      "significado": "misericordioso",
+      "nota": "Vai muito além de simplesmente 'ser gentil' ou 'ter pena': descreve alguém que entra ativamente no sofrimento alheio e responde com compaixão concreta, não apenas com sentimento.",
+      "capitulos": [
+        5
+      ]
+    },
+    {
+      "id": "katharos",
+      "griego": "καθαρός",
+      "transliteracion": "katharos",
+      "significado": "limpo, puro",
+      "nota": "Dessa palavra vem o termo 'catarse'. Aplicado ao coração, descreve alguém cuja vida interior e exterior são a mesma coisa: sem duplicidade, sem máscara.",
+      "capitulos": [
+        5
+      ]
+    },
+    {
+      "id": "eirenopoios",
+      "griego": "εἰρηνοποιός",
+      "transliteracion": "eirenopoios",
+      "significado": "o que faz a paz, pacificador",
+      "nota": "Vem de duas palavras: eirene (paz) e poieo (fazer). Não descreve alguém passivo que simplesmente evita o conflito, mas alguém que trabalha ativamente para construir a paz.",
+      "capitulos": [
+        5
+      ]
+    },
+    {
+      "id": "eirene",
+      "griego": "εἰρήνη",
+      "transliteracion": "eirene",
+      "significado": "paz",
+      "nota": "É o equivalente grego do hebraico shalom, que também não significa simplesmente ausência de conflito, mas plenitude, bem-estar integral e relações restauradas.",
+      "capitulos": [
+        5
+      ]
+    },
+    {
+      "id": "poieo",
+      "griego": "ποιέω",
+      "transliteracion": "poieo",
+      "significado": "fazer",
+      "nota": "Parte composta de eirenopoios (o que 'faz' a paz): destaca que a paz bíblica não é passividade, mas uma ação deliberada.",
+      "capitulos": [
+        5
+      ]
+    },
+    {
+      "id": "dioko",
+      "griego": "διώκω",
+      "transliteracion": "dioko",
+      "significado": "perseguir (ativamente)",
+      "nota": "No uso cotidiano descrevia a ação de perseguir ativamente, como um caçador que corre atrás de sua presa sem parar. Quem experimenta dioko não é apenas malvisto: é ativamente procurado para ser prejudicado.",
+      "capitulos": [
+        5
+      ]
+    },
+    {
+      "id": "oneidizo",
+      "griego": "ὀνειδίζω",
+      "transliteracion": "oneidizo",
+      "significado": "insultar, envergonhar publicamente",
+      "nota": "Descreve o ato de envergonhar publicamente alguém, atacando sua reputação e sua honra diante dos outros.",
+      "capitulos": [
+        5
+      ]
+    },
+    {
+      "id": "pseudomai",
+      "griego": "ψεύδομαι",
+      "transliteracion": "pseudomai",
+      "significado": "caluniar, mentir",
+      "nota": "Traduzida como 'calúnias': mentiras fabricadas intencionalmente para destruir a reputação de alguém.",
+      "capitulos": [
+        5
+      ]
+    },
+    {
+      "id": "chairo",
+      "griego": "χαίρω",
+      "transliteracion": "chairo",
+      "significado": "alegrar-se (com alegria interior estável)",
+      "nota": "Descreve uma alegria interior, profunda e estável; compartilha a raiz com a palavra charis, graça.",
+      "capitulos": [
+        5
+      ]
+    },
+    {
+      "id": "agalliao",
+      "griego": "ἀγαλλιάω",
+      "transliteracion": "agalliao",
+      "significado": "encher-se de júbilo transbordante",
+      "nota": "Mais intensa que chairo: descreve um júbilo transbordante, quase incontrolável, o tipo de alegria que não cabe por dentro e precisa se expressar para fora.",
+      "capitulos": [
+        5
+      ]
+    },
+    {
+      "id": "misthos",
+      "griego": "μισθός",
+      "transliteracion": "misthos",
+      "significado": "recompensa, salário",
+      "nota": "No mundo do século I descrevia o salário que um trabalhador recebia no final do dia: o que lhe correspondia por justiça pelo seu trabalho, não um presente arbitrário.",
+      "capitulos": [
+        5
+      ]
+    },
+    {
+      "id": "polys",
+      "griego": "πολύς",
+      "transliteracion": "polys",
+      "significado": "grande, abundante, muito",
+      "nota": "Adjetivo usado para descrever a magnitude da recompensa no céu prometida aos perseguidos por causa da justiça.",
+      "capitulos": [
+        5
+      ]
+    },
+    {
+      "id": "halas",
+      "griego": "ἅλας",
+      "transliteracion": "halas",
+      "significado": "sal",
+      "nota": "No mundo do século I o sal não era simplesmente um tempero, mas um conservante e um elemento de valor essencial na vida cotidiana.",
+      "capitulos": [
+        5
+      ]
+    },
+    {
+      "id": "moraino",
+      "griego": "μωραίνω",
+      "transliteracion": "moraino",
+      "significado": "perder o sabor, tornar-se insosso/tolo",
+      "nota": "Não significa apenas perder o sabor, mas também tornar-se insosso, tolo, sem sentido: a imagem de um sal que deixou de cumprir seu propósito.",
+      "capitulos": [
+        5
+      ]
+    },
+    {
+      "id": "phos",
+      "griego": "φῶς",
+      "transliteracion": "phos",
+      "significado": "luz",
+      "nota": "Jesus a usa para descrever algo que por sua própria natureza não pode se ocultar: assim como a luz se manifesta, também deve se manifestar a vida do discípulo.",
+      "capitulos": [
+        5
+      ]
+    },
+    {
+      "id": "lychnia",
+      "griego": "λυχνία",
+      "transliteracion": "lychnia",
+      "significado": "candeeiro, suporte para lâmpada",
+      "nota": "Suporte onde se colocava a lâmpada de azeite doméstica para que sua luz chegasse a todo o cômodo, em vez de escondê-la.",
+      "capitulos": [
+        5
+      ]
+    },
+    {
+      "id": "modios",
+      "griego": "μόδιος",
+      "transliteracion": "modios",
+      "significado": "recipiente de medida (para grãos)",
+      "nota": "Vasilha de medida usada no comércio de grãos; Jesus a menciona como o objeto absurdo sob o qual ninguém esconderia uma lâmpada acesa.",
+      "capitulos": [
+        5
+      ]
+    },
+    {
+      "id": "doxazo",
+      "griego": "δοξάζω",
+      "transliteracion": "doxazo",
+      "significado": "glorificar",
+      "nota": "Significa reconhecer e proclamar o valor, a honra e a grandeza de alguém; aplicado a Deus, é a resposta esperada ao ver as boas obras do discípulo.",
+      "capitulos": [
+        5
+      ]
+    },
+    {
+      "id": "pleroo",
+      "griego": "πληρόω",
+      "transliteracion": "pleroo",
+      "significado": "cumprir, dar cumprimento",
+      "nota": "Palavra-chave em 'não vim abolir a Lei... mas cumpri-la': não se trata de anular, mas de levar à sua plenitude e sentido mais profundo.",
+      "capitulos": [
+        5
+      ]
+    },
+    {
+      "id": "iota",
+      "griego": "ἰῶτα",
+      "transliteracion": "iota",
+      "significado": "a letra mais pequena (yod hebraica)",
+      "nota": "O yod era apenas um traço, a letra menor do alfabeto hebraico; Jesus a usa para destacar que nem o detalhe mais mínimo da Lei fica sem se cumprir.",
+      "capitulos": [
+        5
+      ]
+    },
+    {
+      "id": "keraia",
+      "griego": "κεραία",
+      "transliteracion": "keraia",
+      "significado": "til, gancho distintivo de uma letra",
+      "nota": "O pequeno gancho ou til que diferenciava uma letra hebraica de outra visualmente parecida; junto com iota, expressa a precisão absoluta com que a Lei se cumpre.",
+      "capitulos": [
+        5
+      ]
+    },
+    {
+      "id": "perisseuo",
+      "griego": "περισσεύω",
+      "transliteracion": "perisseuo",
+      "significado": "abundar, superar em muito",
+      "nota": "Palavra usada em 'a menos que a justiça de vocês seja muito superior à dos fariseus': não uma superioridade moral externa, mas uma justiça que transborda porque nasce do coração.",
+      "capitulos": [
+        5
+      ]
+    },
+    {
+      "id": "orgizo",
+      "griego": "ὀργίζω",
+      "transliteracion": "orgizo",
+      "significado": "irar-se",
+      "nota": "Não descreve a reação do primeiro segundo quando algo nos surpreende ou nos dói, mas uma ira sustentada e alimentada, a raiz interior que Jesus equipara ao homicídio no coração.",
+      "capitulos": [
+        5
+      ]
+    },
+    {
+      "id": "kodrantes",
+      "griego": "κοδράντης",
+      "transliteracion": "kodrantes",
+      "significado": "quadrante (a menor moeda do sistema romano)",
+      "nota": "Usada em 'até que você pague o último centavo': a moeda de menor valor em todo o sistema romano, para destacar que não ficará nenhuma dívida, por menor que seja, sem ser saldada.",
+      "capitulos": [
+        5
+      ]
+    },
+    {
+      "id": "epithumeo",
+      "griego": "ἐπιθυμέω",
+      "transliteracion": "epithumeo",
+      "significado": "cobiçar (com desejo intenso e deliberado)",
+      "nota": "Descreve um desejo intenso e deliberado, um olhar que não é acidental, mas que se entretém, se alimenta e permanece: a raiz interior do adultério segundo Jesus.",
+      "capitulos": [
+        5
+      ]
+    },
+    {
+      "id": "geenna",
+      "griego": "γέεννα",
+      "transliteracion": "geenna",
+      "significado": "inferno (Vale de Hinom)",
+      "nota": "Fazia referência ao Vale de Hinom, um lugar nos arredores de Jerusalém onde historicamente se queimava lixo de maneira permanente e onde em tempos antigos haviam sido realizados sacrifícios pagãos.",
+      "capitulos": [
+        5
+      ]
+    },
+    {
+      "id": "porneia",
+      "griego": "πορνεία",
+      "transliteracion": "porneia",
+      "significado": "imoralidade sexual grave",
+      "nota": "Palavra usada na exceção que Jesus menciona sobre o divórcio ('exceto por imoralidade sexual'): descreve uma infidelidade sexual grave, não qualquer desacordo conjugal.",
+      "capitulos": [
+        5
+      ]
+    },
+    {
+      "id": "omnuo",
+      "griego": "ὀμνύω",
+      "transliteracion": "omnuo",
+      "significado": "jurar",
+      "nota": "Descreve o ato formal de invocar algo superior (o céu, a terra, Jerusalém, a própria cabeça) como garantia da própria palavra.",
+      "capitulos": [
+        5
+      ]
+    },
+    {
+      "id": "agapao",
+      "griego": "ἀγαπάω",
+      "transliteracion": "agapao",
+      "significado": "amar (amor de decisão e vontade)",
+      "nota": "Descreve o amor mais elevado que existe no grego bíblico: não eros (amor romântico) nem philia (afeto entre amigos), mas um amor de vontade e decisão, capaz de amar até o inimigo.",
+      "capitulos": [
+        5
+      ]
+    },
+    {
+      "id": "teleios",
+      "griego": "τέλειος",
+      "transliteracion": "teleios",
+      "significado": "perfeito, completo, maduro",
+      "nota": "Não descreve uma perfeição moral sem defeitos, algo impossível para qualquer ser humano. Significa completo, maduro, que chegou ao seu propósito final — um chamado à integridade, não ao perfeccionismo.",
+      "capitulos": [
+        5
+      ]
+    },
+    {
+      "id": "theathenai",
+      "griego": "θεαθῆναι",
+      "transliteracion": "theathenai",
+      "significado": "ser visto, exibir-se",
+      "nota": "Vem da mesma raiz de onde vem nossa palavra 'teatro': descreve fazer algo religioso para ser observado e admirado por outros, em vez de fazê-lo diante de Deus.",
+      "capitulos": [
+        6
+      ]
+    },
+    {
+      "id": "hypokritai",
+      "griego": "ὑποκριταί",
+      "transliteracion": "hypokritai",
+      "significado": "hipócritas (atores de teatro)",
+      "nota": "No mundo grego descrevia os atores de teatro: pessoas que usavam uma máscara para representar um papel diferente do de sua vida real.",
+      "capitulos": [
+        6
+      ]
+    },
+    {
+      "id": "tameion",
+      "griego": "ταμεῖον",
+      "transliteracion": "tameion",
+      "significado": "quarto interior, cômodo privado",
+      "nota": "Um cômodo interior sem janelas usado para guardar provisões, o lugar mais reservado da casa: o espaço de oração secreta que Jesus recomenda.",
+      "capitulos": [
+        6
+      ]
+    },
+    {
+      "id": "battalogeo",
+      "griego": "βατταλογέω",
+      "transliteracion": "battalogeo",
+      "significado": "falar só por falar, balbuciar",
+      "nota": "Descreve o balbucio vazio, as palavras multiplicadas sem sentido, a repetição ritual desconectada de qualquer intenção real — o oposto da oração genuína que Jesus ensina.",
+      "capitulos": [
+        6
+      ]
+    },
+    {
+      "id": "mamonas",
+      "griego": "μαμωνᾶς",
+      "transliteracion": "mamonas",
+      "significado": "riquezas (personificadas)",
+      "nota": "Termo aramaico que personifica as riquezas quase como uma entidade com vontade própria, capaz de exigir a lealdade que só pertence a Deus.",
+      "capitulos": [
+        6
+      ]
+    },
+    {
+      "id": "merimnao",
+      "griego": "μεριμνάω",
+      "transliteracion": "merimnao",
+      "significado": "preocupar-se (com ansiedade)",
+      "nota": "Descreve uma mente dividida, partida entre o presente e o futuro imaginado, incapaz de estar em um só lugar: a ansiedade que Jesus contrasta com a confiança no Pai.",
+      "capitulos": [
+        6
+      ]
+    },
+    {
+      "id": "krino",
+      "griego": "κρίνω",
+      "transliteracion": "krino",
+      "significado": "julgar",
+      "nota": "Não descreve simplesmente opinar ou avaliar, mas o ato de condenar, de decretar sentença sobre outro — o que Jesus proíbe fazer com o coração hipócrita.",
+      "capitulos": [
+        7
+      ]
+    },
+    {
+      "id": "aiteo",
+      "griego": "αἰτέω",
+      "transliteracion": "aiteo",
+      "significado": "pedir",
+      "nota": "Uma das três palavras que Jesus usa no presente contínuo ('peçam, busquem, batam'), descrevendo uma atitude persistente e confiante na oração.",
+      "capitulos": [
+        7
+      ]
+    },
+    {
+      "id": "zeteo",
+      "griego": "ζητέω",
+      "transliteracion": "zeteo",
+      "significado": "buscar",
+      "nota": "Junto com aiteo (pedir) e krouo (bater), no presente contínuo: uma busca ativa e sustentada, não uma tentativa única.",
+      "capitulos": [
+        7
+      ]
+    },
+    {
+      "id": "krouo",
+      "griego": "κρούω",
+      "transliteracion": "krouo",
+      "significado": "bater (à porta)",
+      "nota": "Junto com aiteo (pedir) e zeteo (buscar), no presente contínuo: a imagem de alguém que persiste batendo a uma porta até que se abra.",
+      "capitulos": [
+        7
+      ]
+    },
+    {
+      "id": "polloi",
+      "griego": "πολλοί",
+      "transliteracion": "polloi",
+      "significado": "muitos (uma multidão numerosa)",
+      "nota": "Parte da expressão ochloi polloi: descreve uma massa de gente enorme, numerosa e variada, que seguia Jesus depois do Sermão do Monte.",
+      "capitulos": [
+        8
+      ]
+    },
+    {
+      "id": "lepra",
+      "griego": "λέπρα",
+      "transliteracion": "lepra",
+      "significado": "doença de pele ('lepra')",
+      "nota": "Junto com o termo hebraico tzara'at, abrangia diferentes tipos de doenças de pele no século I, não apenas a lepra no sentido médico moderno, e trazia consigo impureza ritual e exclusão social.",
+      "capitulos": [
+        8
+      ]
+    },
+    {
+      "id": "proskuneo",
+      "griego": "προσκυνέω",
+      "transliteracion": "proskuneo",
+      "significado": "prostrar-se em adoração",
+      "nota": "Descreve o ato de se prostrar em adoração, a mesma palavra usada para adorar a Deus — o gesto do centurião e de outros que se aproximam de Jesus reconhecendo quem Ele é.",
+      "capitulos": [
+        8
+      ]
+    },
+    {
+      "id": "splagchnizomai",
+      "griego": "σπλαγχνίζομαι",
+      "transliteracion": "splagchnizomai",
+      "significado": "ter compaixão (das entranhas)",
+      "nota": "Descreve uma comoção que vem das entranhas, um movimento visceral e físico por dentro: a compaixão de Jesus ao ver as multidões aflitas e desamparadas.",
+      "capitulos": [
+        9
+      ]
+    },
+    {
+      "id": "homologeo",
+      "griego": "ὁμολογέω",
+      "transliteracion": "homologeo",
+      "significado": "confessar, reconhecer publicamente",
+      "nota": "Literalmente significa falar o mesmo, estar de acordo, declarar publicamente: o que Jesus pede a quem quer reconhecê-lo diante dos outros.",
+      "capitulos": [
+        10
+      ]
+    },
+    {
+      "id": "skandalizomai",
+      "griego": "σκανδαλίζομαι",
+      "transliteracion": "skandalizomai",
+      "significado": "tropeçar, ser escandalizado",
+      "nota": "Descreve o ato de tropeçar numa pedra de tropeço no caminho, cair por causa de algo que se revela um obstáculo — a advertência de Jesus a João Batista e a todo aquele que duvida dele.",
+      "capitulos": [
+        11
+      ]
+    },
+    {
+      "id": "nepioi",
+      "griego": "νήπιοι",
+      "transliteracion": "nepioi",
+      "significado": "crianças pequenas",
+      "nota": "Os 'pequenos' a quem o Pai revela o que escondeu dos sábios e instruídos: os que não têm pretensões de conhecimento, os que recebem sem calcular.",
+      "capitulos": [
+        11
+      ]
+    },
+    {
+      "id": "kopiao",
+      "griego": "κοπιάω",
+      "transliteracion": "kopiao",
+      "significado": "estar cansado (de trabalho pesado)",
+      "nota": "Descreve o cansaço que vem de um trabalho pesado, o tipo de esgotamento que deixa sem forças — linguagem do trabalho duro sob o sol que Jesus aplica ao esgotamento espiritual.",
+      "capitulos": [
+        11
+      ]
+    },
+    {
+      "id": "phortizo",
+      "griego": "φορτίζω",
+      "transliteracion": "phortizo",
+      "significado": "estar carregado (com um peso que esmaga)",
+      "nota": "Descreve estar carregado com um peso que esmaga; junto com kopiao, descreve aqueles a quem Jesus convida a descansar em Mateus 11:28.",
+      "capitulos": [
+        11
+      ]
+    },
+    {
+      "id": "anapausis",
+      "griego": "ἀνάπαυσις",
+      "transliteracion": "anapausis",
+      "significado": "descanso (repouso ativo)",
+      "nota": "Descreve um estado de repouso ativo, não apenas a ausência de esforço, mas a presença de paz: o descanso que vem de ter encontrado o que se buscava.",
+      "capitulos": [
+        11
+      ]
+    },
+    {
+      "id": "tapeinos",
+      "griego": "ταπεινός",
+      "transliteracion": "tapeinos",
+      "significado": "humilde (sem exigir posição própria)",
+      "nota": "Descreve alguém de posição baixa no sentido de não exigir posição própria; Jesus se descreve assim na única autocaracterização direta de todo o evangelho.",
+      "capitulos": [
+        11
+      ]
+    }
+  ]
+}

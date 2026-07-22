@@ -1,31 +1,26 @@
 'use client';
 
 import Image from 'next/image';
-import { Colors, Screen, Theme } from '@/lib/theme';
+import Link from 'next/link';
+import { useApp } from '@/lib/app-context';
 
-interface FooterProps {
-  colors: Colors;
-  theme: Theme;
-  isMobile: boolean;
-  onNavigate: (s: Screen) => void;
-}
-
-const EXPLORAR: [Screen, string][] = [
-  ['indice', 'Índice'],
-  ['mapa', 'Mapa'],
-  ['personajes', 'Personajes'],
-  ['glosario', 'Glosario'],
-  ['contexto', 'Contexto'],
-];
-
-const PROYECTO: [Screen, string][] = [
-  ['nosotros', 'Sobre nosotros'],
-  ['privacidad', 'Privacidad'],
-  ['terminos', 'Términos de uso'],
-];
-
-export default function Footer({ colors, theme, isMobile, onNavigate }: FooterProps) {
+export default function Footer() {
+  const { colors, theme, isMobile, lang, dict } = useApp();
   const year = new Date().getFullYear();
+
+  const EXPLORAR: [string, string][] = [
+    ['indice', dict.nav.indice],
+    ['mapa', dict.nav.mapa],
+    ['personajes', dict.nav.personajes],
+    ['glosario', dict.nav.glosario],
+    ['contexto', dict.nav.contexto],
+  ];
+
+  const PROYECTO: [string, string][] = [
+    ['nosotros', dict.nav.nosotros],
+    ['privacidad', dict.nav.privacidad],
+    ['terminos', dict.nav.terminos],
+  ];
 
   const linkStyle: React.CSSProperties = {
     cursor: 'pointer',
@@ -53,10 +48,7 @@ export default function Footer({ colors, theme, isMobile, onNavigate }: FooterPr
         }}
       >
         <div style={{ flex: '1 1 260px', minWidth: 200 }}>
-          <div
-            onClick={() => onNavigate('inicio')}
-            style={{ display: 'flex', alignItems: 'center', gap: 8, cursor: 'pointer', marginBottom: 10 }}
-          >
+          <Link href={`/${lang}`} style={{ display: 'flex', alignItems: 'center', gap: 8, cursor: 'pointer', marginBottom: 10 }}>
             <Image
               src={theme === 'dark' ? '/darkmode.png' : '/iconosinfondo.png'}
               alt=""
@@ -67,36 +59,33 @@ export default function Footer({ colors, theme, isMobile, onNavigate }: FooterPr
             <div style={{ fontFamily: 'var(--font-lora), serif', fontWeight: 600, fontSize: 18, color: colors.accent }}>
               Basileia
             </div>
-          </div>
-          <p style={{ fontSize: 13.5, lineHeight: 1.65, color: colors.muted, margin: 0, maxWidth: 320 }}>
-            Estudio del Evangelio de Mateo — análisis griego, contexto histórico y comentario capítulo a capítulo,
-            basado en el estudio bíblico de la iglesia Reino en Movimiento.
-          </p>
+          </Link>
+          <p style={{ fontSize: 13.5, lineHeight: 1.65, color: colors.muted, margin: 0, maxWidth: 320 }}>{dict.footer.tagline}</p>
         </div>
 
         <div style={{ display: 'flex', gap: 48, flex: '2 1 400px' }}>
           <div>
             <div style={{ fontSize: 11, textTransform: 'uppercase', letterSpacing: '.05em', color: colors.text, fontWeight: 700, marginBottom: 10 }}>
-              Explorar
+              {dict.footer.explorar}
             </div>
             <div style={{ display: 'flex', flexDirection: 'column' }}>
               {EXPLORAR.map(([key, label]) => (
-                <div key={key} onClick={() => onNavigate(key)} style={linkStyle}>
+                <Link key={key} href={`/${lang}/${key}`} style={linkStyle}>
                   {label}
-                </div>
+                </Link>
               ))}
             </div>
           </div>
 
           <div>
             <div style={{ fontSize: 11, textTransform: 'uppercase', letterSpacing: '.05em', color: colors.text, fontWeight: 700, marginBottom: 10 }}>
-              Proyecto
+              {dict.footer.proyecto}
             </div>
             <div style={{ display: 'flex', flexDirection: 'column' }}>
               {PROYECTO.map(([key, label]) => (
-                <div key={key} onClick={() => onNavigate(key)} style={linkStyle}>
+                <Link key={key} href={`/${lang}/${key}`} style={linkStyle}>
                   {label}
-                </div>
+                </Link>
               ))}
             </div>
           </div>
@@ -121,15 +110,15 @@ export default function Footer({ colors, theme, isMobile, onNavigate }: FooterPr
           }}
         >
           <div style={{ fontSize: 12, color: colors.muted }}>
-            © {year} Basileia. Todos los derechos reservados.
+            © {year} Basileia. {dict.footer.rights}
           </div>
           <div style={{ display: 'flex', gap: 16 }}>
-            <div onClick={() => onNavigate('privacidad')} style={{ fontSize: 12, color: colors.muted, cursor: 'pointer' }}>
-              Privacidad
-            </div>
-            <div onClick={() => onNavigate('terminos')} style={{ fontSize: 12, color: colors.muted, cursor: 'pointer' }}>
-              Términos de uso
-            </div>
+            <Link href={`/${lang}/privacidad`} style={{ fontSize: 12, color: colors.muted, cursor: 'pointer' }}>
+              {dict.nav.privacidad}
+            </Link>
+            <Link href={`/${lang}/terminos`} style={{ fontSize: 12, color: colors.muted, cursor: 'pointer' }}>
+              {dict.nav.terminos}
+            </Link>
           </div>
         </div>
       </div>

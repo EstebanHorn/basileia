@@ -1,25 +1,22 @@
 'use client';
 
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import Image from 'next/image';
-import { Colors } from '@/lib/theme';
-import { MAP_PLACES, MapPlace } from '@/lib/mateo-data';
+import { useApp } from '@/lib/app-context';
+import type { Lugar } from '@/lib/content/types';
 import mapaImg from '@/app/assets/mapa.png';
 
 interface MapaScreenProps {
-  colors: Colors;
-  isMobile: boolean;
-  mapSelected: MapPlace | null;
-  onSelect: (place: MapPlace) => void;
-  onClose: () => void;
-  onGoToChapter: (n: number) => void;
+  lugares: Lugar[];
 }
 
 const MAP_RATIO = mapaImg.width / mapaImg.height;
 const DESKTOP_MAX_WIDTH = 1170; // 900 * 1.3
 const MOBILE_CONTENT_WIDTH = 1300; // rendered larger than the viewport so it can be panned
 
-export default function MapaScreen({ colors, isMobile, mapSelected, onSelect, onClose, onGoToChapter }: MapaScreenProps) {
+export default function MapaScreen({ lugares }: MapaScreenProps) {
+  const { colors, isMobile, lang, dict } = useApp();
+  const [mapSelected, setMapSelected] = useState<Lugar | null>(null);
   const scrollRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -30,14 +27,16 @@ export default function MapaScreen({ colors, isMobile, mapSelected, onSelect, on
     el.scrollTop = (el.scrollHeight - el.clientHeight) / 2.6;
   }, [isMobile]);
 
-  const pins = MAP_PLACES.map((place) => {
-    const selected = mapSelected?.name === place.name;
+  const places = lugares.filter((l) => l.top !== null && l.left !== null);
+
+  const pins = places.map((place) => {
+    const selected = mapSelected?.id === place.id;
     return (
       <div
-        key={place.name}
+        key={place.id}
         className="map-pin"
-        style={{ top: `${place.y}%`, left: `${place.x}%` }}
-        onClick={() => onSelect(place)}
+        style={{ top: `${place.top}%`, left: `${place.left}%` }}
+        onClick={() => setMapSelected(place)}
       >
         <div
           className="map-pin-pulse"
@@ -48,7 +47,7 @@ export default function MapaScreen({ colors, isMobile, mapSelected, onSelect, on
           className="map-pin-label"
           style={{ background: colors.panel, color: colors.text, border: `1px solid ${colors.border}` }}
         >
-          {place.name}
+          {place.nombre}
         </div>
       </div>
     );
@@ -58,12 +57,10 @@ export default function MapaScreen({ colors, isMobile, mapSelected, onSelect, on
     <div style={{ maxWidth: DESKTOP_MAX_WIDTH, margin: '0 auto', padding: isMobile ? '24px 24px 60px' : '40px 24px 80px' }}>
       <div style={{ height: 2, width: 56, background: colors.accent, marginBottom: 20 }} />
       <h1 style={{ fontFamily: 'var(--font-lora), serif', fontSize: isMobile ? 26 : 32, fontWeight: 600, margin: '0 0 6px' }}>
-        Mapa del ministerio de Jesús
+        {dict.mapa.title}
       </h1>
       <p style={{ fontSize: 14, color: colors.muted, margin: isMobile ? '0 0 16px' : '0 0 28px' }}>
-        {isMobile
-          ? 'Arrastrá el mapa para moverte. Tocá un punto para ver su contexto.'
-          : 'Tocá un punto del mapa para ver su contexto y los capítulos relacionados.'}
+        {isMobile ? dict.mapa.subtitleMobile : dict.mapa.subtitleDesktop}
       </p>
 
       {isMobile ? (
@@ -89,7 +86,7 @@ export default function MapaScreen({ colors, isMobile, mapSelected, onSelect, on
           >
             <Image
               src={mapaImg}
-              alt="Mapa ilustrado del ministerio de Jesús"
+              alt={dict.mapa.title}
               fill
               sizes={`${MOBILE_CONTENT_WIDTH}px`}
               style={{ objectFit: 'cover' }}
@@ -112,7 +109,7 @@ export default function MapaScreen({ colors, isMobile, mapSelected, onSelect, on
         >
           <Image
             src={mapaImg}
-            alt="Mapa ilustrado del ministerio de Jesús"
+            alt={dict.mapa.title}
             fill
             sizes={`${DESKTOP_MAX_WIDTH}px`}
             style={{ objectFit: 'cover' }}
@@ -122,13 +119,11 @@ export default function MapaScreen({ colors, isMobile, mapSelected, onSelect, on
         </div>
       )}
 
-      <p style={{ fontSize: 12, color: colors.muted, textAlign: 'center', margin: '14px 0 0' }}>
-        Mapa ilustrativo — ubicaciones aproximadas.
-      </p>
+      <p style={{ fontSize: 12, color: colors.muted, textAlign: 'center', margin: '14px 0 0' }}>{dict.mapa.disclaimer}</p>
 
       {mapSelected && (
         <div
-          onClick={onClose}
+          onClick={() => setMapSelected(null)}
           style={{
             position: 'fixed',
             inset: 0,
@@ -153,24 +148,21 @@ export default function MapaScreen({ colors, isMobile, mapSelected, onSelect, on
               animation: 'popIn .15s ease',
             }}
           >
-            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', gap: 12 }}>
-              <div style={{ fontSize: 11, textTransform: 'uppercase', letterSpacing: '.05em', color: colors.accent, fontWeight: 700, marginBottom: 8 }}>
-                {mapSelected.region}
-              </div>
-              <div onClick={onClose} style={{ cursor: 'pointer', color: colors.muted, fontSize: 20, lineHeight: 1 }}>
+            <div style={{ display: 'flex', justifyContent: 'flex-end', alignItems: 'flex-start', gap: 12 }}>
+              <div onClick={() => setMapSelected(null)} style={{ cursor: 'pointer', color: colors.muted, fontSize: 20, lineHeight: 1 }}>
                 ×
               </div>
             </div>
             <div style={{ fontFamily: 'var(--font-lora), serif', fontSize: 22, fontWeight: 600, marginBottom: 10 }}>
-              {mapSelected.name}
+              {mapSelected.nombre}
             </div>
-            <p style={{ fontSize: 14.5, lineHeight: 1.6, color: colors.muted, margin: '0 0 16px' }}>{mapSelected.note}</p>
-            {mapSelected.chapters.length > 0 && (
+            <p style={{ fontSize: 14.5, lineHeight: 1.6, color: colors.muted, margin: '0 0 16px' }}>{mapSelected.nota}</p>
+            {mapSelected.capitulos.length > 0 && (
               <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap' }}>
-                {mapSelected.chapters.map((num) => (
-                  <div
+                {mapSelected.capitulos.map((num) => (
+                  <a
                     key={num}
-                    onClick={() => onGoToChapter(num)}
+                    href={`/${lang}/capitulo/${num}`}
                     style={{
                       fontSize: 12.5,
                       fontWeight: 600,
@@ -181,8 +173,8 @@ export default function MapaScreen({ colors, isMobile, mapSelected, onSelect, on
                       cursor: 'pointer',
                     }}
                   >
-                    Mateo {num}
-                  </div>
+                    {dict.capitulo.mateoPrefix} {num}
+                  </a>
                 ))}
               </div>
             )}

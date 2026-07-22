@@ -1,37 +1,35 @@
 'use client';
 
-import { Colors } from '@/lib/theme';
-import { COMPLETED_RANGE, isCompleted, SECTIONS } from '@/lib/mateo-data';
+import { useState } from 'react';
+import { useApp } from '@/lib/app-context';
+import { usePersistedState, writePersistedState } from '@/lib/persisted-state';
+import { COMPLETED_RANGE, MAX_CHAPTER, isCompleted, type Section } from '@/lib/content/editorial';
 
 interface IndiceScreenProps {
-  colors: Colors;
-  indexFilter: string;
-  onSetIndexFilter: (id: string) => void;
-  onGoToChapter: (n: number) => void;
-  readChapters: Record<number, boolean>;
-  onToggleRead: (n: number) => void;
+  sections: Section[];
 }
 
-export default function IndiceScreen({
-  colors,
-  indexFilter,
-  onSetIndexFilter,
-  onGoToChapter,
-  readChapters,
-  onToggleRead,
-}: IndiceScreenProps) {
-  const chips = [{ id: 'all', name: 'Todos' }, ...SECTIONS];
-  const activeSection = indexFilter === 'all' ? null : SECTIONS.find((s) => s.id === indexFilter);
+export default function IndiceScreen({ sections }: IndiceScreenProps) {
+  const { colors, lang, dict } = useApp();
+  const { readChapters } = usePersistedState();
+  const [indexFilter, setIndexFilter] = useState('all');
+
+  const chips = [{ id: 'all', name: dict.indice.all }, ...sections];
+  const activeSection = indexFilter === 'all' ? null : sections.find((s) => s.id === indexFilter);
   const completedCount = COMPLETED_RANGE[1] - COMPLETED_RANGE[0] + 1;
   const readCount = Object.values(readChapters).filter(Boolean).length;
+
+  const toggleRead = (n: number) => {
+    writePersistedState({ readChapters: { ...readChapters, [n]: !readChapters[n] } });
+  };
 
   return (
     <div style={{ maxWidth: 900, margin: '0 auto', padding: '40px 24px 80px' }}>
       <h1 style={{ fontFamily: 'var(--font-lora), serif', fontSize: 32, fontWeight: 600, margin: '0 0 6px' }}>
-        Índice de capítulos
+        {dict.indice.title}
       </h1>
       <p style={{ fontSize: 14, color: colors.muted, margin: '0 0 20px' }}>
-        28 capítulos · {completedCount} disponibles para estudio · {readCount} marcados como leídos
+        {dict.indice.stats(MAX_CHAPTER, completedCount, readCount)}
       </p>
       <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap', marginBottom: 24 }}>
         {chips.map((c) => {
@@ -39,7 +37,7 @@ export default function IndiceScreen({
           return (
             <div
               key={c.id}
-              onClick={() => onSetIndexFilter(c.id)}
+              onClick={() => setIndexFilter(c.id)}
               style={{
                 padding: '7px 13px',
                 borderRadius: 20,
@@ -57,14 +55,14 @@ export default function IndiceScreen({
         })}
       </div>
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(7,1fr)', gap: 10 }}>
-        {Array.from({ length: 28 }, (_, i) => i + 1).map((n) => {
+        {Array.from({ length: MAX_CHAPTER }, (_, i) => i + 1).map((n) => {
           const completed = isCompleted(n);
           const read = !!readChapters[n];
           const inFilter = !activeSection || (n >= activeSection.range[0] && n <= activeSection.range[1]);
           return (
-            <div
+            <a
               key={n}
-              onClick={() => onGoToChapter(n)}
+              href={`/${lang}/capitulo/${n}`}
               style={{
                 position: 'relative',
                 aspectRatio: '1',
@@ -84,10 +82,11 @@ export default function IndiceScreen({
               {n}
               <div
                 onClick={(e) => {
+                  e.preventDefault();
                   e.stopPropagation();
-                  onToggleRead(n);
+                  toggleRead(n);
                 }}
-                title={read ? 'Marcado como leído' : 'Marcar como leído'}
+                title={read ? dict.indice.markUnread : dict.indice.markRead}
                 style={{
                   position: 'absolute',
                   top: -6,
@@ -109,22 +108,22 @@ export default function IndiceScreen({
                   </svg>
                 )}
               </div>
-            </div>
+            </a>
           );
         })}
       </div>
       <div style={{ display: 'flex', gap: 20, marginTop: 24, fontSize: 12.5, color: colors.muted, flexWrap: 'wrap' }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: 6 }}>
           <div style={{ width: 11, height: 11, borderRadius: 3, background: colors.accent }} />
-          Completado (disponible para estudio)
+          {dict.indice.legendCompleted}
         </div>
         <div style={{ display: 'flex', alignItems: 'center', gap: 6 }}>
           <div style={{ width: 11, height: 11, borderRadius: 3, border: `1px solid ${colors.border}` }} />
-          Pendiente
+          {dict.indice.legendPending}
         </div>
         <div style={{ display: 'flex', alignItems: 'center', gap: 6 }}>
           <div style={{ width: 11, height: 11, borderRadius: '50%', background: colors.text }} />
-          Leído — tocá el círculo del capítulo para marcarlo
+          {dict.indice.legendRead}
         </div>
       </div>
     </div>

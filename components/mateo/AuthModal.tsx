@@ -1,22 +1,22 @@
 'use client';
 
 import { useState } from 'react';
-import { Colors } from '@/lib/theme';
 import { useAuth } from '@/lib/supabase/auth-context';
+import { useApp } from '@/lib/app-context';
 
 interface AuthModalProps {
-  colors: Colors;
   mode: 'login' | 'register';
   onClose: () => void;
   onSetLoginMode: () => void;
   onSetRegisterMode: () => void;
 }
 
-export default function AuthModal({ colors, mode, onClose, onSetLoginMode, onSetRegisterMode }: AuthModalProps) {
+export default function AuthModal({ mode, onClose, onSetLoginMode, onSetRegisterMode }: AuthModalProps) {
+  const { colors, dict } = useApp();
   const { signIn, signUp } = useAuth();
   const isRegister = mode === 'register';
-  const title = isRegister ? 'Crear cuenta' : 'Iniciar sesión';
-  const cta = isRegister ? 'Crear cuenta' : 'Entrar';
+  const title = isRegister ? dict.auth.registerTitle : dict.auth.loginTitle;
+  const cta = isRegister ? dict.auth.registerCta : dict.auth.loginCta;
 
   const [nombre, setNombre] = useState('');
   const [email, setEmail] = useState('');
@@ -46,7 +46,7 @@ export default function AuthModal({ colors, mode, onClose, onSetLoginMode, onSet
         return;
       }
       if (needsConfirmation) {
-        setInfo('Te enviamos un correo para confirmar tu cuenta. Confirmalo y después iniciá sesión.');
+        setInfo(dict.auth.confirmationMessage);
         return;
       }
       onClose();
@@ -129,7 +129,7 @@ export default function AuthModal({ colors, mode, onClose, onSetLoginMode, onSet
               color: !isRegister ? colors.accent : colors.muted,
             }}
           >
-            Iniciar sesión
+            {dict.auth.loginTab}
           </div>
           <div
             onClick={() => switchMode(onSetRegisterMode)}
@@ -145,14 +145,14 @@ export default function AuthModal({ colors, mode, onClose, onSetLoginMode, onSet
               color: isRegister ? colors.accent : colors.muted,
             }}
           >
-            Crear cuenta
+            {dict.auth.registerTab}
           </div>
         </div>
 
         <form onSubmit={handleSubmit}>
           {isRegister && (
             <input
-              placeholder="Nombre"
+              placeholder={dict.auth.namePlaceholder}
               value={nombre}
               onChange={(e) => setNombre(e.target.value)}
               style={inputStyle}
@@ -160,7 +160,7 @@ export default function AuthModal({ colors, mode, onClose, onSetLoginMode, onSet
           )}
           <input
             type="email"
-            placeholder="Correo electrónico"
+            placeholder={dict.auth.emailPlaceholder}
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             required
@@ -168,7 +168,7 @@ export default function AuthModal({ colors, mode, onClose, onSetLoginMode, onSet
           />
           <input
             type="password"
-            placeholder="Contraseña"
+            placeholder={dict.auth.passwordPlaceholder}
             value={password}
             onChange={(e) => setPassword(e.target.value)}
             required
@@ -200,7 +200,7 @@ export default function AuthModal({ colors, mode, onClose, onSetLoginMode, onSet
               border: 'none',
             }}
           >
-            {submitting ? 'Un momento…' : cta}
+            {submitting ? dict.auth.submitting : cta}
           </button>
         </form>
       </div>
