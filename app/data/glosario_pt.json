@@ -151,7 +151,8 @@
       "significado": "fazer",
       "nota": "Parte composta de eirenopoios (o que 'faz' a paz): destaca que a paz bíblica não é passividade, mas uma ação deliberada.",
       "capitulos": [
-        5
+        5,
+        12
       ],
       "palabra": "pacificadores"
     },
@@ -660,6 +661,28 @@
         11
       ],
       "palabra": "humilde"
+    },
+    {
+      "id": "argos",
+      "griego": "ἀργός",
+      "transliteracion": "argos",
+      "significado": "ocioso, inútil, vazio",
+      "nota": "Descreve algo vazio, sem propósito, dito sem cuidado nem responsabilidade. Jesus adverte que até a palavra mais 'inútil' -a que se diz sem pensar- terá que prestar contas no juízo, porque revela o que há no coração.",
+      "capitulos": [
+        12
+      ],
+      "palabra": "inútil"
+    },
+    {
+      "id": "mysterion",
+      "griego": "μυστήριον",
+      "transliteracion": "mysterion",
+      "significado": "mistério, segredo",
+      "nota": "Algo que esteve oculto e agora é revelado apenas a quem tem olhos para ver. Jesus o usa para descrever os mistérios do Reino dos céus, que suas parábolas revelam aos discípulos e escondem de quem escolheu não crer.",
+      "capitulos": [
+        13
+      ],
+      "palabra": "mistérios"
     }
   ]
 }

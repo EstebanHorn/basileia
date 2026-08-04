@@ -4412,5 +4412,1224 @@
       "Jesús no condena la pregunta honesta de Juan; la responde con evidencia de lo que está haciendo. ¿Qué evidencia de la obra de Jesús en tu vida podrías mirar hoy en medio de tu propia duda?",
       "'Vengan a mí todos los que están cansados y agobiados.' ¿Qué yugo estás cargando solo hoy que Jesús te está invitando a compartir con Él?"
     ]
+  },
+  {
+    "libro": "Mateo",
+    "capitulo": 12,
+    "discurso_id": "conflicto-y-controversias",
+    "estado": "publicado",
+    "versiculos": [
+      {
+        "numero": 1,
+        "texto": "Por aquel tiempo pasaba Jesús por los sembrados un día sábado. Sus discípulos tenían hambre, así que comenzaron a arrancar algunas espigas de trigo y a comérselas.",
+        "comentario": "El Shabbat no era un simple día de descanso: era uno de los pilares más sagrados de la identidad judía, instituido en la creación (Génesis 2:2-3) y confirmado en el cuarto mandamiento (Éxodo 20:8-11). Violarlo era delito capital (Éxodo 31:14-15). Los rabinos habían desarrollado una elaborada tradición para definir qué constituía trabajo en sábado: la Misná listaba treinta y nueve categorías prohibidas, y una de ellas era la siega. Los discípulos, al arrancar espigas con la mano mientras caminaban, estaban técnicamente segando según la interpretación farisea. Sin embargo, la Ley de Moisés permitía exactamente lo que hacían: Deuteronomio 23:25 autoriza explícitamente arrancar espigas con la mano al pasar por un campo ajeno para comer. El problema no era lo que hacían sino el día en que lo hacían, según una interpretación que había convertido una señal de descanso y gozo en un sistema de vigilancia y control.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus",
+          "fariseos"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 2,
+        "texto": "Al ver esto, los fariseos le dijeron: ―¡Mira! Tus discípulos están haciendo lo que está prohibido en día sábado.",
+        "comentario": "El Shabbat no era un simple día de descanso: era uno de los pilares más sagrados de la identidad judía, instituido en la creación (Génesis 2:2-3) y confirmado en el cuarto mandamiento (Éxodo 20:8-11). Violarlo era delito capital (Éxodo 31:14-15). Los rabinos habían desarrollado una elaborada tradición para definir qué constituía trabajo en sábado: la Misná listaba treinta y nueve categorías prohibidas, y una de ellas era la siega. Los discípulos, al arrancar espigas con la mano mientras caminaban, estaban técnicamente segando según la interpretación farisea. Sin embargo, la Ley de Moisés permitía exactamente lo que hacían: Deuteronomio 23:25 autoriza explícitamente arrancar espigas con la mano al pasar por un campo ajeno para comer. El problema no era lo que hacían sino el día en que lo hacían, según una interpretación que había convertido una señal de descanso y gozo en un sistema de vigilancia y control.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus",
+          "fariseos"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 3,
+        "texto": "Él les contestó: ―¿No han leído lo que hizo David en aquella ocasión en que él y sus compañeros tuvieron hambre?",
+        "comentario": "La respuesta de Jesús no argumenta desde la tradición oral sino desde la Escritura, con un ejemplo que los fariseos no podían rebatir: David. En 1 Samuel 21:1-6, David, huyendo de Saúl y con hambre, recibió del sacerdote Ahimelec el pan de la proposición, reservado solo para los sacerdotes (Levítico 24:5-9), sin que Dios lo condenara. Si David pudo transgredir una regulación ritual por una necesidad humana real, ¿por qué los discípulos no pueden comer espigas en sábado teniendo hambre? Jesús añade que los sacerdotes trabajan en sábado -sacrifican, encienden fuego, preparan ofrendas- y nadie los acusa, porque su trabajo sirve al templo, de mayor autoridad que el sábado mismo. Y entonces llega la declaración más audaz: aquí hay algo más grande que el templo. Jesús se compara con el templo mismo, afirmación de autoridad divina. Cita Oseas 6:6 -misericordia quiero y no sacrificio- y cierra con un señorío total: el Hijo del hombre es Señor del sábado. Quien lo instituyó tiene autoridad para definir su propósito real: dar descanso, no aplastar bajo el peso de la regulación.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus",
+          "fariseos",
+          "david"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 4,
+        "texto": "Entró en la casa de Dios; él y sus compañeros comieron los panes consagrados a Dios, lo que no se les permitía a ellos, sino solo a los sacerdotes.",
+        "comentario": "La respuesta de Jesús no argumenta desde la tradición oral sino desde la Escritura, con un ejemplo que los fariseos no podían rebatir: David. En 1 Samuel 21:1-6, David, huyendo de Saúl y con hambre, recibió del sacerdote Ahimelec el pan de la proposición, reservado solo para los sacerdotes (Levítico 24:5-9), sin que Dios lo condenara. Si David pudo transgredir una regulación ritual por una necesidad humana real, ¿por qué los discípulos no pueden comer espigas en sábado teniendo hambre? Jesús añade que los sacerdotes trabajan en sábado -sacrifican, encienden fuego, preparan ofrendas- y nadie los acusa, porque su trabajo sirve al templo, de mayor autoridad que el sábado mismo. Y entonces llega la declaración más audaz: aquí hay algo más grande que el templo. Jesús se compara con el templo mismo, afirmación de autoridad divina. Cita Oseas 6:6 -misericordia quiero y no sacrificio- y cierra con un señorío total: el Hijo del hombre es Señor del sábado. Quien lo instituyó tiene autoridad para definir su propósito real: dar descanso, no aplastar bajo el peso de la regulación.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus",
+          "fariseos",
+          "david"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 5,
+        "texto": "¿O no han leído en la Ley que los sacerdotes en el templo profanan el sábado sin incurrir en culpa?",
+        "comentario": "La respuesta de Jesús no argumenta desde la tradición oral sino desde la Escritura, con un ejemplo que los fariseos no podían rebatir: David. En 1 Samuel 21:1-6, David, huyendo de Saúl y con hambre, recibió del sacerdote Ahimelec el pan de la proposición, reservado solo para los sacerdotes (Levítico 24:5-9), sin que Dios lo condenara. Si David pudo transgredir una regulación ritual por una necesidad humana real, ¿por qué los discípulos no pueden comer espigas en sábado teniendo hambre? Jesús añade que los sacerdotes trabajan en sábado -sacrifican, encienden fuego, preparan ofrendas- y nadie los acusa, porque su trabajo sirve al templo, de mayor autoridad que el sábado mismo. Y entonces llega la declaración más audaz: aquí hay algo más grande que el templo. Jesús se compara con el templo mismo, afirmación de autoridad divina. Cita Oseas 6:6 -misericordia quiero y no sacrificio- y cierra con un señorío total: el Hijo del hombre es Señor del sábado. Quien lo instituyó tiene autoridad para definir su propósito real: dar descanso, no aplastar bajo el peso de la regulación.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus",
+          "fariseos",
+          "david"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 6,
+        "texto": "Pues yo les digo que aquí está algo más grande que el templo.",
+        "comentario": "La respuesta de Jesús no argumenta desde la tradición oral sino desde la Escritura, con un ejemplo que los fariseos no podían rebatir: David. En 1 Samuel 21:1-6, David, huyendo de Saúl y con hambre, recibió del sacerdote Ahimelec el pan de la proposición, reservado solo para los sacerdotes (Levítico 24:5-9), sin que Dios lo condenara. Si David pudo transgredir una regulación ritual por una necesidad humana real, ¿por qué los discípulos no pueden comer espigas en sábado teniendo hambre? Jesús añade que los sacerdotes trabajan en sábado -sacrifican, encienden fuego, preparan ofrendas- y nadie los acusa, porque su trabajo sirve al templo, de mayor autoridad que el sábado mismo. Y entonces llega la declaración más audaz: aquí hay algo más grande que el templo. Jesús se compara con el templo mismo, afirmación de autoridad divina. Cita Oseas 6:6 -misericordia quiero y no sacrificio- y cierra con un señorío total: el Hijo del hombre es Señor del sábado. Quien lo instituyó tiene autoridad para definir su propósito real: dar descanso, no aplastar bajo el peso de la regulación.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus",
+          "fariseos",
+          "david"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 7,
+        "texto": "Si ustedes supieran qué significa esto: «Lo que pido de ustedes es misericordia y no sacrificios», no condenarían a los que no son culpables.",
+        "comentario": "La respuesta de Jesús no argumenta desde la tradición oral sino desde la Escritura, con un ejemplo que los fariseos no podían rebatir: David. En 1 Samuel 21:1-6, David, huyendo de Saúl y con hambre, recibió del sacerdote Ahimelec el pan de la proposición, reservado solo para los sacerdotes (Levítico 24:5-9), sin que Dios lo condenara. Si David pudo transgredir una regulación ritual por una necesidad humana real, ¿por qué los discípulos no pueden comer espigas en sábado teniendo hambre? Jesús añade que los sacerdotes trabajan en sábado -sacrifican, encienden fuego, preparan ofrendas- y nadie los acusa, porque su trabajo sirve al templo, de mayor autoridad que el sábado mismo. Y entonces llega la declaración más audaz: aquí hay algo más grande que el templo. Jesús se compara con el templo mismo, afirmación de autoridad divina. Cita Oseas 6:6 -misericordia quiero y no sacrificio- y cierra con un señorío total: el Hijo del hombre es Señor del sábado. Quien lo instituyó tiene autoridad para definir su propósito real: dar descanso, no aplastar bajo el peso de la regulación.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus",
+          "fariseos",
+          "david"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 8,
+        "texto": "Sepan que el Hijo del hombre es Señor del sábado.",
+        "comentario": "La respuesta de Jesús no argumenta desde la tradición oral sino desde la Escritura, con un ejemplo que los fariseos no podían rebatir: David. En 1 Samuel 21:1-6, David, huyendo de Saúl y con hambre, recibió del sacerdote Ahimelec el pan de la proposición, reservado solo para los sacerdotes (Levítico 24:5-9), sin que Dios lo condenara. Si David pudo transgredir una regulación ritual por una necesidad humana real, ¿por qué los discípulos no pueden comer espigas en sábado teniendo hambre? Jesús añade que los sacerdotes trabajan en sábado -sacrifican, encienden fuego, preparan ofrendas- y nadie los acusa, porque su trabajo sirve al templo, de mayor autoridad que el sábado mismo. Y entonces llega la declaración más audaz: aquí hay algo más grande que el templo. Jesús se compara con el templo mismo, afirmación de autoridad divina. Cita Oseas 6:6 -misericordia quiero y no sacrificio- y cierra con un señorío total: el Hijo del hombre es Señor del sábado. Quien lo instituyó tiene autoridad para definir su propósito real: dar descanso, no aplastar bajo el peso de la regulación.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus",
+          "fariseos",
+          "david"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 9,
+        "texto": "Pasando de allí, entró en la sinagoga, donde había un hombre que tenía una mano paralizada.",
+        "comentario": "Lejos de abandonar la confrontación, los fariseos la intensifican: ahora hay un hombre con la mano paralizada en la sinagoga y preguntan si está permitido sanar en sábado, buscando un motivo de acusación, no una respuesta genuina. Jesús apela a algo que ellos mismos practicaban: la mayoría de las escuelas rabínicas permitía rescatar a un animal en peligro en sábado. Si podés rescatar a una oveja, podés sanar a una persona: si el valor de un animal justifica la acción, con más razón lo justifica el de un ser humano hecho a imagen de Dios. Jesús le dice al hombre que extienda la mano, y queda restaurada, sana como la otra, sin fórmulas ni demoras: una orden, una respuesta, un milagro.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus",
+          "fariseos"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 10,
+        "texto": "Como buscaban un motivo para acusar a Jesús, le preguntaron: ―¿Está permitido sanar en sábado?",
+        "comentario": "Lejos de abandonar la confrontación, los fariseos la intensifican: ahora hay un hombre con la mano paralizada en la sinagoga y preguntan si está permitido sanar en sábado, buscando un motivo de acusación, no una respuesta genuina. Jesús apela a algo que ellos mismos practicaban: la mayoría de las escuelas rabínicas permitía rescatar a un animal en peligro en sábado. Si podés rescatar a una oveja, podés sanar a una persona: si el valor de un animal justifica la acción, con más razón lo justifica el de un ser humano hecho a imagen de Dios. Jesús le dice al hombre que extienda la mano, y queda restaurada, sana como la otra, sin fórmulas ni demoras: una orden, una respuesta, un milagro.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus",
+          "fariseos"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 11,
+        "texto": "Él les contestó: ―Si alguno de ustedes tiene una oveja y un día sábado se le cae en un hoyo, ¿no la agarra y la saca?",
+        "comentario": "Lejos de abandonar la confrontación, los fariseos la intensifican: ahora hay un hombre con la mano paralizada en la sinagoga y preguntan si está permitido sanar en sábado, buscando un motivo de acusación, no una respuesta genuina. Jesús apela a algo que ellos mismos practicaban: la mayoría de las escuelas rabínicas permitía rescatar a un animal en peligro en sábado. Si podés rescatar a una oveja, podés sanar a una persona: si el valor de un animal justifica la acción, con más razón lo justifica el de un ser humano hecho a imagen de Dios. Jesús le dice al hombre que extienda la mano, y queda restaurada, sana como la otra, sin fórmulas ni demoras: una orden, una respuesta, un milagro.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus",
+          "fariseos"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 12,
+        "texto": "¡Cuánto más vale un hombre que una oveja! Por lo tanto, está permitido hacer el bien en sábado.",
+        "comentario": "Lejos de abandonar la confrontación, los fariseos la intensifican: ahora hay un hombre con la mano paralizada en la sinagoga y preguntan si está permitido sanar en sábado, buscando un motivo de acusación, no una respuesta genuina. Jesús apela a algo que ellos mismos practicaban: la mayoría de las escuelas rabínicas permitía rescatar a un animal en peligro en sábado. Si podés rescatar a una oveja, podés sanar a una persona: si el valor de un animal justifica la acción, con más razón lo justifica el de un ser humano hecho a imagen de Dios. Jesús le dice al hombre que extienda la mano, y queda restaurada, sana como la otra, sin fórmulas ni demoras: una orden, una respuesta, un milagro.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus",
+          "fariseos"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 13,
+        "texto": "Entonces le dijo al hombre: ―Extiende la mano. Así que la extendió, y la mano quedó restablecida, tan sana como la otra.",
+        "comentario": "Lejos de abandonar la confrontación, los fariseos la intensifican: ahora hay un hombre con la mano paralizada en la sinagoga y preguntan si está permitido sanar en sábado, buscando un motivo de acusación, no una respuesta genuina. Jesús apela a algo que ellos mismos practicaban: la mayoría de las escuelas rabínicas permitía rescatar a un animal en peligro en sábado. Si podés rescatar a una oveja, podés sanar a una persona: si el valor de un animal justifica la acción, con más razón lo justifica el de un ser humano hecho a imagen de Dios. Jesús le dice al hombre que extienda la mano, y queda restaurada, sana como la otra, sin fórmulas ni demoras: una orden, una respuesta, un milagro.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus",
+          "fariseos"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 14,
+        "texto": "Pero los fariseos salieron y tramaban cómo matar a Jesús.",
+        "comentario": "Este versículo, de una sola línea, es uno de los más significativos del capítulo: la respuesta de los fariseos ante una sanidad completa no es asombro ni debate, sino conspiración homicida. Revela hasta dónde llega el orgullo religioso herido: no respondían a un argumento teológico con otro argumento, sino a la amenaza que Jesús representaba para su autoridad con el único lenguaje que les quedaba cuando los argumentos se agotaron. Hay algo profundamente irónico: los guardianes del sábado, que acababan de acusar a los discípulos de violar la ley divina, estaban tramando un asesinato -exactamente lo que el sistema que proclamaban defender prohibía.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "fariseos",
+          "jesus"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 15,
+        "texto": "Consciente de esto, Jesús se retiró de aquel lugar. Muchos lo siguieron, y él sanó a todos los enfermos,",
+        "comentario": "Jesús, astuto como serpiente sin perder la sencillez de la paloma (Mateo 10:16), conoce lo que se está tramando y se retira: no por miedo a la muerte, sino porque todavía no es el momento según el plan del Padre. Mateo cita entonces Isaías 42:1-4, la cita más larga del Antiguo Testamento en todo su evangelio, y lo que describe contrasta con la imagen de poder político y militar que muchos esperaban del Mesías. El Siervo no gritará ni contenderá; no romperá la caña cascada ni apagará el pábilo que humea -imágenes de fragilidad extrema, a punto de romperse o de apagarse del todo. El Siervo de Dios no termina con las personas que el mundo ya consideró perdidas o casi apagadas: las sostiene y las cuida hasta que vuelvan a arder.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 16,
+        "texto": "pero les ordenó que no dijeran quién era él.",
+        "comentario": "Jesús, astuto como serpiente sin perder la sencillez de la paloma (Mateo 10:16), conoce lo que se está tramando y se retira: no por miedo a la muerte, sino porque todavía no es el momento según el plan del Padre. Mateo cita entonces Isaías 42:1-4, la cita más larga del Antiguo Testamento en todo su evangelio, y lo que describe contrasta con la imagen de poder político y militar que muchos esperaban del Mesías. El Siervo no gritará ni contenderá; no romperá la caña cascada ni apagará el pábilo que humea -imágenes de fragilidad extrema, a punto de romperse o de apagarse del todo. El Siervo de Dios no termina con las personas que el mundo ya consideró perdidas o casi apagadas: las sostiene y las cuida hasta que vuelvan a arder.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 17,
+        "texto": "Esto fue para que se cumpliera lo dicho por el profeta Isaías:",
+        "comentario": "Jesús, astuto como serpiente sin perder la sencillez de la paloma (Mateo 10:16), conoce lo que se está tramando y se retira: no por miedo a la muerte, sino porque todavía no es el momento según el plan del Padre. Mateo cita entonces Isaías 42:1-4, la cita más larga del Antiguo Testamento en todo su evangelio, y lo que describe contrasta con la imagen de poder político y militar que muchos esperaban del Mesías. El Siervo no gritará ni contenderá; no romperá la caña cascada ni apagará el pábilo que humea -imágenes de fragilidad extrema, a punto de romperse o de apagarse del todo. El Siervo de Dios no termina con las personas que el mundo ya consideró perdidas o casi apagadas: las sostiene y las cuida hasta que vuelvan a arder.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 18,
+        "texto": "«Este es mi siervo, a quien he escogido, mi amado, en quien me deleito; sobre él pondré mi Espíritu y proclamará justicia a las naciones.",
+        "comentario": "Jesús, astuto como serpiente sin perder la sencillez de la paloma (Mateo 10:16), conoce lo que se está tramando y se retira: no por miedo a la muerte, sino porque todavía no es el momento según el plan del Padre. Mateo cita entonces Isaías 42:1-4, la cita más larga del Antiguo Testamento en todo su evangelio, y lo que describe contrasta con la imagen de poder político y militar que muchos esperaban del Mesías. El Siervo no gritará ni contenderá; no romperá la caña cascada ni apagará el pábilo que humea -imágenes de fragilidad extrema, a punto de romperse o de apagarse del todo. El Siervo de Dios no termina con las personas que el mundo ya consideró perdidas o casi apagadas: las sostiene y las cuida hasta que vuelvan a arder.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 19,
+        "texto": "No disputará ni gritará; nadie oirá su voz en las calles.",
+        "comentario": "Jesús, astuto como serpiente sin perder la sencillez de la paloma (Mateo 10:16), conoce lo que se está tramando y se retira: no por miedo a la muerte, sino porque todavía no es el momento según el plan del Padre. Mateo cita entonces Isaías 42:1-4, la cita más larga del Antiguo Testamento en todo su evangelio, y lo que describe contrasta con la imagen de poder político y militar que muchos esperaban del Mesías. El Siervo no gritará ni contenderá; no romperá la caña cascada ni apagará el pábilo que humea -imágenes de fragilidad extrema, a punto de romperse o de apagarse del todo. El Siervo de Dios no termina con las personas que el mundo ya consideró perdidas o casi apagadas: las sostiene y las cuida hasta que vuelvan a arder.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 20,
+        "texto": "No acabará de romper la caña quebrada ni apagará la mecha que apenas arde, hasta que haga triunfar la justicia.",
+        "comentario": "Jesús, astuto como serpiente sin perder la sencillez de la paloma (Mateo 10:16), conoce lo que se está tramando y se retira: no por miedo a la muerte, sino porque todavía no es el momento según el plan del Padre. Mateo cita entonces Isaías 42:1-4, la cita más larga del Antiguo Testamento en todo su evangelio, y lo que describe contrasta con la imagen de poder político y militar que muchos esperaban del Mesías. El Siervo no gritará ni contenderá; no romperá la caña cascada ni apagará el pábilo que humea -imágenes de fragilidad extrema, a punto de romperse o de apagarse del todo. El Siervo de Dios no termina con las personas que el mundo ya consideró perdidas o casi apagadas: las sostiene y las cuida hasta que vuelvan a arder.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 21,
+        "texto": "Y en su nombre pondrán las naciones su esperanza».",
+        "comentario": "Jesús, astuto como serpiente sin perder la sencillez de la paloma (Mateo 10:16), conoce lo que se está tramando y se retira: no por miedo a la muerte, sino porque todavía no es el momento según el plan del Padre. Mateo cita entonces Isaías 42:1-4, la cita más larga del Antiguo Testamento en todo su evangelio, y lo que describe contrasta con la imagen de poder político y militar que muchos esperaban del Mesías. El Siervo no gritará ni contenderá; no romperá la caña cascada ni apagará el pábilo que humea -imágenes de fragilidad extrema, a punto de romperse o de apagarse del todo. El Siervo de Dios no termina con las personas que el mundo ya consideró perdidas o casi apagadas: las sostiene y las cuida hasta que vuelvan a arder.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 22,
+        "texto": "Después de eso llevaron ante Jesús un endemoniado que estaba ciego y mudo. Entonces él lo sanó, y pudo ver y hablar.",
+        "comentario": "El caso ahora es más grave que el del endemoniado mudo del capítulo 9: este hombre está ciego y mudo a la vez, y Jesús lo sana de ambos males en el mismo momento. La multitud reacciona con una pregunta mesiánica formulada por primera vez con tanta claridad desde el pueblo común: «¿no será este el Hijo de David?» -título inequívocamente mesiánico. Los fariseos, al oírla, reaccionan de inmediato con su acusación: que expulsa demonios por medio de Beelzebú, nombre reinterpretado por el judaísmo como el príncipe de los demonios. La acusación es que Jesús operaba no por el poder de Dios sino por un pacto con el señor del mundo espiritual maligno.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus",
+          "fariseos"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 23,
+        "texto": "Toda la gente quedó asombrada y decía: «¿No será este el Hijo de David?».",
+        "comentario": "El caso ahora es más grave que el del endemoniado mudo del capítulo 9: este hombre está ciego y mudo a la vez, y Jesús lo sana de ambos males en el mismo momento. La multitud reacciona con una pregunta mesiánica formulada por primera vez con tanta claridad desde el pueblo común: «¿no será este el Hijo de David?» -título inequívocamente mesiánico. Los fariseos, al oírla, reaccionan de inmediato con su acusación: que expulsa demonios por medio de Beelzebú, nombre reinterpretado por el judaísmo como el príncipe de los demonios. La acusación es que Jesús operaba no por el poder de Dios sino por un pacto con el señor del mundo espiritual maligno.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus",
+          "fariseos"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 24,
+        "texto": "Pero, al oírlo los fariseos, dijeron: «Este no expulsa a los demonios sino por medio de Beelzebú, príncipe de los demonios».",
+        "comentario": "El caso ahora es más grave que el del endemoniado mudo del capítulo 9: este hombre está ciego y mudo a la vez, y Jesús lo sana de ambos males en el mismo momento. La multitud reacciona con una pregunta mesiánica formulada por primera vez con tanta claridad desde el pueblo común: «¿no será este el Hijo de David?» -título inequívocamente mesiánico. Los fariseos, al oírla, reaccionan de inmediato con su acusación: que expulsa demonios por medio de Beelzebú, nombre reinterpretado por el judaísmo como el príncipe de los demonios. La acusación es que Jesús operaba no por el poder de Dios sino por un pacto con el señor del mundo espiritual maligno.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus",
+          "fariseos"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 25,
+        "texto": "Todo reino dividido contra sí mismo quedará asolado; toda ciudad o familia dividida contra sí misma no se mantendrá en pie.",
+        "comentario": "La respuesta de Jesús es de una lógica que no deja escapatoria: si Satanás expulsara a sus propios demonios, estaría destruyendo su propio reino. Ningún líder que quiera mantener su poder trabaja activamente contra sus propios agentes. La imagen del reino dividido tiene raíces en la comprensión bíblica de Satanás como una entidad con una agenda coherente -robar, matar y destruir (Juan 10:10)- y expulsar a sus propios demonios sería exactamente lo contrario de esa agenda. La acusación de los fariseos no solo era falsa: era lógicamente absurda.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus",
+          "satanas"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 26,
+        "texto": "Y, si Satanás expulsa a Satanás, está dividido contra sí mismo. ¿Cómo puede, entonces, mantenerse en pie su reino?",
+        "comentario": "La respuesta de Jesús es de una lógica que no deja escapatoria: si Satanás expulsara a sus propios demonios, estaría destruyendo su propio reino. Ningún líder que quiera mantener su poder trabaja activamente contra sus propios agentes. La imagen del reino dividido tiene raíces en la comprensión bíblica de Satanás como una entidad con una agenda coherente -robar, matar y destruir (Juan 10:10)- y expulsar a sus propios demonios sería exactamente lo contrario de esa agenda. La acusación de los fariseos no solo era falsa: era lógicamente absurda.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus",
+          "satanas"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 27,
+        "texto": "Ahora bien, si yo expulso a los demonios por medio de Beelzebú, ¿los seguidores de ustedes por medio de quién los expulsan? Por eso ellos mismos los juzgarán a ustedes.",
+        "comentario": "Jesús añade un segundo argumento igual de demoledor: los fariseos tenían en su propio círculo personas que practicaban el exorcismo. Si acusaban a Jesús de expulsar demonios por Satanás, ¿con qué autoridad lo hacían los suyos? La misma lógica se volvería contra ellos mismos. Y llega la afirmación positiva: si Jesús expulsa demonios por el Espíritu de Dios, el reino de Dios llegó -no se acerca, ya está aquí. Cada demonio expulsado es la irrupción visible del Reino en el territorio que el enemigo creía propio, una declaración de que el Rey llegó y el orden antiguo está siendo desmantelado.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus",
+          "satanas"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 28,
+        "texto": "Pero, si expulso a los demonios por medio del Espíritu de Dios, eso significa que el reino de Dios ha llegado a ustedes.",
+        "comentario": "Jesús añade un segundo argumento igual de demoledor: los fariseos tenían en su propio círculo personas que practicaban el exorcismo. Si acusaban a Jesús de expulsar demonios por Satanás, ¿con qué autoridad lo hacían los suyos? La misma lógica se volvería contra ellos mismos. Y llega la afirmación positiva: si Jesús expulsa demonios por el Espíritu de Dios, el reino de Dios llegó -no se acerca, ya está aquí. Cada demonio expulsado es la irrupción visible del Reino en el territorio que el enemigo creía propio, una declaración de que el Rey llegó y el orden antiguo está siendo desmantelado.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus",
+          "satanas"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 29,
+        "texto": "¿O cómo puede entrar alguien en la casa de un hombre fuerte y arrebatarle sus bienes a menos que primero lo ate? Solo entonces podrá robar su casa.",
+        "comentario": "Para robar la casa de alguien peligroso, primero hay que neutralizarlo. El hombre fuerte es Satanás, sus bienes son las personas bajo su dominio, y el que entra a su casa a arrebatárselos es Jesús: para liberar a los endemoniados tuvo que ser más fuerte que quien los tenía cautivos, y lo es. Cada exorcismo en el evangelio no es solo la liberación de una persona: es Jesús entrando a la casa del hombre fuerte y llevándose lo que le pertenecía, demostración repetida de que hay Alguien más poderoso que Satanás que ya lo ató y desmantela su reino un cautivo a la vez. El problema nunca fue la fortaleza del enemigo: es si el Rey fue invitado a entrar.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus",
+          "satanas"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 30,
+        "texto": "El que no está de mi parte está contra mí; y el que conmigo no recoge, esparce.",
+        "comentario": "No existe una posición neutral en esta batalla: no hay terreno intermedio entre el reino de Dios y el reino de Satanás. El que no está con Jesús, activamente, está contra él; el que no recoge con él, esparce. En el contexto agrario del siglo I, recoger y esparcir era una imagen inmediatamente comprensible: o se ayuda a juntar la cosecha o se la dispersa. No existe la posibilidad del espectador inocente: la indefinición espiritual, la postura de «creo en algo» sin un compromiso claro con Jesús, no es neutralidad sino oposición por defecto.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 31,
+        "texto": "Por eso les digo que a todos se les podrá perdonar todo pecado y toda blasfemia, pero la blasfemia contra el Espíritu no se le perdonará a nadie.",
+        "comentario": "Jesús responde directamente a lo que los fariseos acaban de hacer: ver una obra del Espíritu Santo y atribuírsela a Satanás. Eso es la blasfemia contra el Espíritu: no un insulto pronunciado en enojo ni una duda pasajera, sino el rechazo deliberado, consciente y sostenido de la obra del Espíritu, al punto de llamarla obra de Satanás. Es imperdonable no porque Dios sea incapaz de perdonarla, sino porque quien llega a ese punto ya cerró la puerta al arrepentimiento: el Espíritu es el agente por el cual Dios produce convicción, arrepentimiento y fe, y rechazarlo activamente deja sin camino de entrada. Por eso, quien se angustia preguntándose si cometió esta blasfemia casi con certeza no lo ha hecho: esa angustia y el deseo de arrepentimiento son evidencia de que el Espíritu todavía actúa. El que la cometió no está preocupado por haberla cometido; simplemente ya no le importa.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 32,
+        "texto": "A cualquiera que pronuncie alguna palabra contra el Hijo del hombre se le perdonará, pero el que hable contra el Espíritu Santo no tendrá perdón ni en este mundo ni en el venidero.",
+        "comentario": "Jesús responde directamente a lo que los fariseos acaban de hacer: ver una obra del Espíritu Santo y atribuírsela a Satanás. Eso es la blasfemia contra el Espíritu: no un insulto pronunciado en enojo ni una duda pasajera, sino el rechazo deliberado, consciente y sostenido de la obra del Espíritu, al punto de llamarla obra de Satanás. Es imperdonable no porque Dios sea incapaz de perdonarla, sino porque quien llega a ese punto ya cerró la puerta al arrepentimiento: el Espíritu es el agente por el cual Dios produce convicción, arrepentimiento y fe, y rechazarlo activamente deja sin camino de entrada. Por eso, quien se angustia preguntándose si cometió esta blasfemia casi con certeza no lo ha hecho: esa angustia y el deseo de arrepentimiento son evidencia de que el Espíritu todavía actúa. El que la cometió no está preocupado por haberla cometido; simplemente ya no le importa.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 33,
+        "texto": "Si tienen un buen árbol, su fruto es bueno; si tienen un mal árbol, su fruto es malo.",
+        "comentario": "Jesús vuelve a la imagen del árbol y el fruto (Mateo 7): la naturaleza del árbol determina la naturaleza del fruto, no al revés. Aplicado al contexto, las obras de Jesús son el fruto; si el árbol fuera malo, como afirman los fariseos, el fruto sería malo, pero liberar cautivos, sanar enfermos y restaurar quebrantados no es fruto malo -la lógica se vuelve contra los acusadores. Y va al corazón del asunto: «camada de víboras, ¿cómo pueden decir algo bueno si son malos?». Lo que sale de la boca no es accidental: es reflejo de lo que hay almacenado en el corazón. Escuchar lo que sale de la boca en los momentos de presión dice más sobre el estado real del corazón que cualquier declaración de fe hecha en un culto -no como condenación, sino como diagnóstico. Las palabras que los fariseos usaron para describir las obras de Jesús revelaban exactamente el estado de su corazón.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus",
+          "fariseos"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 34,
+        "texto": "Camada de víboras, ¿cómo pueden ustedes que son malos decir algo bueno?",
+        "comentario": "Jesús vuelve a la imagen del árbol y el fruto (Mateo 7): la naturaleza del árbol determina la naturaleza del fruto, no al revés. Aplicado al contexto, las obras de Jesús son el fruto; si el árbol fuera malo, como afirman los fariseos, el fruto sería malo, pero liberar cautivos, sanar enfermos y restaurar quebrantados no es fruto malo -la lógica se vuelve contra los acusadores. Y va al corazón del asunto: «camada de víboras, ¿cómo pueden decir algo bueno si son malos?». Lo que sale de la boca no es accidental: es reflejo de lo que hay almacenado en el corazón. Escuchar lo que sale de la boca en los momentos de presión dice más sobre el estado real del corazón que cualquier declaración de fe hecha en un culto -no como condenación, sino como diagnóstico. Las palabras que los fariseos usaron para describir las obras de Jesús revelaban exactamente el estado de su corazón.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus",
+          "fariseos"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 35,
+        "texto": "El que es bueno, de la bondad que atesora en el corazón saca el bien, pero el que es malo, de su maldad saca el mal.",
+        "comentario": "Jesús vuelve a la imagen del árbol y el fruto (Mateo 7): la naturaleza del árbol determina la naturaleza del fruto, no al revés. Aplicado al contexto, las obras de Jesús son el fruto; si el árbol fuera malo, como afirman los fariseos, el fruto sería malo, pero liberar cautivos, sanar enfermos y restaurar quebrantados no es fruto malo -la lógica se vuelve contra los acusadores. Y va al corazón del asunto: «camada de víboras, ¿cómo pueden decir algo bueno si son malos?». Lo que sale de la boca no es accidental: es reflejo de lo que hay almacenado en el corazón. Escuchar lo que sale de la boca en los momentos de presión dice más sobre el estado real del corazón que cualquier declaración de fe hecha en un culto -no como condenación, sino como diagnóstico. Las palabras que los fariseos usaron para describir las obras de Jesús revelaban exactamente el estado de su corazón.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus",
+          "fariseos"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 36,
+        "texto": "Pero yo les digo que en el día del juicio todos tendrán que dar cuenta de toda palabra ociosa que hayan pronunciado.",
+        "comentario": "El capítulo cierra esta sección con una de las declaraciones más serias sobre el poder de las palabras en todo el Nuevo Testamento: cada palabra ociosa -argos (ἀργός), algo vacío, sin propósito, dicho sin cuidado ni responsabilidad- tendrá que ser explicada en el día del juicio. La razón de ese peso judicial es lo que se acaba de leer: las palabras revelan el corazón. Si el corazón es la fuente y la boca el canal, el juicio de las palabras es en realidad el juicio del corazón que las produjo. En una cultura donde las palabras son baratas y abundantes, este versículo advierte: cada palabra tiene peso, dice algo sobre quién sos, y eventualmente rendirá cuentas.",
+        "griego_ids": [
+          "argos"
+        ],
+        "personaje_ids": [
+          "jesus"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 37,
+        "texto": "Porque por tus palabras se te declarará inocente y por tus palabras se te condenará.",
+        "comentario": "El capítulo cierra esta sección con una de las declaraciones más serias sobre el poder de las palabras en todo el Nuevo Testamento: cada palabra ociosa -argos (ἀργός), algo vacío, sin propósito, dicho sin cuidado ni responsabilidad- tendrá que ser explicada en el día del juicio. La razón de ese peso judicial es lo que se acaba de leer: las palabras revelan el corazón. Si el corazón es la fuente y la boca el canal, el juicio de las palabras es en realidad el juicio del corazón que las produjo. En una cultura donde las palabras son baratas y abundantes, este versículo advierte: cada palabra tiene peso, dice algo sobre quién sos, y eventualmente rendirá cuentas.",
+        "griego_ids": [
+          "argos"
+        ],
+        "personaje_ids": [
+          "jesus"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 38,
+        "texto": "Algunos de los fariseos y de los maestros de la Ley le dijeron a Jesús: ―Maestro, queremos ver alguna señal milagrosa de parte tuya.",
+        "comentario": "La ironía es casi insoportable: acaban de ver a un hombre ciego y mudo, poseído por demonios, recibir sanidad completa, y lo que le piden a Jesús es una señal. No es una petición honesta sino una trampa para controlar los términos del debate. Jesús los desmonta con una sola palabra: Jonás. No recibirán el tipo de señal que piden, sino la que ya está en el corazón de la historia de Israel: la de alguien que desaparece en la oscuridad tres días y regresa. Jonás pasó tres días en el vientre del pez, en las profundidades que el Antiguo Testamento describe con lenguaje de muerte y sheol (Jonás 2:2). Jesús anuncia su propia muerte y resurrección usando el único lenguaje que sus interlocutores deberían reconocer: la señal más grande ya viene, y ya está escrita en sus propias Escrituras. El problema no es que les falta evidencia, sino que no quieren ver lo que ya tienen delante.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus",
+          "fariseos",
+          "maestros-de-la-ley",
+          "jonas"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 39,
+        "texto": "―¡Esta generación malvada y adúltera pide una señal milagrosa! Pero no se le dará más señal que la del profeta Jonás.",
+        "comentario": "La ironía es casi insoportable: acaban de ver a un hombre ciego y mudo, poseído por demonios, recibir sanidad completa, y lo que le piden a Jesús es una señal. No es una petición honesta sino una trampa para controlar los términos del debate. Jesús los desmonta con una sola palabra: Jonás. No recibirán el tipo de señal que piden, sino la que ya está en el corazón de la historia de Israel: la de alguien que desaparece en la oscuridad tres días y regresa. Jonás pasó tres días en el vientre del pez, en las profundidades que el Antiguo Testamento describe con lenguaje de muerte y sheol (Jonás 2:2). Jesús anuncia su propia muerte y resurrección usando el único lenguaje que sus interlocutores deberían reconocer: la señal más grande ya viene, y ya está escrita en sus propias Escrituras. El problema no es que les falta evidencia, sino que no quieren ver lo que ya tienen delante.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus",
+          "fariseos",
+          "maestros-de-la-ley",
+          "jonas"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 40,
+        "texto": "Porque así como Jonás estuvo tres días y tres noches en el vientre de un enorme pez, también tres días y tres noches estará el Hijo del hombre en el corazón de la tierra.",
+        "comentario": "La ironía es casi insoportable: acaban de ver a un hombre ciego y mudo, poseído por demonios, recibir sanidad completa, y lo que le piden a Jesús es una señal. No es una petición honesta sino una trampa para controlar los términos del debate. Jesús los desmonta con una sola palabra: Jonás. No recibirán el tipo de señal que piden, sino la que ya está en el corazón de la historia de Israel: la de alguien que desaparece en la oscuridad tres días y regresa. Jonás pasó tres días en el vientre del pez, en las profundidades que el Antiguo Testamento describe con lenguaje de muerte y sheol (Jonás 2:2). Jesús anuncia su propia muerte y resurrección usando el único lenguaje que sus interlocutores deberían reconocer: la señal más grande ya viene, y ya está escrita en sus propias Escrituras. El problema no es que les falta evidencia, sino que no quieren ver lo que ya tienen delante.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus",
+          "fariseos",
+          "maestros-de-la-ley",
+          "jonas"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 41,
+        "texto": "Los habitantes de Nínive se levantarán en el juicio contra esta generación y la condenarán; porque ellos se arrepintieron al escuchar la predicación de Jonás, y aquí tienen ustedes a uno más importante que Jonás.",
+        "comentario": "Jesús hace dos comparaciones profundamente incómodas para cualquier judío de la época. Los ninivitas eran paganos, habitantes de la capital del Imperio asirio, el enemigo más brutal que Israel había conocido; sin Ley, sin profetas, sin templo, se arrepintieron en masa ante la predicación más escueta de Jonás. La reina del Sur, identificada con la reina de Sabá (1 Reyes 10), viajó desde los confines del mundo conocido solo para escuchar la sabiduría de Salomón, sin acceso a las Escrituras ni herencia del pacto. Y aquí hay alguien más grande que Jonás y que Salomón: alguien que no solo predica el arrepentimiento sino que lo hace posible, que no solo tiene sabiduría sino que es la Sabiduría encarnada. En el juicio, ellos condenarán a los que tuvieron mucho más acceso y privilegio espiritual y, sin embargo, siguieron postergando la decisión más importante de la vida.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus",
+          "jonas",
+          "salomon",
+          "reina-del-sur"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 42,
+        "texto": "La reina del Sur se levantará en el día del juicio y condenará a esta generación; porque ella vino desde los confines de la tierra para escuchar la sabiduría de Salomón, y aquí tienen ustedes a uno más importante que Salomón.",
+        "comentario": "Jesús hace dos comparaciones profundamente incómodas para cualquier judío de la época. Los ninivitas eran paganos, habitantes de la capital del Imperio asirio, el enemigo más brutal que Israel había conocido; sin Ley, sin profetas, sin templo, se arrepintieron en masa ante la predicación más escueta de Jonás. La reina del Sur, identificada con la reina de Sabá (1 Reyes 10), viajó desde los confines del mundo conocido solo para escuchar la sabiduría de Salomón, sin acceso a las Escrituras ni herencia del pacto. Y aquí hay alguien más grande que Jonás y que Salomón: alguien que no solo predica el arrepentimiento sino que lo hace posible, que no solo tiene sabiduría sino que es la Sabiduría encarnada. En el juicio, ellos condenarán a los que tuvieron mucho más acceso y privilegio espiritual y, sin embargo, siguieron postergando la decisión más importante de la vida.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus",
+          "jonas",
+          "salomon",
+          "reina-del-sur"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 43,
+        "texto": "Cuando un espíritu maligno sale de una persona, va por lugares áridos buscando descanso sin encontrarlo.",
+        "comentario": "Esta parábola toca algo que no terminamos de entender bien: un demonio que sale por su propia voluntad -no fue expulsado-, busca descanso, no lo encuentra y regresa con siete más. Eso sugiere que la persona experimentó cierta limpieza o reforma externa sin una transformación real: la casa queda desocupada, barrida y arreglada, pero vacía, y el vacío espiritual no es un estado neutro sino una invitación. El demonio regresa con siete más, y el estado final de esa persona resulta peor que el inicial. Jesús aplica esto a «esta generación malvada», pero el principio es universal: la reforma moral sin transformación interior no es suficiente. Dejar el pecado sin llenar ese espacio con la presencia de Dios produce un vacío que inevitablemente será ocupado por algo. La pregunta no es solo qué salió, sino qué entró en su lugar.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 44,
+        "texto": "Entonces dice: «Volveré a mi casa, de donde salí». Cuando llega, la encuentra desocupada, barrida y arreglada.",
+        "comentario": "Esta parábola toca algo que no terminamos de entender bien: un demonio que sale por su propia voluntad -no fue expulsado-, busca descanso, no lo encuentra y regresa con siete más. Eso sugiere que la persona experimentó cierta limpieza o reforma externa sin una transformación real: la casa queda desocupada, barrida y arreglada, pero vacía, y el vacío espiritual no es un estado neutro sino una invitación. El demonio regresa con siete más, y el estado final de esa persona resulta peor que el inicial. Jesús aplica esto a «esta generación malvada», pero el principio es universal: la reforma moral sin transformación interior no es suficiente. Dejar el pecado sin llenar ese espacio con la presencia de Dios produce un vacío que inevitablemente será ocupado por algo. La pregunta no es solo qué salió, sino qué entró en su lugar.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 45,
+        "texto": "Luego va y trae a otros siete espíritus más malvados que él, y entran a vivir allí. Así que el estado final de aquella persona resulta peor que el inicial. Así le pasará también a esta generación malvada.",
+        "comentario": "Esta parábola toca algo que no terminamos de entender bien: un demonio que sale por su propia voluntad -no fue expulsado-, busca descanso, no lo encuentra y regresa con siete más. Eso sugiere que la persona experimentó cierta limpieza o reforma externa sin una transformación real: la casa queda desocupada, barrida y arreglada, pero vacía, y el vacío espiritual no es un estado neutro sino una invitación. El demonio regresa con siete más, y el estado final de esa persona resulta peor que el inicial. Jesús aplica esto a «esta generación malvada», pero el principio es universal: la reforma moral sin transformación interior no es suficiente. Dejar el pecado sin llenar ese espacio con la presencia de Dios produce un vacío que inevitablemente será ocupado por algo. La pregunta no es solo qué salió, sino qué entró en su lugar.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 46,
+        "texto": "Mientras Jesús le hablaba a la multitud, se presentaron su madre y sus hermanos. Se quedaron afuera y deseaban hablar con él.",
+        "comentario": "El contraste es deliberado: mientras los fariseos y maestros de la Ley rechazan a Jesús pese a toda su formación teológica, el capítulo cierra con discípulos comunes sentados alrededor de él, escuchando. La pregunta de Jesús no es un rechazo a su madre ni a sus hermanos, sino una declaración sobre qué constituye la familia en el Reino: no la sangre, ni el linaje, ni la cercanía física, sino la voluntad del Padre hecha práctica en la vida cotidiana. Jesús señala a sus discípulos -personas concretas, presentes, escuchando-, no gesticula vagamente hacia el mundo: la familia del Reino son personas reales que están adentro cuando el maestro habla. Para muchos, esta declaración es una fuente de identidad que no encontraron en ningún otro lado: familias de origen rotas, relaciones que fallaron, y en medio de eso, la comunidad de fe como familia real.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus",
+          "maria"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 47,
+        "texto": "Alguien le dijo: ―Mira, tu madre y tus hermanos están afuera y quieren hablar contigo.",
+        "comentario": "El contraste es deliberado: mientras los fariseos y maestros de la Ley rechazan a Jesús pese a toda su formación teológica, el capítulo cierra con discípulos comunes sentados alrededor de él, escuchando. La pregunta de Jesús no es un rechazo a su madre ni a sus hermanos, sino una declaración sobre qué constituye la familia en el Reino: no la sangre, ni el linaje, ni la cercanía física, sino la voluntad del Padre hecha práctica en la vida cotidiana. Jesús señala a sus discípulos -personas concretas, presentes, escuchando-, no gesticula vagamente hacia el mundo: la familia del Reino son personas reales que están adentro cuando el maestro habla. Para muchos, esta declaración es una fuente de identidad que no encontraron en ningún otro lado: familias de origen rotas, relaciones que fallaron, y en medio de eso, la comunidad de fe como familia real.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus",
+          "maria"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 48,
+        "texto": "―¿Quién es mi madre y quiénes son mis hermanos? —respondió Jesús.",
+        "comentario": "El contraste es deliberado: mientras los fariseos y maestros de la Ley rechazan a Jesús pese a toda su formación teológica, el capítulo cierra con discípulos comunes sentados alrededor de él, escuchando. La pregunta de Jesús no es un rechazo a su madre ni a sus hermanos, sino una declaración sobre qué constituye la familia en el Reino: no la sangre, ni el linaje, ni la cercanía física, sino la voluntad del Padre hecha práctica en la vida cotidiana. Jesús señala a sus discípulos -personas concretas, presentes, escuchando-, no gesticula vagamente hacia el mundo: la familia del Reino son personas reales que están adentro cuando el maestro habla. Para muchos, esta declaración es una fuente de identidad que no encontraron en ningún otro lado: familias de origen rotas, relaciones que fallaron, y en medio de eso, la comunidad de fe como familia real.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus",
+          "maria"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 49,
+        "texto": "Señalando a sus discípulos, añadió: ―Aquí tienen a mi madre y a mis hermanos.",
+        "comentario": "El contraste es deliberado: mientras los fariseos y maestros de la Ley rechazan a Jesús pese a toda su formación teológica, el capítulo cierra con discípulos comunes sentados alrededor de él, escuchando. La pregunta de Jesús no es un rechazo a su madre ni a sus hermanos, sino una declaración sobre qué constituye la familia en el Reino: no la sangre, ni el linaje, ni la cercanía física, sino la voluntad del Padre hecha práctica en la vida cotidiana. Jesús señala a sus discípulos -personas concretas, presentes, escuchando-, no gesticula vagamente hacia el mundo: la familia del Reino son personas reales que están adentro cuando el maestro habla. Para muchos, esta declaración es una fuente de identidad que no encontraron en ningún otro lado: familias de origen rotas, relaciones que fallaron, y en medio de eso, la comunidad de fe como familia real.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus",
+          "maria"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 50,
+        "texto": "Cualquiera que hace la voluntad de mi Padre que está en los cielos es mi hermano, mi hermana y mi madre.",
+        "comentario": "Jesús cierra el capítulo con la frase más inclusiva y a la vez más exigente del pasaje: inclusiva porque ninguna condición de nacimiento, cultura o pasado excluye a nadie; exigente porque la única condición pedida es también la más profunda -hacer la voluntad del Padre. El verbo poieo (ποιέω) describe acción concreta, no intención ni declaración: no el que conoce la voluntad del Padre, sino el que la hace, el mismo principio con que cerró el Sermón del Monte (Mateo 7). Y la identidad que ofrece a cambio es la más alta que existe: hermano, hermana, madre de Jesús. Mateo ubica este versículo después de un capítulo entero de rechazo -los fariseos negaron la obra del Espíritu, la generación pidió señales, el espíritu impuro volvió con siete más- y en ese contexto Jesús señala a los que están sentados a su alrededor: «estos son mi familia». Es una invitación abierta que cuesta lo mismo que siempre: rendirse completamente a quien es el Padre y a lo que él pide.",
+        "griego_ids": [
+          "poieo"
+        ],
+        "personaje_ids": [
+          "jesus"
+        ],
+        "lugar_ids": []
+      }
+    ],
+    "contexto_ids": [
+      "sabado-en-el-siglo-1-treinta-y-nueve-categorias",
+      "david-panes-de-la-proposicion",
+      "senal-de-jonas"
+    ],
+    "reflexion": [
+      "Los fariseos conocían las Escrituras de memoria pero atacaron la obra del Espíritu Santo delante de sus ojos. ¿Hay algo que Dios está haciendo hoy que preferís explicar de cualquier manera antes que reconocer que viene de Él?",
+      "Jesús dice que cualquiera que hace la voluntad de su Padre es su hermano, hermana y madre. ¿Estás viviendo hoy como parte de esa familia -haciendo la voluntad del Padre- o solo como admirador a distancia?",
+      "Escuchar lo que sale de tu boca en los momentos de presión dice más sobre el estado real de tu corazón que cualquier declaración de fe hecha en un culto. ¿Qué está saliendo de tu boca cuando nadie te está mirando?"
+    ]
+  },
+  {
+    "libro": "Mateo",
+    "capitulo": 13,
+    "discurso_id": "parabolas-del-reino",
+    "estado": "publicado",
+    "versiculos": [
+      {
+        "numero": 1,
+        "texto": "Ese mismo día salió Jesús de la casa y se sentó a la orilla del lago.",
+        "comentario": "Jesús salió de la casa y se sentó junto al lago. La multitud fue tanta que tuvo que subirse a una barca para poder hablar: desde allí, con el lago a su espalda y la multitud en la orilla, comenzó a enseñar. Jesús no esperó que la gente fuera a buscarlo a un lugar especial: él fue, se sentó entre ellos, se adaptó al espacio, y cuando el espacio no alcanzó, encontró la manera de seguir enseñando.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus"
+        ],
+        "lugar_ids": [
+          "mar-de-galilea"
+        ]
+      },
+      {
+        "numero": 2,
+        "texto": "La multitud que se reunió para verlo era tan grande que él tuvo que subir a una barca donde se sentó mientras toda la gente estaba de pie en la orilla.",
+        "comentario": "Jesús salió de la casa y se sentó junto al lago. La multitud fue tanta que tuvo que subirse a una barca para poder hablar: desde allí, con el lago a su espalda y la multitud en la orilla, comenzó a enseñar. Jesús no esperó que la gente fuera a buscarlo a un lugar especial: él fue, se sentó entre ellos, se adaptó al espacio, y cuando el espacio no alcanzó, encontró la manera de seguir enseñando.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus"
+        ],
+        "lugar_ids": [
+          "mar-de-galilea"
+        ]
+      },
+      {
+        "numero": 3,
+        "texto": "Y les dijo en parábolas muchas cosas como estas: «Un sembrador salió a sembrar.",
+        "comentario": "La parábola del sembrador es la primera y más fundamental del capítulo -Jesús mismo la llamará la clave para entender todas las demás. El camino es la tierra endurecida por el tránsito constante: la semilla no penetra, queda expuesta y los pájaros la consumen; el corazón se endurece no solo por el pecado sino por la costumbre religiosa, por escuchar la Palabra tantas veces sin que aterrice. El terreno pedregoso responde con alegría genuina pero sin raíz, y cuando llega la prueba todo se seca: la emoción religiosa sin formación bíblica produce mucha superficie y poca raíz. El terreno con espinos tiene profundidad real, pero crece en competencia constante con las preocupaciones del mundo y el engaño de las riquezas -no de golpe, sino ahogando gradualmente el crecimiento espiritual. El buen terreno escucha, entiende y da fruto -treinta, sesenta, cien-, y lo que no varía es la dirección: siempre produce algo. Esta parábola es un espejo, incómodo cuando muestra algo que no queremos ver, pero siempre más valioso que uno que miente.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 4,
+        "texto": "Mientras iba esparciendo las semillas, una parte cayó junto al camino, y llegaron los pájaros y se las comieron.",
+        "comentario": "La parábola del sembrador es la primera y más fundamental del capítulo -Jesús mismo la llamará la clave para entender todas las demás. El camino es la tierra endurecida por el tránsito constante: la semilla no penetra, queda expuesta y los pájaros la consumen; el corazón se endurece no solo por el pecado sino por la costumbre religiosa, por escuchar la Palabra tantas veces sin que aterrice. El terreno pedregoso responde con alegría genuina pero sin raíz, y cuando llega la prueba todo se seca: la emoción religiosa sin formación bíblica produce mucha superficie y poca raíz. El terreno con espinos tiene profundidad real, pero crece en competencia constante con las preocupaciones del mundo y el engaño de las riquezas -no de golpe, sino ahogando gradualmente el crecimiento espiritual. El buen terreno escucha, entiende y da fruto -treinta, sesenta, cien-, y lo que no varía es la dirección: siempre produce algo. Esta parábola es un espejo, incómodo cuando muestra algo que no queremos ver, pero siempre más valioso que uno que miente.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 5,
+        "texto": "Otra parte cayó en terreno pedregoso, sin mucha tierra.",
+        "comentario": "La parábola del sembrador es la primera y más fundamental del capítulo -Jesús mismo la llamará la clave para entender todas las demás. El camino es la tierra endurecida por el tránsito constante: la semilla no penetra, queda expuesta y los pájaros la consumen; el corazón se endurece no solo por el pecado sino por la costumbre religiosa, por escuchar la Palabra tantas veces sin que aterrice. El terreno pedregoso responde con alegría genuina pero sin raíz, y cuando llega la prueba todo se seca: la emoción religiosa sin formación bíblica produce mucha superficie y poca raíz. El terreno con espinos tiene profundidad real, pero crece en competencia constante con las preocupaciones del mundo y el engaño de las riquezas -no de golpe, sino ahogando gradualmente el crecimiento espiritual. El buen terreno escucha, entiende y da fruto -treinta, sesenta, cien-, y lo que no varía es la dirección: siempre produce algo. Esta parábola es un espejo, incómodo cuando muestra algo que no queremos ver, pero siempre más valioso que uno que miente.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 6,
+        "texto": "Pero, cuando salió el sol, las plantas se marchitaron y, por no tener raíz, se secaron.",
+        "comentario": "La parábola del sembrador es la primera y más fundamental del capítulo -Jesús mismo la llamará la clave para entender todas las demás. El camino es la tierra endurecida por el tránsito constante: la semilla no penetra, queda expuesta y los pájaros la consumen; el corazón se endurece no solo por el pecado sino por la costumbre religiosa, por escuchar la Palabra tantas veces sin que aterrice. El terreno pedregoso responde con alegría genuina pero sin raíz, y cuando llega la prueba todo se seca: la emoción religiosa sin formación bíblica produce mucha superficie y poca raíz. El terreno con espinos tiene profundidad real, pero crece en competencia constante con las preocupaciones del mundo y el engaño de las riquezas -no de golpe, sino ahogando gradualmente el crecimiento espiritual. El buen terreno escucha, entiende y da fruto -treinta, sesenta, cien-, y lo que no varía es la dirección: siempre produce algo. Esta parábola es un espejo, incómodo cuando muestra algo que no queremos ver, pero siempre más valioso que uno que miente.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 7,
+        "texto": "Otra parte de las semillas cayó entre espinos que, al crecer, ahogaron las plantas.",
+        "comentario": "La parábola del sembrador es la primera y más fundamental del capítulo -Jesús mismo la llamará la clave para entender todas las demás. El camino es la tierra endurecida por el tránsito constante: la semilla no penetra, queda expuesta y los pájaros la consumen; el corazón se endurece no solo por el pecado sino por la costumbre religiosa, por escuchar la Palabra tantas veces sin que aterrice. El terreno pedregoso responde con alegría genuina pero sin raíz, y cuando llega la prueba todo se seca: la emoción religiosa sin formación bíblica produce mucha superficie y poca raíz. El terreno con espinos tiene profundidad real, pero crece en competencia constante con las preocupaciones del mundo y el engaño de las riquezas -no de golpe, sino ahogando gradualmente el crecimiento espiritual. El buen terreno escucha, entiende y da fruto -treinta, sesenta, cien-, y lo que no varía es la dirección: siempre produce algo. Esta parábola es un espejo, incómodo cuando muestra algo que no queremos ver, pero siempre más valioso que uno que miente.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 8,
+        "texto": "Pero las otras semillas cayeron en buen terreno, en el que se dio una cosecha que rindió hasta cien, sesenta y treinta veces más de lo que se había sembrado.",
+        "comentario": "La parábola del sembrador es la primera y más fundamental del capítulo -Jesús mismo la llamará la clave para entender todas las demás. El camino es la tierra endurecida por el tránsito constante: la semilla no penetra, queda expuesta y los pájaros la consumen; el corazón se endurece no solo por el pecado sino por la costumbre religiosa, por escuchar la Palabra tantas veces sin que aterrice. El terreno pedregoso responde con alegría genuina pero sin raíz, y cuando llega la prueba todo se seca: la emoción religiosa sin formación bíblica produce mucha superficie y poca raíz. El terreno con espinos tiene profundidad real, pero crece en competencia constante con las preocupaciones del mundo y el engaño de las riquezas -no de golpe, sino ahogando gradualmente el crecimiento espiritual. El buen terreno escucha, entiende y da fruto -treinta, sesenta, cien-, y lo que no varía es la dirección: siempre produce algo. Esta parábola es un espejo, incómodo cuando muestra algo que no queremos ver, pero siempre más valioso que uno que miente.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 9,
+        "texto": "El que tenga oídos, que oiga».",
+        "comentario": "La parábola del sembrador es la primera y más fundamental del capítulo -Jesús mismo la llamará la clave para entender todas las demás. El camino es la tierra endurecida por el tránsito constante: la semilla no penetra, queda expuesta y los pájaros la consumen; el corazón se endurece no solo por el pecado sino por la costumbre religiosa, por escuchar la Palabra tantas veces sin que aterrice. El terreno pedregoso responde con alegría genuina pero sin raíz, y cuando llega la prueba todo se seca: la emoción religiosa sin formación bíblica produce mucha superficie y poca raíz. El terreno con espinos tiene profundidad real, pero crece en competencia constante con las preocupaciones del mundo y el engaño de las riquezas -no de golpe, sino ahogando gradualmente el crecimiento espiritual. El buen terreno escucha, entiende y da fruto -treinta, sesenta, cien-, y lo que no varía es la dirección: siempre produce algo. Esta parábola es un espejo, incómodo cuando muestra algo que no queremos ver, pero siempre más valioso que uno que miente.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 10,
+        "texto": "Los discípulos se acercaron y le preguntaron: ―¿Por qué le hablas a la gente en parábolas?",
+        "comentario": "Los discípulos preguntan directamente por qué Jesús habla en parábolas -y esa pregunta, hecha con humildad y no con el orgullo que prefiere fingir que entendió, es la que abre la comprensión más importante del capítulo. Jesús distingue entre dos tipos de oyentes: a sus seguidores les revela los mysterion (μυστήριον), los misterios del Reino que habían estado ocultos; para los que rechazaron, las parábolas funcionan como juicio -oyen sin entender, ven sin percibir-, consecuencia natural de un corazón que eligió cerrarse. El corazón abierto recibe más de lo que esperaba; el cerrado sale con menos de lo que traía.",
+        "griego_ids": [
+          "mysterion"
+        ],
+        "personaje_ids": [
+          "jesus"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 11,
+        "texto": "―A ustedes se les ha concedido conocer los misterios del reino de los cielos; pero a ellos no.",
+        "comentario": "Los discípulos preguntan directamente por qué Jesús habla en parábolas -y esa pregunta, hecha con humildad y no con el orgullo que prefiere fingir que entendió, es la que abre la comprensión más importante del capítulo. Jesús distingue entre dos tipos de oyentes: a sus seguidores les revela los mysterion (μυστήριον), los misterios del Reino que habían estado ocultos; para los que rechazaron, las parábolas funcionan como juicio -oyen sin entender, ven sin percibir-, consecuencia natural de un corazón que eligió cerrarse. El corazón abierto recibe más de lo que esperaba; el cerrado sale con menos de lo que traía.",
+        "griego_ids": [
+          "mysterion"
+        ],
+        "personaje_ids": [
+          "jesus"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 12,
+        "texto": "Al que tiene se le dará más y tendrá en abundancia. Al que no tiene hasta lo que tiene se le quitará.",
+        "comentario": "Los discípulos preguntan directamente por qué Jesús habla en parábolas -y esa pregunta, hecha con humildad y no con el orgullo que prefiere fingir que entendió, es la que abre la comprensión más importante del capítulo. Jesús distingue entre dos tipos de oyentes: a sus seguidores les revela los mysterion (μυστήριον), los misterios del Reino que habían estado ocultos; para los que rechazaron, las parábolas funcionan como juicio -oyen sin entender, ven sin percibir-, consecuencia natural de un corazón que eligió cerrarse. El corazón abierto recibe más de lo que esperaba; el cerrado sale con menos de lo que traía.",
+        "griego_ids": [
+          "mysterion"
+        ],
+        "personaje_ids": [
+          "jesus"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 13,
+        "texto": "Por eso les hablo a ellos en parábolas: aunque miren, no vean; aunque oigan, no escuchen ni entiendan.",
+        "comentario": "Los discípulos preguntan directamente por qué Jesús habla en parábolas -y esa pregunta, hecha con humildad y no con el orgullo que prefiere fingir que entendió, es la que abre la comprensión más importante del capítulo. Jesús distingue entre dos tipos de oyentes: a sus seguidores les revela los mysterion (μυστήριον), los misterios del Reino que habían estado ocultos; para los que rechazaron, las parábolas funcionan como juicio -oyen sin entender, ven sin percibir-, consecuencia natural de un corazón que eligió cerrarse. El corazón abierto recibe más de lo que esperaba; el cerrado sale con menos de lo que traía.",
+        "griego_ids": [
+          "mysterion"
+        ],
+        "personaje_ids": [
+          "jesus"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 14,
+        "texto": "En ellos se cumple la profecía de Isaías: «Por mucho que oigan, no entenderán; por mucho que vean, no comprenderán.",
+        "comentario": "Jesús cita a Isaías 6, el texto del llamado del profeta: el diagnóstico que Isaías recibió siglos antes aplica ahora a su generación, corazones que se volvieron gruesos e impenetrables, no de golpe sino gradualmente, capa por capa, hasta dejar de responder al estímulo espiritual. Cada vez que llega una convicción de Dios y se la deja pasar sin responder, el terreno se endurece un poco más: el corazón que ignora a Dios sistemáticamente no llega a un punto de ruptura dramático, simplemente, de a poco, deja de oírlo. Pero la parábola también tiene salida: el mismo Espíritu que diagnostica el problema puede renovar el corazón (Salmo 51:10).",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 15,
+        "texto": "Porque el corazón de este pueblo se ha vuelto insensible; se les han tapado los oídos y se les han cerrado los ojos. De lo contrario, verían con los ojos, oirían con los oídos, entenderían con el corazón y se arrepentirían, y yo los sanaría».",
+        "comentario": "Jesús cita a Isaías 6, el texto del llamado del profeta: el diagnóstico que Isaías recibió siglos antes aplica ahora a su generación, corazones que se volvieron gruesos e impenetrables, no de golpe sino gradualmente, capa por capa, hasta dejar de responder al estímulo espiritual. Cada vez que llega una convicción de Dios y se la deja pasar sin responder, el terreno se endurece un poco más: el corazón que ignora a Dios sistemáticamente no llega a un punto de ruptura dramático, simplemente, de a poco, deja de oírlo. Pero la parábola también tiene salida: el mismo Espíritu que diagnostica el problema puede renovar el corazón (Salmo 51:10).",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 16,
+        "texto": "Pero dichosos los ojos de ustedes porque ven y sus oídos porque oyen.",
+        "comentario": "Después del diagnóstico, Jesús se vuelve hacia los discípulos con una declaración que debería producir gratitud: no están bendecidos por su inteligencia sino porque ven y oyen lo que generaciones enteras de profetas y justos anhelaron ver sin lograrlo. Tener acceso a la Escritura completa, conocer el nombre de Jesús, vivir después de la cruz, la resurrección y Pentecostés es un privilegio que los profetas más grandes de la historia no tuvieron, y que se da por sentado casi todo el tiempo. El que realmente comprende lo que tiene en el Reino no puede vivir como si no lo tuviera: ese conocimiento no es para acumularse, es para transformar la manera en que se vive cada día.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 17,
+        "texto": "Les aseguro que muchos profetas y otros justos anhelaron ver lo que ustedes ven, pero no lo vieron; quisieron oír lo que ustedes oyen, pero no lo oyeron.",
+        "comentario": "Después del diagnóstico, Jesús se vuelve hacia los discípulos con una declaración que debería producir gratitud: no están bendecidos por su inteligencia sino porque ven y oyen lo que generaciones enteras de profetas y justos anhelaron ver sin lograrlo. Tener acceso a la Escritura completa, conocer el nombre de Jesús, vivir después de la cruz, la resurrección y Pentecostés es un privilegio que los profetas más grandes de la historia no tuvieron, y que se da por sentado casi todo el tiempo. El que realmente comprende lo que tiene en el Reino no puede vivir como si no lo tuviera: ese conocimiento no es para acumularse, es para transformar la manera en que se vive cada día.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 18,
+        "texto": "Escuchen ahora lo que significa la parábola del sembrador:",
+        "comentario": "Jesús explica la parábola del sembrador con una claridad que no deja margen para la especulación. La semilla junto al camino es el corazón endurecido, donde el maligno actúa en el vacío entre escuchar y recibir: hay personas que llevan años escuchando prédicas sin que la Palabra eche raíz real, porque el corazón estaba demasiado ocupado o convencido de que ya lo sabía todo. El terreno pedregoso es la fe sin raíz: personas que viven de emoción en emoción sin construir algo que sostenga, porque la emoción fue el objetivo en lugar del punto de partida, y la fe que solo funciona cuando se siente algo no resiste cuando no se siente nada. El terreno con espinos es la fe ahogada por el mundo, quizás la más común de esta generación: no hay una crisis de fe dramática, sino un proceso lento de desplazamiento -el trabajo, las redes sociales, las preocupaciones económicas ocupan más espacio, y la fe queda en los márgenes, presente pero sin espacio para crecer. El buen terreno escucha, entiende y produce, y el fruto varía -no todos producen cien por uno-, pero lo que Dios no tolera es el árbol sin fruto, y sí celebra cualquier nivel de producción que nace de un corazón genuinamente entregado.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 19,
+        "texto": "cuando alguien oye la palabra acerca del reino y no la entiende, viene el maligno y arrebata lo que se sembró en su corazón. Esta es la semilla sembrada junto al camino.",
+        "comentario": "Jesús explica la parábola del sembrador con una claridad que no deja margen para la especulación. La semilla junto al camino es el corazón endurecido, donde el maligno actúa en el vacío entre escuchar y recibir: hay personas que llevan años escuchando prédicas sin que la Palabra eche raíz real, porque el corazón estaba demasiado ocupado o convencido de que ya lo sabía todo. El terreno pedregoso es la fe sin raíz: personas que viven de emoción en emoción sin construir algo que sostenga, porque la emoción fue el objetivo en lugar del punto de partida, y la fe que solo funciona cuando se siente algo no resiste cuando no se siente nada. El terreno con espinos es la fe ahogada por el mundo, quizás la más común de esta generación: no hay una crisis de fe dramática, sino un proceso lento de desplazamiento -el trabajo, las redes sociales, las preocupaciones económicas ocupan más espacio, y la fe queda en los márgenes, presente pero sin espacio para crecer. El buen terreno escucha, entiende y produce, y el fruto varía -no todos producen cien por uno-, pero lo que Dios no tolera es el árbol sin fruto, y sí celebra cualquier nivel de producción que nace de un corazón genuinamente entregado.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 20,
+        "texto": "El que recibió la semilla que cayó en el suelo lleno de piedras es el que oye la palabra y de inmediato la recibe con alegría.",
+        "comentario": "Jesús explica la parábola del sembrador con una claridad que no deja margen para la especulación. La semilla junto al camino es el corazón endurecido, donde el maligno actúa en el vacío entre escuchar y recibir: hay personas que llevan años escuchando prédicas sin que la Palabra eche raíz real, porque el corazón estaba demasiado ocupado o convencido de que ya lo sabía todo. El terreno pedregoso es la fe sin raíz: personas que viven de emoción en emoción sin construir algo que sostenga, porque la emoción fue el objetivo en lugar del punto de partida, y la fe que solo funciona cuando se siente algo no resiste cuando no se siente nada. El terreno con espinos es la fe ahogada por el mundo, quizás la más común de esta generación: no hay una crisis de fe dramática, sino un proceso lento de desplazamiento -el trabajo, las redes sociales, las preocupaciones económicas ocupan más espacio, y la fe queda en los márgenes, presente pero sin espacio para crecer. El buen terreno escucha, entiende y produce, y el fruto varía -no todos producen cien por uno-, pero lo que Dios no tolera es el árbol sin fruto, y sí celebra cualquier nivel de producción que nace de un corazón genuinamente entregado.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 21,
+        "texto": "Pero, como no tiene raíz, dura poco tiempo. Cuando surgen problemas o persecución a causa de la palabra, enseguida se aparta de ella.",
+        "comentario": "Jesús explica la parábola del sembrador con una claridad que no deja margen para la especulación. La semilla junto al camino es el corazón endurecido, donde el maligno actúa en el vacío entre escuchar y recibir: hay personas que llevan años escuchando prédicas sin que la Palabra eche raíz real, porque el corazón estaba demasiado ocupado o convencido de que ya lo sabía todo. El terreno pedregoso es la fe sin raíz: personas que viven de emoción en emoción sin construir algo que sostenga, porque la emoción fue el objetivo en lugar del punto de partida, y la fe que solo funciona cuando se siente algo no resiste cuando no se siente nada. El terreno con espinos es la fe ahogada por el mundo, quizás la más común de esta generación: no hay una crisis de fe dramática, sino un proceso lento de desplazamiento -el trabajo, las redes sociales, las preocupaciones económicas ocupan más espacio, y la fe queda en los márgenes, presente pero sin espacio para crecer. El buen terreno escucha, entiende y produce, y el fruto varía -no todos producen cien por uno-, pero lo que Dios no tolera es el árbol sin fruto, y sí celebra cualquier nivel de producción que nace de un corazón genuinamente entregado.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 22,
+        "texto": "El que recibió la semilla que cayó entre espinos es el que oye la palabra, pero las preocupaciones de esta vida y el engaño de las riquezas la ahogan. Por eso, la semilla no llega a dar fruto.",
+        "comentario": "Jesús explica la parábola del sembrador con una claridad que no deja margen para la especulación. La semilla junto al camino es el corazón endurecido, donde el maligno actúa en el vacío entre escuchar y recibir: hay personas que llevan años escuchando prédicas sin que la Palabra eche raíz real, porque el corazón estaba demasiado ocupado o convencido de que ya lo sabía todo. El terreno pedregoso es la fe sin raíz: personas que viven de emoción en emoción sin construir algo que sostenga, porque la emoción fue el objetivo en lugar del punto de partida, y la fe que solo funciona cuando se siente algo no resiste cuando no se siente nada. El terreno con espinos es la fe ahogada por el mundo, quizás la más común de esta generación: no hay una crisis de fe dramática, sino un proceso lento de desplazamiento -el trabajo, las redes sociales, las preocupaciones económicas ocupan más espacio, y la fe queda en los márgenes, presente pero sin espacio para crecer. El buen terreno escucha, entiende y produce, y el fruto varía -no todos producen cien por uno-, pero lo que Dios no tolera es el árbol sin fruto, y sí celebra cualquier nivel de producción que nace de un corazón genuinamente entregado.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 23,
+        "texto": "Pero el que recibió la semilla que cayó en buen terreno es el que oye la palabra y la entiende. Este sí produce una cosecha hasta cien, sesenta y treinta veces más.",
+        "comentario": "Jesús explica la parábola del sembrador con una claridad que no deja margen para la especulación. La semilla junto al camino es el corazón endurecido, donde el maligno actúa en el vacío entre escuchar y recibir: hay personas que llevan años escuchando prédicas sin que la Palabra eche raíz real, porque el corazón estaba demasiado ocupado o convencido de que ya lo sabía todo. El terreno pedregoso es la fe sin raíz: personas que viven de emoción en emoción sin construir algo que sostenga, porque la emoción fue el objetivo en lugar del punto de partida, y la fe que solo funciona cuando se siente algo no resiste cuando no se siente nada. El terreno con espinos es la fe ahogada por el mundo, quizás la más común de esta generación: no hay una crisis de fe dramática, sino un proceso lento de desplazamiento -el trabajo, las redes sociales, las preocupaciones económicas ocupan más espacio, y la fe queda en los márgenes, presente pero sin espacio para crecer. El buen terreno escucha, entiende y produce, y el fruto varía -no todos producen cien por uno-, pero lo que Dios no tolera es el árbol sin fruto, y sí celebra cualquier nivel de producción que nace de un corazón genuinamente entregado.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 24,
+        "texto": "Jesús les contó otra parábola: «El reino de los cielos es como un hombre que sembró buena semilla en su campo.",
+        "comentario": "La segunda parábola introduce algo que la primera no tenía: la presencia del enemigo dentro del campo. El campo no es la iglesia -Jesús lo aclarará después: el campo es el mundo, y en él conviven, mezclados, hijos del Reino e hijos del maligno. La cizaña que el enemigo sembró no es obvia: mimetiza al trigo mientras crece, y solo al madurar la diferencia se vuelve visible. No todo lo que luce como fe es fe, ni todo el que usa vocabulario cristiano tiene el corazón transformado: el enemigo siembra deliberadamente en los mismos campos donde Dios siembra, de noche, cuando la vigilancia baja. Frente a esto no hace falta paranoia, sino discernimiento activo arraigado en la Palabra y la oración, con el fruto como criterio, no el carisma ni la elocuencia. El dueño del campo no autoriza la separación prematura: hay una paciencia en Dios que revela su carácter, porque un juicio apresurado podría destruir también lo genuino. Hay tiempo, hay gracia, y la cosecha llegará en el momento correcto.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus",
+          "satanas"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 25,
+        "texto": "Pero, mientras todos dormían, llegó su enemigo y sembró mala hierba entre el trigo y se fue.",
+        "comentario": "La segunda parábola introduce algo que la primera no tenía: la presencia del enemigo dentro del campo. El campo no es la iglesia -Jesús lo aclarará después: el campo es el mundo, y en él conviven, mezclados, hijos del Reino e hijos del maligno. La cizaña que el enemigo sembró no es obvia: mimetiza al trigo mientras crece, y solo al madurar la diferencia se vuelve visible. No todo lo que luce como fe es fe, ni todo el que usa vocabulario cristiano tiene el corazón transformado: el enemigo siembra deliberadamente en los mismos campos donde Dios siembra, de noche, cuando la vigilancia baja. Frente a esto no hace falta paranoia, sino discernimiento activo arraigado en la Palabra y la oración, con el fruto como criterio, no el carisma ni la elocuencia. El dueño del campo no autoriza la separación prematura: hay una paciencia en Dios que revela su carácter, porque un juicio apresurado podría destruir también lo genuino. Hay tiempo, hay gracia, y la cosecha llegará en el momento correcto.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus",
+          "satanas"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 26,
+        "texto": "Cuando brotó el trigo y se formó la espiga, apareció también la mala hierba.",
+        "comentario": "La segunda parábola introduce algo que la primera no tenía: la presencia del enemigo dentro del campo. El campo no es la iglesia -Jesús lo aclarará después: el campo es el mundo, y en él conviven, mezclados, hijos del Reino e hijos del maligno. La cizaña que el enemigo sembró no es obvia: mimetiza al trigo mientras crece, y solo al madurar la diferencia se vuelve visible. No todo lo que luce como fe es fe, ni todo el que usa vocabulario cristiano tiene el corazón transformado: el enemigo siembra deliberadamente en los mismos campos donde Dios siembra, de noche, cuando la vigilancia baja. Frente a esto no hace falta paranoia, sino discernimiento activo arraigado en la Palabra y la oración, con el fruto como criterio, no el carisma ni la elocuencia. El dueño del campo no autoriza la separación prematura: hay una paciencia en Dios que revela su carácter, porque un juicio apresurado podría destruir también lo genuino. Hay tiempo, hay gracia, y la cosecha llegará en el momento correcto.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus",
+          "satanas"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 27,
+        "texto": "Los siervos fueron al dueño y le dijeron: “Señor, ¿no sembró usted semilla buena en su campo? Entonces, ¿de dónde salió la mala hierba?”.",
+        "comentario": "La segunda parábola introduce algo que la primera no tenía: la presencia del enemigo dentro del campo. El campo no es la iglesia -Jesús lo aclarará después: el campo es el mundo, y en él conviven, mezclados, hijos del Reino e hijos del maligno. La cizaña que el enemigo sembró no es obvia: mimetiza al trigo mientras crece, y solo al madurar la diferencia se vuelve visible. No todo lo que luce como fe es fe, ni todo el que usa vocabulario cristiano tiene el corazón transformado: el enemigo siembra deliberadamente en los mismos campos donde Dios siembra, de noche, cuando la vigilancia baja. Frente a esto no hace falta paranoia, sino discernimiento activo arraigado en la Palabra y la oración, con el fruto como criterio, no el carisma ni la elocuencia. El dueño del campo no autoriza la separación prematura: hay una paciencia en Dios que revela su carácter, porque un juicio apresurado podría destruir también lo genuino. Hay tiempo, hay gracia, y la cosecha llegará en el momento correcto.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus",
+          "satanas"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 28,
+        "texto": "“Esto es obra de un enemigo”, les respondió. Le preguntaron los siervos: “¿Quiere usted que vayamos a arrancarla?”.",
+        "comentario": "La segunda parábola introduce algo que la primera no tenía: la presencia del enemigo dentro del campo. El campo no es la iglesia -Jesús lo aclarará después: el campo es el mundo, y en él conviven, mezclados, hijos del Reino e hijos del maligno. La cizaña que el enemigo sembró no es obvia: mimetiza al trigo mientras crece, y solo al madurar la diferencia se vuelve visible. No todo lo que luce como fe es fe, ni todo el que usa vocabulario cristiano tiene el corazón transformado: el enemigo siembra deliberadamente en los mismos campos donde Dios siembra, de noche, cuando la vigilancia baja. Frente a esto no hace falta paranoia, sino discernimiento activo arraigado en la Palabra y la oración, con el fruto como criterio, no el carisma ni la elocuencia. El dueño del campo no autoriza la separación prematura: hay una paciencia en Dios que revela su carácter, porque un juicio apresurado podría destruir también lo genuino. Hay tiempo, hay gracia, y la cosecha llegará en el momento correcto.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus",
+          "satanas"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 29,
+        "texto": "“¡No! —les contestó—, no sea que, al arrancar la mala hierba, arranquen con ella el trigo.",
+        "comentario": "La segunda parábola introduce algo que la primera no tenía: la presencia del enemigo dentro del campo. El campo no es la iglesia -Jesús lo aclarará después: el campo es el mundo, y en él conviven, mezclados, hijos del Reino e hijos del maligno. La cizaña que el enemigo sembró no es obvia: mimetiza al trigo mientras crece, y solo al madurar la diferencia se vuelve visible. No todo lo que luce como fe es fe, ni todo el que usa vocabulario cristiano tiene el corazón transformado: el enemigo siembra deliberadamente en los mismos campos donde Dios siembra, de noche, cuando la vigilancia baja. Frente a esto no hace falta paranoia, sino discernimiento activo arraigado en la Palabra y la oración, con el fruto como criterio, no el carisma ni la elocuencia. El dueño del campo no autoriza la separación prematura: hay una paciencia en Dios que revela su carácter, porque un juicio apresurado podría destruir también lo genuino. Hay tiempo, hay gracia, y la cosecha llegará en el momento correcto.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus",
+          "satanas"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 30,
+        "texto": "Dejen que crezcan juntos hasta la cosecha. Entonces les diré a los segadores: recojan primero la mala hierba y átenla en manojos para quemarla; después recojan el trigo y guárdenlo en mi granero”.",
+        "comentario": "La segunda parábola introduce algo que la primera no tenía: la presencia del enemigo dentro del campo. El campo no es la iglesia -Jesús lo aclarará después: el campo es el mundo, y en él conviven, mezclados, hijos del Reino e hijos del maligno. La cizaña que el enemigo sembró no es obvia: mimetiza al trigo mientras crece, y solo al madurar la diferencia se vuelve visible. No todo lo que luce como fe es fe, ni todo el que usa vocabulario cristiano tiene el corazón transformado: el enemigo siembra deliberadamente en los mismos campos donde Dios siembra, de noche, cuando la vigilancia baja. Frente a esto no hace falta paranoia, sino discernimiento activo arraigado en la Palabra y la oración, con el fruto como criterio, no el carisma ni la elocuencia. El dueño del campo no autoriza la separación prematura: hay una paciencia en Dios que revela su carácter, porque un juicio apresurado podría destruir también lo genuino. Hay tiempo, hay gracia, y la cosecha llegará en el momento correcto.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus",
+          "satanas"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 31,
+        "texto": "Les contó otra parábola: «El reino de los cielos es como una semilla de mostaza que un hombre sembró en su campo.",
+        "comentario": "El grano de mostaza dice algo que todos necesitamos escuchar en distintos momentos: lo pequeño no es sinónimo de sin valor. Hay temporadas en que la fe parece diminuta, en que el crecimiento es invisible, y la tentación es concluir que algo está mal. Pero la vida real del Reino no siempre es visible desde afuera en sus primeras etapas: lo que importa no es el tamaño inicial sino la vida que hay adentro. Esto también aplica a la comunidad de fe: una iglesia pequeña pero genuina tiene más valor que una grande pero hueca; el criterio del Reino no es el tamaño, es la vida.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 32,
+        "texto": "Aunque es la más pequeña de todas las semillas, cuando crece es la más grande de las plantas del huerto. Se convierte en árbol, de modo que vienen las aves y anidan en sus ramas».",
+        "comentario": "El grano de mostaza dice algo que todos necesitamos escuchar en distintos momentos: lo pequeño no es sinónimo de sin valor. Hay temporadas en que la fe parece diminuta, en que el crecimiento es invisible, y la tentación es concluir que algo está mal. Pero la vida real del Reino no siempre es visible desde afuera en sus primeras etapas: lo que importa no es el tamaño inicial sino la vida que hay adentro. Esto también aplica a la comunidad de fe: una iglesia pequeña pero genuina tiene más valor que una grande pero hueca; el criterio del Reino no es el tamaño, es la vida.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 33,
+        "texto": "Les contó otra parábola más: «El reino de los cielos es como la levadura que una mujer tomó y mezcló en tres medidas de harina, hasta que hizo crecer toda la masa».",
+        "comentario": "La levadura trabaja desde adentro, invisible y silenciosa, sin anunciar lo que está haciendo, y transforma toda la masa. Así trabaja el Espíritu Santo en la vida de una persona: no siempre hay momentos dramáticos, muchas veces el trabajo más profundo de Dios ocurre en lo cotidiano -la oración diaria que parece no producir nada visible, la Palabra que se lee sin que el cielo se abra, la obediencia sostenida cuando nadie está mirando. Ese trabajo invisible está haciendo algo, y en algún momento alguien que conoce a la persona desde hace tiempo dice: «algo cambió en vos». No despreciés los procesos silenciosos: Dios trabaja en ellos tanto como en los momentos de gloria visible.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 34,
+        "texto": "Jesús le dijo a la multitud todas estas cosas en parábolas. No decía nada sin emplear parábolas.",
+        "comentario": "Mateo señala que Jesús no les decía nada a las multitudes sin usar parábolas: lo que estuvo oculto desde la fundación del mundo ahora es revelado a través de sus palabras. El creyente camina con un tipo de conocimiento que el mundo a su alrededor no tiene -no como motivo de orgullo sino de responsabilidad: sobre una guerra espiritual que otros no ven, un juicio que viene, un Reino que avanza, un Dios que busca a sus hijos con una persistencia que ningún ser humano puede igualar. Ese conocimiento no es para guardarse: el que tiene y calla está traicionando el propósito del don que recibió.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 35,
+        "texto": "Así se cumplió lo dicho por el profeta: «Hablaré por medio de parábolas; revelaré cosas que han estado ocultas desde la creación del mundo».",
+        "comentario": "Mateo señala que Jesús no les decía nada a las multitudes sin usar parábolas: lo que estuvo oculto desde la fundación del mundo ahora es revelado a través de sus palabras. El creyente camina con un tipo de conocimiento que el mundo a su alrededor no tiene -no como motivo de orgullo sino de responsabilidad: sobre una guerra espiritual que otros no ven, un juicio que viene, un Reino que avanza, un Dios que busca a sus hijos con una persistencia que ningún ser humano puede igualar. Ese conocimiento no es para guardarse: el que tiene y calla está traicionando el propósito del don que recibió.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 36,
+        "texto": "Una vez que se despidió de la multitud, entró en la casa. Se acercaron sus discípulos y le pidieron: ―Explícanos la parábola de la mala hierba del campo.",
+        "comentario": "Jesús da la explicación más detallada de cualquier parábola del capítulo, con implicancias que van más allá de la teología académica: primero sembró la Palabra, de esa siembra cosechó seguidores, y luego los sembró en el mundo como semillas. Cada creyente fue primero cosechado por el evangelio y luego plantado por Dios en un lugar específico, con propósito específico: el trabajo, el barrio, la familia no son solo circunstancias biográficas, sino el campo donde Dios plantó a esa semilla para producir fruto exactamente ahí. La pregunta que esta parábola hace es directa: ¿estás siendo fructífero donde fuiste plantado, no en la vida que imaginabas tener? Y hay algo que no se puede pasar por alto: la cosecha final es real. Los ángeles recogerán de su Reino todo lo que es tropiezo y todo lo que hace iniquidad; el fuego es real, y el lugar de tormento no es metáfora poética sino la consecuencia de quedar del lado equivocado cuando la red llegue a la orilla. Eso debería urgir la oración, el testimonio y el cuidado de los que todavía no están en el Reino.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus",
+          "satanas"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 37,
+        "texto": "―El que sembró la buena semilla es el Hijo del hombre —les respondió Jesús—.",
+        "comentario": "Jesús da la explicación más detallada de cualquier parábola del capítulo, con implicancias que van más allá de la teología académica: primero sembró la Palabra, de esa siembra cosechó seguidores, y luego los sembró en el mundo como semillas. Cada creyente fue primero cosechado por el evangelio y luego plantado por Dios en un lugar específico, con propósito específico: el trabajo, el barrio, la familia no son solo circunstancias biográficas, sino el campo donde Dios plantó a esa semilla para producir fruto exactamente ahí. La pregunta que esta parábola hace es directa: ¿estás siendo fructífero donde fuiste plantado, no en la vida que imaginabas tener? Y hay algo que no se puede pasar por alto: la cosecha final es real. Los ángeles recogerán de su Reino todo lo que es tropiezo y todo lo que hace iniquidad; el fuego es real, y el lugar de tormento no es metáfora poética sino la consecuencia de quedar del lado equivocado cuando la red llegue a la orilla. Eso debería urgir la oración, el testimonio y el cuidado de los que todavía no están en el Reino.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus",
+          "satanas"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 38,
+        "texto": "El campo es el mundo, y la buena semilla representa a los hijos del reino. La mala hierba son los hijos del maligno,",
+        "comentario": "Jesús da la explicación más detallada de cualquier parábola del capítulo, con implicancias que van más allá de la teología académica: primero sembró la Palabra, de esa siembra cosechó seguidores, y luego los sembró en el mundo como semillas. Cada creyente fue primero cosechado por el evangelio y luego plantado por Dios en un lugar específico, con propósito específico: el trabajo, el barrio, la familia no son solo circunstancias biográficas, sino el campo donde Dios plantó a esa semilla para producir fruto exactamente ahí. La pregunta que esta parábola hace es directa: ¿estás siendo fructífero donde fuiste plantado, no en la vida que imaginabas tener? Y hay algo que no se puede pasar por alto: la cosecha final es real. Los ángeles recogerán de su Reino todo lo que es tropiezo y todo lo que hace iniquidad; el fuego es real, y el lugar de tormento no es metáfora poética sino la consecuencia de quedar del lado equivocado cuando la red llegue a la orilla. Eso debería urgir la oración, el testimonio y el cuidado de los que todavía no están en el Reino.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus",
+          "satanas"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 39,
+        "texto": "y el enemigo que la siembra es el diablo. La cosecha es el fin del mundo, y los segadores son los ángeles.",
+        "comentario": "Jesús da la explicación más detallada de cualquier parábola del capítulo, con implicancias que van más allá de la teología académica: primero sembró la Palabra, de esa siembra cosechó seguidores, y luego los sembró en el mundo como semillas. Cada creyente fue primero cosechado por el evangelio y luego plantado por Dios en un lugar específico, con propósito específico: el trabajo, el barrio, la familia no son solo circunstancias biográficas, sino el campo donde Dios plantó a esa semilla para producir fruto exactamente ahí. La pregunta que esta parábola hace es directa: ¿estás siendo fructífero donde fuiste plantado, no en la vida que imaginabas tener? Y hay algo que no se puede pasar por alto: la cosecha final es real. Los ángeles recogerán de su Reino todo lo que es tropiezo y todo lo que hace iniquidad; el fuego es real, y el lugar de tormento no es metáfora poética sino la consecuencia de quedar del lado equivocado cuando la red llegue a la orilla. Eso debería urgir la oración, el testimonio y el cuidado de los que todavía no están en el Reino.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus",
+          "satanas"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 40,
+        "texto": "»Así como se recoge la mala hierba y se quema en el fuego, ocurrirá también al fin del mundo.",
+        "comentario": "Jesús da la explicación más detallada de cualquier parábola del capítulo, con implicancias que van más allá de la teología académica: primero sembró la Palabra, de esa siembra cosechó seguidores, y luego los sembró en el mundo como semillas. Cada creyente fue primero cosechado por el evangelio y luego plantado por Dios en un lugar específico, con propósito específico: el trabajo, el barrio, la familia no son solo circunstancias biográficas, sino el campo donde Dios plantó a esa semilla para producir fruto exactamente ahí. La pregunta que esta parábola hace es directa: ¿estás siendo fructífero donde fuiste plantado, no en la vida que imaginabas tener? Y hay algo que no se puede pasar por alto: la cosecha final es real. Los ángeles recogerán de su Reino todo lo que es tropiezo y todo lo que hace iniquidad; el fuego es real, y el lugar de tormento no es metáfora poética sino la consecuencia de quedar del lado equivocado cuando la red llegue a la orilla. Eso debería urgir la oración, el testimonio y el cuidado de los que todavía no están en el Reino.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus",
+          "satanas"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 41,
+        "texto": "El Hijo del hombre enviará a sus ángeles y arrancarán de su reino a todos los que pecan y hacen pecar.",
+        "comentario": "Jesús da la explicación más detallada de cualquier parábola del capítulo, con implicancias que van más allá de la teología académica: primero sembró la Palabra, de esa siembra cosechó seguidores, y luego los sembró en el mundo como semillas. Cada creyente fue primero cosechado por el evangelio y luego plantado por Dios en un lugar específico, con propósito específico: el trabajo, el barrio, la familia no son solo circunstancias biográficas, sino el campo donde Dios plantó a esa semilla para producir fruto exactamente ahí. La pregunta que esta parábola hace es directa: ¿estás siendo fructífero donde fuiste plantado, no en la vida que imaginabas tener? Y hay algo que no se puede pasar por alto: la cosecha final es real. Los ángeles recogerán de su Reino todo lo que es tropiezo y todo lo que hace iniquidad; el fuego es real, y el lugar de tormento no es metáfora poética sino la consecuencia de quedar del lado equivocado cuando la red llegue a la orilla. Eso debería urgir la oración, el testimonio y el cuidado de los que todavía no están en el Reino.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus",
+          "satanas"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 42,
+        "texto": "Los arrojarán al horno encendido, donde habrá llanto y crujir de dientes.",
+        "comentario": "Jesús da la explicación más detallada de cualquier parábola del capítulo, con implicancias que van más allá de la teología académica: primero sembró la Palabra, de esa siembra cosechó seguidores, y luego los sembró en el mundo como semillas. Cada creyente fue primero cosechado por el evangelio y luego plantado por Dios en un lugar específico, con propósito específico: el trabajo, el barrio, la familia no son solo circunstancias biográficas, sino el campo donde Dios plantó a esa semilla para producir fruto exactamente ahí. La pregunta que esta parábola hace es directa: ¿estás siendo fructífero donde fuiste plantado, no en la vida que imaginabas tener? Y hay algo que no se puede pasar por alto: la cosecha final es real. Los ángeles recogerán de su Reino todo lo que es tropiezo y todo lo que hace iniquidad; el fuego es real, y el lugar de tormento no es metáfora poética sino la consecuencia de quedar del lado equivocado cuando la red llegue a la orilla. Eso debería urgir la oración, el testimonio y el cuidado de los que todavía no están en el Reino.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus",
+          "satanas"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 43,
+        "texto": "Entonces los justos brillarán en el reino de su Padre como el sol. El que tenga oídos, que oiga.",
+        "comentario": "Jesús da la explicación más detallada de cualquier parábola del capítulo, con implicancias que van más allá de la teología académica: primero sembró la Palabra, de esa siembra cosechó seguidores, y luego los sembró en el mundo como semillas. Cada creyente fue primero cosechado por el evangelio y luego plantado por Dios en un lugar específico, con propósito específico: el trabajo, el barrio, la familia no son solo circunstancias biográficas, sino el campo donde Dios plantó a esa semilla para producir fruto exactamente ahí. La pregunta que esta parábola hace es directa: ¿estás siendo fructífero donde fuiste plantado, no en la vida que imaginabas tener? Y hay algo que no se puede pasar por alto: la cosecha final es real. Los ángeles recogerán de su Reino todo lo que es tropiezo y todo lo que hace iniquidad; el fuego es real, y el lugar de tormento no es metáfora poética sino la consecuencia de quedar del lado equivocado cuando la red llegue a la orilla. Eso debería urgir la oración, el testimonio y el cuidado de los que todavía no están en el Reino.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus",
+          "satanas"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 44,
+        "texto": "El reino de los cielos es como un tesoro escondido en un campo. Cuando un hombre lo descubrió, lo volvió a esconder, y lleno de alegría fue y vendió todo lo que tenía y compró ese campo.",
+        "comentario": "El hombre que encuentra el tesoro no lo estaba buscando: estaba trabajando en el campo, haciendo su día, y tropezó con algo que cambió todo. Esa es la historia de muchos: no buscabas a Dios, no tenías un plan de búsqueda espiritual, y de alguna manera Dios entró, sin que lo hayas buscado ni merecido. La respuesta de ese hombre fue vender todo con alegría, no con dolor ni nostalgia, porque lo que encontró valía infinitamente más que todo lo que soltó. Esa alegría es el termómetro de cuánto valoramos realmente lo que tenemos en el Reino: si seguir a Jesús se siente como pérdida permanente, algo está desalineado.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 45,
+        "texto": "También se parece el reino de los cielos a un comerciante que andaba buscando perlas finas.",
+        "comentario": "El comerciante sí estaba buscando: conocía las perlas, las había buscado durante años, había encontrado muchas pero ninguna que terminara de satisfacer, hasta que encontró esa. Hay personas cuya historia es exactamente esta -buscadores de verdad y sentido que probaron todas las perlas disponibles y ninguna fue suficiente, hasta que encontraron a Jesús. Y cuando la encontraron, todo lo demás perdió su valor comparativo, no porque esas cosas fueran malas sino porque ninguna se compara con lo que encontraron. La pregunta que dejan estas dos parábolas es sencilla y profunda: ¿seguís viendo el Reino como el tesoro más grande que tenés, o se fue volviendo tan familiar que ya no produce alegría?",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 46,
+        "texto": "Cuando encontró una de gran valor, fue y vendió todo lo que tenía y la compró.",
+        "comentario": "El comerciante sí estaba buscando: conocía las perlas, las había buscado durante años, había encontrado muchas pero ninguna que terminara de satisfacer, hasta que encontró esa. Hay personas cuya historia es exactamente esta -buscadores de verdad y sentido que probaron todas las perlas disponibles y ninguna fue suficiente, hasta que encontraron a Jesús. Y cuando la encontraron, todo lo demás perdió su valor comparativo, no porque esas cosas fueran malas sino porque ninguna se compara con lo que encontraron. La pregunta que dejan estas dos parábolas es sencilla y profunda: ¿seguís viendo el Reino como el tesoro más grande que tenés, o se fue volviendo tan familiar que ya no produce alegría?",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 47,
+        "texto": "También se parece el reino de los cielos a una red echada al lago, que atrapa peces de toda clase.",
+        "comentario": "La red barre todo: nadie escapa al movimiento del plan de Dios a través de la historia, y el momento en que la red llega a la orilla es el límite de la oportunidad. Vivimos mientras la red todavía está en el agua -el tiempo de la redención-, y eso debería urgir tres cosas: la oración por los perdidos, por nombres concretos y no genéricos; el testimonio activo, que no requiere ser predicador sino haber encontrado el tesoro y no poder callarlo; y el sostenimiento de la obra, porque la red no se mueve sola y las personas que van necesitan ser sostenidas -el que no puede ir puede dar, el que no puede dar puede orar.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 48,
+        "texto": "Cuando se llena, los pescadores la sacan a la orilla, se sientan y recogen en canastas los peces buenos y desechan los malos.",
+        "comentario": "La red barre todo: nadie escapa al movimiento del plan de Dios a través de la historia, y el momento en que la red llega a la orilla es el límite de la oportunidad. Vivimos mientras la red todavía está en el agua -el tiempo de la redención-, y eso debería urgir tres cosas: la oración por los perdidos, por nombres concretos y no genéricos; el testimonio activo, que no requiere ser predicador sino haber encontrado el tesoro y no poder callarlo; y el sostenimiento de la obra, porque la red no se mueve sola y las personas que van necesitan ser sostenidas -el que no puede ir puede dar, el que no puede dar puede orar.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 49,
+        "texto": "Así será al fin del mundo. Vendrán los ángeles y apartarán de los justos a los malvados.",
+        "comentario": "La red barre todo: nadie escapa al movimiento del plan de Dios a través de la historia, y el momento en que la red llega a la orilla es el límite de la oportunidad. Vivimos mientras la red todavía está en el agua -el tiempo de la redención-, y eso debería urgir tres cosas: la oración por los perdidos, por nombres concretos y no genéricos; el testimonio activo, que no requiere ser predicador sino haber encontrado el tesoro y no poder callarlo; y el sostenimiento de la obra, porque la red no se mueve sola y las personas que van necesitan ser sostenidas -el que no puede ir puede dar, el que no puede dar puede orar.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 50,
+        "texto": "Luego los arrojarán al horno encendido, donde habrá llanto y crujir de dientes.",
+        "comentario": "La red barre todo: nadie escapa al movimiento del plan de Dios a través de la historia, y el momento en que la red llega a la orilla es el límite de la oportunidad. Vivimos mientras la red todavía está en el agua -el tiempo de la redención-, y eso debería urgir tres cosas: la oración por los perdidos, por nombres concretos y no genéricos; el testimonio activo, que no requiere ser predicador sino haber encontrado el tesoro y no poder callarlo; y el sostenimiento de la obra, porque la red no se mueve sola y las personas que van necesitan ser sostenidas -el que no puede ir puede dar, el que no puede dar puede orar.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 51,
+        "texto": "»¿Han entendido todo esto? —preguntó Jesús. ―Sí —respondieron ellos.",
+        "comentario": "Jesús pregunta si entendieron, y no estaba evaluando si habían memorizado el contenido sino si habían comprendido con el corazón, el tipo de comprensión que cambia la manera de vivir. El maestro del Reino que entiende no guarda el tesoro para sí: lo que aprendió en la Escritura lo lleva afuera, lo que recibió en la intimidad con Dios lo distribuye en la comunidad. Lo viejo del Antiguo Testamento y lo nuevo del Nuevo Testamento se convierten en dos manos de la misma persona que da lo que tiene. Esta es la vocación de cada creyente maduro: no acumular sino distribuir, no crecer para llenarse sino para desbordar hacia afuera.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus",
+          "maestros-de-la-ley"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 52,
+        "texto": "―Todo maestro de la Ley que ha sido instruido acerca del reino de los cielos es como el dueño de una casa que, de lo que tiene guardado, saca tesoros nuevos y viejos.",
+        "comentario": "Jesús pregunta si entendieron, y no estaba evaluando si habían memorizado el contenido sino si habían comprendido con el corazón, el tipo de comprensión que cambia la manera de vivir. El maestro del Reino que entiende no guarda el tesoro para sí: lo que aprendió en la Escritura lo lleva afuera, lo que recibió en la intimidad con Dios lo distribuye en la comunidad. Lo viejo del Antiguo Testamento y lo nuevo del Nuevo Testamento se convierten en dos manos de la misma persona que da lo que tiene. Esta es la vocación de cada creyente maduro: no acumular sino distribuir, no crecer para llenarse sino para desbordar hacia afuera.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus",
+          "maestros-de-la-ley"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 53,
+        "texto": "Cuando Jesús terminó de contar estas parábolas, se fue de allí.",
+        "comentario": "El capítulo cierra en Nazaret, el pueblo donde Jesús creció, y el rechazo que encuentra allí es el más doloroso porque viene de los que más deberían haberlo conocido: «¿no es este el hijo del carpintero?» no es una pregunta honesta, es un descarte -la familiaridad produjo desprecio donde debería haber producido asombro. La misma familiaridad que destruyó el honor de Jesús en Nazaret puede destruir la capacidad de recibir lo que Dios tiene para dar: cuando el nombre de Jesús se vuelve tan cotidiano que ya no produce reverencia, cuando la Palabra se vuelve tan familiar que ya no produce hambre. No es apostasía dramática, es el peligro silencioso de la familiaridad religiosa. «No hizo allí muchos milagros debido a la incredulidad de ellos»: no dice que no pudo, dice que no hizo -el poder de Dios estaba presente pero sin espacio donde actuar porque el corazón de los nazarenos no lo dejaba entrar. La última imagen del capítulo es Jesús asombrado, no de los milagros sino de la incredulidad.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus",
+          "maria"
+        ],
+        "lugar_ids": [
+          "nazaret"
+        ]
+      },
+      {
+        "numero": 54,
+        "texto": "Al llegar a su pueblo, comenzó a enseñar a la gente en la sinagoga. ―¿De dónde sacó este tal sabiduría y tales poderes milagrosos? —decían maravillados—.",
+        "comentario": "El capítulo cierra en Nazaret, el pueblo donde Jesús creció, y el rechazo que encuentra allí es el más doloroso porque viene de los que más deberían haberlo conocido: «¿no es este el hijo del carpintero?» no es una pregunta honesta, es un descarte -la familiaridad produjo desprecio donde debería haber producido asombro. La misma familiaridad que destruyó el honor de Jesús en Nazaret puede destruir la capacidad de recibir lo que Dios tiene para dar: cuando el nombre de Jesús se vuelve tan cotidiano que ya no produce reverencia, cuando la Palabra se vuelve tan familiar que ya no produce hambre. No es apostasía dramática, es el peligro silencioso de la familiaridad religiosa. «No hizo allí muchos milagros debido a la incredulidad de ellos»: no dice que no pudo, dice que no hizo -el poder de Dios estaba presente pero sin espacio donde actuar porque el corazón de los nazarenos no lo dejaba entrar. La última imagen del capítulo es Jesús asombrado, no de los milagros sino de la incredulidad.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus",
+          "maria"
+        ],
+        "lugar_ids": [
+          "nazaret"
+        ]
+      },
+      {
+        "numero": 55,
+        "texto": "¿No es acaso el hijo del carpintero? ¿No se llama su madre María y no son sus hermanos Santiago, José, Simón y Judas?",
+        "comentario": "El capítulo cierra en Nazaret, el pueblo donde Jesús creció, y el rechazo que encuentra allí es el más doloroso porque viene de los que más deberían haberlo conocido: «¿no es este el hijo del carpintero?» no es una pregunta honesta, es un descarte -la familiaridad produjo desprecio donde debería haber producido asombro. La misma familiaridad que destruyó el honor de Jesús en Nazaret puede destruir la capacidad de recibir lo que Dios tiene para dar: cuando el nombre de Jesús se vuelve tan cotidiano que ya no produce reverencia, cuando la Palabra se vuelve tan familiar que ya no produce hambre. No es apostasía dramática, es el peligro silencioso de la familiaridad religiosa. «No hizo allí muchos milagros debido a la incredulidad de ellos»: no dice que no pudo, dice que no hizo -el poder de Dios estaba presente pero sin espacio donde actuar porque el corazón de los nazarenos no lo dejaba entrar. La última imagen del capítulo es Jesús asombrado, no de los milagros sino de la incredulidad.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus",
+          "maria"
+        ],
+        "lugar_ids": [
+          "nazaret"
+        ]
+      },
+      {
+        "numero": 56,
+        "texto": "¿No están con nosotros todas sus hermanas? Así que, ¿de dónde sacó todas estas cosas?",
+        "comentario": "El capítulo cierra en Nazaret, el pueblo donde Jesús creció, y el rechazo que encuentra allí es el más doloroso porque viene de los que más deberían haberlo conocido: «¿no es este el hijo del carpintero?» no es una pregunta honesta, es un descarte -la familiaridad produjo desprecio donde debería haber producido asombro. La misma familiaridad que destruyó el honor de Jesús en Nazaret puede destruir la capacidad de recibir lo que Dios tiene para dar: cuando el nombre de Jesús se vuelve tan cotidiano que ya no produce reverencia, cuando la Palabra se vuelve tan familiar que ya no produce hambre. No es apostasía dramática, es el peligro silencioso de la familiaridad religiosa. «No hizo allí muchos milagros debido a la incredulidad de ellos»: no dice que no pudo, dice que no hizo -el poder de Dios estaba presente pero sin espacio donde actuar porque el corazón de los nazarenos no lo dejaba entrar. La última imagen del capítulo es Jesús asombrado, no de los milagros sino de la incredulidad.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus",
+          "maria"
+        ],
+        "lugar_ids": [
+          "nazaret"
+        ]
+      },
+      {
+        "numero": 57,
+        "texto": "Y se escandalizaban a causa de él. Pero Jesús les dijo: ―En todas partes se honra a un profeta, menos en su tierra y en su propia casa.",
+        "comentario": "El capítulo cierra en Nazaret, el pueblo donde Jesús creció, y el rechazo que encuentra allí es el más doloroso porque viene de los que más deberían haberlo conocido: «¿no es este el hijo del carpintero?» no es una pregunta honesta, es un descarte -la familiaridad produjo desprecio donde debería haber producido asombro. La misma familiaridad que destruyó el honor de Jesús en Nazaret puede destruir la capacidad de recibir lo que Dios tiene para dar: cuando el nombre de Jesús se vuelve tan cotidiano que ya no produce reverencia, cuando la Palabra se vuelve tan familiar que ya no produce hambre. No es apostasía dramática, es el peligro silencioso de la familiaridad religiosa. «No hizo allí muchos milagros debido a la incredulidad de ellos»: no dice que no pudo, dice que no hizo -el poder de Dios estaba presente pero sin espacio donde actuar porque el corazón de los nazarenos no lo dejaba entrar. La última imagen del capítulo es Jesús asombrado, no de los milagros sino de la incredulidad.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus",
+          "maria"
+        ],
+        "lugar_ids": [
+          "nazaret"
+        ]
+      },
+      {
+        "numero": 58,
+        "texto": "Y, por la falta de fe de ellos, no hizo allí muchos milagros.",
+        "comentario": "El capítulo cierra en Nazaret, el pueblo donde Jesús creció, y el rechazo que encuentra allí es el más doloroso porque viene de los que más deberían haberlo conocido: «¿no es este el hijo del carpintero?» no es una pregunta honesta, es un descarte -la familiaridad produjo desprecio donde debería haber producido asombro. La misma familiaridad que destruyó el honor de Jesús en Nazaret puede destruir la capacidad de recibir lo que Dios tiene para dar: cuando el nombre de Jesús se vuelve tan cotidiano que ya no produce reverencia, cuando la Palabra se vuelve tan familiar que ya no produce hambre. No es apostasía dramática, es el peligro silencioso de la familiaridad religiosa. «No hizo allí muchos milagros debido a la incredulidad de ellos»: no dice que no pudo, dice que no hizo -el poder de Dios estaba presente pero sin espacio donde actuar porque el corazón de los nazarenos no lo dejaba entrar. La última imagen del capítulo es Jesús asombrado, no de los milagros sino de la incredulidad.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus",
+          "maria"
+        ],
+        "lugar_ids": [
+          "nazaret"
+        ]
+      }
+    ],
+    "contexto_ids": [
+      "parabola-del-sembrador-cuatro-terrenos",
+      "misterio-del-reino-por-que-parabolas",
+      "parabola-cizana-trigo-y-mala-hierba"
+    ],
+    "reflexion": [
+      "La parábola del sembrador es un espejo. Siendo honesto con vos mismo hoy: ¿en qué terreno estás -camino, pedregal, espinos o buena tierra- y qué necesitás cambiar para que la Palabra eche raíz?",
+      "El grano de mostaza y la levadura muestran que lo pequeño e invisible no es sinónimo de sin valor. ¿En qué área de tu vida espiritual estás juzgando el progreso por el tamaño en vez de por la vida que hay adentro?",
+      "El hombre que encontró el tesoro lo vendió todo con alegría, no con dolor. ¿Seguir a Jesús se siente hoy como una pérdida que soportás o como el mejor negocio de tu vida?"
+    ]
   }
 ]

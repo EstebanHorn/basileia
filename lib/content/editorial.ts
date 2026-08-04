@@ -109,6 +109,14 @@ const CHAPTER_META: Record<Locale, Record<number, ChapterMeta>> = {
       title: 'Dudas desde la cárcel y descanso para el alma',
       intro: 'Los capítulos anteriores mostraron a Jesús enseñando con autoridad, sanando y enviando a sus discípulos: todo apuntaba hacia arriba. En Mateo 11 empieza a aparecer una sombra —duda, resistencia, rechazo— y no de parte de los enemigos obvios sino de personajes inesperados, empezando por el propio Juan el Bautista.',
     },
+    12: {
+      title: 'Conflicto abierto: el Señor del sábado',
+      intro: 'Mateo 12 marca un punto de quiebre: la oposición de los fariseos, creciente pero contenida hasta ahora, cruza una línea y empieza a conspirar abiertamente para matar a Jesús. La tensión se enciende en torno a algo que a primera vista parece menor —el sábado— y escala hasta la acusación más grave que Jesús enfrentará en todo el evangelio: que actúa por el poder de Beelzebú.',
+    },
+    13: {
+      title: 'Parábolas del Reino: lo que se revela y lo que se esconde',
+      intro: 'Después del rechazo frontal del capítulo 12, Jesús cambia de método: abandona el discurso directo y comienza a hablar exclusivamente en parábolas. Desde este momento, sus palabras revelarán a los que quieren ver y ocultarán a los que eligieron no hacerlo —el sembrador, la cizaña, el grano de mostaza, la levadura, el tesoro, la perla y la red describen, cada una desde un ángulo distinto, cómo opera el Reino de los cielos.',
+    },
   },
   pt: {
     1: {
@@ -155,6 +163,14 @@ const CHAPTER_META: Record<Locale, Record<number, ChapterMeta>> = {
       title: 'Dúvidas desde a prisão e descanso para a alma',
       intro: 'Os capítulos anteriores mostraram Jesus ensinando com autoridade, curando e enviando seus discípulos: tudo apontava para cima. Em Mateus 11 começa a aparecer uma sombra — dúvida, resistência, rejeição — e não da parte dos inimigos óbvios, mas de personagens inesperados, começando pelo próprio João Batista.',
     },
+    12: {
+      title: 'Conflito aberto: o Senhor do sábado',
+      intro: 'Mateus 12 marca um ponto de virada: a oposição dos fariseus, crescente mas até então contida, cruza uma linha e começa a conspirar abertamente para matar Jesus. A tensão se acende em torno de algo que à primeira vista parece menor — o sábado — e escala até a acusação mais grave que Jesus enfrentará em todo o evangelho: que ele age pelo poder de Belzebu.',
+    },
+    13: {
+      title: 'Parábolas do Reino: o que se revela e o que se esconde',
+      intro: 'Depois da rejeição frontal do capítulo 12, Jesus muda de método: abandona o discurso direto e passa a falar exclusivamente em parábolas. A partir deste momento, suas palavras revelarão aos que querem ver e ocultarão dos que escolheram não fazê-lo — o semeador, o joio, o grão de mostarda, o fermento, o tesouro, a pérola e a rede descrevem, cada uma a partir de um ângulo diferente, como opera o Reino dos céus.',
+    },
   },
 };
 
@@ -191,7 +207,7 @@ const TEMA_LABELS: Record<Locale, Record<string, string>> = {
 };
 
 export const MAX_CHAPTER = 28;
-export const COMPLETED_RANGE: [number, number] = [1, 11];
+export const COMPLETED_RANGE: [number, number] = [1, 13];
 
 export function isCompleted(n: number): boolean {
   return n >= COMPLETED_RANGE[0] && n <= COMPLETED_RANGE[1];

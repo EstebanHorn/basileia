@@ -151,7 +151,8 @@
       "significado": "hacer",
       "nota": "Parte compuesta de eirenopoios (el que 'hace' la paz): subraya que la paz bíblica no es pasividad sino una acción deliberada.",
       "capitulos": [
-        5
+        5,
+        12
       ],
       "palabra": "trabajan"
     },
@@ -660,6 +661,28 @@
         11
       ],
       "palabra": "humilde"
+    },
+    {
+      "id": "argos",
+      "griego": "ἀργός",
+      "transliteracion": "argos",
+      "significado": "ocioso, inútil, vacío",
+      "nota": "Describe algo vacío, sin propósito, dicho sin cuidado ni responsabilidad. Jesús advierte que hasta la palabra más 'ociosa' -la que se dice sin pensar- tendrá que rendir cuentas en el juicio, porque revela lo que hay en el corazón.",
+      "capitulos": [
+        12
+      ],
+      "palabra": "ociosa"
+    },
+    {
+      "id": "mysterion",
+      "griego": "μυστήριον",
+      "transliteracion": "mysterion",
+      "significado": "misterio, secreto",
+      "nota": "Algo que estuvo oculto y ahora es revelado solo a quienes tienen ojos para ver. Jesús lo usa para describir los misterios del Reino de los cielos, que sus parábolas revelan a los discípulos y esconden de quienes eligieron no creer.",
+      "capitulos": [
+        13
+      ],
+      "palabra": "misterios"
     }
   ]
 }
