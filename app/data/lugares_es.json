@@ -142,6 +142,7 @@
         4,
         8,
         11,
+        14,
         17
       ]
     },
@@ -153,7 +154,8 @@
       "nota": "Ciudad de la orilla norte del lago de Galilea, junto con Corazín y Capernaúm, donde Jesús concentró buena parte de su ministerio. Ciudad de origen del apóstol Felipe, Pedro y Andrés.",
       "capitulos": [
         10,
-        11
+        11,
+        14
       ]
     },
     {
@@ -314,6 +316,16 @@
       "nota": "Región entre Galilea y Judea. Jesús la menciona por contraste al enviar a los doce: 'no entréis en ciudad de samaritanos', instruyéndolos a concentrarse primero en las 'ovejas perdidas de la casa de Israel'.",
       "capitulos": [
         10
+      ]
+    },
+    {
+      "id": "genesaret",
+      "nombre": "Genesaret",
+      "top": 26,
+      "left": 54,
+      "nota": "Fértil llanura costera al noroeste del Mar de Galilea, densamente poblada, descrita por Josefo como \"el jardín de Galilea\". Allí la gente le suplica a Jesús tocar solo el borde de su manto, y todos los que lo tocan quedan sanos.",
+      "capitulos": [
+        14
       ]
     }
   ]

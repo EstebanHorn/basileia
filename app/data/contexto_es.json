@@ -233,6 +233,60 @@
       "titulo": "La parábola de la cizaña: el trigo y la mala hierba",
       "tema": "vida-judia",
       "texto": "A diferencia de la parábola del sembrador, esta introduce la presencia activa de un enemigo: mientras todos dormían, alguien sembró cizaña en medio del trigo. La cizaña más común en el mundo bíblico -probablemente joyo o cizaña darnel- es prácticamente indistinguible del trigo en sus primeras etapas de crecimiento, y solo se revela con claridad cuando ambas maduran. El dueño del campo ordena esperar hasta la cosecha antes de separarlas, para no arrancar el trigo genuino junto con la maleza: una imagen de la paciencia de Dios frente a la mezcla de bien y mal que convive en el mundo hasta el juicio final."
+    },
+    {
+      "id": "matrimonio-herodes-antipas-herodias",
+      "titulo": "El escándalo matrimonial de Herodes Antipas",
+      "tema": "politica-romana",
+      "texto": "Herodes Antipas estaba casado con la hija del rey nabateo Aretas IV cuando, en un viaje a Roma, se enamoró de Herodías, esposa de su medio hermano Herodes Felipe. Ambos se divorciaron de sus respectivos cónyuges para casarse entre sí, violando directamente Levítico 18:16 y 20:21, que prohíben casarse con la esposa de un hermano vivo, y humillando públicamente a la hija de Aretas -lo cual desencadenaría años después una guerra entre Antipas y el reino nabateo. Juan el Bautista fue el único con la valentía pública de confrontar a Herodes por esto, de forma sostenida y sin retroceder."
+    },
+    {
+      "id": "maqueronte-fortaleza-desertica",
+      "titulo": "Maqueronte: la fortaleza donde murió Juan",
+      "tema": "geografia",
+      "texto": "Maqueronte era una fortaleza-palacio construida por Herodes el Grande en el desierto, al este del Mar Muerto, en los límites de Perea. Servía como residencia de recreo y como prisión de alta seguridad: allí Herodes Antipas mantuvo encadenado a Juan el Bautista, y allí mismo, durante un banquete de cumpleaños con la élite política y militar de la región, ordenó su decapitación."
+    },
+    {
+      "id": "mar-de-galilea-geografia-y-tormentas",
+      "titulo": "El Mar de Galilea: geografía y tormentas repentinas",
+      "tema": "geografia",
+      "texto": "El Mar de Galilea es en realidad un lago de agua dulce, el más bajo del mundo fuera del Mar Muerto, unos 210 metros bajo el nivel del mar, con forma ovalada de unos 21 kilómetros de norte a sur. Las montañas que lo rodean, especialmente los Altos del Golán al este, generan corrientes de aire que bajan de las alturas y producen tempestades repentinas e intensas, con olas de hasta tres metros, tal como la que atraparon a los discípulos en medio del lago mientras Jesús oraba a solas en el monte."
+    },
+    {
+      "id": "tradicion-oral-halaja",
+      "titulo": "La Halajá: la tradición oral de los fariseos",
+      "tema": "practicas-religiosas",
+      "texto": "La Halajá (הֲלָכָה, \"el camino que se camina\") era la tradición oral rabínica que interpretaba y aplicaba la Torá escrita a la vida cotidiana. Los fariseos la consideraban igualmente vinculante que el texto bíblico, y entre sus preceptos estaba el lavado ritual de manos antes de comer, una separación simbólica entre lo sagrado y lo impuro que no tenía relación con la higiene. Jesús no rechaza la posibilidad de la tradición, pero sí su confusión con la voluntad de Dios cuando una anula a la otra."
+    },
+    {
+      "id": "cananeos-enemistad-historica-con-israel",
+      "titulo": "Los cananeos: enemistad histórica con Israel",
+      "tema": "vida-judia",
+      "texto": "Los cananeos eran los habitantes originales de la tierra prometida, conquistada por Israel bajo el liderazgo de Josué, y representaban en el imaginario del Antiguo Testamento el ejemplo paradigmático del pueblo ajeno al pacto de Dios y a su idolatría. Que Mateo llame \"cananea\" a la mujer de Tiro y Sidón, en lugar de usar el término geográfico más neutro \"sirofenicia\" que usa Marcos, acentúa deliberadamente el contraste entre su identidad y la fe mesiánica que ella demuestra."
+    },
+    {
+      "id": "numeros-simbolicos-biblicos",
+      "titulo": "Números simbólicos: cinco, siete, doce y cuatro",
+      "tema": "vida-judia",
+      "texto": "En el pensamiento bíblico los números a menudo llevan un peso simbólico: el cinco se asociaba a los cinco libros de la Torá y a la gracia de Dios hacia Israel; el doce, a las doce tribus; el siete, a la plenitud y el descanso del sabbat; el cuatro, a los cuatro puntos cardinales y a la totalidad de la tierra conocida. Las dos multiplicaciones de panes de Mateo usan estos números de manera distinta -cinco panes y doce canastas para una multitud judía, siete panes y cuatro mil personas de las naciones- subrayando que la misma gracia de Dios se extiende ahora a todos."
+    },
+    {
+      "id": "cesarea-de-filipo-culto-pagano",
+      "titulo": "Cesarea de Filipo: un centro de culto pagano",
+      "tema": "geografia",
+      "texto": "Cesarea de Filipo, a los pies del monte Hermón, había sido construida por Herodes Filipe en honor al emperador Augusto. Era un centro de culto al dios griego Pan, y junto a una gruta de la que brotaba un manantial los paganos ubicaban una de las supuestas \"puertas del Hades\", entrada al inframundo. Que Jesús elija ese escenario para preguntar \"¿quién dicen que soy yo?\" y para prometer que las puertas del Hades no prevalecerán contra su iglesia es un contraste deliberado frente al poder religioso y político que ese lugar representaba."
+    },
+    {
+      "id": "cambio-de-nombre-en-el-mundo-biblico",
+      "titulo": "El cambio de nombre en el mundo bíblico",
+      "tema": "vida-judia",
+      "texto": "En el mundo bíblico, recibir un nombre nuevo de parte de Dios no era un gesto simbólico menor sino una declaración de identidad y destino: Abram se convirtió en Abraham al recibir la promesa de ser padre de muchas naciones (Génesis 17:5), y Jacob se convirtió en Israel después de luchar con Dios (Génesis 32:28). Cuando Jesús llama Pedro a Simón, justo en el momento en que el Padre le revela quién es Jesús, se inscribe en esa misma tradición: el nombre nuevo marca el inicio de un llamado distinto."
+    },
+    {
+      "id": "autoridad-rabinica-atar-y-desatar",
+      "titulo": "Atar y desatar: autoridad rabínica de declarar",
+      "tema": "practicas-religiosas",
+      "texto": "En el lenguaje rabínico del siglo I, \"atar\" y \"desatar\" eran términos técnicos para la autoridad de declarar algo prohibido o permitido, y de incluir o excluir a alguien de la comunidad religiosa. Al darle a Pedro -y luego a los demás apóstoles en Mateo 18:18- las llaves y la autoridad de atar y desatar, Jesús usa un concepto que sus oyentes reconocían de inmediato: una autoridad real de gobierno sobre la comunidad del Reino, pero subordinada a lo que ya está establecido en el cielo, no independiente de ello."
     }
   ]
 }

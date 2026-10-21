@@ -18,7 +18,10 @@
         10,
         11,
         12,
-        13
+        13,
+        14,
+        15,
+        16
       ]
     },
     {
@@ -94,7 +97,8 @@
         4,
         5,
         8,
-        11
+        11,
+        15
       ]
     },
     {
@@ -121,7 +125,8 @@
         9,
         11,
         12,
-        13
+        13,
+        15
       ]
     },
     {
@@ -132,7 +137,8 @@
       "capitulos": [
         3,
         10,
-        11
+        11,
+        14
       ]
     },
     {
@@ -148,7 +154,9 @@
         8,
         9,
         11,
-        12
+        12,
+        15,
+        16
       ]
     },
     {
@@ -157,7 +165,8 @@
       "categoria": "autoridad-religiosa",
       "descripcion": "Junto com os fariseus, um dos grupos religiosos mais influentes do judaísmo do século I que se aproximam do batismo de João e recebem dele uma forte confrontação por buscar a forma religiosa sem arrependimento genuíno.",
       "capitulos": [
-        3
+        3,
+        16
       ]
     },
     {
@@ -171,7 +180,8 @@
         9,
         10,
         12,
-        13
+        13,
+        16
       ]
     },
     {
@@ -184,7 +194,9 @@
         5,
         8,
         10,
-        11
+        11,
+        14,
+        16
       ]
     },
     {
@@ -205,7 +217,8 @@
       "descripcion": "Irmão de Simão Pedro, também pescador da Galileia. Antes de seguir Jesus foi discípulo de João Batista. No evangelho aparece frequentemente como aquele que conecta outros a Jesus: um homem de segundo plano com um ministério de conexão.",
       "capitulos": [
         4,
-        10
+        10,
+        14
       ]
     },
     {
@@ -248,7 +261,8 @@
       "categoria": "otro",
       "descripcion": "Profeta do Antigo Testamento que passou três dias e três noites no ventre de um grande peixe depois de fugir da missão que Deus lhe confiou em Nínive. Jesus usa sua história como 'o sinal de Jonas': um anúncio, em código, de sua própria morte e ressurreição, e contrasta o arrependimento em massa dos ninivitas pagãos com a incredulidade de 'esta geração'.",
       "capitulos": [
-        12
+        12,
+        16
       ]
     },
     {
@@ -267,6 +281,33 @@
       "descripcion": "Identificada tradicionalmente com a rainha de Sabá (1 Reis 10), viajou desde os confins do mundo conhecido apenas para ouvir a sabedoria de Salomão, sem acesso às Escrituras nem herança do pacto. Jesus a apresenta como testemunha que condenará no juízo aqueles que, com muito mais acesso à revelação de Deus, não responderam.",
       "capitulos": [
         12
+      ]
+    },
+    {
+      "id": "herodes-antipas",
+      "nombre": "Herodes Antipas",
+      "categoria": "autoridad-politica",
+      "descripcion": "Filho de Herodes, o Grande, tetrarca da Galileia e da Pereia sob o domínio de Roma: um governante com poder real, mas emprestado, sempre dependente do Império para sustentar sua posição. Prendeu e depois decapitou João Batista por denunciar seu casamento com Herodias, esposa de seu irmão Filipe -uma decisão que tomou aflito, não por convicção, mas por medo de ficar mal diante de seus convidados. Mais adiante, ao ouvir falar dos milagres de Jesus, sua consciência culpada o levou a pensar que João havia ressuscitado.",
+      "capitulos": [
+        14
+      ]
+    },
+    {
+      "id": "herodias",
+      "nombre": "Herodias",
+      "categoria": "otro",
+      "descripcion": "Neta de Herodes, o Grande, casada primeiro com seu tio Herodes Filipe e depois com outro tio, Herodes Antipas, em um casamento que violava abertamente a Lei de Moisés. João Batista a confrontou repetidamente por isso, e ela esperou o momento certo para se vingar: usou a dança de sua filha no banquete de aniversário de Antipas para obter, por meio de um juramento imprudente do tetrarca, a cabeça de João em um prato.",
+      "capitulos": [
+        14
+      ]
+    },
+    {
+      "id": "mujer-cananea",
+      "nombre": "A mulher cananeia",
+      "categoria": "otro",
+      "descripcion": "Mulher gentia da região de Tiro e Sidom que se aproxima de Jesus clamando \"Senhor, Filho de Davi\" por sua filha atormentada por um demônio. Embora a resposta inicial de Jesus pareça reservar a missão a Israel, ela não desiste, e sua resposta -\"até os cachorrinhos comem das migalhas que caem da mesa dos seus donos\"- é declarada por Jesus como uma grande fé, a mesma expressão que ele havia usado para o centurião romano: outro gentio que viu com clareza o que muitos de dentro não conseguiam ver.",
+      "capitulos": [
+        15
       ]
     }
   ]

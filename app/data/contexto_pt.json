@@ -233,6 +233,60 @@
       "titulo": "A parábola do joio: o trigo e a erva daninha",
       "tema": "vida-judia",
       "texto": "Diferente da parábola do semeador, esta introduz a presença ativa de um inimigo: enquanto todos dormiam, alguém semeou joio no meio do trigo. O joio mais comum no mundo bíblico -provavelmente o azevém- é praticamente indistinguível do trigo em suas primeiras fases de crescimento, e só se revela com clareza quando ambos amadurecem. O dono do campo ordena esperar até a colheita antes de separá-los, para não arrancar o trigo genuíno junto com a erva daninha: uma imagem da paciência de Deus diante da mistura de bem e mal que convive no mundo até o juízo final."
+    },
+    {
+      "id": "matrimonio-herodes-antipas-herodias",
+      "titulo": "O escândalo matrimonial de Herodes Antipas",
+      "tema": "politica-romana",
+      "texto": "Herodes Antipas era casado com a filha do rei nabateu Aretas IV quando, em uma viagem a Roma, se apaixonou por Herodias, esposa de seu meio-irmão Herodes Filipe. Ambos se divorciaram de seus respectivos cônjuges para se casarem, violando diretamente Levítico 18:16 e 20:21, que proíbem casar-se com a esposa de um irmão vivo, e humilhando publicamente a filha de Aretas -o que desencadearia anos depois uma guerra entre Antipas e o reino nabateu. João Batista foi o único com a coragem pública de confrontar Herodes por isso, de forma sustentada e sem recuar."
+    },
+    {
+      "id": "maqueronte-fortaleza-desertica",
+      "titulo": "Maqueronte: a fortaleza onde João morreu",
+      "tema": "geografia",
+      "texto": "Maqueronte era uma fortaleza-palácio construída por Herodes, o Grande, no deserto, a leste do Mar Morto, nos limites da Pereia. Servia como residência de lazer e como prisão de alta segurança: ali Herodes Antipas manteve João Batista acorrentado, e ali mesmo, durante um banquete de aniversário com a elite política e militar da região, ordenou sua decapitação."
+    },
+    {
+      "id": "mar-de-galilea-geografia-y-tormentas",
+      "titulo": "O Mar da Galileia: geografia e tempestades repentinas",
+      "tema": "geografia",
+      "texto": "O Mar da Galileia é, na verdade, um lago de água doce, o mais baixo do mundo fora do Mar Morto, cerca de 210 metros abaixo do nível do mar, com formato ovalado de uns 21 quilômetros de norte a sul. As montanhas ao redor, especialmente os Montes Golã a leste, geram correntes de ar que descem das alturas e produzem tempestades repentinas e intensas, com ondas de até três metros, como a que surpreendeu os discípulos no meio do lago enquanto Jesus orava sozinho no monte."
+    },
+    {
+      "id": "tradicion-oral-halaja",
+      "titulo": "A Halaká: a tradição oral dos fariseus",
+      "tema": "practicas-religiosas",
+      "texto": "A Halaká (הֲלָכָה, \"o caminho que se percorre\") era a tradição oral rabínica que interpretava e aplicava a Torá escrita à vida cotidiana. Os fariseus a consideravam tão vinculante quanto o texto bíblico, e entre seus preceitos estava a lavagem ritual das mãos antes de comer, uma separação simbólica entre o sagrado e o impuro que não tinha relação com higiene. Jesus não rejeita a possibilidade da tradição, mas sim sua confusão com a vontade de Deus quando uma anula a outra."
+    },
+    {
+      "id": "cananeos-enemistad-historica-con-israel",
+      "titulo": "Os cananeus: inimizade histórica com Israel",
+      "tema": "vida-judia",
+      "texto": "Os cananeus eram os habitantes originais da terra prometida, conquistada por Israel sob a liderança de Josué, e representavam no imaginário do Antigo Testamento o exemplo paradigmático do povo alheio à aliança de Deus e à sua idolatria. O fato de Mateus chamar de \"cananeia\" a mulher de Tiro e Sidom, em vez de usar o termo geográfico mais neutro \"sirofenícia\" que Marcos usa, acentua deliberadamente o contraste entre sua identidade e a fé messiânica que ela demonstra."
+    },
+    {
+      "id": "numeros-simbolicos-biblicos",
+      "titulo": "Números simbólicos: cinco, sete, doze e quatro",
+      "tema": "vida-judia",
+      "texto": "No pensamento bíblico os números frequentemente carregam um peso simbólico: o cinco se associava aos cinco livros da Torá e à graça de Deus para com Israel; o doze, às doze tribos; o sete, à plenitude e ao descanso do sábado; o quatro, aos quatro pontos cardeais e à totalidade da terra conhecida. As duas multiplicações de pães em Mateus usam esses números de maneira distinta -cinco pães e doze cestos para uma multidão judia, sete pães e quatro mil pessoas das nações- destacando que a mesma graça de Deus agora se estende a todos."
+    },
+    {
+      "id": "cesarea-de-filipo-culto-pagano",
+      "titulo": "Cesareia de Filipe: um centro de culto pagão",
+      "tema": "geografia",
+      "texto": "Cesareia de Filipe, aos pés do monte Hermom, havia sido construída por Herodes Filipe em honra ao imperador Augusto. Era um centro de culto ao deus grego Pã, e junto a uma gruta de onde brotava um manancial os pagãos localizavam uma das supostas \"portas do Hades\", entrada para o submundo. O fato de Jesus escolher esse cenário para perguntar \"quem vocês dizem que eu sou?\" e para prometer que as portas do Hades não prevalecerão contra sua igreja é um contraste deliberado diante do poder religioso e político que aquele lugar representava."
+    },
+    {
+      "id": "cambio-de-nombre-en-el-mundo-biblico",
+      "titulo": "A mudança de nome no mundo bíblico",
+      "tema": "vida-judia",
+      "texto": "No mundo bíblico, receber um nome novo da parte de Deus não era um gesto simbólico menor, mas uma declaração de identidade e destino: Abrão se tornou Abraão ao receber a promessa de ser pai de muitas nações (Gênesis 17:5), e Jacó se tornou Israel depois de lutar com Deus (Gênesis 32:28). Quando Jesus chama Simão de Pedro, justamente no momento em que o Pai lhe revela quem é Jesus, ele se inscreve nessa mesma tradição: o nome novo marca o início de um chamado diferente."
+    },
+    {
+      "id": "autoridad-rabinica-atar-y-desatar",
+      "titulo": "Ligar e desligar: autoridade rabínica de declarar",
+      "tema": "practicas-religiosas",
+      "texto": "Na linguagem rabínica do século I, \"ligar\" e \"desligar\" eram termos técnicos para a autoridade de declarar algo proibido ou permitido, e de incluir ou excluir alguém da comunidade religiosa. Ao dar a Pedro -e depois aos demais apóstolos em Mateus 18:18- as chaves e a autoridade de ligar e desligar, Jesus usa um conceito que seus ouvintes reconheciam de imediato: uma autoridade real de governo sobre a comunidade do Reino, mas subordinada ao que já está estabelecido no céu, não independente disso."
     }
   ]
 }

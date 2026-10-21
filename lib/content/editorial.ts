@@ -117,6 +117,18 @@ const CHAPTER_META: Record<Locale, Record<number, ChapterMeta>> = {
       title: 'Parábolas del Reino: lo que se revela y lo que se esconde',
       intro: 'Después del rechazo frontal del capítulo 12, Jesús cambia de método: abandona el discurso directo y comienza a hablar exclusivamente en parábolas. Desde este momento, sus palabras revelarán a los que quieren ver y ocultarán a los que eligieron no hacerlo —el sembrador, la cizaña, el grano de mostaza, la levadura, el tesoro, la perla y la red describen, cada una desde un ángulo distinto, cómo opera el Reino de los cielos.',
     },
+    14: {
+      title: 'La compasión que no retrocede',
+      intro: 'Mateo 14 abre con una muerte: la del único hombre que Jesús declaró el más grande nacido de mujer, ejecutado por el capricho de una noche de fiesta. Y cierra con personas enfermas tocando el borde del manto de Jesús y siendo sanadas. Entre esos dos extremos hay un milagro que alimentó a más de cinco mil familias, y una de las escenas más humanas de todo el evangelio: Pedro caminando sobre el agua y hundiéndose al desviar la mirada. Algo atraviesa todo el capítulo: cada vez que Jesús intenta retirarse, la necesidad lo alcanza, y cada vez que eso ocurre no hay impaciencia ni rechazo, sino compasión.',
+    },
+    15: {
+      title: 'El corazón verdadero y la fe que cruza fronteras',
+      intro: 'Mateo 15 tiene tres movimientos que a primera vista parecen no conectarse: una confrontación sobre la tradición religiosa, la sanidad de la hija de una mujer gentil, y un segundo milagro de multiplicación de panes. Pero leídos juntos, el hilo conductor es claro: Jesús expande los límites de quién puede recibir lo que Él tiene para dar, desmantelando las barreras que los seres humanos construyen para restringirlo.',
+    },
+    16: {
+      title: '¿Quién dicen ustedes que soy yo?',
+      intro: 'Mateo 16 es uno de los capítulos más densos en revelación progresiva: Jesús confronta a los líderes religiosos, advierte a sus discípulos sobre las influencias que los pueden desviar, y hace la pregunta más importante del evangelio -¿quién dicen ustedes que soy yo?-. La respuesta de Pedro abre una de las declaraciones más significativas del Nuevo Testamento sobre la iglesia y la identidad de Jesús, y casi de inmediato ese mismo Pedro queda expuesto como completamente humano ante el anuncio de la cruz.',
+    },
   },
   pt: {
     1: {
@@ -171,6 +183,18 @@ const CHAPTER_META: Record<Locale, Record<number, ChapterMeta>> = {
       title: 'Parábolas do Reino: o que se revela e o que se esconde',
       intro: 'Depois da rejeição frontal do capítulo 12, Jesus muda de método: abandona o discurso direto e passa a falar exclusivamente em parábolas. A partir deste momento, suas palavras revelarão aos que querem ver e ocultarão dos que escolheram não fazê-lo — o semeador, o joio, o grão de mostarda, o fermento, o tesouro, a pérola e a rede descrevem, cada uma a partir de um ângulo diferente, como opera o Reino dos céus.',
     },
+    14: {
+      title: 'A compaixão que não recua',
+      intro: 'Mateus 14 abre com uma morte: a do único homem que Jesus declarou o maior nascido de mulher, executado pelo capricho de uma noite de festa. E se fecha com pessoas doentes tocando na borda do manto de Jesus e sendo curadas. Entre esses dois extremos há um milagre que alimentou mais de cinco mil famílias, e uma das cenas mais humanas de todo o evangelho: Pedro andando sobre a água e afundando ao desviar o olhar. Algo atravessa todo o capítulo: cada vez que Jesus tenta se retirar, a necessidade o alcança, e cada vez que isso acontece não há impaciência nem rejeição, mas compaixão.',
+    },
+    15: {
+      title: 'O coração verdadeiro e a fé que cruza fronteiras',
+      intro: 'Mateus 15 tem três movimentos que à primeira vista parecem não se conectar: um confronto sobre a tradição religiosa, a cura da filha de uma mulher gentia, e um segundo milagre de multiplicação de pães. Mas lidos juntos, o fio condutor é claro: Jesus expande os limites de quem pode receber o que ele tem para dar, desmontando as barreiras que os seres humanos constroem para restringi-lo.',
+    },
+    16: {
+      title: 'Quem vocês dizem que eu sou?',
+      intro: 'Mateus 16 é um dos capítulos mais densos em revelação progressiva: Jesus confronta os líderes religiosos, adverte seus discípulos sobre as influências que podem desviá-los, e faz a pergunta mais importante do evangelho -quem vocês dizem que eu sou?-. A resposta de Pedro abre uma das declarações mais significativas do Novo Testamento sobre a igreja e a identidade de Jesus, e quase imediatamente esse mesmo Pedro é exposto como completamente humano diante do anúncio da cruz.',
+    },
   },
 };
 
@@ -207,7 +231,7 @@ const TEMA_LABELS: Record<Locale, Record<string, string>> = {
 };
 
 export const MAX_CHAPTER = 28;
-export const COMPLETED_RANGE: [number, number] = [1, 13];
+export const COMPLETED_RANGE: [number, number] = [1, 16];
 
 export function isCompleted(n: number): boolean {
   return n >= COMPLETED_RANGE[0] && n <= COMPLETED_RANGE[1];

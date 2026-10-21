@@ -142,6 +142,7 @@
         4,
         8,
         11,
+        14,
         17
       ]
     },
@@ -153,7 +154,8 @@
       "nota": "Cidade da margem norte do mar da Galileia, junto com Corazim e Cafarnaum, onde Jesus concentrou boa parte de seu ministério. Cidade de origem do apóstolo Filipe, Pedro e André.",
       "capitulos": [
         10,
-        11
+        11,
+        14
       ]
     },
     {
@@ -314,6 +316,16 @@
       "nota": "Região entre a Galileia e a Judeia. Jesus a menciona por contraste ao enviar os doze: 'não entrem em cidade de samaritanos', instruindo-os a se concentrarem primeiro nas 'ovelhas perdidas da casa de Israel'.",
       "capitulos": [
         10
+      ]
+    },
+    {
+      "id": "genesaret",
+      "nombre": "Genesaré",
+      "top": 26,
+      "left": 54,
+      "nota": "Fértil planície costeira a noroeste do Mar da Galileia, densamente povoada, descrita por Josefo como \"o jardim da Galileia\". Ali o povo suplica a Jesus para tocar apenas na borda do seu manto, e todos os que o tocam ficam curados.",
+      "capitulos": [
+        14
       ]
     }
   ]

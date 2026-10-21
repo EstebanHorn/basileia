@@ -5631,5 +5631,1337 @@
       "O grão de mostarda e o fermento mostram que o pequeno e invisível não é sinônimo de sem valor. Em que área da sua vida espiritual você está julgando o progresso pelo tamanho, em vez de pela vida que há dentro?",
       "O homem que encontrou o tesouro vendeu tudo com alegria, não com dor. Seguir Jesus hoje parece uma perda que você suporta ou o melhor negócio da sua vida?"
     ]
+  },
+  {
+    "libro": "Mateo",
+    "capitulo": 14,
+    "discurso_id": "milagros-fe-e-inclusion",
+    "estado": "publicado",
+    "versiculos": [
+      {
+        "numero": 1,
+        "texto": "Por aquele tempo, Herodes, o tetrarca, ouviu os relatos a respeito de Jesus",
+        "comentario": "Herodes, o tetrarca, ouviu falar de Jesus e sua primeira reação foi dizer aos seus servos: \"Este é João Batista. Ele ressuscitou dentre os mortos!\". Para entender essa reação é preciso conhecer esse Herodes: é Herodes Antipas, filho de Herodes, o Grande, governante da Galileia e da Pereia sob o domínio de Roma. Não era um rei com plena autonomia, mas um cliente político do Império, com o título de tetrarca -governante de uma quarta parte do território-, um homem com poder real, mas emprestado, sempre dependente de Roma para sustentar sua posição. Quando chegaram os relatos sobre os milagres de Jesus, sua mente foi direto a um único lugar: João, o homem que ele havia mandado executar. Isso diz tudo sobre o estado da sua consciência. A culpa não precisa de argumentos para se instalar: ela se instala sozinha, e depois colore tudo o que a pessoa percebe. Herodes via milagres e via João, não porque João tivesse ressuscitado, mas porque a consciência não descansa.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus",
+          "herodes-antipas"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 2,
+        "texto": "e disse aos que lhe serviam: ― Este é João Batista. Ele ressuscitou dentre os mortos! Por isso, atuam nele poderes milagrosos.",
+        "comentario": "Herodes, o tetrarca, ouviu falar de Jesus e sua primeira reação foi dizer aos seus servos: \"Este é João Batista. Ele ressuscitou dentre os mortos!\". Para entender essa reação é preciso conhecer esse Herodes: é Herodes Antipas, filho de Herodes, o Grande, governante da Galileia e da Pereia sob o domínio de Roma. Não era um rei com plena autonomia, mas um cliente político do Império, com o título de tetrarca -governante de uma quarta parte do território-, um homem com poder real, mas emprestado, sempre dependente de Roma para sustentar sua posição. Quando chegaram os relatos sobre os milagres de Jesus, sua mente foi direto a um único lugar: João, o homem que ele havia mandado executar. Isso diz tudo sobre o estado da sua consciência. A culpa não precisa de argumentos para se instalar: ela se instala sozinha, e depois colore tudo o que a pessoa percebe. Herodes via milagres e via João, não porque João tivesse ressuscitado, mas porque a consciência não descansa.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus",
+          "herodes-antipas"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 3,
+        "texto": "Pois Herodes, tendo prendido João, o amarrou e o colocou na prisão, por causa de Herodias, mulher do seu irmão Filipe,",
+        "comentario": "Para entender o que vem a seguir é preciso o pano de fundo. Herodes Antipas era casado com a filha do rei nabateu Aretas IV, uma aliança política importante, mas numa viagem a Roma visitou seu meio-irmão Herodes Filipe e ali se apaixonou pela esposa dele, Herodias. Os dois combinaram se casar: Herodes se divorciou de sua esposa legítima, Herodias deixou seu marido. O escândalo era duplo -violava diretamente a Lei de Moisés (Levítico 18:16 e 20:21 proíbem casar-se com a mulher do irmão enquanto este vive) e humilhava publicamente a filha de Aretas, o que traria consequências militares anos depois. João Batista confrontou Herodes por isso, e o texto grego dá um detalhe importante: não o confrontou uma única vez. Mateus usa o tempo imperfeito, elegen (ἔλεγεν), dizia repetidamente: \"Não te é permitido viver com ela\". Era uma posição sustentada, sem recuar -João não estava interessado em sobreviver à custa de calar a verdade. Por que, então, Herodes não o matou diretamente? O próprio texto diz: queria matá-lo, mas temia o povo, porque todos consideravam João um profeta. Herodes tomava suas decisões por medo da opinião pública, não por convicções -o medo do povo podia mais que o desejo de matar, até que o contexto mudou.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "herodes-antipas",
+          "herodias",
+          "juan-bautista"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 4,
+        "texto": "porque João dizia a Herodes: \"Não te é permitido viver com ela\".",
+        "comentario": "Para entender o que vem a seguir é preciso o pano de fundo. Herodes Antipas era casado com a filha do rei nabateu Aretas IV, uma aliança política importante, mas numa viagem a Roma visitou seu meio-irmão Herodes Filipe e ali se apaixonou pela esposa dele, Herodias. Os dois combinaram se casar: Herodes se divorciou de sua esposa legítima, Herodias deixou seu marido. O escândalo era duplo -violava diretamente a Lei de Moisés (Levítico 18:16 e 20:21 proíbem casar-se com a mulher do irmão enquanto este vive) e humilhava publicamente a filha de Aretas, o que traria consequências militares anos depois. João Batista confrontou Herodes por isso, e o texto grego dá um detalhe importante: não o confrontou uma única vez. Mateus usa o tempo imperfeito, elegen (ἔλεγεν), dizia repetidamente: \"Não te é permitido viver com ela\". Era uma posição sustentada, sem recuar -João não estava interessado em sobreviver à custa de calar a verdade. Por que, então, Herodes não o matou diretamente? O próprio texto diz: queria matá-lo, mas temia o povo, porque todos consideravam João um profeta. Herodes tomava suas decisões por medo da opinião pública, não por convicções -o medo do povo podia mais que o desejo de matar, até que o contexto mudou.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "herodes-antipas",
+          "herodias",
+          "juan-bautista"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 5,
+        "texto": "Herodes queria matá-lo, mas tinha medo do povo, pois este o considerava profeta.",
+        "comentario": "Para entender o que vem a seguir é preciso o pano de fundo. Herodes Antipas era casado com a filha do rei nabateu Aretas IV, uma aliança política importante, mas numa viagem a Roma visitou seu meio-irmão Herodes Filipe e ali se apaixonou pela esposa dele, Herodias. Os dois combinaram se casar: Herodes se divorciou de sua esposa legítima, Herodias deixou seu marido. O escândalo era duplo -violava diretamente a Lei de Moisés (Levítico 18:16 e 20:21 proíbem casar-se com a mulher do irmão enquanto este vive) e humilhava publicamente a filha de Aretas, o que traria consequências militares anos depois. João Batista confrontou Herodes por isso, e o texto grego dá um detalhe importante: não o confrontou uma única vez. Mateus usa o tempo imperfeito, elegen (ἔλεγεν), dizia repetidamente: \"Não te é permitido viver com ela\". Era uma posição sustentada, sem recuar -João não estava interessado em sobreviver à custa de calar a verdade. Por que, então, Herodes não o matou diretamente? O próprio texto diz: queria matá-lo, mas temia o povo, porque todos consideravam João um profeta. Herodes tomava suas decisões por medo da opinião pública, não por convicções -o medo do povo podia mais que o desejo de matar, até que o contexto mudou.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "herodes-antipas",
+          "herodias",
+          "juan-bautista"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 6,
+        "texto": "No aniversário de Herodes, a filha de Herodias dançou diante de todos e agradou tanto a Herodes",
+        "comentario": "O aniversário de Herodes não era uma celebração íntima, mas um evento político: altos funcionários, comandantes militares, os principais da Galileia, todos reunidos na fortaleza de Maqueronte, no deserto a leste do Mar Morto -o mesmo lugar onde João estava acorrentado. A filha de Herodias, que o historiador Josefo identifica como Salomé, dançou diante da corte, e o texto diz que agradou a Herodes: uma princesa de sangue real não dançava tipicamente em banquetes públicos, isso era função de escravas e entretenedoras, então o que Herodias planejou foi calculado -usar a situação, usar sua filha, usar o ego de Herodes para obter o que ela não conseguiria diretamente. Herodes, aquecido pelo vinho e diante de toda a sua corte, prometeu sob juramento dar-lhe o que pedisse, até a metade do seu reino. A palavra-chave é juramento: o mesmo conceito que Jesus tratou no Sermão do Monte ao advertir sobre os juramentos impulsivos (Mateus 5:33-37) se torna aqui tragédia concreta -um homem jurou algo sem pensar, em um contexto que o impedia de recuar, e esse juramento custaria a vida de um profeta. A moça consultou sua mãe, e a resposta foi imediata: a cabeça de João Batista em um prato.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "herodes-antipas",
+          "herodias"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 7,
+        "texto": "que ele prometeu sob juramento dar-lhe o que ela pedisse.",
+        "comentario": "O aniversário de Herodes não era uma celebração íntima, mas um evento político: altos funcionários, comandantes militares, os principais da Galileia, todos reunidos na fortaleza de Maqueronte, no deserto a leste do Mar Morto -o mesmo lugar onde João estava acorrentado. A filha de Herodias, que o historiador Josefo identifica como Salomé, dançou diante da corte, e o texto diz que agradou a Herodes: uma princesa de sangue real não dançava tipicamente em banquetes públicos, isso era função de escravas e entretenedoras, então o que Herodias planejou foi calculado -usar a situação, usar sua filha, usar o ego de Herodes para obter o que ela não conseguiria diretamente. Herodes, aquecido pelo vinho e diante de toda a sua corte, prometeu sob juramento dar-lhe o que pedisse, até a metade do seu reino. A palavra-chave é juramento: o mesmo conceito que Jesus tratou no Sermão do Monte ao advertir sobre os juramentos impulsivos (Mateus 5:33-37) se torna aqui tragédia concreta -um homem jurou algo sem pensar, em um contexto que o impedia de recuar, e esse juramento custaria a vida de um profeta. A moça consultou sua mãe, e a resposta foi imediata: a cabeça de João Batista em um prato.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "herodes-antipas",
+          "herodias"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 8,
+        "texto": "Influenciada por sua mãe, ela disse: ― Dá-me aqui, em um prato, a cabeça de João Batista.",
+        "comentario": "O aniversário de Herodes não era uma celebração íntima, mas um evento político: altos funcionários, comandantes militares, os principais da Galileia, todos reunidos na fortaleza de Maqueronte, no deserto a leste do Mar Morto -o mesmo lugar onde João estava acorrentado. A filha de Herodias, que o historiador Josefo identifica como Salomé, dançou diante da corte, e o texto diz que agradou a Herodes: uma princesa de sangue real não dançava tipicamente em banquetes públicos, isso era função de escravas e entretenedoras, então o que Herodias planejou foi calculado -usar a situação, usar sua filha, usar o ego de Herodes para obter o que ela não conseguiria diretamente. Herodes, aquecido pelo vinho e diante de toda a sua corte, prometeu sob juramento dar-lhe o que pedisse, até a metade do seu reino. A palavra-chave é juramento: o mesmo conceito que Jesus tratou no Sermão do Monte ao advertir sobre os juramentos impulsivos (Mateus 5:33-37) se torna aqui tragédia concreta -um homem jurou algo sem pensar, em um contexto que o impedia de recuar, e esse juramento custaria a vida de um profeta. A moça consultou sua mãe, e a resposta foi imediata: a cabeça de João Batista em um prato.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "herodes-antipas",
+          "herodias"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 9,
+        "texto": "O rei ficou aflito, mas, por causa do juramento e dos convidados, ordenou que lhe fosse dado o que pedia",
+        "comentario": "Herodes ficou aflito: não era indiferente, não era um assassino sem consciência. Marcos 6 acrescenta um detalhe que Mateus não inclui, mas que ilumina o quadro -Herodes temia João, sabia que era um homem justo e santo, gostava de ouvi-lo- e, mesmo assim, no momento decisivo, mandou executá-lo.\n\nAqui está o ponto mais profundo da cena: Herodes tinha convicção, mas não teve caráter. A convicção sem caráter não protege de nada -é possível saber que algo está errado, sentir que está errado, entristecer-se de fazê-lo, e fazê-lo do mesmo jeito. O texto dá duas razões para sua decisão: o juramento e os que estavam à mesa. O juramento o prendia publicamente; os convidados eram testemunhas que ele não podia decepcionar. O medo de ficar mal diante de seus iguais foi mais forte que a convicção que tinha sobre João -não o orgulho arrogante que despreza os outros, mas aquele que não tolera a percepção de fraqueza diante do público, que prefere fazer algo que sabe estar errado a parecer alguém que muda de ideia ou que pode ser pressionado.\n\nHerodias também não pode ser deixada de lado: fazia tempo que esperava esse momento. A dança não foi espontânea, o pedido não foi improvisado -ela usou o contexto, usou sua filha, usou o ego de Herodes para obter o que o poder político não lhe dava diretamente. O ciúme e o ódio contra João, o homem que havia exposto seu pecado publicamente, encontraram finalmente o caminho até o poder que precisavam. Herodes não era um monstro sem consciência: era um homem com consciência que decidiu não usá-la quando mais importava, e essa é a forma mais comum do mal -não a crueldade sem remorso, mas a consciência que cede à pressão do ambiente. João foi decapitado; seus discípulos recolheram o corpo e foram contar a Jesus.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "herodes-antipas",
+          "herodias",
+          "juan-bautista"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 10,
+        "texto": "e mandou decapitar João na prisão.",
+        "comentario": "Herodes ficou aflito: não era indiferente, não era um assassino sem consciência. Marcos 6 acrescenta um detalhe que Mateus não inclui, mas que ilumina o quadro -Herodes temia João, sabia que era um homem justo e santo, gostava de ouvi-lo- e, mesmo assim, no momento decisivo, mandou executá-lo.\n\nAqui está o ponto mais profundo da cena: Herodes tinha convicção, mas não teve caráter. A convicção sem caráter não protege de nada -é possível saber que algo está errado, sentir que está errado, entristecer-se de fazê-lo, e fazê-lo do mesmo jeito. O texto dá duas razões para sua decisão: o juramento e os que estavam à mesa. O juramento o prendia publicamente; os convidados eram testemunhas que ele não podia decepcionar. O medo de ficar mal diante de seus iguais foi mais forte que a convicção que tinha sobre João -não o orgulho arrogante que despreza os outros, mas aquele que não tolera a percepção de fraqueza diante do público, que prefere fazer algo que sabe estar errado a parecer alguém que muda de ideia ou que pode ser pressionado.\n\nHerodias também não pode ser deixada de lado: fazia tempo que esperava esse momento. A dança não foi espontânea, o pedido não foi improvisado -ela usou o contexto, usou sua filha, usou o ego de Herodes para obter o que o poder político não lhe dava diretamente. O ciúme e o ódio contra João, o homem que havia exposto seu pecado publicamente, encontraram finalmente o caminho até o poder que precisavam. Herodes não era um monstro sem consciência: era um homem com consciência que decidiu não usá-la quando mais importava, e essa é a forma mais comum do mal -não a crueldade sem remorso, mas a consciência que cede à pressão do ambiente. João foi decapitado; seus discípulos recolheram o corpo e foram contar a Jesus.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "herodes-antipas",
+          "herodias",
+          "juan-bautista"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 11,
+        "texto": "A cabeça dele foi levada em um prato e entregue à jovem, que a levou à sua mãe.",
+        "comentario": "Herodes ficou aflito: não era indiferente, não era um assassino sem consciência. Marcos 6 acrescenta um detalhe que Mateus não inclui, mas que ilumina o quadro -Herodes temia João, sabia que era um homem justo e santo, gostava de ouvi-lo- e, mesmo assim, no momento decisivo, mandou executá-lo.\n\nAqui está o ponto mais profundo da cena: Herodes tinha convicção, mas não teve caráter. A convicção sem caráter não protege de nada -é possível saber que algo está errado, sentir que está errado, entristecer-se de fazê-lo, e fazê-lo do mesmo jeito. O texto dá duas razões para sua decisão: o juramento e os que estavam à mesa. O juramento o prendia publicamente; os convidados eram testemunhas que ele não podia decepcionar. O medo de ficar mal diante de seus iguais foi mais forte que a convicção que tinha sobre João -não o orgulho arrogante que despreza os outros, mas aquele que não tolera a percepção de fraqueza diante do público, que prefere fazer algo que sabe estar errado a parecer alguém que muda de ideia ou que pode ser pressionado.\n\nHerodias também não pode ser deixada de lado: fazia tempo que esperava esse momento. A dança não foi espontânea, o pedido não foi improvisado -ela usou o contexto, usou sua filha, usou o ego de Herodes para obter o que o poder político não lhe dava diretamente. O ciúme e o ódio contra João, o homem que havia exposto seu pecado publicamente, encontraram finalmente o caminho até o poder que precisavam. Herodes não era um monstro sem consciência: era um homem com consciência que decidiu não usá-la quando mais importava, e essa é a forma mais comum do mal -não a crueldade sem remorso, mas a consciência que cede à pressão do ambiente. João foi decapitado; seus discípulos recolheram o corpo e foram contar a Jesus.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "herodes-antipas",
+          "herodias",
+          "juan-bautista"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 12,
+        "texto": "Os discípulos de João vieram, levaram o seu corpo e o sepultaram. Depois, foram contar isso a Jesus.",
+        "comentario": "Herodes ficou aflito: não era indiferente, não era um assassino sem consciência. Marcos 6 acrescenta um detalhe que Mateus não inclui, mas que ilumina o quadro -Herodes temia João, sabia que era um homem justo e santo, gostava de ouvi-lo- e, mesmo assim, no momento decisivo, mandou executá-lo.\n\nAqui está o ponto mais profundo da cena: Herodes tinha convicção, mas não teve caráter. A convicção sem caráter não protege de nada -é possível saber que algo está errado, sentir que está errado, entristecer-se de fazê-lo, e fazê-lo do mesmo jeito. O texto dá duas razões para sua decisão: o juramento e os que estavam à mesa. O juramento o prendia publicamente; os convidados eram testemunhas que ele não podia decepcionar. O medo de ficar mal diante de seus iguais foi mais forte que a convicção que tinha sobre João -não o orgulho arrogante que despreza os outros, mas aquele que não tolera a percepção de fraqueza diante do público, que prefere fazer algo que sabe estar errado a parecer alguém que muda de ideia ou que pode ser pressionado.\n\nHerodias também não pode ser deixada de lado: fazia tempo que esperava esse momento. A dança não foi espontânea, o pedido não foi improvisado -ela usou o contexto, usou sua filha, usou o ego de Herodes para obter o que o poder político não lhe dava diretamente. O ciúme e o ódio contra João, o homem que havia exposto seu pecado publicamente, encontraram finalmente o caminho até o poder que precisavam. Herodes não era um monstro sem consciência: era um homem com consciência que decidiu não usá-la quando mais importava, e essa é a forma mais comum do mal -não a crueldade sem remorso, mas a consciência que cede à pressão do ambiente. João foi decapitado; seus discípulos recolheram o corpo e foram contar a Jesus.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "herodes-antipas",
+          "herodias",
+          "juan-bautista"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 13,
+        "texto": "Quando ouviu essa notícia, Jesus se retirou de barco, em particular, a um lugar deserto. Ouvindo isso, as multidões o seguiram a pé desde as cidades.",
+        "comentario": "A notícia chega a Jesus e sua resposta imediata é buscar solidão -não há discurso, não há declaração pública, não há sinal de luto performático, apenas o movimento para dentro. João não era apenas o precursor que havia preparado o caminho: era seu primo segundo Lucas 1:36, aquele que o havia batizado, o primeiro a apontá-lo publicamente como o Cordeiro de Deus. A morte de João não era uma notícia política para Jesus: era uma perda pessoal. Mas quando a multidão o seguiu a pé desde as cidades até onde ele havia atracado, o texto diz algo que já apareceu antes e que vale notar cada vez que volta a aparecer: teve compaixão. Splagchnizomai (σπλαγχνίζομαι): comoção vinda das entranhas, dor compartilhada por dentro. Jesus buscava descanso e encontrou necessidade, e a necessidade venceu -quem serve a partir de uma dor genuína, sem fingir que não dói, mas sem deixar que a dor feche o coração, está fazendo algo que exige uma fonte que vai além da vontade própria.",
+        "griego_ids": [
+          "splagchnizomai"
+        ],
+        "personaje_ids": [
+          "jesus",
+          "juan-bautista"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 14,
+        "texto": "Quando Jesus saiu do barco e viu uma grande multidão, teve compaixão deles e curou os seus doentes.",
+        "comentario": "A notícia chega a Jesus e sua resposta imediata é buscar solidão -não há discurso, não há declaração pública, não há sinal de luto performático, apenas o movimento para dentro. João não era apenas o precursor que havia preparado o caminho: era seu primo segundo Lucas 1:36, aquele que o havia batizado, o primeiro a apontá-lo publicamente como o Cordeiro de Deus. A morte de João não era uma notícia política para Jesus: era uma perda pessoal. Mas quando a multidão o seguiu a pé desde as cidades até onde ele havia atracado, o texto diz algo que já apareceu antes e que vale notar cada vez que volta a aparecer: teve compaixão. Splagchnizomai (σπλαγχνίζομαι): comoção vinda das entranhas, dor compartilhada por dentro. Jesus buscava descanso e encontrou necessidade, e a necessidade venceu -quem serve a partir de uma dor genuína, sem fingir que não dói, mas sem deixar que a dor feche o coração, está fazendo algo que exige uma fonte que vai além da vontade própria.",
+        "griego_ids": [
+          "splagchnizomai"
+        ],
+        "personaje_ids": [
+          "jesus",
+          "juan-bautista"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 15,
+        "texto": "Ao cair da tarde, os discípulos aproximaram-se dele e disseram: ― Este é um lugar deserto, e já está ficando tarde. Mande embora a multidão, para que vá às cidades e compre comida.",
+        "comentario": "Os discípulos fazem o cálculo óbvio -tarde, lugar deserto, gente faminta- e pedem a Jesus que mande a multidão embora; é uma reação completamente humana. Jesus responde: \"Deem-lhes vocês algo para comer\". Este é o único milagre de Jesus, além da ressurreição, que aparece nos quatro evangelhos, e o que o torna significativo é que João registra detalhes que os outros três não têm -que foi Filipe quem fez o cálculo, que foi André quem encontrou o menino, que os pães eram de cevada. João não estava copiando os demais: estava lembrando. Isso se chama atestação múltipla e independente, um dos critérios históricos mais sólidos para determinar que um evento realmente ocorreu, e nem mesmo os primeiros críticos do cristianismo negaram que Jesus fazia milagres -diziam que ele os fazia pelo poder do diabo, assim como os fariseus no capítulo 12. Quando nem os inimigos conseguem negar o fato, apenas sua interpretação, é porque o fato ocorreu.\n\nMateus fala de cinco mil homens -a palavra grega é andres, homens adultos- e o próprio texto esclarece que isso é \"sem contar mulheres e crianças\": provavelmente entre quinze e vinte mil pessoas, a partir de cinco pães de cevada, o pão dos pobres, e dois peixes. Dali saíram doze cestos sobrando: doze, o número das tribos de Israel e dos discípulos. O que começou como insuficiência impossível terminou em abundância simbólica. Para qualquer judeu presente, o milagre ressoava com o maná no deserto de Êxodo 16 -lugar deserto, multidão faminta, provisão sobrenatural- e com 2 Reis 4, onde Eliseu alimenta cem homens com vinte pães e sobra: Jesus faz o mesmo, mas com números que tornam pequeno o milagre de Eliseu. Ele não age como um profeta que canaliza o poder de Deus: age como a própria fonte.\n\nA sequência é precisa -tomou os pães, ergueu os olhos ao céu, deu graças, partiu, entregou- e é exatamente a mesma sequência da última ceia em Mateus 26: não é por acaso. João 6, no dia seguinte a esse milagre, explica diretamente: \"Eu sou o pão da vida\". O milagre não foi apenas compaixão por gente faminta, embora tenha sido isso: foi uma declaração de quem ele é. E a multiplicação acontece nas mãos dos discípulos, não nas de Jesus -ele partiu, eles distribuíram, e o processo aconteceu no ato de dar, não antes de começar. Os discípulos saíram com cinco pães e voltaram com doze cestos cheios: isso não se planeja, apenas se obedece.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus",
+          "andres"
+        ],
+        "lugar_ids": [
+          "mar-de-galilea",
+          "betsaida"
+        ]
+      },
+      {
+        "numero": 16,
+        "texto": "Jesus respondeu: ― Eles não precisam ir. Deem-lhes vocês algo para comer.",
+        "comentario": "Os discípulos fazem o cálculo óbvio -tarde, lugar deserto, gente faminta- e pedem a Jesus que mande a multidão embora; é uma reação completamente humana. Jesus responde: \"Deem-lhes vocês algo para comer\". Este é o único milagre de Jesus, além da ressurreição, que aparece nos quatro evangelhos, e o que o torna significativo é que João registra detalhes que os outros três não têm -que foi Filipe quem fez o cálculo, que foi André quem encontrou o menino, que os pães eram de cevada. João não estava copiando os demais: estava lembrando. Isso se chama atestação múltipla e independente, um dos critérios históricos mais sólidos para determinar que um evento realmente ocorreu, e nem mesmo os primeiros críticos do cristianismo negaram que Jesus fazia milagres -diziam que ele os fazia pelo poder do diabo, assim como os fariseus no capítulo 12. Quando nem os inimigos conseguem negar o fato, apenas sua interpretação, é porque o fato ocorreu.\n\nMateus fala de cinco mil homens -a palavra grega é andres, homens adultos- e o próprio texto esclarece que isso é \"sem contar mulheres e crianças\": provavelmente entre quinze e vinte mil pessoas, a partir de cinco pães de cevada, o pão dos pobres, e dois peixes. Dali saíram doze cestos sobrando: doze, o número das tribos de Israel e dos discípulos. O que começou como insuficiência impossível terminou em abundância simbólica. Para qualquer judeu presente, o milagre ressoava com o maná no deserto de Êxodo 16 -lugar deserto, multidão faminta, provisão sobrenatural- e com 2 Reis 4, onde Eliseu alimenta cem homens com vinte pães e sobra: Jesus faz o mesmo, mas com números que tornam pequeno o milagre de Eliseu. Ele não age como um profeta que canaliza o poder de Deus: age como a própria fonte.\n\nA sequência é precisa -tomou os pães, ergueu os olhos ao céu, deu graças, partiu, entregou- e é exatamente a mesma sequência da última ceia em Mateus 26: não é por acaso. João 6, no dia seguinte a esse milagre, explica diretamente: \"Eu sou o pão da vida\". O milagre não foi apenas compaixão por gente faminta, embora tenha sido isso: foi uma declaração de quem ele é. E a multiplicação acontece nas mãos dos discípulos, não nas de Jesus -ele partiu, eles distribuíram, e o processo aconteceu no ato de dar, não antes de começar. Os discípulos saíram com cinco pães e voltaram com doze cestos cheios: isso não se planeja, apenas se obedece.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus",
+          "andres"
+        ],
+        "lugar_ids": [
+          "mar-de-galilea",
+          "betsaida"
+        ]
+      },
+      {
+        "numero": 17,
+        "texto": "Eles lhe disseram: ― Não temos aqui exceto cinco pães e dois peixes.",
+        "comentario": "Os discípulos fazem o cálculo óbvio -tarde, lugar deserto, gente faminta- e pedem a Jesus que mande a multidão embora; é uma reação completamente humana. Jesus responde: \"Deem-lhes vocês algo para comer\". Este é o único milagre de Jesus, além da ressurreição, que aparece nos quatro evangelhos, e o que o torna significativo é que João registra detalhes que os outros três não têm -que foi Filipe quem fez o cálculo, que foi André quem encontrou o menino, que os pães eram de cevada. João não estava copiando os demais: estava lembrando. Isso se chama atestação múltipla e independente, um dos critérios históricos mais sólidos para determinar que um evento realmente ocorreu, e nem mesmo os primeiros críticos do cristianismo negaram que Jesus fazia milagres -diziam que ele os fazia pelo poder do diabo, assim como os fariseus no capítulo 12. Quando nem os inimigos conseguem negar o fato, apenas sua interpretação, é porque o fato ocorreu.\n\nMateus fala de cinco mil homens -a palavra grega é andres, homens adultos- e o próprio texto esclarece que isso é \"sem contar mulheres e crianças\": provavelmente entre quinze e vinte mil pessoas, a partir de cinco pães de cevada, o pão dos pobres, e dois peixes. Dali saíram doze cestos sobrando: doze, o número das tribos de Israel e dos discípulos. O que começou como insuficiência impossível terminou em abundância simbólica. Para qualquer judeu presente, o milagre ressoava com o maná no deserto de Êxodo 16 -lugar deserto, multidão faminta, provisão sobrenatural- e com 2 Reis 4, onde Eliseu alimenta cem homens com vinte pães e sobra: Jesus faz o mesmo, mas com números que tornam pequeno o milagre de Eliseu. Ele não age como um profeta que canaliza o poder de Deus: age como a própria fonte.\n\nA sequência é precisa -tomou os pães, ergueu os olhos ao céu, deu graças, partiu, entregou- e é exatamente a mesma sequência da última ceia em Mateus 26: não é por acaso. João 6, no dia seguinte a esse milagre, explica diretamente: \"Eu sou o pão da vida\". O milagre não foi apenas compaixão por gente faminta, embora tenha sido isso: foi uma declaração de quem ele é. E a multiplicação acontece nas mãos dos discípulos, não nas de Jesus -ele partiu, eles distribuíram, e o processo aconteceu no ato de dar, não antes de começar. Os discípulos saíram com cinco pães e voltaram com doze cestos cheios: isso não se planeja, apenas se obedece.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus",
+          "andres"
+        ],
+        "lugar_ids": [
+          "mar-de-galilea",
+          "betsaida"
+        ]
+      },
+      {
+        "numero": 18,
+        "texto": "― Tragam-nos aqui para mim — disse Jesus.",
+        "comentario": "Os discípulos fazem o cálculo óbvio -tarde, lugar deserto, gente faminta- e pedem a Jesus que mande a multidão embora; é uma reação completamente humana. Jesus responde: \"Deem-lhes vocês algo para comer\". Este é o único milagre de Jesus, além da ressurreição, que aparece nos quatro evangelhos, e o que o torna significativo é que João registra detalhes que os outros três não têm -que foi Filipe quem fez o cálculo, que foi André quem encontrou o menino, que os pães eram de cevada. João não estava copiando os demais: estava lembrando. Isso se chama atestação múltipla e independente, um dos critérios históricos mais sólidos para determinar que um evento realmente ocorreu, e nem mesmo os primeiros críticos do cristianismo negaram que Jesus fazia milagres -diziam que ele os fazia pelo poder do diabo, assim como os fariseus no capítulo 12. Quando nem os inimigos conseguem negar o fato, apenas sua interpretação, é porque o fato ocorreu.\n\nMateus fala de cinco mil homens -a palavra grega é andres, homens adultos- e o próprio texto esclarece que isso é \"sem contar mulheres e crianças\": provavelmente entre quinze e vinte mil pessoas, a partir de cinco pães de cevada, o pão dos pobres, e dois peixes. Dali saíram doze cestos sobrando: doze, o número das tribos de Israel e dos discípulos. O que começou como insuficiência impossível terminou em abundância simbólica. Para qualquer judeu presente, o milagre ressoava com o maná no deserto de Êxodo 16 -lugar deserto, multidão faminta, provisão sobrenatural- e com 2 Reis 4, onde Eliseu alimenta cem homens com vinte pães e sobra: Jesus faz o mesmo, mas com números que tornam pequeno o milagre de Eliseu. Ele não age como um profeta que canaliza o poder de Deus: age como a própria fonte.\n\nA sequência é precisa -tomou os pães, ergueu os olhos ao céu, deu graças, partiu, entregou- e é exatamente a mesma sequência da última ceia em Mateus 26: não é por acaso. João 6, no dia seguinte a esse milagre, explica diretamente: \"Eu sou o pão da vida\". O milagre não foi apenas compaixão por gente faminta, embora tenha sido isso: foi uma declaração de quem ele é. E a multiplicação acontece nas mãos dos discípulos, não nas de Jesus -ele partiu, eles distribuíram, e o processo aconteceu no ato de dar, não antes de começar. Os discípulos saíram com cinco pães e voltaram com doze cestos cheios: isso não se planeja, apenas se obedece.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus",
+          "andres"
+        ],
+        "lugar_ids": [
+          "mar-de-galilea",
+          "betsaida"
+        ]
+      },
+      {
+        "numero": 19,
+        "texto": "E ordenou que a multidão se sentasse na grama. Tomando os cinco pães e os dois peixes e, olhando para o céu, deu graças e partiu os pães. Em seguida, entregou-os aos discípulos, e estes, à multidão.",
+        "comentario": "Os discípulos fazem o cálculo óbvio -tarde, lugar deserto, gente faminta- e pedem a Jesus que mande a multidão embora; é uma reação completamente humana. Jesus responde: \"Deem-lhes vocês algo para comer\". Este é o único milagre de Jesus, além da ressurreição, que aparece nos quatro evangelhos, e o que o torna significativo é que João registra detalhes que os outros três não têm -que foi Filipe quem fez o cálculo, que foi André quem encontrou o menino, que os pães eram de cevada. João não estava copiando os demais: estava lembrando. Isso se chama atestação múltipla e independente, um dos critérios históricos mais sólidos para determinar que um evento realmente ocorreu, e nem mesmo os primeiros críticos do cristianismo negaram que Jesus fazia milagres -diziam que ele os fazia pelo poder do diabo, assim como os fariseus no capítulo 12. Quando nem os inimigos conseguem negar o fato, apenas sua interpretação, é porque o fato ocorreu.\n\nMateus fala de cinco mil homens -a palavra grega é andres, homens adultos- e o próprio texto esclarece que isso é \"sem contar mulheres e crianças\": provavelmente entre quinze e vinte mil pessoas, a partir de cinco pães de cevada, o pão dos pobres, e dois peixes. Dali saíram doze cestos sobrando: doze, o número das tribos de Israel e dos discípulos. O que começou como insuficiência impossível terminou em abundância simbólica. Para qualquer judeu presente, o milagre ressoava com o maná no deserto de Êxodo 16 -lugar deserto, multidão faminta, provisão sobrenatural- e com 2 Reis 4, onde Eliseu alimenta cem homens com vinte pães e sobra: Jesus faz o mesmo, mas com números que tornam pequeno o milagre de Eliseu. Ele não age como um profeta que canaliza o poder de Deus: age como a própria fonte.\n\nA sequência é precisa -tomou os pães, ergueu os olhos ao céu, deu graças, partiu, entregou- e é exatamente a mesma sequência da última ceia em Mateus 26: não é por acaso. João 6, no dia seguinte a esse milagre, explica diretamente: \"Eu sou o pão da vida\". O milagre não foi apenas compaixão por gente faminta, embora tenha sido isso: foi uma declaração de quem ele é. E a multiplicação acontece nas mãos dos discípulos, não nas de Jesus -ele partiu, eles distribuíram, e o processo aconteceu no ato de dar, não antes de começar. Os discípulos saíram com cinco pães e voltaram com doze cestos cheios: isso não se planeja, apenas se obedece.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus",
+          "andres"
+        ],
+        "lugar_ids": [
+          "mar-de-galilea",
+          "betsaida"
+        ]
+      },
+      {
+        "numero": 20,
+        "texto": "Todos comeram e ficaram satisfeitos, e os discípulos recolheram doze cestos cheios de pedaços que sobraram.",
+        "comentario": "Os discípulos fazem o cálculo óbvio -tarde, lugar deserto, gente faminta- e pedem a Jesus que mande a multidão embora; é uma reação completamente humana. Jesus responde: \"Deem-lhes vocês algo para comer\". Este é o único milagre de Jesus, além da ressurreição, que aparece nos quatro evangelhos, e o que o torna significativo é que João registra detalhes que os outros três não têm -que foi Filipe quem fez o cálculo, que foi André quem encontrou o menino, que os pães eram de cevada. João não estava copiando os demais: estava lembrando. Isso se chama atestação múltipla e independente, um dos critérios históricos mais sólidos para determinar que um evento realmente ocorreu, e nem mesmo os primeiros críticos do cristianismo negaram que Jesus fazia milagres -diziam que ele os fazia pelo poder do diabo, assim como os fariseus no capítulo 12. Quando nem os inimigos conseguem negar o fato, apenas sua interpretação, é porque o fato ocorreu.\n\nMateus fala de cinco mil homens -a palavra grega é andres, homens adultos- e o próprio texto esclarece que isso é \"sem contar mulheres e crianças\": provavelmente entre quinze e vinte mil pessoas, a partir de cinco pães de cevada, o pão dos pobres, e dois peixes. Dali saíram doze cestos sobrando: doze, o número das tribos de Israel e dos discípulos. O que começou como insuficiência impossível terminou em abundância simbólica. Para qualquer judeu presente, o milagre ressoava com o maná no deserto de Êxodo 16 -lugar deserto, multidão faminta, provisão sobrenatural- e com 2 Reis 4, onde Eliseu alimenta cem homens com vinte pães e sobra: Jesus faz o mesmo, mas com números que tornam pequeno o milagre de Eliseu. Ele não age como um profeta que canaliza o poder de Deus: age como a própria fonte.\n\nA sequência é precisa -tomou os pães, ergueu os olhos ao céu, deu graças, partiu, entregou- e é exatamente a mesma sequência da última ceia em Mateus 26: não é por acaso. João 6, no dia seguinte a esse milagre, explica diretamente: \"Eu sou o pão da vida\". O milagre não foi apenas compaixão por gente faminta, embora tenha sido isso: foi uma declaração de quem ele é. E a multiplicação acontece nas mãos dos discípulos, não nas de Jesus -ele partiu, eles distribuíram, e o processo aconteceu no ato de dar, não antes de começar. Os discípulos saíram com cinco pães e voltaram com doze cestos cheios: isso não se planeja, apenas se obedece.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus",
+          "andres"
+        ],
+        "lugar_ids": [
+          "mar-de-galilea",
+          "betsaida"
+        ]
+      },
+      {
+        "numero": 21,
+        "texto": "Os que comeram foram cerca de cinco mil homens, sem contar mulheres e crianças.",
+        "comentario": "Os discípulos fazem o cálculo óbvio -tarde, lugar deserto, gente faminta- e pedem a Jesus que mande a multidão embora; é uma reação completamente humana. Jesus responde: \"Deem-lhes vocês algo para comer\". Este é o único milagre de Jesus, além da ressurreição, que aparece nos quatro evangelhos, e o que o torna significativo é que João registra detalhes que os outros três não têm -que foi Filipe quem fez o cálculo, que foi André quem encontrou o menino, que os pães eram de cevada. João não estava copiando os demais: estava lembrando. Isso se chama atestação múltipla e independente, um dos critérios históricos mais sólidos para determinar que um evento realmente ocorreu, e nem mesmo os primeiros críticos do cristianismo negaram que Jesus fazia milagres -diziam que ele os fazia pelo poder do diabo, assim como os fariseus no capítulo 12. Quando nem os inimigos conseguem negar o fato, apenas sua interpretação, é porque o fato ocorreu.\n\nMateus fala de cinco mil homens -a palavra grega é andres, homens adultos- e o próprio texto esclarece que isso é \"sem contar mulheres e crianças\": provavelmente entre quinze e vinte mil pessoas, a partir de cinco pães de cevada, o pão dos pobres, e dois peixes. Dali saíram doze cestos sobrando: doze, o número das tribos de Israel e dos discípulos. O que começou como insuficiência impossível terminou em abundância simbólica. Para qualquer judeu presente, o milagre ressoava com o maná no deserto de Êxodo 16 -lugar deserto, multidão faminta, provisão sobrenatural- e com 2 Reis 4, onde Eliseu alimenta cem homens com vinte pães e sobra: Jesus faz o mesmo, mas com números que tornam pequeno o milagre de Eliseu. Ele não age como um profeta que canaliza o poder de Deus: age como a própria fonte.\n\nA sequência é precisa -tomou os pães, ergueu os olhos ao céu, deu graças, partiu, entregou- e é exatamente a mesma sequência da última ceia em Mateus 26: não é por acaso. João 6, no dia seguinte a esse milagre, explica diretamente: \"Eu sou o pão da vida\". O milagre não foi apenas compaixão por gente faminta, embora tenha sido isso: foi uma declaração de quem ele é. E a multiplicação acontece nas mãos dos discípulos, não nas de Jesus -ele partiu, eles distribuíram, e o processo aconteceu no ato de dar, não antes de começar. Os discípulos saíram com cinco pães e voltaram com doze cestos cheios: isso não se planeja, apenas se obedece.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus",
+          "andres"
+        ],
+        "lugar_ids": [
+          "mar-de-galilea",
+          "betsaida"
+        ]
+      },
+      {
+        "numero": 22,
+        "texto": "Logo em seguida, Jesus insistiu com os discípulos que entrassem no barco e fossem adiante, para o outro lado, enquanto ele despedia a multidão.",
+        "comentario": "Mateus diz algo que vale notar: Jesus insistiu para que seus discípulos entrassem no barco, com uma palavra que implica determinação, quase uma ordem. João 6:15 explica por quê -a multidão queria tomá-lo à força para fazê-lo rei depois do milagre dos pães- e Jesus dissolve essa situação enviando os discípulos primeiro, dispersando ele mesmo a multidão, e subindo sozinho ao monte para orar.\n\nO Mar da Galileia não é tecnicamente um mar, mas um lago de água doce, o mais baixo do mundo fora do Mar Morto, cerca de 210 metros abaixo do nível do mar, com formato ovalado de uns 21 quilômetros de norte a sul e 13 em seu ponto mais largo. O milagre dos pães provavelmente ocorreu perto de Betsaida, na margem nordeste; os discípulos iam para o oeste, rumo a Cafarnaum ou Genesaré, um trajeto de vários quilômetros. O evangelho de João diz que, quando Jesus se aproximou deles, eles já haviam remado entre 25 e 30 estádios -um estádio romano tinha cerca de 185 metros-, o que os situa entre 4,5 e 5,5 quilômetros da margem: estavam literalmente no meio do lago. O lago da Galileia é famoso por suas tempestades repentinas e intensas -as montanhas ao redor, especialmente os Montes Golã a leste, geram correntes de ar que descem das alturas e produzem tempestades com ondas de até três metros sem aviso prévio. Vários desses discípulos eram pescadores profissionais daquele mesmo lago; se eles tinham dificuldade para remar, a tempestade era séria. E Jesus estava no monte, orando, sozinho.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus"
+        ],
+        "lugar_ids": [
+          "mar-de-galilea",
+          "betsaida",
+          "capernaum"
+        ]
+      },
+      {
+        "numero": 23,
+        "texto": "Tendo despedido a multidão, subiu sozinho a um monte para orar. Ao anoitecer, ele estava ali sozinho",
+        "comentario": "Mateus diz algo que vale notar: Jesus insistiu para que seus discípulos entrassem no barco, com uma palavra que implica determinação, quase uma ordem. João 6:15 explica por quê -a multidão queria tomá-lo à força para fazê-lo rei depois do milagre dos pães- e Jesus dissolve essa situação enviando os discípulos primeiro, dispersando ele mesmo a multidão, e subindo sozinho ao monte para orar.\n\nO Mar da Galileia não é tecnicamente um mar, mas um lago de água doce, o mais baixo do mundo fora do Mar Morto, cerca de 210 metros abaixo do nível do mar, com formato ovalado de uns 21 quilômetros de norte a sul e 13 em seu ponto mais largo. O milagre dos pães provavelmente ocorreu perto de Betsaida, na margem nordeste; os discípulos iam para o oeste, rumo a Cafarnaum ou Genesaré, um trajeto de vários quilômetros. O evangelho de João diz que, quando Jesus se aproximou deles, eles já haviam remado entre 25 e 30 estádios -um estádio romano tinha cerca de 185 metros-, o que os situa entre 4,5 e 5,5 quilômetros da margem: estavam literalmente no meio do lago. O lago da Galileia é famoso por suas tempestades repentinas e intensas -as montanhas ao redor, especialmente os Montes Golã a leste, geram correntes de ar que descem das alturas e produzem tempestades com ondas de até três metros sem aviso prévio. Vários desses discípulos eram pescadores profissionais daquele mesmo lago; se eles tinham dificuldade para remar, a tempestade era séria. E Jesus estava no monte, orando, sozinho.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus"
+        ],
+        "lugar_ids": [
+          "mar-de-galilea",
+          "betsaida",
+          "capernaum"
+        ]
+      },
+      {
+        "numero": 24,
+        "texto": "mas o barco já estava a considerável distância de terra, fustigado pelas ondas, pois o vento soprava contra eles.",
+        "comentario": "Mateus diz algo que vale notar: Jesus insistiu para que seus discípulos entrassem no barco, com uma palavra que implica determinação, quase uma ordem. João 6:15 explica por quê -a multidão queria tomá-lo à força para fazê-lo rei depois do milagre dos pães- e Jesus dissolve essa situação enviando os discípulos primeiro, dispersando ele mesmo a multidão, e subindo sozinho ao monte para orar.\n\nO Mar da Galileia não é tecnicamente um mar, mas um lago de água doce, o mais baixo do mundo fora do Mar Morto, cerca de 210 metros abaixo do nível do mar, com formato ovalado de uns 21 quilômetros de norte a sul e 13 em seu ponto mais largo. O milagre dos pães provavelmente ocorreu perto de Betsaida, na margem nordeste; os discípulos iam para o oeste, rumo a Cafarnaum ou Genesaré, um trajeto de vários quilômetros. O evangelho de João diz que, quando Jesus se aproximou deles, eles já haviam remado entre 25 e 30 estádios -um estádio romano tinha cerca de 185 metros-, o que os situa entre 4,5 e 5,5 quilômetros da margem: estavam literalmente no meio do lago. O lago da Galileia é famoso por suas tempestades repentinas e intensas -as montanhas ao redor, especialmente os Montes Golã a leste, geram correntes de ar que descem das alturas e produzem tempestades com ondas de até três metros sem aviso prévio. Vários desses discípulos eram pescadores profissionais daquele mesmo lago; se eles tinham dificuldade para remar, a tempestade era séria. E Jesus estava no monte, orando, sozinho.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus"
+        ],
+        "lugar_ids": [
+          "mar-de-galilea",
+          "betsaida",
+          "capernaum"
+        ]
+      },
+      {
+        "numero": 25,
+        "texto": "Alta madrugada, Jesus dirigiu-se a eles, andando sobre o lago.",
+        "comentario": "A quarta vigília da noite, no sistema romano, era o período entre as 3 e as 6 da manhã: os discípulos já remavam havia horas contra o vento, em escuridão total, quando viram alguém andando sobre a água em direção a eles. O grego é peripateon epi ten thalassan, andando sobre o mar -não flutuando, não sustentado por nada visível, andando com a mesma naturalidade com que andava sobre terra firme. O peso teológico dessa imagem vai muito além de um milagre físico: na cosmologia do Antigo Testamento, o mar não era simplesmente água, era símbolo do caos, do indomável, das forças fora do controle humano, e sobre esse símbolo o Antigo Testamento diz algo específico sobre Deus -\"no mar esteve o teu caminho, e as tuas veredas nas muitas águas\" (Salmos 77:19), Deus é aquele que \"anda sobre as ondas do mar\" (Jó 9:8). Jesus não apenas desafia a gravidade: faz uma declaração sobre quem ele é. Os discípulos, ao vê-lo, ficaram aterrorizados e pensaram que era um fantasma -phantasma em grego- e Jesus fala a eles desde a água: \"Tenham coragem! Sou eu! Não tenham medo!\" \"Sou eu\" em grego é ego eimi, Eu sou, o mesmo nome divino de Êxodo 3:14, onde Deus diz a Moisés o seu nome: Eu sou o que sou. Não é apenas identificação pessoal: é uma declaração de identidade divina que qualquer judeu presente deveria reconhecer.",
+        "griego_ids": [
+          "ego-eimi",
+          "phantasma"
+        ],
+        "personaje_ids": [
+          "jesus"
+        ],
+        "lugar_ids": [
+          "mar-de-galilea"
+        ]
+      },
+      {
+        "numero": 26,
+        "texto": "Quando o viram andando sobre o lago, ficaram aterrorizados e disseram: ― É um fantasma! E gritaram de medo.",
+        "comentario": "A quarta vigília da noite, no sistema romano, era o período entre as 3 e as 6 da manhã: os discípulos já remavam havia horas contra o vento, em escuridão total, quando viram alguém andando sobre a água em direção a eles. O grego é peripateon epi ten thalassan, andando sobre o mar -não flutuando, não sustentado por nada visível, andando com a mesma naturalidade com que andava sobre terra firme. O peso teológico dessa imagem vai muito além de um milagre físico: na cosmologia do Antigo Testamento, o mar não era simplesmente água, era símbolo do caos, do indomável, das forças fora do controle humano, e sobre esse símbolo o Antigo Testamento diz algo específico sobre Deus -\"no mar esteve o teu caminho, e as tuas veredas nas muitas águas\" (Salmos 77:19), Deus é aquele que \"anda sobre as ondas do mar\" (Jó 9:8). Jesus não apenas desafia a gravidade: faz uma declaração sobre quem ele é. Os discípulos, ao vê-lo, ficaram aterrorizados e pensaram que era um fantasma -phantasma em grego- e Jesus fala a eles desde a água: \"Tenham coragem! Sou eu! Não tenham medo!\" \"Sou eu\" em grego é ego eimi, Eu sou, o mesmo nome divino de Êxodo 3:14, onde Deus diz a Moisés o seu nome: Eu sou o que sou. Não é apenas identificação pessoal: é uma declaração de identidade divina que qualquer judeu presente deveria reconhecer.",
+        "griego_ids": [
+          "ego-eimi",
+          "phantasma"
+        ],
+        "personaje_ids": [
+          "jesus"
+        ],
+        "lugar_ids": [
+          "mar-de-galilea"
+        ]
+      },
+      {
+        "numero": 27,
+        "texto": "Mas Jesus imediatamente lhes disse: ― Tenham coragem! Sou eu! Não tenham medo!",
+        "comentario": "A quarta vigília da noite, no sistema romano, era o período entre as 3 e as 6 da manhã: os discípulos já remavam havia horas contra o vento, em escuridão total, quando viram alguém andando sobre a água em direção a eles. O grego é peripateon epi ten thalassan, andando sobre o mar -não flutuando, não sustentado por nada visível, andando com a mesma naturalidade com que andava sobre terra firme. O peso teológico dessa imagem vai muito além de um milagre físico: na cosmologia do Antigo Testamento, o mar não era simplesmente água, era símbolo do caos, do indomável, das forças fora do controle humano, e sobre esse símbolo o Antigo Testamento diz algo específico sobre Deus -\"no mar esteve o teu caminho, e as tuas veredas nas muitas águas\" (Salmos 77:19), Deus é aquele que \"anda sobre as ondas do mar\" (Jó 9:8). Jesus não apenas desafia a gravidade: faz uma declaração sobre quem ele é. Os discípulos, ao vê-lo, ficaram aterrorizados e pensaram que era um fantasma -phantasma em grego- e Jesus fala a eles desde a água: \"Tenham coragem! Sou eu! Não tenham medo!\" \"Sou eu\" em grego é ego eimi, Eu sou, o mesmo nome divino de Êxodo 3:14, onde Deus diz a Moisés o seu nome: Eu sou o que sou. Não é apenas identificação pessoal: é uma declaração de identidade divina que qualquer judeu presente deveria reconhecer.",
+        "griego_ids": [
+          "ego-eimi",
+          "phantasma"
+        ],
+        "personaje_ids": [
+          "jesus"
+        ],
+        "lugar_ids": [
+          "mar-de-galilea"
+        ]
+      },
+      {
+        "numero": 28,
+        "texto": "― Senhor — disse Pedro —, se és tu, manda-me ir ao teu encontro sobre as águas.",
+        "comentario": "Pedro, sempre Pedro, aquele que fala quando os outros guardam silêncio: \"Senhor, se és tu, manda-me ir ao teu encontro sobre as águas.\" Isso não é incredulidade nem um teste cético -é um pedido de participação: Pedro quer estar onde Jesus está, e se Jesus está sobre a água, Pedro quer estar sobre a água também. Jesus diz uma única palavra, venha, e Pedro sai do barco -algo já extraordinário em si mesmo: onze pessoas ficaram dentro, uma saiu. Quem ficou no barco estava mais seguro em termos imediatos, mas também mais longe de Jesus; Pedro escolheu a proximidade de Jesus acima da segurança do barco, e enquanto manteve os olhos em Jesus, andou.\n\nDepois ele viu o vento -o grego diz blepon ton anemon, viu o vento, uma imagem interessante porque o vento não se vê: o que ele viu foram as evidências do vento, as ondas, o movimento da água, a realidade física das circunstâncias ao seu redor. E ao ver tudo isso teve medo, e ao ter medo começou a afundar. \"Senhor, salva-me\": três palavras, a oração mais curta do evangelho, sem elaboração nem tentativa de justificar a situação, apenas urgência e dependência. Jesus estendeu a mão imediatamente e o segurou: \"Homem de pequena fé, por que você duvidou?\" -oligopiste, a mesma palavra do capítulo 8 com os discípulos na tempestade. Pedro não afundou por falta de fé: afundou por mudança de foco. Enquanto olhava para Jesus, andava; quando olhou para as circunstâncias, afundou. A fé não é negação da realidade, é a escolha de para quem olhar quando a realidade é difícil -as ondas eram reais, o vento era real, o perigo era real; o problema de Pedro não foi ter visto as ondas, foi deixar que as ondas ocupassem o lugar que deveria ser de Jesus em seu campo de visão.",
+        "griego_ids": [
+          "oligopistos"
+        ],
+        "personaje_ids": [
+          "jesus",
+          "pedro"
+        ],
+        "lugar_ids": [
+          "mar-de-galilea"
+        ]
+      },
+      {
+        "numero": 29,
+        "texto": "― Venha — ele respondeu. Então, Pedro saiu do barco, andou sobre as águas e foi em direção a Jesus.",
+        "comentario": "Pedro, sempre Pedro, aquele que fala quando os outros guardam silêncio: \"Senhor, se és tu, manda-me ir ao teu encontro sobre as águas.\" Isso não é incredulidade nem um teste cético -é um pedido de participação: Pedro quer estar onde Jesus está, e se Jesus está sobre a água, Pedro quer estar sobre a água também. Jesus diz uma única palavra, venha, e Pedro sai do barco -algo já extraordinário em si mesmo: onze pessoas ficaram dentro, uma saiu. Quem ficou no barco estava mais seguro em termos imediatos, mas também mais longe de Jesus; Pedro escolheu a proximidade de Jesus acima da segurança do barco, e enquanto manteve os olhos em Jesus, andou.\n\nDepois ele viu o vento -o grego diz blepon ton anemon, viu o vento, uma imagem interessante porque o vento não se vê: o que ele viu foram as evidências do vento, as ondas, o movimento da água, a realidade física das circunstâncias ao seu redor. E ao ver tudo isso teve medo, e ao ter medo começou a afundar. \"Senhor, salva-me\": três palavras, a oração mais curta do evangelho, sem elaboração nem tentativa de justificar a situação, apenas urgência e dependência. Jesus estendeu a mão imediatamente e o segurou: \"Homem de pequena fé, por que você duvidou?\" -oligopiste, a mesma palavra do capítulo 8 com os discípulos na tempestade. Pedro não afundou por falta de fé: afundou por mudança de foco. Enquanto olhava para Jesus, andava; quando olhou para as circunstâncias, afundou. A fé não é negação da realidade, é a escolha de para quem olhar quando a realidade é difícil -as ondas eram reais, o vento era real, o perigo era real; o problema de Pedro não foi ter visto as ondas, foi deixar que as ondas ocupassem o lugar que deveria ser de Jesus em seu campo de visão.",
+        "griego_ids": [
+          "oligopistos"
+        ],
+        "personaje_ids": [
+          "jesus",
+          "pedro"
+        ],
+        "lugar_ids": [
+          "mar-de-galilea"
+        ]
+      },
+      {
+        "numero": 30,
+        "texto": "Mas, quando reparou no vento, ficou com medo e, começando a afundar, gritou: ― Senhor, salva-me!",
+        "comentario": "Pedro, sempre Pedro, aquele que fala quando os outros guardam silêncio: \"Senhor, se és tu, manda-me ir ao teu encontro sobre as águas.\" Isso não é incredulidade nem um teste cético -é um pedido de participação: Pedro quer estar onde Jesus está, e se Jesus está sobre a água, Pedro quer estar sobre a água também. Jesus diz uma única palavra, venha, e Pedro sai do barco -algo já extraordinário em si mesmo: onze pessoas ficaram dentro, uma saiu. Quem ficou no barco estava mais seguro em termos imediatos, mas também mais longe de Jesus; Pedro escolheu a proximidade de Jesus acima da segurança do barco, e enquanto manteve os olhos em Jesus, andou.\n\nDepois ele viu o vento -o grego diz blepon ton anemon, viu o vento, uma imagem interessante porque o vento não se vê: o que ele viu foram as evidências do vento, as ondas, o movimento da água, a realidade física das circunstâncias ao seu redor. E ao ver tudo isso teve medo, e ao ter medo começou a afundar. \"Senhor, salva-me\": três palavras, a oração mais curta do evangelho, sem elaboração nem tentativa de justificar a situação, apenas urgência e dependência. Jesus estendeu a mão imediatamente e o segurou: \"Homem de pequena fé, por que você duvidou?\" -oligopiste, a mesma palavra do capítulo 8 com os discípulos na tempestade. Pedro não afundou por falta de fé: afundou por mudança de foco. Enquanto olhava para Jesus, andava; quando olhou para as circunstâncias, afundou. A fé não é negação da realidade, é a escolha de para quem olhar quando a realidade é difícil -as ondas eram reais, o vento era real, o perigo era real; o problema de Pedro não foi ter visto as ondas, foi deixar que as ondas ocupassem o lugar que deveria ser de Jesus em seu campo de visão.",
+        "griego_ids": [
+          "oligopistos"
+        ],
+        "personaje_ids": [
+          "jesus",
+          "pedro"
+        ],
+        "lugar_ids": [
+          "mar-de-galilea"
+        ]
+      },
+      {
+        "numero": 31,
+        "texto": "Imediatamente, Jesus estendeu a mão, segurou-o e disse: ― Homem de pequena fé, por que você duvidou?",
+        "comentario": "Pedro, sempre Pedro, aquele que fala quando os outros guardam silêncio: \"Senhor, se és tu, manda-me ir ao teu encontro sobre as águas.\" Isso não é incredulidade nem um teste cético -é um pedido de participação: Pedro quer estar onde Jesus está, e se Jesus está sobre a água, Pedro quer estar sobre a água também. Jesus diz uma única palavra, venha, e Pedro sai do barco -algo já extraordinário em si mesmo: onze pessoas ficaram dentro, uma saiu. Quem ficou no barco estava mais seguro em termos imediatos, mas também mais longe de Jesus; Pedro escolheu a proximidade de Jesus acima da segurança do barco, e enquanto manteve os olhos em Jesus, andou.\n\nDepois ele viu o vento -o grego diz blepon ton anemon, viu o vento, uma imagem interessante porque o vento não se vê: o que ele viu foram as evidências do vento, as ondas, o movimento da água, a realidade física das circunstâncias ao seu redor. E ao ver tudo isso teve medo, e ao ter medo começou a afundar. \"Senhor, salva-me\": três palavras, a oração mais curta do evangelho, sem elaboração nem tentativa de justificar a situação, apenas urgência e dependência. Jesus estendeu a mão imediatamente e o segurou: \"Homem de pequena fé, por que você duvidou?\" -oligopiste, a mesma palavra do capítulo 8 com os discípulos na tempestade. Pedro não afundou por falta de fé: afundou por mudança de foco. Enquanto olhava para Jesus, andava; quando olhou para as circunstâncias, afundou. A fé não é negação da realidade, é a escolha de para quem olhar quando a realidade é difícil -as ondas eram reais, o vento era real, o perigo era real; o problema de Pedro não foi ter visto as ondas, foi deixar que as ondas ocupassem o lugar que deveria ser de Jesus em seu campo de visão.",
+        "griego_ids": [
+          "oligopistos"
+        ],
+        "personaje_ids": [
+          "jesus",
+          "pedro"
+        ],
+        "lugar_ids": [
+          "mar-de-galilea"
+        ]
+      },
+      {
+        "numero": 32,
+        "texto": "Quando subiram no barco, o vento cessou.",
+        "comentario": "Quando Jesus e Pedro sobem no barco, o vento se acalma -o mesmo padrão do capítulo 8: a presença de Jesus produz calma onde havia caos. Mas a reação dos que estão no barco dessa vez é diferente da do capítulo 8: lá eles se perguntaram entre si quem era aquele homem, aqui eles o adoram e declaram \"Verdadeiramente tu és o Filho de Deus\". O discipulado produz compreensão progressiva -cada tempestade, cada milagre, cada momento de crise atravessado com Jesus ampliou o entendimento de quem ele é; o capítulo 8 os deixou com uma pergunta, o 14 os leva a uma declaração. A palavra que Mateus usa para adorar é proskunesan, a mesma que descreve a adoração dirigida a Deus -não é respeito a um mestre, é adoração- e \"Filho de Deus\" na boca de discípulos judeus do século I não era um título honorífico, mas uma afirmação de natureza divina. O processo que começou com \"quem é este homem?\" está chegando à sua resposta, e essa resposta muda tudo.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus",
+          "pedro"
+        ],
+        "lugar_ids": [
+          "mar-de-galilea"
+        ]
+      },
+      {
+        "numero": 33,
+        "texto": "Então, os que estavam no barco o adoraram, dizendo: ― Verdadeiramente tu és o Filho de Deus.",
+        "comentario": "Quando Jesus e Pedro sobem no barco, o vento se acalma -o mesmo padrão do capítulo 8: a presença de Jesus produz calma onde havia caos. Mas a reação dos que estão no barco dessa vez é diferente da do capítulo 8: lá eles se perguntaram entre si quem era aquele homem, aqui eles o adoram e declaram \"Verdadeiramente tu és o Filho de Deus\". O discipulado produz compreensão progressiva -cada tempestade, cada milagre, cada momento de crise atravessado com Jesus ampliou o entendimento de quem ele é; o capítulo 8 os deixou com uma pergunta, o 14 os leva a uma declaração. A palavra que Mateus usa para adorar é proskunesan, a mesma que descreve a adoração dirigida a Deus -não é respeito a um mestre, é adoração- e \"Filho de Deus\" na boca de discípulos judeus do século I não era um título honorífico, mas uma afirmação de natureza divina. O processo que começou com \"quem é este homem?\" está chegando à sua resposta, e essa resposta muda tudo.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus",
+          "pedro"
+        ],
+        "lugar_ids": [
+          "mar-de-galilea"
+        ]
+      },
+      {
+        "numero": 34,
+        "texto": "Depois de atravessarem o mar, chegaram à terra de Genesaré.",
+        "comentario": "Terminada a travessia, chegam a Genesaré, uma fértil planície costeira ao noroeste do lago, conhecida por seu solo especialmente produtivo -o historiador Josefo a descrevia como o jardim da Galileia- e densamente povoada. Assim que o povo reconhece Jesus, envia aviso por toda a região e lhe traz todos os doentes, pedindo para tocar apenas na borda do seu manto -a mesma ação da mulher com hemorragia no capítulo 9- e todos os que o tocam ficam curados. A fé do povo de Genesaré não pedia muito: só a borda do manto. Não pediam sermões, não negociavam condições, não apresentavam argumentos -queriam contato, ainda que o mínimo possível, e Jesus honrou essa fé mínima com cura completa. A fé não precisa ser elaborada para ser eficaz: precisa ser real e dirigida ao lugar certo. O que importava não era a quantidade de fé, mas o seu objeto.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus"
+        ],
+        "lugar_ids": [
+          "genesaret"
+        ]
+      },
+      {
+        "numero": 35,
+        "texto": "Quando os homens daquele lugar reconheceram Jesus, espalharam a notícia em toda aquela região. E trouxeram-lhe todos os doentes,",
+        "comentario": "Terminada a travessia, chegam a Genesaré, uma fértil planície costeira ao noroeste do lago, conhecida por seu solo especialmente produtivo -o historiador Josefo a descrevia como o jardim da Galileia- e densamente povoada. Assim que o povo reconhece Jesus, envia aviso por toda a região e lhe traz todos os doentes, pedindo para tocar apenas na borda do seu manto -a mesma ação da mulher com hemorragia no capítulo 9- e todos os que o tocam ficam curados. A fé do povo de Genesaré não pedia muito: só a borda do manto. Não pediam sermões, não negociavam condições, não apresentavam argumentos -queriam contato, ainda que o mínimo possível, e Jesus honrou essa fé mínima com cura completa. A fé não precisa ser elaborada para ser eficaz: precisa ser real e dirigida ao lugar certo. O que importava não era a quantidade de fé, mas o seu objeto.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus"
+        ],
+        "lugar_ids": [
+          "genesaret"
+        ]
+      },
+      {
+        "numero": 36,
+        "texto": "suplicando-lhe que ao menos pudessem tocar na borda do seu manto, e todos os que nele tocaram foram curados.",
+        "comentario": "Terminada a travessia, chegam a Genesaré, uma fértil planície costeira ao noroeste do lago, conhecida por seu solo especialmente produtivo -o historiador Josefo a descrevia como o jardim da Galileia- e densamente povoada. Assim que o povo reconhece Jesus, envia aviso por toda a região e lhe traz todos os doentes, pedindo para tocar apenas na borda do seu manto -a mesma ação da mulher com hemorragia no capítulo 9- e todos os que o tocam ficam curados. A fé do povo de Genesaré não pedia muito: só a borda do manto. Não pediam sermões, não negociavam condições, não apresentavam argumentos -queriam contato, ainda que o mínimo possível, e Jesus honrou essa fé mínima com cura completa. A fé não precisa ser elaborada para ser eficaz: precisa ser real e dirigida ao lugar certo. O que importava não era a quantidade de fé, mas o seu objeto.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus"
+        ],
+        "lugar_ids": [
+          "genesaret"
+        ]
+      }
+    ],
+    "contexto_ids": [
+      "matrimonio-herodes-antipas-herodias",
+      "maqueronte-fortaleza-desertica",
+      "mar-de-galilea-geografia-y-tormentas"
+    ],
+    "reflexion": [
+      "Herodes tinha convicção sobre João Batista e, mesmo assim, mandou matá-lo para não ficar mal diante dos seus convidados. Quantas vezes você faz algo que sabe estar errado, ou fica calado quando precisa falar, porque o custo social de sustentar sua convicção parece alto demais?",
+      "Pedro andou sobre a água enquanto olhava para Jesus, e afundou quando olhou para a tempestade. Que circunstância está ocupando hoje o lugar que deveria ser de Jesus no seu campo de visão?",
+      "O povo de Genesaré só pediu para tocar na borda do manto, e foi suficiente. Sua fé precisa se tornar mais elaborada, ou mais bem direcionada -colocada no lugar certo, mesmo que seja pouca?"
+    ]
+  },
+  {
+    "libro": "Mateo",
+    "capitulo": 15,
+    "discurso_id": "milagros-fe-e-inclusion",
+    "estado": "publicado",
+    "versiculos": [
+      {
+        "numero": 1,
+        "texto": "Então, alguns fariseus e mestres da lei, que haviam chegado de Jerusalém, foram a Jesus e perguntaram:",
+        "comentario": "Esses fariseus e mestres da lei vinham de Jerusalém -não eram os fariseus locais da Galileia que Jesus encontrava cotidianamente, mas vieram da capital religiosa especificamente para investigá-lo: há uma escalada na oposição que o evangelho vem documentando desde o capítulo 12. A acusação não é sobre higiene: a lavagem ritual das mãos não tinha a ver com germes nem com saúde, era um rito de purificação codificado na tradição oral rabínica, a Halaká (הֲלָכָה), literalmente \"o caminho que se percorre\". Essa tradição não estava na Torá escrita, mas na interpretação rabínica acumulada ao longo de séculos, que os fariseus consideravam tão vinculante quanto o texto bíblico, e mencionava especificamente a lavagem das mãos antes de comer como separação entre o sagrado e o impuro. Os discípulos não a cumpriam, e os fariseus apontam isso publicamente -não necessariamente com maldade, mas com a convicção genuína de que existe um jeito certo de fazer as coisas. O problema dos fariseus não era ter padrões: era confundir suas tradições com a vontade de Deus, uma confusão que termina julgando como errado quem está bem diante de Deus, usando como régua algo que Deus nunca estabeleceu.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "fariseos",
+          "maestros-de-la-ley"
+        ],
+        "lugar_ids": [
+          "jerusalen"
+        ]
+      },
+      {
+        "numero": 2,
+        "texto": "― Por que os seus discípulos transgridem a tradição dos anciãos? Pois eles não lavam as mãos antes de comer!",
+        "comentario": "Esses fariseus e mestres da lei vinham de Jerusalém -não eram os fariseus locais da Galileia que Jesus encontrava cotidianamente, mas vieram da capital religiosa especificamente para investigá-lo: há uma escalada na oposição que o evangelho vem documentando desde o capítulo 12. A acusação não é sobre higiene: a lavagem ritual das mãos não tinha a ver com germes nem com saúde, era um rito de purificação codificado na tradição oral rabínica, a Halaká (הֲלָכָה), literalmente \"o caminho que se percorre\". Essa tradição não estava na Torá escrita, mas na interpretação rabínica acumulada ao longo de séculos, que os fariseus consideravam tão vinculante quanto o texto bíblico, e mencionava especificamente a lavagem das mãos antes de comer como separação entre o sagrado e o impuro. Os discípulos não a cumpriam, e os fariseus apontam isso publicamente -não necessariamente com maldade, mas com a convicção genuína de que existe um jeito certo de fazer as coisas. O problema dos fariseus não era ter padrões: era confundir suas tradições com a vontade de Deus, uma confusão que termina julgando como errado quem está bem diante de Deus, usando como régua algo que Deus nunca estabeleceu.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "fariseos",
+          "maestros-de-la-ley"
+        ],
+        "lugar_ids": [
+          "jerusalen"
+        ]
+      },
+      {
+        "numero": 3,
+        "texto": "Jesus respondeu: ― E por que vocês transgridem o mandamento de Deus por causa da tradição de vocês?",
+        "comentario": "Jesus não defende seus discípulos de forma direta: expõe a incoerência do sistema que os acusa. \"E por que vocês transgridem o mandamento de Deus por causa da tradição de vocês?\" O quinto mandamento ordena honrar o pai e a mãe, e a Lei acrescenta que quem amaldiçoar seus pais deve morrer -não havia ambiguidade, o cuidado com os pais era uma obrigação sagrada e inegociável. Mas os fariseus haviam desenvolvido uma prática chamada Corbã (קָרְבָּן), \"oferta a Deus\": alguém podia declarar que seus bens eram Corbã, dedicados ao templo, e com essa declaração ficavam formalmente excluídos do uso familiar. O resultado prático era que uma pessoa podia evitar a responsabilidade de sustentar seus pais idosos declarando que seus recursos estavam dedicados a Deus, e os pais não podiam reivindicar nada, porque isso seria se opor a uma oferta sagrada. O que Jesus aponta é devastador: pegaram um mandamento de Deus -o cuidado com os pais- e o anularam usando a devoção religiosa como desculpa. O princípio segue válido: às vezes a religiosidade se torna desculpa para evitar responsabilidades reais -alguém que dedica todo o seu tempo ao ministério e negligencia a família, alguém que dá generosamente à igreja mas não provê para os pais que precisam. Honrar os pais não se cancela pelas obrigações ministeriais nem se substitui por devoção religiosa: é um mandamento direto de Deus que Jesus defende aqui com uma contundência que os fariseus não esperavam.",
+        "griego_ids": [
+          "corban"
+        ],
+        "personaje_ids": [
+          "jesus",
+          "fariseos"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 4,
+        "texto": "Pois Deus disse: 'Honre o seu pai e a sua mãe' e 'Quem amaldiçoar o seu pai ou a sua mãe terá que ser executado'.",
+        "comentario": "Jesus não defende seus discípulos de forma direta: expõe a incoerência do sistema que os acusa. \"E por que vocês transgridem o mandamento de Deus por causa da tradição de vocês?\" O quinto mandamento ordena honrar o pai e a mãe, e a Lei acrescenta que quem amaldiçoar seus pais deve morrer -não havia ambiguidade, o cuidado com os pais era uma obrigação sagrada e inegociável. Mas os fariseus haviam desenvolvido uma prática chamada Corbã (קָרְבָּן), \"oferta a Deus\": alguém podia declarar que seus bens eram Corbã, dedicados ao templo, e com essa declaração ficavam formalmente excluídos do uso familiar. O resultado prático era que uma pessoa podia evitar a responsabilidade de sustentar seus pais idosos declarando que seus recursos estavam dedicados a Deus, e os pais não podiam reivindicar nada, porque isso seria se opor a uma oferta sagrada. O que Jesus aponta é devastador: pegaram um mandamento de Deus -o cuidado com os pais- e o anularam usando a devoção religiosa como desculpa. O princípio segue válido: às vezes a religiosidade se torna desculpa para evitar responsabilidades reais -alguém que dedica todo o seu tempo ao ministério e negligencia a família, alguém que dá generosamente à igreja mas não provê para os pais que precisam. Honrar os pais não se cancela pelas obrigações ministeriais nem se substitui por devoção religiosa: é um mandamento direto de Deus que Jesus defende aqui com uma contundência que os fariseus não esperavam.",
+        "griego_ids": [
+          "corban"
+        ],
+        "personaje_ids": [
+          "jesus",
+          "fariseos"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 5,
+        "texto": "Mas vocês afirmam que, se alguém disser ao seu pai ou à sua mãe: 'Qualquer ajuda que vocês poderiam receber de mim já dediquei a Deus como oferta',",
+        "comentario": "Jesus não defende seus discípulos de forma direta: expõe a incoerência do sistema que os acusa. \"E por que vocês transgridem o mandamento de Deus por causa da tradição de vocês?\" O quinto mandamento ordena honrar o pai e a mãe, e a Lei acrescenta que quem amaldiçoar seus pais deve morrer -não havia ambiguidade, o cuidado com os pais era uma obrigação sagrada e inegociável. Mas os fariseus haviam desenvolvido uma prática chamada Corbã (קָרְבָּן), \"oferta a Deus\": alguém podia declarar que seus bens eram Corbã, dedicados ao templo, e com essa declaração ficavam formalmente excluídos do uso familiar. O resultado prático era que uma pessoa podia evitar a responsabilidade de sustentar seus pais idosos declarando que seus recursos estavam dedicados a Deus, e os pais não podiam reivindicar nada, porque isso seria se opor a uma oferta sagrada. O que Jesus aponta é devastador: pegaram um mandamento de Deus -o cuidado com os pais- e o anularam usando a devoção religiosa como desculpa. O princípio segue válido: às vezes a religiosidade se torna desculpa para evitar responsabilidades reais -alguém que dedica todo o seu tempo ao ministério e negligencia a família, alguém que dá generosamente à igreja mas não provê para os pais que precisam. Honrar os pais não se cancela pelas obrigações ministeriais nem se substitui por devoção religiosa: é um mandamento direto de Deus que Jesus defende aqui com uma contundência que os fariseus não esperavam.",
+        "griego_ids": [
+          "corban"
+        ],
+        "personaje_ids": [
+          "jesus",
+          "fariseos"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 6,
+        "texto": "certamente não precisa honrar o seu pai. Assim, vocês anulam a palavra de Deus por causa da tradição de vocês.",
+        "comentario": "Jesus não defende seus discípulos de forma direta: expõe a incoerência do sistema que os acusa. \"E por que vocês transgridem o mandamento de Deus por causa da tradição de vocês?\" O quinto mandamento ordena honrar o pai e a mãe, e a Lei acrescenta que quem amaldiçoar seus pais deve morrer -não havia ambiguidade, o cuidado com os pais era uma obrigação sagrada e inegociável. Mas os fariseus haviam desenvolvido uma prática chamada Corbã (קָרְבָּן), \"oferta a Deus\": alguém podia declarar que seus bens eram Corbã, dedicados ao templo, e com essa declaração ficavam formalmente excluídos do uso familiar. O resultado prático era que uma pessoa podia evitar a responsabilidade de sustentar seus pais idosos declarando que seus recursos estavam dedicados a Deus, e os pais não podiam reivindicar nada, porque isso seria se opor a uma oferta sagrada. O que Jesus aponta é devastador: pegaram um mandamento de Deus -o cuidado com os pais- e o anularam usando a devoção religiosa como desculpa. O princípio segue válido: às vezes a religiosidade se torna desculpa para evitar responsabilidades reais -alguém que dedica todo o seu tempo ao ministério e negligencia a família, alguém que dá generosamente à igreja mas não provê para os pais que precisam. Honrar os pais não se cancela pelas obrigações ministeriais nem se substitui por devoção religiosa: é um mandamento direto de Deus que Jesus defende aqui com uma contundência que os fariseus não esperavam.",
+        "griego_ids": [
+          "corban"
+        ],
+        "personaje_ids": [
+          "jesus",
+          "fariseos"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 7,
+        "texto": "Hipócritas! Bem profetizou Isaías acerca de vocês, dizendo:",
+        "comentario": "A citação é de Isaías 29:13, escrita sete séculos antes, e Jesus a aplica com uma precisão que dói: \"Hipócritas! Bem profetizou Isaías acerca de vocês\". Hipócritas (ὑποκριταί) eram, no mundo grego, os atores de teatro: aqueles que usam uma máscara para representar um personagem diferente do que são em sua vida real -não necessariamente pessoas maliciosas, muitas vezes sinceras que aprenderam a performar a fé em vez de vivê-la. A distinção que Isaías faz, e que Jesus retoma, é entre os lábios e o coração: é possível participar do culto, conhecer as palavras certas, cumprir os ritos estabelecidos, e ter o coração completamente afastado de Deus -nem sempre por hipocrisia calculada, muitas vezes por anos de prática religiosa que foi se esvaziando de conteúdo real sem que a pessoa percebesse.",
+        "griego_ids": [
+          "hypokritai"
+        ],
+        "personaje_ids": [
+          "jesus",
+          "fariseos",
+          "isaias"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 8,
+        "texto": "\"Este povo me honra com os lábios, mas o seu coração está longe de mim.",
+        "comentario": "A citação é de Isaías 29:13, escrita sete séculos antes, e Jesus a aplica com uma precisão que dói: \"Hipócritas! Bem profetizou Isaías acerca de vocês\". Hipócritas (ὑποκριταί) eram, no mundo grego, os atores de teatro: aqueles que usam uma máscara para representar um personagem diferente do que são em sua vida real -não necessariamente pessoas maliciosas, muitas vezes sinceras que aprenderam a performar a fé em vez de vivê-la. A distinção que Isaías faz, e que Jesus retoma, é entre os lábios e o coração: é possível participar do culto, conhecer as palavras certas, cumprir os ritos estabelecidos, e ter o coração completamente afastado de Deus -nem sempre por hipocrisia calculada, muitas vezes por anos de prática religiosa que foi se esvaziando de conteúdo real sem que a pessoa percebesse.",
+        "griego_ids": [
+          "hypokritai"
+        ],
+        "personaje_ids": [
+          "jesus",
+          "fariseos",
+          "isaias"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 9,
+        "texto": "Em vão me adoram; os seus ensinamentos não passam de mandamentos ensinados por homens\".",
+        "comentario": "A citação é de Isaías 29:13, escrita sete séculos antes, e Jesus a aplica com uma precisão que dói: \"Hipócritas! Bem profetizou Isaías acerca de vocês\". Hipócritas (ὑποκριταί) eram, no mundo grego, os atores de teatro: aqueles que usam uma máscara para representar um personagem diferente do que são em sua vida real -não necessariamente pessoas maliciosas, muitas vezes sinceras que aprenderam a performar a fé em vez de vivê-la. A distinção que Isaías faz, e que Jesus retoma, é entre os lábios e o coração: é possível participar do culto, conhecer as palavras certas, cumprir os ritos estabelecidos, e ter o coração completamente afastado de Deus -nem sempre por hipocrisia calculada, muitas vezes por anos de prática religiosa que foi se esvaziando de conteúdo real sem que a pessoa percebesse.",
+        "griego_ids": [
+          "hypokritai"
+        ],
+        "personaje_ids": [
+          "jesus",
+          "fariseos",
+          "isaias"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 10,
+        "texto": "Jesus chamou para junto de si a multidão e disse:",
+        "comentario": "Jesus chama a multidão para perto de si -o que vai dizer não é só para os fariseus, é para todos- e o que ele diz é uma inversão radical da lógica religiosa que governava a vida de Israel. No sistema levítico havia alimentos puros e impuros, contato com certos objetos ou pessoas que tornava alguém ritualmente impuro: toda uma arquitetura de pureza exterior que regulava o acesso à presença de Deus. Jesus não está abolindo essa arquitetura neste momento -isso virá de forma mais progressiva- mas apontando algo que estava no coração da Lei desde o início, mas que o sistema fariseu havia obscurecido: o problema fundamental do ser humano não é exterior, é interior. O que se come pode contaminar o corpo, mas não toca a alma; já o que se fala, e tudo o que se faz, sai do coração, e é exatamente do coração que vêm os problemas reais.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 11,
+        "texto": "― Ouçam e entendam: não é o que entra pela boca que torna o homem impuro, mas o que sai da sua boca.",
+        "comentario": "Jesus chama a multidão para perto de si -o que vai dizer não é só para os fariseus, é para todos- e o que ele diz é uma inversão radical da lógica religiosa que governava a vida de Israel. No sistema levítico havia alimentos puros e impuros, contato com certos objetos ou pessoas que tornava alguém ritualmente impuro: toda uma arquitetura de pureza exterior que regulava o acesso à presença de Deus. Jesus não está abolindo essa arquitetura neste momento -isso virá de forma mais progressiva- mas apontando algo que estava no coração da Lei desde o início, mas que o sistema fariseu havia obscurecido: o problema fundamental do ser humano não é exterior, é interior. O que se come pode contaminar o corpo, mas não toca a alma; já o que se fala, e tudo o que se faz, sai do coração, e é exatamente do coração que vêm os problemas reais.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 12,
+        "texto": "Então, os discípulos se aproximaram dele e perguntaram: ― O Senhor sabe que os fariseus se ofenderam quando ouviram isso?",
+        "comentario": "Os discípulos avisam que os fariseus se ofenderam ao ouvir isso, e a resposta de Jesus não busca suavizar o golpe: \"Toda planta que o meu Pai celestial não plantou será arrancada pelas raízes.\" A tradição humana, por mais antiga e respeitada que seja, não tem autoridade própria se não nasceu de Deus -e o que não nasceu dele, cedo ou tarde, é arrancado. Jesus chama os fariseus de guias cegos: não ignorantes do texto bíblico, pelo contrário, conheciam-no melhor que quase ninguém, mas cegos para ver o que o texto realmente pedia. E se um cego guia outro cego, ambos caem no buraco -a erudição religiosa sem uma visão correta do coração de Deus não apenas deixa de ajudar: arrasta outros para a mesma queda.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus",
+          "fariseos"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 13,
+        "texto": "Toda planta que o meu Pai celestial não plantou será arrancada pelas raízes -respondeu ele.",
+        "comentario": "Os discípulos avisam que os fariseus se ofenderam ao ouvir isso, e a resposta de Jesus não busca suavizar o golpe: \"Toda planta que o meu Pai celestial não plantou será arrancada pelas raízes.\" A tradição humana, por mais antiga e respeitada que seja, não tem autoridade própria se não nasceu de Deus -e o que não nasceu dele, cedo ou tarde, é arrancado. Jesus chama os fariseus de guias cegos: não ignorantes do texto bíblico, pelo contrário, conheciam-no melhor que quase ninguém, mas cegos para ver o que o texto realmente pedia. E se um cego guia outro cego, ambos caem no buraco -a erudição religiosa sem uma visão correta do coração de Deus não apenas deixa de ajudar: arrasta outros para a mesma queda.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus",
+          "fariseos"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 14,
+        "texto": "Deixem-nos; eles são guias cegos. Se um cego guiar outro cego, cairão ambos em um buraco.",
+        "comentario": "Os discípulos avisam que os fariseus se ofenderam ao ouvir isso, e a resposta de Jesus não busca suavizar o golpe: \"Toda planta que o meu Pai celestial não plantou será arrancada pelas raízes.\" A tradição humana, por mais antiga e respeitada que seja, não tem autoridade própria se não nasceu de Deus -e o que não nasceu dele, cedo ou tarde, é arrancado. Jesus chama os fariseus de guias cegos: não ignorantes do texto bíblico, pelo contrário, conheciam-no melhor que quase ninguém, mas cegos para ver o que o texto realmente pedia. E se um cego guia outro cego, ambos caem no buraco -a erudição religiosa sem uma visão correta do coração de Deus não apenas deixa de ajudar: arrasta outros para a mesma queda.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus",
+          "fariseos"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 15,
+        "texto": "Então, Pedro pediu-lhe: ― Explica-nos esta parábola.",
+        "comentario": "Pedro, fiel ao seu jeito, pede que a parábola seja explicada, e Jesus desenvolve o que acabou de dizer com uma clareza que não deixa escapatória: o que sai da boca vem do coração, e do coração saem os maus pensamentos, os homicídios, os adultérios, as imoralidades sexuais, os roubos, os falsos testemunhos, as calúnias. A lista não começa com ações: começa com maus pensamentos. Tudo o que depois se transforma em crime ou pecado visível começou como um pensamento que foi alimentado, entretido, deixado crescer até sair ao mundo em forma de conduta. Provérbios 4:23 diz isso com uma clareza que vale memorizar: \"Acima de tudo o que se guarda, guarda o teu coração, porque dele procedem as fontes da vida.\" O coração não é a origem ocasional de alguns problemas: é a fonte de tudo. O que há ali dentro eventualmente sai, nem sempre de repente nem de forma dramática, mas sai.\n\nO adultério não começa no ato físico: começa no olhar que escolhe permanecer, no pensamento que se entretém, na fantasia que se alimenta deliberadamente. O falso testemunho não começa com uma grande mentira declarada diante de um tribunal: começa com os pequenos exageros que melhoram a própria imagem, com as meias-verdades que omitem o que faz parecer mal, com a fofoca disfarçada de oração. A blasfêmia não é apenas amaldiçoar o nome de Deus: é falar dele com indiferença, com leviandade, com a boca mais do que com o coração. O homicídio que Jesus lista aqui conecta com o que ensinou no Sermão do Monte: a raiva que se sustenta, o ódio que se alimenta, já é homicídio no coração (Mateus 5:21-22), e 1 João 3:15 confirma isso -quem odeia seu irmão é homicida, não quando age, mas a partir do coração. Tudo o que Deus proíbe por fora tem sua raiz por dentro, e por isso a solução nunca pode ser apenas mudar condutas externas: precisa começar no coração. A oração mais necessária que existe é a do Salmo 51:10 -\"Cria em mim, ó Deus, um coração puro e renova dentro de mim um espírito estável\"- não \"muda minhas condutas\", mas \"cria um coração novo\", porque se o coração muda, o resto eventualmente segue.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus",
+          "pedro"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 16,
+        "texto": "Vocês ainda não a entenderam? -perguntou Jesus.",
+        "comentario": "Pedro, fiel ao seu jeito, pede que a parábola seja explicada, e Jesus desenvolve o que acabou de dizer com uma clareza que não deixa escapatória: o que sai da boca vem do coração, e do coração saem os maus pensamentos, os homicídios, os adultérios, as imoralidades sexuais, os roubos, os falsos testemunhos, as calúnias. A lista não começa com ações: começa com maus pensamentos. Tudo o que depois se transforma em crime ou pecado visível começou como um pensamento que foi alimentado, entretido, deixado crescer até sair ao mundo em forma de conduta. Provérbios 4:23 diz isso com uma clareza que vale memorizar: \"Acima de tudo o que se guarda, guarda o teu coração, porque dele procedem as fontes da vida.\" O coração não é a origem ocasional de alguns problemas: é a fonte de tudo. O que há ali dentro eventualmente sai, nem sempre de repente nem de forma dramática, mas sai.\n\nO adultério não começa no ato físico: começa no olhar que escolhe permanecer, no pensamento que se entretém, na fantasia que se alimenta deliberadamente. O falso testemunho não começa com uma grande mentira declarada diante de um tribunal: começa com os pequenos exageros que melhoram a própria imagem, com as meias-verdades que omitem o que faz parecer mal, com a fofoca disfarçada de oração. A blasfêmia não é apenas amaldiçoar o nome de Deus: é falar dele com indiferença, com leviandade, com a boca mais do que com o coração. O homicídio que Jesus lista aqui conecta com o que ensinou no Sermão do Monte: a raiva que se sustenta, o ódio que se alimenta, já é homicídio no coração (Mateus 5:21-22), e 1 João 3:15 confirma isso -quem odeia seu irmão é homicida, não quando age, mas a partir do coração. Tudo o que Deus proíbe por fora tem sua raiz por dentro, e por isso a solução nunca pode ser apenas mudar condutas externas: precisa começar no coração. A oração mais necessária que existe é a do Salmo 51:10 -\"Cria em mim, ó Deus, um coração puro e renova dentro de mim um espírito estável\"- não \"muda minhas condutas\", mas \"cria um coração novo\", porque se o coração muda, o resto eventualmente segue.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus",
+          "pedro"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 17,
+        "texto": "Não percebem que o que entra pela boca vai para o estômago e mais tarde é expelido?",
+        "comentario": "Pedro, fiel ao seu jeito, pede que a parábola seja explicada, e Jesus desenvolve o que acabou de dizer com uma clareza que não deixa escapatória: o que sai da boca vem do coração, e do coração saem os maus pensamentos, os homicídios, os adultérios, as imoralidades sexuais, os roubos, os falsos testemunhos, as calúnias. A lista não começa com ações: começa com maus pensamentos. Tudo o que depois se transforma em crime ou pecado visível começou como um pensamento que foi alimentado, entretido, deixado crescer até sair ao mundo em forma de conduta. Provérbios 4:23 diz isso com uma clareza que vale memorizar: \"Acima de tudo o que se guarda, guarda o teu coração, porque dele procedem as fontes da vida.\" O coração não é a origem ocasional de alguns problemas: é a fonte de tudo. O que há ali dentro eventualmente sai, nem sempre de repente nem de forma dramática, mas sai.\n\nO adultério não começa no ato físico: começa no olhar que escolhe permanecer, no pensamento que se entretém, na fantasia que se alimenta deliberadamente. O falso testemunho não começa com uma grande mentira declarada diante de um tribunal: começa com os pequenos exageros que melhoram a própria imagem, com as meias-verdades que omitem o que faz parecer mal, com a fofoca disfarçada de oração. A blasfêmia não é apenas amaldiçoar o nome de Deus: é falar dele com indiferença, com leviandade, com a boca mais do que com o coração. O homicídio que Jesus lista aqui conecta com o que ensinou no Sermão do Monte: a raiva que se sustenta, o ódio que se alimenta, já é homicídio no coração (Mateus 5:21-22), e 1 João 3:15 confirma isso -quem odeia seu irmão é homicida, não quando age, mas a partir do coração. Tudo o que Deus proíbe por fora tem sua raiz por dentro, e por isso a solução nunca pode ser apenas mudar condutas externas: precisa começar no coração. A oração mais necessária que existe é a do Salmo 51:10 -\"Cria em mim, ó Deus, um coração puro e renova dentro de mim um espírito estável\"- não \"muda minhas condutas\", mas \"cria um coração novo\", porque se o coração muda, o resto eventualmente segue.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus",
+          "pedro"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 18,
+        "texto": "Mas as coisas que saem da boca vêm do coração, e é isso o que contamina o homem.",
+        "comentario": "Pedro, fiel ao seu jeito, pede que a parábola seja explicada, e Jesus desenvolve o que acabou de dizer com uma clareza que não deixa escapatória: o que sai da boca vem do coração, e do coração saem os maus pensamentos, os homicídios, os adultérios, as imoralidades sexuais, os roubos, os falsos testemunhos, as calúnias. A lista não começa com ações: começa com maus pensamentos. Tudo o que depois se transforma em crime ou pecado visível começou como um pensamento que foi alimentado, entretido, deixado crescer até sair ao mundo em forma de conduta. Provérbios 4:23 diz isso com uma clareza que vale memorizar: \"Acima de tudo o que se guarda, guarda o teu coração, porque dele procedem as fontes da vida.\" O coração não é a origem ocasional de alguns problemas: é a fonte de tudo. O que há ali dentro eventualmente sai, nem sempre de repente nem de forma dramática, mas sai.\n\nO adultério não começa no ato físico: começa no olhar que escolhe permanecer, no pensamento que se entretém, na fantasia que se alimenta deliberadamente. O falso testemunho não começa com uma grande mentira declarada diante de um tribunal: começa com os pequenos exageros que melhoram a própria imagem, com as meias-verdades que omitem o que faz parecer mal, com a fofoca disfarçada de oração. A blasfêmia não é apenas amaldiçoar o nome de Deus: é falar dele com indiferença, com leviandade, com a boca mais do que com o coração. O homicídio que Jesus lista aqui conecta com o que ensinou no Sermão do Monte: a raiva que se sustenta, o ódio que se alimenta, já é homicídio no coração (Mateus 5:21-22), e 1 João 3:15 confirma isso -quem odeia seu irmão é homicida, não quando age, mas a partir do coração. Tudo o que Deus proíbe por fora tem sua raiz por dentro, e por isso a solução nunca pode ser apenas mudar condutas externas: precisa começar no coração. A oração mais necessária que existe é a do Salmo 51:10 -\"Cria em mim, ó Deus, um coração puro e renova dentro de mim um espírito estável\"- não \"muda minhas condutas\", mas \"cria um coração novo\", porque se o coração muda, o resto eventualmente segue.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus",
+          "pedro"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 19,
+        "texto": "Pois do coração saem os maus pensamentos, os homicídios, os adultérios, as imoralidades sexuais, os roubos, os falsos testemunhos e as calúnias.",
+        "comentario": "Pedro, fiel ao seu jeito, pede que a parábola seja explicada, e Jesus desenvolve o que acabou de dizer com uma clareza que não deixa escapatória: o que sai da boca vem do coração, e do coração saem os maus pensamentos, os homicídios, os adultérios, as imoralidades sexuais, os roubos, os falsos testemunhos, as calúnias. A lista não começa com ações: começa com maus pensamentos. Tudo o que depois se transforma em crime ou pecado visível começou como um pensamento que foi alimentado, entretido, deixado crescer até sair ao mundo em forma de conduta. Provérbios 4:23 diz isso com uma clareza que vale memorizar: \"Acima de tudo o que se guarda, guarda o teu coração, porque dele procedem as fontes da vida.\" O coração não é a origem ocasional de alguns problemas: é a fonte de tudo. O que há ali dentro eventualmente sai, nem sempre de repente nem de forma dramática, mas sai.\n\nO adultério não começa no ato físico: começa no olhar que escolhe permanecer, no pensamento que se entretém, na fantasia que se alimenta deliberadamente. O falso testemunho não começa com uma grande mentira declarada diante de um tribunal: começa com os pequenos exageros que melhoram a própria imagem, com as meias-verdades que omitem o que faz parecer mal, com a fofoca disfarçada de oração. A blasfêmia não é apenas amaldiçoar o nome de Deus: é falar dele com indiferença, com leviandade, com a boca mais do que com o coração. O homicídio que Jesus lista aqui conecta com o que ensinou no Sermão do Monte: a raiva que se sustenta, o ódio que se alimenta, já é homicídio no coração (Mateus 5:21-22), e 1 João 3:15 confirma isso -quem odeia seu irmão é homicida, não quando age, mas a partir do coração. Tudo o que Deus proíbe por fora tem sua raiz por dentro, e por isso a solução nunca pode ser apenas mudar condutas externas: precisa começar no coração. A oração mais necessária que existe é a do Salmo 51:10 -\"Cria em mim, ó Deus, um coração puro e renova dentro de mim um espírito estável\"- não \"muda minhas condutas\", mas \"cria um coração novo\", porque se o coração muda, o resto eventualmente segue.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus",
+          "pedro"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 20,
+        "texto": "Essas coisas tornam o homem impuro, mas comer sem lavar as mãos não o torna impuro.",
+        "comentario": "Pedro, fiel ao seu jeito, pede que a parábola seja explicada, e Jesus desenvolve o que acabou de dizer com uma clareza que não deixa escapatória: o que sai da boca vem do coração, e do coração saem os maus pensamentos, os homicídios, os adultérios, as imoralidades sexuais, os roubos, os falsos testemunhos, as calúnias. A lista não começa com ações: começa com maus pensamentos. Tudo o que depois se transforma em crime ou pecado visível começou como um pensamento que foi alimentado, entretido, deixado crescer até sair ao mundo em forma de conduta. Provérbios 4:23 diz isso com uma clareza que vale memorizar: \"Acima de tudo o que se guarda, guarda o teu coração, porque dele procedem as fontes da vida.\" O coração não é a origem ocasional de alguns problemas: é a fonte de tudo. O que há ali dentro eventualmente sai, nem sempre de repente nem de forma dramática, mas sai.\n\nO adultério não começa no ato físico: começa no olhar que escolhe permanecer, no pensamento que se entretém, na fantasia que se alimenta deliberadamente. O falso testemunho não começa com uma grande mentira declarada diante de um tribunal: começa com os pequenos exageros que melhoram a própria imagem, com as meias-verdades que omitem o que faz parecer mal, com a fofoca disfarçada de oração. A blasfêmia não é apenas amaldiçoar o nome de Deus: é falar dele com indiferença, com leviandade, com a boca mais do que com o coração. O homicídio que Jesus lista aqui conecta com o que ensinou no Sermão do Monte: a raiva que se sustenta, o ódio que se alimenta, já é homicídio no coração (Mateus 5:21-22), e 1 João 3:15 confirma isso -quem odeia seu irmão é homicida, não quando age, mas a partir do coração. Tudo o que Deus proíbe por fora tem sua raiz por dentro, e por isso a solução nunca pode ser apenas mudar condutas externas: precisa começar no coração. A oração mais necessária que existe é a do Salmo 51:10 -\"Cria em mim, ó Deus, um coração puro e renova dentro de mim um espírito estável\"- não \"muda minhas condutas\", mas \"cria um coração novo\", porque se o coração muda, o resto eventualmente segue.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus",
+          "pedro"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 21,
+        "texto": "Depois que saiu daquele lugar, Jesus retirou-se para a região de Tiro e Sidom.",
+        "comentario": "O movimento geográfico é importante: Jesus sai da Galileia rumo ao norte, para a região de Tiro e Sidom, território gentio, fora das fronteiras de Israel -um movimento deliberado. Aquele que acabou de ensinar que a pureza real não é exterior agora demonstra isso cruzando uma fronteira que o sistema religioso considerava impura. Ali aparece essa mulher, a quem Mateus chama de cananeia, um termo que no mundo do Antigo Testamento carregava um peso muito grande: os cananeus eram os habitantes originais da terra que Israel havia conquistado sob Josué, o exemplo paradigmático do povo alheio à aliança de Deus. Uma mulher cananeia era o mais oposto possível a uma judia devota em termos de identidade religiosa e étnica, e, no entanto, há algo extraordinário no que ela grita: \"Senhor, Filho de Davi, tem misericórdia de mim!\" Esse título era o título messiânico por excelência, a maneira como Israel esperava o Messias -descendente de Davi, cumprimento da promessa da aliança davídica de 2 Samuel 7. Uma mulher gentia, que por definição estava fora dessa aliança, usa a linguagem messiânica com uma precisão que muitos em Israel não tinham: ela sabe com quem está falando, e isso muda tudo.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus",
+          "mujer-cananea"
+        ],
+        "lugar_ids": [
+          "tiro-y-sidon"
+        ]
+      },
+      {
+        "numero": 22,
+        "texto": "Uma mulher cananeia, natural dali, veio a ele, gritando: ― Senhor, Filho de Davi, tem misericórdia de mim! Minha filha está endemoniada e sofrendo muito.",
+        "comentario": "O movimento geográfico é importante: Jesus sai da Galileia rumo ao norte, para a região de Tiro e Sidom, território gentio, fora das fronteiras de Israel -um movimento deliberado. Aquele que acabou de ensinar que a pureza real não é exterior agora demonstra isso cruzando uma fronteira que o sistema religioso considerava impura. Ali aparece essa mulher, a quem Mateus chama de cananeia, um termo que no mundo do Antigo Testamento carregava um peso muito grande: os cananeus eram os habitantes originais da terra que Israel havia conquistado sob Josué, o exemplo paradigmático do povo alheio à aliança de Deus. Uma mulher cananeia era o mais oposto possível a uma judia devota em termos de identidade religiosa e étnica, e, no entanto, há algo extraordinário no que ela grita: \"Senhor, Filho de Davi, tem misericórdia de mim!\" Esse título era o título messiânico por excelência, a maneira como Israel esperava o Messias -descendente de Davi, cumprimento da promessa da aliança davídica de 2 Samuel 7. Uma mulher gentia, que por definição estava fora dessa aliança, usa a linguagem messiânica com uma precisão que muitos em Israel não tinham: ela sabe com quem está falando, e isso muda tudo.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus",
+          "mujer-cananea"
+        ],
+        "lugar_ids": [
+          "tiro-y-sidon"
+        ]
+      },
+      {
+        "numero": 23,
+        "texto": "Jesus, porém, não lhe respondeu nenhuma palavra. Então, os seus discípulos se aproximaram dele e pediram: ― Manda-a embora, pois vem gritando atrás de nós.",
+        "comentario": "A resposta inicial de Jesus parece dura -primeiro ele não lhe responde, os discípulos pedem que a mande embora, e quando finalmente fala diz: \"Não fui enviado senão às ovelhas perdidas do povo de Israel.\" Esta é uma das passagens que mais incomoda os leitores modernos, e vale levá-la a sério em vez de suavizá-la: o que Jesus faz não é crueldade nem desprezo, ele está descrevendo a ordem do plano redentor de Deus -primeiro Israel, depois as nações- o mesmo princípio que Paulo articula em Romanos 1:16, \"o evangelho é o poder de Deus para a salvação de todo aquele que crê, primeiro do judeu, depois do grego\".\n\nMas a mulher não desiste: ajoelha-se e diz simplesmente \"Senhor, ajuda-me!\" E então Jesus diz algo que no século I era uma imagem cotidiana: \"Não é certo tirar o pão dos filhos e lançá-lo aos cachorrinhos.\" Na cultura judaica do século I, \"cães\" era o termo que os judeus usavam para se referir aos gentios -não um insulto inventado por Jesus, mas a linguagem da época- mas há um detalhe que a mulher capta de imediato: Jesus usou kynarion (κυνάριον), a forma diminutiva, não cães de rua, mas cachorrinhos, os que estão dentro de casa, debaixo da mesa da família. Ela responde com pura teologia em uma única frase: \"Sim, Senhor, mas até os cachorrinhos comem das migalhas que caem da mesa dos seus donos.\"\n\nEssa mulher não discute a prioridade de Israel: ela a aceita. Não reivindica um lugar à mesa, só pede as migalhas, e nesse pedido há uma compreensão profunda de quem é Jesus -se com as migalhas do seu poder já é suficiente para curar sua filha, é porque a fonte é tão grande que as migalhas bastam. Isso é fé: não a que reivindica ou negocia de igual para igual, mas a que entende com quem está falando, reconhece sua própria posição, e confia que até o mínimo de Jesus é mais que suficiente. A resposta de Jesus é imediata: \"Mulher, grande é a sua fé! Seja feito conforme você deseja.\" Jesus a chama de grande em fé -a mesma palavra que usou para descrever a fé do centurião no capítulo 8, outro gentio: nos dois casos a fé extraordinária veio de fora do sistema religioso, não porque os de fora sejam melhores, mas porque não tinham o véu da familiaridade religiosa que às vezes impede ver com clareza. E a cura é à distância e imediata: Jesus não foi até onde estava a menina, não a tocou, disse a palavra e bastou. Sua filha foi curada a partir daquele instante.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus",
+          "mujer-cananea"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 24,
+        "texto": "Não fui enviado senão às ovelhas perdidas do povo de Israel -respondeu Jesus.",
+        "comentario": "A resposta inicial de Jesus parece dura -primeiro ele não lhe responde, os discípulos pedem que a mande embora, e quando finalmente fala diz: \"Não fui enviado senão às ovelhas perdidas do povo de Israel.\" Esta é uma das passagens que mais incomoda os leitores modernos, e vale levá-la a sério em vez de suavizá-la: o que Jesus faz não é crueldade nem desprezo, ele está descrevendo a ordem do plano redentor de Deus -primeiro Israel, depois as nações- o mesmo princípio que Paulo articula em Romanos 1:16, \"o evangelho é o poder de Deus para a salvação de todo aquele que crê, primeiro do judeu, depois do grego\".\n\nMas a mulher não desiste: ajoelha-se e diz simplesmente \"Senhor, ajuda-me!\" E então Jesus diz algo que no século I era uma imagem cotidiana: \"Não é certo tirar o pão dos filhos e lançá-lo aos cachorrinhos.\" Na cultura judaica do século I, \"cães\" era o termo que os judeus usavam para se referir aos gentios -não um insulto inventado por Jesus, mas a linguagem da época- mas há um detalhe que a mulher capta de imediato: Jesus usou kynarion (κυνάριον), a forma diminutiva, não cães de rua, mas cachorrinhos, os que estão dentro de casa, debaixo da mesa da família. Ela responde com pura teologia em uma única frase: \"Sim, Senhor, mas até os cachorrinhos comem das migalhas que caem da mesa dos seus donos.\"\n\nEssa mulher não discute a prioridade de Israel: ela a aceita. Não reivindica um lugar à mesa, só pede as migalhas, e nesse pedido há uma compreensão profunda de quem é Jesus -se com as migalhas do seu poder já é suficiente para curar sua filha, é porque a fonte é tão grande que as migalhas bastam. Isso é fé: não a que reivindica ou negocia de igual para igual, mas a que entende com quem está falando, reconhece sua própria posição, e confia que até o mínimo de Jesus é mais que suficiente. A resposta de Jesus é imediata: \"Mulher, grande é a sua fé! Seja feito conforme você deseja.\" Jesus a chama de grande em fé -a mesma palavra que usou para descrever a fé do centurião no capítulo 8, outro gentio: nos dois casos a fé extraordinária veio de fora do sistema religioso, não porque os de fora sejam melhores, mas porque não tinham o véu da familiaridade religiosa que às vezes impede ver com clareza. E a cura é à distância e imediata: Jesus não foi até onde estava a menina, não a tocou, disse a palavra e bastou. Sua filha foi curada a partir daquele instante.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus",
+          "mujer-cananea"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 25,
+        "texto": "A mulher veio, adorou-o de joelhos e disse: ― Senhor, ajuda-me!",
+        "comentario": "A resposta inicial de Jesus parece dura -primeiro ele não lhe responde, os discípulos pedem que a mande embora, e quando finalmente fala diz: \"Não fui enviado senão às ovelhas perdidas do povo de Israel.\" Esta é uma das passagens que mais incomoda os leitores modernos, e vale levá-la a sério em vez de suavizá-la: o que Jesus faz não é crueldade nem desprezo, ele está descrevendo a ordem do plano redentor de Deus -primeiro Israel, depois as nações- o mesmo princípio que Paulo articula em Romanos 1:16, \"o evangelho é o poder de Deus para a salvação de todo aquele que crê, primeiro do judeu, depois do grego\".\n\nMas a mulher não desiste: ajoelha-se e diz simplesmente \"Senhor, ajuda-me!\" E então Jesus diz algo que no século I era uma imagem cotidiana: \"Não é certo tirar o pão dos filhos e lançá-lo aos cachorrinhos.\" Na cultura judaica do século I, \"cães\" era o termo que os judeus usavam para se referir aos gentios -não um insulto inventado por Jesus, mas a linguagem da época- mas há um detalhe que a mulher capta de imediato: Jesus usou kynarion (κυνάριον), a forma diminutiva, não cães de rua, mas cachorrinhos, os que estão dentro de casa, debaixo da mesa da família. Ela responde com pura teologia em uma única frase: \"Sim, Senhor, mas até os cachorrinhos comem das migalhas que caem da mesa dos seus donos.\"\n\nEssa mulher não discute a prioridade de Israel: ela a aceita. Não reivindica um lugar à mesa, só pede as migalhas, e nesse pedido há uma compreensão profunda de quem é Jesus -se com as migalhas do seu poder já é suficiente para curar sua filha, é porque a fonte é tão grande que as migalhas bastam. Isso é fé: não a que reivindica ou negocia de igual para igual, mas a que entende com quem está falando, reconhece sua própria posição, e confia que até o mínimo de Jesus é mais que suficiente. A resposta de Jesus é imediata: \"Mulher, grande é a sua fé! Seja feito conforme você deseja.\" Jesus a chama de grande em fé -a mesma palavra que usou para descrever a fé do centurião no capítulo 8, outro gentio: nos dois casos a fé extraordinária veio de fora do sistema religioso, não porque os de fora sejam melhores, mas porque não tinham o véu da familiaridade religiosa que às vezes impede ver com clareza. E a cura é à distância e imediata: Jesus não foi até onde estava a menina, não a tocou, disse a palavra e bastou. Sua filha foi curada a partir daquele instante.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus",
+          "mujer-cananea"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 26,
+        "texto": "Não é certo tirar o pão dos filhos e lançá-lo aos cachorrinhos -ele respondeu.",
+        "comentario": "A resposta inicial de Jesus parece dura -primeiro ele não lhe responde, os discípulos pedem que a mande embora, e quando finalmente fala diz: \"Não fui enviado senão às ovelhas perdidas do povo de Israel.\" Esta é uma das passagens que mais incomoda os leitores modernos, e vale levá-la a sério em vez de suavizá-la: o que Jesus faz não é crueldade nem desprezo, ele está descrevendo a ordem do plano redentor de Deus -primeiro Israel, depois as nações- o mesmo princípio que Paulo articula em Romanos 1:16, \"o evangelho é o poder de Deus para a salvação de todo aquele que crê, primeiro do judeu, depois do grego\".\n\nMas a mulher não desiste: ajoelha-se e diz simplesmente \"Senhor, ajuda-me!\" E então Jesus diz algo que no século I era uma imagem cotidiana: \"Não é certo tirar o pão dos filhos e lançá-lo aos cachorrinhos.\" Na cultura judaica do século I, \"cães\" era o termo que os judeus usavam para se referir aos gentios -não um insulto inventado por Jesus, mas a linguagem da época- mas há um detalhe que a mulher capta de imediato: Jesus usou kynarion (κυνάριον), a forma diminutiva, não cães de rua, mas cachorrinhos, os que estão dentro de casa, debaixo da mesa da família. Ela responde com pura teologia em uma única frase: \"Sim, Senhor, mas até os cachorrinhos comem das migalhas que caem da mesa dos seus donos.\"\n\nEssa mulher não discute a prioridade de Israel: ela a aceita. Não reivindica um lugar à mesa, só pede as migalhas, e nesse pedido há uma compreensão profunda de quem é Jesus -se com as migalhas do seu poder já é suficiente para curar sua filha, é porque a fonte é tão grande que as migalhas bastam. Isso é fé: não a que reivindica ou negocia de igual para igual, mas a que entende com quem está falando, reconhece sua própria posição, e confia que até o mínimo de Jesus é mais que suficiente. A resposta de Jesus é imediata: \"Mulher, grande é a sua fé! Seja feito conforme você deseja.\" Jesus a chama de grande em fé -a mesma palavra que usou para descrever a fé do centurião no capítulo 8, outro gentio: nos dois casos a fé extraordinária veio de fora do sistema religioso, não porque os de fora sejam melhores, mas porque não tinham o véu da familiaridade religiosa que às vezes impede ver com clareza. E a cura é à distância e imediata: Jesus não foi até onde estava a menina, não a tocou, disse a palavra e bastou. Sua filha foi curada a partir daquele instante.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus",
+          "mujer-cananea"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 27,
+        "texto": "Ela, porém, disse: ― Sim, Senhor, mas até os cachorrinhos comem das migalhas que caem da mesa dos seus donos.",
+        "comentario": "A resposta inicial de Jesus parece dura -primeiro ele não lhe responde, os discípulos pedem que a mande embora, e quando finalmente fala diz: \"Não fui enviado senão às ovelhas perdidas do povo de Israel.\" Esta é uma das passagens que mais incomoda os leitores modernos, e vale levá-la a sério em vez de suavizá-la: o que Jesus faz não é crueldade nem desprezo, ele está descrevendo a ordem do plano redentor de Deus -primeiro Israel, depois as nações- o mesmo princípio que Paulo articula em Romanos 1:16, \"o evangelho é o poder de Deus para a salvação de todo aquele que crê, primeiro do judeu, depois do grego\".\n\nMas a mulher não desiste: ajoelha-se e diz simplesmente \"Senhor, ajuda-me!\" E então Jesus diz algo que no século I era uma imagem cotidiana: \"Não é certo tirar o pão dos filhos e lançá-lo aos cachorrinhos.\" Na cultura judaica do século I, \"cães\" era o termo que os judeus usavam para se referir aos gentios -não um insulto inventado por Jesus, mas a linguagem da época- mas há um detalhe que a mulher capta de imediato: Jesus usou kynarion (κυνάριον), a forma diminutiva, não cães de rua, mas cachorrinhos, os que estão dentro de casa, debaixo da mesa da família. Ela responde com pura teologia em uma única frase: \"Sim, Senhor, mas até os cachorrinhos comem das migalhas que caem da mesa dos seus donos.\"\n\nEssa mulher não discute a prioridade de Israel: ela a aceita. Não reivindica um lugar à mesa, só pede as migalhas, e nesse pedido há uma compreensão profunda de quem é Jesus -se com as migalhas do seu poder já é suficiente para curar sua filha, é porque a fonte é tão grande que as migalhas bastam. Isso é fé: não a que reivindica ou negocia de igual para igual, mas a que entende com quem está falando, reconhece sua própria posição, e confia que até o mínimo de Jesus é mais que suficiente. A resposta de Jesus é imediata: \"Mulher, grande é a sua fé! Seja feito conforme você deseja.\" Jesus a chama de grande em fé -a mesma palavra que usou para descrever a fé do centurião no capítulo 8, outro gentio: nos dois casos a fé extraordinária veio de fora do sistema religioso, não porque os de fora sejam melhores, mas porque não tinham o véu da familiaridade religiosa que às vezes impede ver com clareza. E a cura é à distância e imediata: Jesus não foi até onde estava a menina, não a tocou, disse a palavra e bastou. Sua filha foi curada a partir daquele instante.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus",
+          "mujer-cananea"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 28,
+        "texto": "Mulher, grande é a sua fé! -respondeu Jesus-. Seja feito conforme você deseja. Naquele mesmo instante, a sua filha foi curada.",
+        "comentario": "A resposta inicial de Jesus parece dura -primeiro ele não lhe responde, os discípulos pedem que a mande embora, e quando finalmente fala diz: \"Não fui enviado senão às ovelhas perdidas do povo de Israel.\" Esta é uma das passagens que mais incomoda os leitores modernos, e vale levá-la a sério em vez de suavizá-la: o que Jesus faz não é crueldade nem desprezo, ele está descrevendo a ordem do plano redentor de Deus -primeiro Israel, depois as nações- o mesmo princípio que Paulo articula em Romanos 1:16, \"o evangelho é o poder de Deus para a salvação de todo aquele que crê, primeiro do judeu, depois do grego\".\n\nMas a mulher não desiste: ajoelha-se e diz simplesmente \"Senhor, ajuda-me!\" E então Jesus diz algo que no século I era uma imagem cotidiana: \"Não é certo tirar o pão dos filhos e lançá-lo aos cachorrinhos.\" Na cultura judaica do século I, \"cães\" era o termo que os judeus usavam para se referir aos gentios -não um insulto inventado por Jesus, mas a linguagem da época- mas há um detalhe que a mulher capta de imediato: Jesus usou kynarion (κυνάριον), a forma diminutiva, não cães de rua, mas cachorrinhos, os que estão dentro de casa, debaixo da mesa da família. Ela responde com pura teologia em uma única frase: \"Sim, Senhor, mas até os cachorrinhos comem das migalhas que caem da mesa dos seus donos.\"\n\nEssa mulher não discute a prioridade de Israel: ela a aceita. Não reivindica um lugar à mesa, só pede as migalhas, e nesse pedido há uma compreensão profunda de quem é Jesus -se com as migalhas do seu poder já é suficiente para curar sua filha, é porque a fonte é tão grande que as migalhas bastam. Isso é fé: não a que reivindica ou negocia de igual para igual, mas a que entende com quem está falando, reconhece sua própria posição, e confia que até o mínimo de Jesus é mais que suficiente. A resposta de Jesus é imediata: \"Mulher, grande é a sua fé! Seja feito conforme você deseja.\" Jesus a chama de grande em fé -a mesma palavra que usou para descrever a fé do centurião no capítulo 8, outro gentio: nos dois casos a fé extraordinária veio de fora do sistema religioso, não porque os de fora sejam melhores, mas porque não tinham o véu da familiaridade religiosa que às vezes impede ver com clareza. E a cura é à distância e imediata: Jesus não foi até onde estava a menina, não a tocou, disse a palavra e bastou. Sua filha foi curada a partir daquele instante.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus",
+          "mujer-cananea"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 29,
+        "texto": "Jesus saiu dali e foi para a beira do mar da Galileia. Depois, subiu a um monte e sentou-se ali.",
+        "comentario": "Jesus volta ao mar da Galileia e sobe a um monte, e ali vêm multidões -mancos, cegos, mudos, aleijados, e muitos outros- e ele os cura a todos. O texto diz: \"E louvaram ao Deus de Israel\", um detalhe que não é pequeno: essa expressão era usada tipicamente pelos gentios para se referir ao Deus do povo judeu, o que sugere que parte dessa multidão, na região da Decápolis, era de composição gentia. O alcance de Jesus continua se expandindo para além das fronteiras de Israel.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus"
+        ],
+        "lugar_ids": [
+          "mar-de-galilea",
+          "decapolis"
+        ]
+      },
+      {
+        "numero": 30,
+        "texto": "Grandes multidões dirigiram-se a ele, levando-lhe aleijados, cegos, mancos, mudos e muitos outros, e os colocaram aos seus pés; e ele os curou.",
+        "comentario": "Jesus volta ao mar da Galileia e sobe a um monte, e ali vêm multidões -mancos, cegos, mudos, aleijados, e muitos outros- e ele os cura a todos. O texto diz: \"E louvaram ao Deus de Israel\", um detalhe que não é pequeno: essa expressão era usada tipicamente pelos gentios para se referir ao Deus do povo judeu, o que sugere que parte dessa multidão, na região da Decápolis, era de composição gentia. O alcance de Jesus continua se expandindo para além das fronteiras de Israel.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus"
+        ],
+        "lugar_ids": [
+          "mar-de-galilea",
+          "decapolis"
+        ]
+      },
+      {
+        "numero": 31,
+        "texto": "O povo ficou admirado quando viu os mudos falando, os mancos sendo curados, os aleijados andando e os cegos vendo. E louvaram ao Deus de Israel.",
+        "comentario": "Jesus volta ao mar da Galileia e sobe a um monte, e ali vêm multidões -mancos, cegos, mudos, aleijados, e muitos outros- e ele os cura a todos. O texto diz: \"E louvaram ao Deus de Israel\", um detalhe que não é pequeno: essa expressão era usada tipicamente pelos gentios para se referir ao Deus do povo judeu, o que sugere que parte dessa multidão, na região da Decápolis, era de composição gentia. O alcance de Jesus continua se expandindo para além das fronteiras de Israel.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus"
+        ],
+        "lugar_ids": [
+          "mar-de-galilea",
+          "decapolis"
+        ]
+      },
+      {
+        "numero": 32,
+        "texto": "Jesus chamou os seus discípulos e disse: ― Tenho compaixão desta multidão; já faz três dias que eles estão comigo e nada têm para comer. Não quero mandá-los embora com fome, porque podem desfalecer pelo caminho.",
+        "comentario": "\"Tenho compaixão desta multidão; já faz três dias que eles estão comigo e nada têm para comer\" -três dias seguindo Jesus, não um culto de uma hora, mas três dias ouvindo, sendo curados, experimentando sua presença, e Jesus os nota: splagchnizomai outra vez, a mesma comoção vinda das entranhas do capítulo 14. O coração de Deus não se cansa da necessidade dos seus filhos.\n\nMas diante de uma situação quase idêntica à do capítulo 14, os discípulos perguntam: \"Onde, neste lugar deserto, poderíamos conseguir pão suficiente para alimentar tanta gente?\" Eles tinham acabado de presenciar o milagre dos cinco pães, e diante de uma repetição não se lembram -a memória espiritual humana é curta: Deus faz algo extraordinário e, poucos meses depois, diante de uma nova crise, reage-se como se fosse a primeira vez que se confia nele. Isso não os torna maus discípulos: torna-os discípulos humanos que precisam ser lembrados constantemente do que Deus já fez.\n\nPor que Jesus repete o milagro? A primeira razão é a audiência: o milagre do capítulo 14 ocorreu no lado judeu do lago, perto de Betsaida; este segundo milagre ocorre na região da Decápolis, território predominantemente gentio -a mesma graça, a mesma provisão, o mesmo Jesus, agora para os que estavam fora do povo de Israel. A segunda razão são os números, e eles não são aleatórios: no capítulo 14, cinco pães, dois peixes, doze cestos sobrando; aqui, sete pães, alguns peixinhos, sete cestos sobrando. O cinco no mundo bíblico era o número da graça de Deus para com Israel -os cinco livros da Torá- e os doze cestos representavam as doze tribos; o milagre do capítulo 14 tinha um sabor marcadamente israelita. O sete era o número da plenitude, da totalidade, do sábado: em Atos 6, quando a igreja primitiva nomeia servos para servir às viúvas gentias, nomeia exatamente sete, e todos têm nomes gregos. Não é acidental que o milagre para a multidão predominantemente gentia seja com sete: a mesma graça que alimentou Israel agora se estende em sua plenitude a todos os que o seguem. E a quantidade de pessoas também não é acidental: quatro mil homens, além de mulheres e crianças -o quatro representava os quatro pontos cardeais, a totalidade da terra conhecida. A mesma graça que cobriu as doze tribos de Israel agora se estende aos quatro pontos cardeais. Jesus não tem favoritos geográficos nem étnicos: o pão que se multiplica não se esgota nem se reserva, e a graça que proveu para Israel é a mesma graça que provê para os que vêm de fora.",
+        "griego_ids": [
+          "splagchnizomai"
+        ],
+        "personaje_ids": [
+          "jesus"
+        ],
+        "lugar_ids": [
+          "decapolis"
+        ]
+      },
+      {
+        "numero": 33,
+        "texto": "Os discípulos responderam: ― Onde, neste lugar deserto, poderíamos conseguir pão suficiente para alimentar tanta gente?",
+        "comentario": "\"Tenho compaixão desta multidão; já faz três dias que eles estão comigo e nada têm para comer\" -três dias seguindo Jesus, não um culto de uma hora, mas três dias ouvindo, sendo curados, experimentando sua presença, e Jesus os nota: splagchnizomai outra vez, a mesma comoção vinda das entranhas do capítulo 14. O coração de Deus não se cansa da necessidade dos seus filhos.\n\nMas diante de uma situação quase idêntica à do capítulo 14, os discípulos perguntam: \"Onde, neste lugar deserto, poderíamos conseguir pão suficiente para alimentar tanta gente?\" Eles tinham acabado de presenciar o milagre dos cinco pães, e diante de uma repetição não se lembram -a memória espiritual humana é curta: Deus faz algo extraordinário e, poucos meses depois, diante de uma nova crise, reage-se como se fosse a primeira vez que se confia nele. Isso não os torna maus discípulos: torna-os discípulos humanos que precisam ser lembrados constantemente do que Deus já fez.\n\nPor que Jesus repete o milagro? A primeira razão é a audiência: o milagre do capítulo 14 ocorreu no lado judeu do lago, perto de Betsaida; este segundo milagre ocorre na região da Decápolis, território predominantemente gentio -a mesma graça, a mesma provisão, o mesmo Jesus, agora para os que estavam fora do povo de Israel. A segunda razão são os números, e eles não são aleatórios: no capítulo 14, cinco pães, dois peixes, doze cestos sobrando; aqui, sete pães, alguns peixinhos, sete cestos sobrando. O cinco no mundo bíblico era o número da graça de Deus para com Israel -os cinco livros da Torá- e os doze cestos representavam as doze tribos; o milagre do capítulo 14 tinha um sabor marcadamente israelita. O sete era o número da plenitude, da totalidade, do sábado: em Atos 6, quando a igreja primitiva nomeia servos para servir às viúvas gentias, nomeia exatamente sete, e todos têm nomes gregos. Não é acidental que o milagre para a multidão predominantemente gentia seja com sete: a mesma graça que alimentou Israel agora se estende em sua plenitude a todos os que o seguem. E a quantidade de pessoas também não é acidental: quatro mil homens, além de mulheres e crianças -o quatro representava os quatro pontos cardeais, a totalidade da terra conhecida. A mesma graça que cobriu as doze tribos de Israel agora se estende aos quatro pontos cardeais. Jesus não tem favoritos geográficos nem étnicos: o pão que se multiplica não se esgota nem se reserva, e a graça que proveu para Israel é a mesma graça que provê para os que vêm de fora.",
+        "griego_ids": [
+          "splagchnizomai"
+        ],
+        "personaje_ids": [
+          "jesus"
+        ],
+        "lugar_ids": [
+          "decapolis"
+        ]
+      },
+      {
+        "numero": 34,
+        "texto": "Quantos pães vocês têm? -perguntou Jesus. ― Sete -responderam- e alguns peixinhos.",
+        "comentario": "\"Tenho compaixão desta multidão; já faz três dias que eles estão comigo e nada têm para comer\" -três dias seguindo Jesus, não um culto de uma hora, mas três dias ouvindo, sendo curados, experimentando sua presença, e Jesus os nota: splagchnizomai outra vez, a mesma comoção vinda das entranhas do capítulo 14. O coração de Deus não se cansa da necessidade dos seus filhos.\n\nMas diante de uma situação quase idêntica à do capítulo 14, os discípulos perguntam: \"Onde, neste lugar deserto, poderíamos conseguir pão suficiente para alimentar tanta gente?\" Eles tinham acabado de presenciar o milagre dos cinco pães, e diante de uma repetição não se lembram -a memória espiritual humana é curta: Deus faz algo extraordinário e, poucos meses depois, diante de uma nova crise, reage-se como se fosse a primeira vez que se confia nele. Isso não os torna maus discípulos: torna-os discípulos humanos que precisam ser lembrados constantemente do que Deus já fez.\n\nPor que Jesus repete o milagro? A primeira razão é a audiência: o milagre do capítulo 14 ocorreu no lado judeu do lago, perto de Betsaida; este segundo milagre ocorre na região da Decápolis, território predominantemente gentio -a mesma graça, a mesma provisão, o mesmo Jesus, agora para os que estavam fora do povo de Israel. A segunda razão são os números, e eles não são aleatórios: no capítulo 14, cinco pães, dois peixes, doze cestos sobrando; aqui, sete pães, alguns peixinhos, sete cestos sobrando. O cinco no mundo bíblico era o número da graça de Deus para com Israel -os cinco livros da Torá- e os doze cestos representavam as doze tribos; o milagre do capítulo 14 tinha um sabor marcadamente israelita. O sete era o número da plenitude, da totalidade, do sábado: em Atos 6, quando a igreja primitiva nomeia servos para servir às viúvas gentias, nomeia exatamente sete, e todos têm nomes gregos. Não é acidental que o milagre para a multidão predominantemente gentia seja com sete: a mesma graça que alimentou Israel agora se estende em sua plenitude a todos os que o seguem. E a quantidade de pessoas também não é acidental: quatro mil homens, além de mulheres e crianças -o quatro representava os quatro pontos cardeais, a totalidade da terra conhecida. A mesma graça que cobriu as doze tribos de Israel agora se estende aos quatro pontos cardeais. Jesus não tem favoritos geográficos nem étnicos: o pão que se multiplica não se esgota nem se reserva, e a graça que proveu para Israel é a mesma graça que provê para os que vêm de fora.",
+        "griego_ids": [
+          "splagchnizomai"
+        ],
+        "personaje_ids": [
+          "jesus"
+        ],
+        "lugar_ids": [
+          "decapolis"
+        ]
+      },
+      {
+        "numero": 35,
+        "texto": "Ele ordenou à multidão que sentasse no chão.",
+        "comentario": "\"Tenho compaixão desta multidão; já faz três dias que eles estão comigo e nada têm para comer\" -três dias seguindo Jesus, não um culto de uma hora, mas três dias ouvindo, sendo curados, experimentando sua presença, e Jesus os nota: splagchnizomai outra vez, a mesma comoção vinda das entranhas do capítulo 14. O coração de Deus não se cansa da necessidade dos seus filhos.\n\nMas diante de uma situação quase idêntica à do capítulo 14, os discípulos perguntam: \"Onde, neste lugar deserto, poderíamos conseguir pão suficiente para alimentar tanta gente?\" Eles tinham acabado de presenciar o milagre dos cinco pães, e diante de uma repetição não se lembram -a memória espiritual humana é curta: Deus faz algo extraordinário e, poucos meses depois, diante de uma nova crise, reage-se como se fosse a primeira vez que se confia nele. Isso não os torna maus discípulos: torna-os discípulos humanos que precisam ser lembrados constantemente do que Deus já fez.\n\nPor que Jesus repete o milagro? A primeira razão é a audiência: o milagre do capítulo 14 ocorreu no lado judeu do lago, perto de Betsaida; este segundo milagre ocorre na região da Decápolis, território predominantemente gentio -a mesma graça, a mesma provisão, o mesmo Jesus, agora para os que estavam fora do povo de Israel. A segunda razão são os números, e eles não são aleatórios: no capítulo 14, cinco pães, dois peixes, doze cestos sobrando; aqui, sete pães, alguns peixinhos, sete cestos sobrando. O cinco no mundo bíblico era o número da graça de Deus para com Israel -os cinco livros da Torá- e os doze cestos representavam as doze tribos; o milagre do capítulo 14 tinha um sabor marcadamente israelita. O sete era o número da plenitude, da totalidade, do sábado: em Atos 6, quando a igreja primitiva nomeia servos para servir às viúvas gentias, nomeia exatamente sete, e todos têm nomes gregos. Não é acidental que o milagre para a multidão predominantemente gentia seja com sete: a mesma graça que alimentou Israel agora se estende em sua plenitude a todos os que o seguem. E a quantidade de pessoas também não é acidental: quatro mil homens, além de mulheres e crianças -o quatro representava os quatro pontos cardeais, a totalidade da terra conhecida. A mesma graça que cobriu as doze tribos de Israel agora se estende aos quatro pontos cardeais. Jesus não tem favoritos geográficos nem étnicos: o pão que se multiplica não se esgota nem se reserva, e a graça que proveu para Israel é a mesma graça que provê para os que vêm de fora.",
+        "griego_ids": [
+          "splagchnizomai"
+        ],
+        "personaje_ids": [
+          "jesus"
+        ],
+        "lugar_ids": [
+          "decapolis"
+        ]
+      },
+      {
+        "numero": 36,
+        "texto": "Depois de pegar os sete pães e os peixes e dar graças, partiu-os e os entregou aos discípulos, e os discípulos, à multidão.",
+        "comentario": "\"Tenho compaixão desta multidão; já faz três dias que eles estão comigo e nada têm para comer\" -três dias seguindo Jesus, não um culto de uma hora, mas três dias ouvindo, sendo curados, experimentando sua presença, e Jesus os nota: splagchnizomai outra vez, a mesma comoção vinda das entranhas do capítulo 14. O coração de Deus não se cansa da necessidade dos seus filhos.\n\nMas diante de uma situação quase idêntica à do capítulo 14, os discípulos perguntam: \"Onde, neste lugar deserto, poderíamos conseguir pão suficiente para alimentar tanta gente?\" Eles tinham acabado de presenciar o milagre dos cinco pães, e diante de uma repetição não se lembram -a memória espiritual humana é curta: Deus faz algo extraordinário e, poucos meses depois, diante de uma nova crise, reage-se como se fosse a primeira vez que se confia nele. Isso não os torna maus discípulos: torna-os discípulos humanos que precisam ser lembrados constantemente do que Deus já fez.\n\nPor que Jesus repete o milagro? A primeira razão é a audiência: o milagre do capítulo 14 ocorreu no lado judeu do lago, perto de Betsaida; este segundo milagre ocorre na região da Decápolis, território predominantemente gentio -a mesma graça, a mesma provisão, o mesmo Jesus, agora para os que estavam fora do povo de Israel. A segunda razão são os números, e eles não são aleatórios: no capítulo 14, cinco pães, dois peixes, doze cestos sobrando; aqui, sete pães, alguns peixinhos, sete cestos sobrando. O cinco no mundo bíblico era o número da graça de Deus para com Israel -os cinco livros da Torá- e os doze cestos representavam as doze tribos; o milagre do capítulo 14 tinha um sabor marcadamente israelita. O sete era o número da plenitude, da totalidade, do sábado: em Atos 6, quando a igreja primitiva nomeia servos para servir às viúvas gentias, nomeia exatamente sete, e todos têm nomes gregos. Não é acidental que o milagre para a multidão predominantemente gentia seja com sete: a mesma graça que alimentou Israel agora se estende em sua plenitude a todos os que o seguem. E a quantidade de pessoas também não é acidental: quatro mil homens, além de mulheres e crianças -o quatro representava os quatro pontos cardeais, a totalidade da terra conhecida. A mesma graça que cobriu as doze tribos de Israel agora se estende aos quatro pontos cardeais. Jesus não tem favoritos geográficos nem étnicos: o pão que se multiplica não se esgota nem se reserva, e a graça que proveu para Israel é a mesma graça que provê para os que vêm de fora.",
+        "griego_ids": [
+          "splagchnizomai"
+        ],
+        "personaje_ids": [
+          "jesus"
+        ],
+        "lugar_ids": [
+          "decapolis"
+        ]
+      },
+      {
+        "numero": 37,
+        "texto": "Todos comeram até ficarem satisfeitos, e ajuntaram sete cestos cheios de pedaços que sobraram.",
+        "comentario": "\"Tenho compaixão desta multidão; já faz três dias que eles estão comigo e nada têm para comer\" -três dias seguindo Jesus, não um culto de uma hora, mas três dias ouvindo, sendo curados, experimentando sua presença, e Jesus os nota: splagchnizomai outra vez, a mesma comoção vinda das entranhas do capítulo 14. O coração de Deus não se cansa da necessidade dos seus filhos.\n\nMas diante de uma situação quase idêntica à do capítulo 14, os discípulos perguntam: \"Onde, neste lugar deserto, poderíamos conseguir pão suficiente para alimentar tanta gente?\" Eles tinham acabado de presenciar o milagre dos cinco pães, e diante de uma repetição não se lembram -a memória espiritual humana é curta: Deus faz algo extraordinário e, poucos meses depois, diante de uma nova crise, reage-se como se fosse a primeira vez que se confia nele. Isso não os torna maus discípulos: torna-os discípulos humanos que precisam ser lembrados constantemente do que Deus já fez.\n\nPor que Jesus repete o milagro? A primeira razão é a audiência: o milagre do capítulo 14 ocorreu no lado judeu do lago, perto de Betsaida; este segundo milagre ocorre na região da Decápolis, território predominantemente gentio -a mesma graça, a mesma provisão, o mesmo Jesus, agora para os que estavam fora do povo de Israel. A segunda razão são os números, e eles não são aleatórios: no capítulo 14, cinco pães, dois peixes, doze cestos sobrando; aqui, sete pães, alguns peixinhos, sete cestos sobrando. O cinco no mundo bíblico era o número da graça de Deus para com Israel -os cinco livros da Torá- e os doze cestos representavam as doze tribos; o milagre do capítulo 14 tinha um sabor marcadamente israelita. O sete era o número da plenitude, da totalidade, do sábado: em Atos 6, quando a igreja primitiva nomeia servos para servir às viúvas gentias, nomeia exatamente sete, e todos têm nomes gregos. Não é acidental que o milagre para a multidão predominantemente gentia seja com sete: a mesma graça que alimentou Israel agora se estende em sua plenitude a todos os que o seguem. E a quantidade de pessoas também não é acidental: quatro mil homens, além de mulheres e crianças -o quatro representava os quatro pontos cardeais, a totalidade da terra conhecida. A mesma graça que cobriu as doze tribos de Israel agora se estende aos quatro pontos cardeais. Jesus não tem favoritos geográficos nem étnicos: o pão que se multiplica não se esgota nem se reserva, e a graça que proveu para Israel é a mesma graça que provê para os que vêm de fora.",
+        "griego_ids": [
+          "splagchnizomai"
+        ],
+        "personaje_ids": [
+          "jesus"
+        ],
+        "lugar_ids": [
+          "decapolis"
+        ]
+      },
+      {
+        "numero": 38,
+        "texto": "Os que comeram foram quatro mil homens, sem contar mulheres e crianças.",
+        "comentario": "\"Tenho compaixão desta multidão; já faz três dias que eles estão comigo e nada têm para comer\" -três dias seguindo Jesus, não um culto de uma hora, mas três dias ouvindo, sendo curados, experimentando sua presença, e Jesus os nota: splagchnizomai outra vez, a mesma comoção vinda das entranhas do capítulo 14. O coração de Deus não se cansa da necessidade dos seus filhos.\n\nMas diante de uma situação quase idêntica à do capítulo 14, os discípulos perguntam: \"Onde, neste lugar deserto, poderíamos conseguir pão suficiente para alimentar tanta gente?\" Eles tinham acabado de presenciar o milagre dos cinco pães, e diante de uma repetição não se lembram -a memória espiritual humana é curta: Deus faz algo extraordinário e, poucos meses depois, diante de uma nova crise, reage-se como se fosse a primeira vez que se confia nele. Isso não os torna maus discípulos: torna-os discípulos humanos que precisam ser lembrados constantemente do que Deus já fez.\n\nPor que Jesus repete o milagro? A primeira razão é a audiência: o milagre do capítulo 14 ocorreu no lado judeu do lago, perto de Betsaida; este segundo milagre ocorre na região da Decápolis, território predominantemente gentio -a mesma graça, a mesma provisão, o mesmo Jesus, agora para os que estavam fora do povo de Israel. A segunda razão são os números, e eles não são aleatórios: no capítulo 14, cinco pães, dois peixes, doze cestos sobrando; aqui, sete pães, alguns peixinhos, sete cestos sobrando. O cinco no mundo bíblico era o número da graça de Deus para com Israel -os cinco livros da Torá- e os doze cestos representavam as doze tribos; o milagre do capítulo 14 tinha um sabor marcadamente israelita. O sete era o número da plenitude, da totalidade, do sábado: em Atos 6, quando a igreja primitiva nomeia servos para servir às viúvas gentias, nomeia exatamente sete, e todos têm nomes gregos. Não é acidental que o milagre para a multidão predominantemente gentia seja com sete: a mesma graça que alimentou Israel agora se estende em sua plenitude a todos os que o seguem. E a quantidade de pessoas também não é acidental: quatro mil homens, além de mulheres e crianças -o quatro representava os quatro pontos cardeais, a totalidade da terra conhecida. A mesma graça que cobriu as doze tribos de Israel agora se estende aos quatro pontos cardeais. Jesus não tem favoritos geográficos nem étnicos: o pão que se multiplica não se esgota nem se reserva, e a graça que proveu para Israel é a mesma graça que provê para os que vêm de fora.",
+        "griego_ids": [
+          "splagchnizomai"
+        ],
+        "personaje_ids": [
+          "jesus"
+        ],
+        "lugar_ids": [
+          "decapolis"
+        ]
+      },
+      {
+        "numero": 39,
+        "texto": "Tendo despedido a multidão, Jesus entrou no barco e foi para a região de Magadã.",
+        "comentario": "Depois de despedir a multidão, Jesus sobe no barco e vai para a região de Magadã, encerrando este trecho de ministério em terra gentia bem antes de que, no capítulo seguinte, fariseus e saduceus voltem a pedir-lhe um sinal do céu. O capítulo inteiro foi um movimento da restrição para a abertura -das regras que definem quem pode se aproximar rumo à graça que não precisa dessas regras, do coração que julga pelo que vê por fora rumo ao coração que entende que o problema real sempre esteve por dentro. A mulher cananeia entendeu isso melhor do que muitos que passaram anos dentro do sistema: ela não pedia um lugar à mesa, só as migalhas, e esse nível de compreensão de quem é Jesus foi suficiente para que ele lhe desse exatamente o que pediu.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus"
+        ],
+        "lugar_ids": [
+          "magdala"
+        ]
+      }
+    ],
+    "contexto_ids": [
+      "tradicion-oral-halaja",
+      "cananeos-enemistad-historica-con-israel",
+      "numeros-simbolicos-biblicos"
+    ],
+    "reflexion": [
+      "Tudo o que sai da sua boca, cedo ou tarde, saiu primeiro do seu coração. O que há ali dentro que ainda não saiu, mas vai sair?",
+      "A mulher cananeia não pedia um lugar à mesa: só as migalhas, e isso bastou. Com que nível de compreensão de quem é Jesus você está se aproximando dele hoje?",
+      "Os discípulos viram o mesmo tipo de necessidade duas vezes e duvidaram as duas vezes. O que Deus já fez na sua vida que você deveria lembrar da próxima vez que duvidar que ele pode fazer de novo?"
+    ]
+  },
+  {
+    "libro": "Mateo",
+    "capitulo": 16,
+    "discurso_id": "milagros-fe-e-inclusion",
+    "estado": "publicado",
+    "versiculos": [
+      {
+        "numero": 1,
+        "texto": "Os fariseus e os saduceus aproximaram-se de Jesus e o puseram à prova, pedindo-lhe que lhes mostrasse um sinal do céu.",
+        "comentario": "Fariseus e saduceus se aproximam juntos para pedir um sinal do céu, e chama a atenção que o façam juntos: esses dois grupos eram rivais teológicos profundos -os fariseus criam na ressurreição, nos anjos, na tradição oral; os saduceus rejeitavam tudo isso- e em circunstâncias normais não concordavam em quase nada, mas diante de Jesus se uniram. Isso diz algo sobre a ameaça que ele representava: quando o inimigo comum é grande o suficiente, as diferenças internas se suspendem temporariamente. O que pedem não é uma busca genuína da verdade -o texto diz que faziam isso para pô-lo à prova, com a mesma palavra grega usada quando Satanás tentou Jesus no deserto. Jesus responde: \"Uma geração perversa e adúltera pede um sinal milagroso, mas nenhum sinal será dado, exceto o sinal de Jonas.\" Jonas passou três dias no ventre do grande peixe, um período que o Antigo Testamento descreve com linguagem de morte -Jonas 2:2 diz que ele clamou \"do ventre do Sheol\"- e voltou. Jesus anuncia, mais uma vez, sua morte e ressurreição, usando a única linguagem que esses homens, que conheciam as Escrituras de cor, deveriam ter reconhecido. Pediam sinais do céu e tinham o Filho de Deus diante de si; pediam evidência e a evidência estava em cada milagre que se recusavam a aceitar. O problema nunca foi a falta de sinais: foi a falta de disposição para vê-los. E Jesus os deixa e vai embora -Deus não obriga ninguém a crer, disponibiliza a evidência, mas quando o coração escolheu definitivamente se fechar, a resposta de Jesus não é insistir mais, é seguir em frente.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus",
+          "fariseos",
+          "saduceos",
+          "jonas"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 2,
+        "texto": "Ele respondeu: \"Quando a tarde vem, vocês dizem: 'Vai fazer bom tempo, porque o céu está vermelho'",
+        "comentario": "Fariseus e saduceus se aproximam juntos para pedir um sinal do céu, e chama a atenção que o façam juntos: esses dois grupos eram rivais teológicos profundos -os fariseus criam na ressurreição, nos anjos, na tradição oral; os saduceus rejeitavam tudo isso- e em circunstâncias normais não concordavam em quase nada, mas diante de Jesus se uniram. Isso diz algo sobre a ameaça que ele representava: quando o inimigo comum é grande o suficiente, as diferenças internas se suspendem temporariamente. O que pedem não é uma busca genuína da verdade -o texto diz que faziam isso para pô-lo à prova, com a mesma palavra grega usada quando Satanás tentou Jesus no deserto. Jesus responde: \"Uma geração perversa e adúltera pede um sinal milagroso, mas nenhum sinal será dado, exceto o sinal de Jonas.\" Jonas passou três dias no ventre do grande peixe, um período que o Antigo Testamento descreve com linguagem de morte -Jonas 2:2 diz que ele clamou \"do ventre do Sheol\"- e voltou. Jesus anuncia, mais uma vez, sua morte e ressurreição, usando a única linguagem que esses homens, que conheciam as Escrituras de cor, deveriam ter reconhecido. Pediam sinais do céu e tinham o Filho de Deus diante de si; pediam evidência e a evidência estava em cada milagre que se recusavam a aceitar. O problema nunca foi a falta de sinais: foi a falta de disposição para vê-los. E Jesus os deixa e vai embora -Deus não obriga ninguém a crer, disponibiliza a evidência, mas quando o coração escolheu definitivamente se fechar, a resposta de Jesus não é insistir mais, é seguir em frente.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus",
+          "fariseos",
+          "saduceos",
+          "jonas"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 3,
+        "texto": "e, pela manhã: 'Hoje haverá tempestade, porque o céu está vermelho e nublado'. Vocês sabem discernir o aspecto do céu, mas não sabem interpretar os sinais dos tempos!",
+        "comentario": "Fariseus e saduceus se aproximam juntos para pedir um sinal do céu, e chama a atenção que o façam juntos: esses dois grupos eram rivais teológicos profundos -os fariseus criam na ressurreição, nos anjos, na tradição oral; os saduceus rejeitavam tudo isso- e em circunstâncias normais não concordavam em quase nada, mas diante de Jesus se uniram. Isso diz algo sobre a ameaça que ele representava: quando o inimigo comum é grande o suficiente, as diferenças internas se suspendem temporariamente. O que pedem não é uma busca genuína da verdade -o texto diz que faziam isso para pô-lo à prova, com a mesma palavra grega usada quando Satanás tentou Jesus no deserto. Jesus responde: \"Uma geração perversa e adúltera pede um sinal milagroso, mas nenhum sinal será dado, exceto o sinal de Jonas.\" Jonas passou três dias no ventre do grande peixe, um período que o Antigo Testamento descreve com linguagem de morte -Jonas 2:2 diz que ele clamou \"do ventre do Sheol\"- e voltou. Jesus anuncia, mais uma vez, sua morte e ressurreição, usando a única linguagem que esses homens, que conheciam as Escrituras de cor, deveriam ter reconhecido. Pediam sinais do céu e tinham o Filho de Deus diante de si; pediam evidência e a evidência estava em cada milagre que se recusavam a aceitar. O problema nunca foi a falta de sinais: foi a falta de disposição para vê-los. E Jesus os deixa e vai embora -Deus não obriga ninguém a crer, disponibiliza a evidência, mas quando o coração escolheu definitivamente se fechar, a resposta de Jesus não é insistir mais, é seguir em frente.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus",
+          "fariseos",
+          "saduceos",
+          "jonas"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 4,
+        "texto": "Uma geração perversa e adúltera pede um sinal milagroso, mas nenhum sinal será dado, exceto o sinal de Jonas.\" E Jesus, deixando-os, foi embora.",
+        "comentario": "Fariseus e saduceus se aproximam juntos para pedir um sinal do céu, e chama a atenção que o façam juntos: esses dois grupos eram rivais teológicos profundos -os fariseus criam na ressurreição, nos anjos, na tradição oral; os saduceus rejeitavam tudo isso- e em circunstâncias normais não concordavam em quase nada, mas diante de Jesus se uniram. Isso diz algo sobre a ameaça que ele representava: quando o inimigo comum é grande o suficiente, as diferenças internas se suspendem temporariamente. O que pedem não é uma busca genuína da verdade -o texto diz que faziam isso para pô-lo à prova, com a mesma palavra grega usada quando Satanás tentou Jesus no deserto. Jesus responde: \"Uma geração perversa e adúltera pede um sinal milagroso, mas nenhum sinal será dado, exceto o sinal de Jonas.\" Jonas passou três dias no ventre do grande peixe, um período que o Antigo Testamento descreve com linguagem de morte -Jonas 2:2 diz que ele clamou \"do ventre do Sheol\"- e voltou. Jesus anuncia, mais uma vez, sua morte e ressurreição, usando a única linguagem que esses homens, que conheciam as Escrituras de cor, deveriam ter reconhecido. Pediam sinais do céu e tinham o Filho de Deus diante de si; pediam evidência e a evidência estava em cada milagre que se recusavam a aceitar. O problema nunca foi a falta de sinais: foi a falta de disposição para vê-los. E Jesus os deixa e vai embora -Deus não obriga ninguém a crer, disponibiliza a evidência, mas quando o coração escolheu definitivamente se fechar, a resposta de Jesus não é insistir mais, é seguir em frente.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus",
+          "fariseos",
+          "saduceos",
+          "jonas"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 5,
+        "texto": "Cruzaram o lago, mas os discípulos tinham esquecido de levar pão.",
+        "comentario": "Os discípulos cruzam o lago e esquecem de levar pão -segunda vez que isso acontece: já no capítulo 15 estavam sem pão e Jesus multiplicou sete pães para quatro mil pessoas. Nesse contexto Jesus lhes diz: \"Fiquem atentos e cuidado com o fermento dos fariseus e dos saduceus\", e a reação dos discípulos diz tudo -eles começam a discutir entre si: \"É porque não trouxemos pão.\" Tinham acabado de presenciar duas multiplicações milagrosas, haviam recolhido doze cestos sobrando na primeira vez e sete na segunda, e sua resposta diante do aviso de Jesus foi se preocupar porque não tinham pão. A memória espiritual humana é terrivelmente curta, e o problema não é que os discípulos fossem tolos: é que estavam preocupados com o imediato, e isso lhes tapou a visão para o que importava. Quando a preocupação com as circunstâncias ocupa toda a atenção, os ensinamentos de Jesus ficam sem espaço para se firmar.",
+        "griego_ids": [
+          "oligopistos"
+        ],
+        "personaje_ids": [
+          "jesus"
+        ],
+        "lugar_ids": [
+          "mar-de-galilea"
+        ]
+      },
+      {
+        "numero": 6,
+        "texto": "― Fiquem atentos -advertiu Jesus- e cuidado com o fermento dos fariseus e dos saduceus.",
+        "comentario": "Os discípulos cruzam o lago e esquecem de levar pão -segunda vez que isso acontece: já no capítulo 15 estavam sem pão e Jesus multiplicou sete pães para quatro mil pessoas. Nesse contexto Jesus lhes diz: \"Fiquem atentos e cuidado com o fermento dos fariseus e dos saduceus\", e a reação dos discípulos diz tudo -eles começam a discutir entre si: \"É porque não trouxemos pão.\" Tinham acabado de presenciar duas multiplicações milagrosas, haviam recolhido doze cestos sobrando na primeira vez e sete na segunda, e sua resposta diante do aviso de Jesus foi se preocupar porque não tinham pão. A memória espiritual humana é terrivelmente curta, e o problema não é que os discípulos fossem tolos: é que estavam preocupados com o imediato, e isso lhes tapou a visão para o que importava. Quando a preocupação com as circunstâncias ocupa toda a atenção, os ensinamentos de Jesus ficam sem espaço para se firmar.",
+        "griego_ids": [
+          "oligopistos"
+        ],
+        "personaje_ids": [
+          "jesus"
+        ],
+        "lugar_ids": [
+          "mar-de-galilea"
+        ]
+      },
+      {
+        "numero": 7,
+        "texto": "Eles discutiam entre si, dizendo: ― É porque não trouxemos pão.",
+        "comentario": "Os discípulos cruzam o lago e esquecem de levar pão -segunda vez que isso acontece: já no capítulo 15 estavam sem pão e Jesus multiplicou sete pães para quatro mil pessoas. Nesse contexto Jesus lhes diz: \"Fiquem atentos e cuidado com o fermento dos fariseus e dos saduceus\", e a reação dos discípulos diz tudo -eles começam a discutir entre si: \"É porque não trouxemos pão.\" Tinham acabado de presenciar duas multiplicações milagrosas, haviam recolhido doze cestos sobrando na primeira vez e sete na segunda, e sua resposta diante do aviso de Jesus foi se preocupar porque não tinham pão. A memória espiritual humana é terrivelmente curta, e o problema não é que os discípulos fossem tolos: é que estavam preocupados com o imediato, e isso lhes tapou a visão para o que importava. Quando a preocupação com as circunstâncias ocupa toda a atenção, os ensinamentos de Jesus ficam sem espaço para se firmar.",
+        "griego_ids": [
+          "oligopistos"
+        ],
+        "personaje_ids": [
+          "jesus"
+        ],
+        "lugar_ids": [
+          "mar-de-galilea"
+        ]
+      },
+      {
+        "numero": 8,
+        "texto": "Ciente da discussão, Jesus lhes perguntou: ― Homens de pequena fé, por que estão discutindo entre si sobre não terem pão?",
+        "comentario": "Quando os discípulos finalmente entendem que Jesus não fala de pão, mas dos ensinamentos dos fariseus e saduceus, a imagem do fermento ganha todo o seu peso. O fermento no mundo antigo transformava a massa por dentro: pequeno em quantidade, mas poderoso em efeito, a mesma imagem que no capítulo 13 descreveu positivamente o Reino de Deus. Mas aqui é usada negativamente: os ensinamentos dos fariseus e saduceus também fermentam, também se expandem, também transformam por dentro -o problema é o que produzem. O fermento de Jesus é aquele que já se viu em ação duas vezes: multiplica, transborda, sobra, transforma a escassez em abundância, gera mais do que era necessário -com Jesus sempre sobra. O fermento dos fariseus também pode gerar algo inicial, uma faísca, um impulso, uma motivação momentânea, pode parecer que funciona no começo, mas o que produz é forma sem fundo, religiosidade sem transformação, conhecimento sem vida -ensinamentos que têm gosto de algo, mas não alimentam de verdade, que podem manter alguém ocupado em práticas religiosas sem que Deus esteja realmente no centro de nenhuma delas.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 9,
+        "texto": "Ainda não compreendem? Não se lembram dos cinco pães para os cinco mil e de quantos cestos vocês recolheram?",
+        "comentario": "Quando os discípulos finalmente entendem que Jesus não fala de pão, mas dos ensinamentos dos fariseus e saduceus, a imagem do fermento ganha todo o seu peso. O fermento no mundo antigo transformava a massa por dentro: pequeno em quantidade, mas poderoso em efeito, a mesma imagem que no capítulo 13 descreveu positivamente o Reino de Deus. Mas aqui é usada negativamente: os ensinamentos dos fariseus e saduceus também fermentam, também se expandem, também transformam por dentro -o problema é o que produzem. O fermento de Jesus é aquele que já se viu em ação duas vezes: multiplica, transborda, sobra, transforma a escassez em abundância, gera mais do que era necessário -com Jesus sempre sobra. O fermento dos fariseus também pode gerar algo inicial, uma faísca, um impulso, uma motivação momentânea, pode parecer que funciona no começo, mas o que produz é forma sem fundo, religiosidade sem transformação, conhecimento sem vida -ensinamentos que têm gosto de algo, mas não alimentam de verdade, que podem manter alguém ocupado em práticas religiosas sem que Deus esteja realmente no centro de nenhuma delas.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 10,
+        "texto": "Nem dos sete pães para os quatro mil e de quantos cestos recolheram?",
+        "comentario": "Quando os discípulos finalmente entendem que Jesus não fala de pão, mas dos ensinamentos dos fariseus e saduceus, a imagem do fermento ganha todo o seu peso. O fermento no mundo antigo transformava a massa por dentro: pequeno em quantidade, mas poderoso em efeito, a mesma imagem que no capítulo 13 descreveu positivamente o Reino de Deus. Mas aqui é usada negativamente: os ensinamentos dos fariseus e saduceus também fermentam, também se expandem, também transformam por dentro -o problema é o que produzem. O fermento de Jesus é aquele que já se viu em ação duas vezes: multiplica, transborda, sobra, transforma a escassez em abundância, gera mais do que era necessário -com Jesus sempre sobra. O fermento dos fariseus também pode gerar algo inicial, uma faísca, um impulso, uma motivação momentânea, pode parecer que funciona no começo, mas o que produz é forma sem fundo, religiosidade sem transformação, conhecimento sem vida -ensinamentos que têm gosto de algo, mas não alimentam de verdade, que podem manter alguém ocupado em práticas religiosas sem que Deus esteja realmente no centro de nenhuma delas.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 11,
+        "texto": "Como é que vocês não entendem que não era de pão que eu estava falando? Tomem cuidado com o fermento dos fariseus e dos saduceus.",
+        "comentario": "Quando os discípulos finalmente entendem que Jesus não fala de pão, mas dos ensinamentos dos fariseus e saduceus, a imagem do fermento ganha todo o seu peso. O fermento no mundo antigo transformava a massa por dentro: pequeno em quantidade, mas poderoso em efeito, a mesma imagem que no capítulo 13 descreveu positivamente o Reino de Deus. Mas aqui é usada negativamente: os ensinamentos dos fariseus e saduceus também fermentam, também se expandem, também transformam por dentro -o problema é o que produzem. O fermento de Jesus é aquele que já se viu em ação duas vezes: multiplica, transborda, sobra, transforma a escassez em abundância, gera mais do que era necessário -com Jesus sempre sobra. O fermento dos fariseus também pode gerar algo inicial, uma faísca, um impulso, uma motivação momentânea, pode parecer que funciona no começo, mas o que produz é forma sem fundo, religiosidade sem transformação, conhecimento sem vida -ensinamentos que têm gosto de algo, mas não alimentam de verdade, que podem manter alguém ocupado em práticas religiosas sem que Deus esteja realmente no centro de nenhuma delas.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 12,
+        "texto": "Então, entenderam que ele não lhes estava dizendo que tomassem cuidado com o fermento de pão, mas com o ensino dos fariseus e dos saduceus.",
+        "comentario": "Quando os discípulos finalmente entendem que Jesus não fala de pão, mas dos ensinamentos dos fariseus e saduceus, a imagem do fermento ganha todo o seu peso. O fermento no mundo antigo transformava a massa por dentro: pequeno em quantidade, mas poderoso em efeito, a mesma imagem que no capítulo 13 descreveu positivamente o Reino de Deus. Mas aqui é usada negativamente: os ensinamentos dos fariseus e saduceus também fermentam, também se expandem, também transformam por dentro -o problema é o que produzem. O fermento de Jesus é aquele que já se viu em ação duas vezes: multiplica, transborda, sobra, transforma a escassez em abundância, gera mais do que era necessário -com Jesus sempre sobra. O fermento dos fariseus também pode gerar algo inicial, uma faísca, um impulso, uma motivação momentânea, pode parecer que funciona no começo, mas o que produz é forma sem fundo, religiosidade sem transformação, conhecimento sem vida -ensinamentos que têm gosto de algo, mas não alimentam de verdade, que podem manter alguém ocupado em práticas religiosas sem que Deus esteja realmente no centro de nenhuma delas.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 13,
+        "texto": "Quando Jesus chegou à região de Cesareia de Filipe, perguntou aos seus discípulos: —Quem o povo diz que é o Filho do homem?",
+        "comentario": "Cesareia de Filipe não é uma localização aleatória: era uma cidade ao norte de Israel, nas encostas do monte Hermom, construída por Herodes Filipe em honra ao imperador Augusto, e um centro de culto pagão -ali havia um santuário dedicado ao deus grego Pã, e uma gruta conhecida como a \"Porta do Hades\", de onde brotava um manancial. Jesus faz a pergunta mais importante sobre sua identidade diante de um pano de fundo de divindades pagãs e poder imperial, e o contraste é deliberado. As respostas que os discípulos recolhem do povo são interessantes -João Batista, Elias, Jeremias, algum profeta- todas respostas que reconhecem que há algo extraordinário em Jesus, ninguém o descarta como impostor ou lunático, mas todas o colocam na categoria do já conhecido: mais um profeta, alguém na linha dos grandes do passado. O problema dessas respostas não é que sejam ofensivas: é que são insuficientes.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus"
+        ],
+        "lugar_ids": [
+          "cesarea-de-filipo"
+        ]
+      },
+      {
+        "numero": 14,
+        "texto": "Eles responderam: —Alguns dizem que és João Batista; outros, Elias; ainda outros, Jeremias ou um dos profetas.",
+        "comentario": "Cesareia de Filipe não é uma localização aleatória: era uma cidade ao norte de Israel, nas encostas do monte Hermom, construída por Herodes Filipe em honra ao imperador Augusto, e um centro de culto pagão -ali havia um santuário dedicado ao deus grego Pã, e uma gruta conhecida como a \"Porta do Hades\", de onde brotava um manancial. Jesus faz a pergunta mais importante sobre sua identidade diante de um pano de fundo de divindades pagãs e poder imperial, e o contraste é deliberado. As respostas que os discípulos recolhem do povo são interessantes -João Batista, Elias, Jeremias, algum profeta- todas respostas que reconhecem que há algo extraordinário em Jesus, ninguém o descarta como impostor ou lunático, mas todas o colocam na categoria do já conhecido: mais um profeta, alguém na linha dos grandes do passado. O problema dessas respostas não é que sejam ofensivas: é que são insuficientes.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus"
+        ],
+        "lugar_ids": [
+          "cesarea-de-filipo"
+        ]
+      },
+      {
+        "numero": 15,
+        "texto": "― E vocês, quem dizem que eu sou? — perguntou Jesus.",
+        "comentario": "\"E vocês, quem dizem que eu sou?\" é a pergunta central do evangelho: não quem diz o povo, quem diz cada um. Pedro responde: \"Tu és o Cristo, o Filho do Deus vivo.\" Cristo é a tradução grega do hebraico Mashíah (מָשִׁיחַ), o Ungido -termo que no Antigo Testamento designava alguém separado e consagrado para uma missão divina, ungido com óleo como sinal desse chamado: reis, sacerdotes e profetas eram ungidos, mas o Mashíah por excelência era aquele que todos os profetas haviam anunciado, o rei definitivo da linhagem de Davi que estabeleceria o Reino de Deus em sua plenitude. Pedro está dizendo: aquele que todos esperamos é você. \"Filho do Deus vivo\" acrescenta uma dimensão que vai além do messiânico político: não é apenas o herdeiro do trono de Davi, é o Filho de Deus, uma afirmação de natureza divina que na boca de um judeu do século I pesava enormemente. E a resposta de Jesus é tão importante quanto a declaração de Pedro: \"Bem-aventurado é você, Simão, filho de Jonas, porque isso não foi revelado a você por carne ou sangue, mas por meu Pai, que está nos céus.\" Pedro não chegou a essa conclusão por raciocínio humano nem por um exercício intelectual: o próprio Pai revelou isso a ele. A compreensão genuína de quem é Jesus não é algo que se alcança por esforço próprio, é revelação -Deus abrindo os olhos de alguém para que veja o que está diante dele.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus",
+          "pedro"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 16,
+        "texto": "Simão Pedro respondeu: ― Tu és o Cristo, o Filho do Deus vivo.",
+        "comentario": "\"E vocês, quem dizem que eu sou?\" é a pergunta central do evangelho: não quem diz o povo, quem diz cada um. Pedro responde: \"Tu és o Cristo, o Filho do Deus vivo.\" Cristo é a tradução grega do hebraico Mashíah (מָשִׁיחַ), o Ungido -termo que no Antigo Testamento designava alguém separado e consagrado para uma missão divina, ungido com óleo como sinal desse chamado: reis, sacerdotes e profetas eram ungidos, mas o Mashíah por excelência era aquele que todos os profetas haviam anunciado, o rei definitivo da linhagem de Davi que estabeleceria o Reino de Deus em sua plenitude. Pedro está dizendo: aquele que todos esperamos é você. \"Filho do Deus vivo\" acrescenta uma dimensão que vai além do messiânico político: não é apenas o herdeiro do trono de Davi, é o Filho de Deus, uma afirmação de natureza divina que na boca de um judeu do século I pesava enormemente. E a resposta de Jesus é tão importante quanto a declaração de Pedro: \"Bem-aventurado é você, Simão, filho de Jonas, porque isso não foi revelado a você por carne ou sangue, mas por meu Pai, que está nos céus.\" Pedro não chegou a essa conclusão por raciocínio humano nem por um exercício intelectual: o próprio Pai revelou isso a ele. A compreensão genuína de quem é Jesus não é algo que se alcança por esforço próprio, é revelação -Deus abrindo os olhos de alguém para que veja o que está diante dele.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus",
+          "pedro"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 17,
+        "texto": "Jesus respondeu: ― Bem-aventurado é você, Simão, filho de Jonas! Porque isso não foi revelado a você por carne ou sangue, mas por meu Pai, que está nos céus.",
+        "comentario": "\"E vocês, quem dizem que eu sou?\" é a pergunta central do evangelho: não quem diz o povo, quem diz cada um. Pedro responde: \"Tu és o Cristo, o Filho do Deus vivo.\" Cristo é a tradução grega do hebraico Mashíah (מָשִׁיחַ), o Ungido -termo que no Antigo Testamento designava alguém separado e consagrado para uma missão divina, ungido com óleo como sinal desse chamado: reis, sacerdotes e profetas eram ungidos, mas o Mashíah por excelência era aquele que todos os profetas haviam anunciado, o rei definitivo da linhagem de Davi que estabeleceria o Reino de Deus em sua plenitude. Pedro está dizendo: aquele que todos esperamos é você. \"Filho do Deus vivo\" acrescenta uma dimensão que vai além do messiânico político: não é apenas o herdeiro do trono de Davi, é o Filho de Deus, uma afirmação de natureza divina que na boca de um judeu do século I pesava enormemente. E a resposta de Jesus é tão importante quanto a declaração de Pedro: \"Bem-aventurado é você, Simão, filho de Jonas, porque isso não foi revelado a você por carne ou sangue, mas por meu Pai, que está nos céus.\" Pedro não chegou a essa conclusão por raciocínio humano nem por um exercício intelectual: o próprio Pai revelou isso a ele. A compreensão genuína de quem é Jesus não é algo que se alcança por esforço próprio, é revelação -Deus abrindo os olhos de alguém para que veja o que está diante dele.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus",
+          "pedro"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 18,
+        "texto": "E eu digo que você é Pedro, e sobre esta pedra edificarei a minha igreja, e as portas do Hades não poderão vencê-la.",
+        "comentario": "\"E eu digo que você é Pedro, e sobre esta pedra edificarei a minha igreja, e as portas do Hades não poderão vencê-la.\" Este versículo gerou mais debate teológico que quase qualquer outro do Novo Testamento. O nome que Jesus dá a ele é a chave: Simão em hebraico significa aquele que ouve, e Jesus o chama de Pedro, do grego Petros (Πέτρος), pedra, rocha -em aramaico, o idioma cotidiano, a palavra é Kefa (כֵּיפָא), de onde vem o nome Cefas que Paulo usa em suas cartas. A mudança de nome no mundo bíblico não era um detalhe cultural menor: era uma declaração de identidade e destino -Abrão se tornou Abraão quando Deus lhe revelou que seria pai de muitas nações, Jacó se tornou Israel depois de lutar com Deus, e Simão se torna Pedro no momento em que o Pai lhe revela quem é Jesus. A frase \"sobre esta pedra edificarei a minha igreja\" foi interpretada de maneiras muito diferentes: a tradição católica a entende como que Pedro pessoalmente é o fundamento sobre o qual a igreja é edificada; a maior parte da tradição protestante a entende como que a pedra não é Pedro em si, mas a confissão que ele acabou de fazer, a declaração de que Jesus é o Cristo, o Filho do Deus vivo -essa verdade revelada como fundamento sobre o qual tudo se constrói, assim como diz Paulo em 1 Coríntios 3:11: \"Ninguém pode lançar outro fundamento além do que já foi lançado, Jesus Cristo\", e Efésios 2:20 descreve a igreja como \"edificada sobre o fundamento dos apóstolos e profetas, tendo Jesus Cristo mesmo como pedra angular\". O que fica claro é que Jesus usa o momento da confissão de Pedro para declarar algo sobre o futuro: ele vai construir algo. Ele a chama de ekklesia (ἐκκλησία), que no grego secular do século I significava uma assembleia convocada, os cidadãos chamados a se reunir -Jesus toma essa palavra e a enche de um conteúdo novo: a comunidade dos que o reconhecem como Cristo, convocada por ele, construída por ele, sustentada por ele. E \"as portas do Hades não poderão vencê-la\": as portas do Hades eram, no mundo antigo, imagem do poder da morte. Jesus diz que nem a própria morte pode deter o que ele vai construir -dito no lugar onde estavam, diante da Porta do Hades pagã de Cesareia de Filipe, o gesto era deliberadamente provocador.",
+        "griego_ids": [
+          "petros",
+          "ekklesia"
+        ],
+        "personaje_ids": [
+          "jesus",
+          "pedro"
+        ],
+        "lugar_ids": [
+          "cesarea-de-filipo"
+        ]
+      },
+      {
+        "numero": 19,
+        "texto": "Eu darei a você as chaves do reino dos céus; tudo o que você ligar na terra terá sido ligado nos céus, e o que você desligar na terra terá sido desligado nos céus.",
+        "comentario": "\"Eu darei a você as chaves do reino dos céus; tudo o que você ligar na terra terá sido ligado nos céus, e o que você desligar na terra terá sido desligado nos céus.\" As chaves no mundo bíblico eram símbolo de autoridade e acesso: quem as tinha decidia quem entrava e quem não entrava. A autoridade de ligar e desligar era um conceito rabínico conhecido, que se referia à autoridade de declarar algo permitido ou proibido, de incluir ou excluir na comunidade -Jesus dá a Pedro, e por extensão aos apóstolos segundo Mateus 18:18, uma autoridade real no estabelecimento e governo da comunidade do Reino. Mas essa autoridade não é arbitrária nem independente de Deus: a construção grega que Mateus usa está no futuro perfeito passivo, o que você ligar terá sido ligado no céu, o que você desligar terá sido desligado no céu -ou seja, a autoridade terrena segue o que já foi estabelecido no céu, não o contrário. Pedro não tem autoridade para inventar as regras do Reino: tem autoridade para aplicar na terra o que já está estabelecido na vontade de Deus.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus",
+          "pedro"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 20,
+        "texto": "Então, advertiu os seus discípulos de que não contassem a ninguém que ele era o Cristo.",
+        "comentario": "Jesus ordena que não digam a ninguém que ele é o Cristo -o mesmo princípio do \"segredo messiânico\" que já apareceu várias vezes: o tempo da revelação pública virá, mas no plano de Deus tem seu momento certo. E então começa a explicar o que vem a seguir: tem que ir a Jerusalém, sofrer muito da parte dos anciãos, dos principais sacerdotes e dos mestres da lei, ser morto, e ressuscitar no terceiro dia.\n\nPedro, o mesmo que recebeu a revelação do Pai instantes antes, o leva à parte e começa a repreendê-lo: \"Nunca, Senhor! Isso nunca acontecerá contigo!\" E Jesus se volta e lhe diz: \"Para trás de mim, Satanás! Você é uma pedra de tropeço para mim, pois não pensa nas coisas de Deus, mas nas dos homens.\" Isso precisa ser entendido com cuidado para não ser mal interpretado: Jesus não está tirando de Pedro o reconhecimento que acabou de lhe dar, não está revogando a mudança de nome, não está dizendo que Pedro não foi genuinamente iluminado pelo Pai. O que ele aponta é algo bem específico -neste momento pontual, Pedro age a partir da sua humanidade, das suas emoções, do que faz sentido para ele, e não a partir da perspectiva do plano de Deus. E é exatamente isso que Satanás faz: colocar obstáculos no caminho do plano redentor de Deus, nem sempre com maldade óbvia, às vezes com afeto genuíno e boas intenções. Pedro amava Jesus; por isso não queria que ele sofresse. E foi exatamente esse amor sem revelação completa que o levou a se tornar, naquele momento, um obstáculo. A mesma pessoa pode ser canal de revelação divina e obstáculo do plano de Deus no intervalo de cinco versículos -isso não desqualifica nenhum dos dois momentos, diz algo sobre a condição humana: somos capazes de grandes momentos de clareza e grandes momentos de cegueira, às vezes quase ao mesmo tempo.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus",
+          "pedro",
+          "satanas"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 21,
+        "texto": "A partir daquele momento, Jesus começou a explicar aos seus discípulos que ele tinha que ir para Jerusalém e sofrer muitas coisas nas mãos dos anciãos, dos chefes dos sacerdotes e dos mestres da lei, bem como ser morto e ressuscitar no terceiro dia.",
+        "comentario": "Jesus ordena que não digam a ninguém que ele é o Cristo -o mesmo princípio do \"segredo messiânico\" que já apareceu várias vezes: o tempo da revelação pública virá, mas no plano de Deus tem seu momento certo. E então começa a explicar o que vem a seguir: tem que ir a Jerusalém, sofrer muito da parte dos anciãos, dos principais sacerdotes e dos mestres da lei, ser morto, e ressuscitar no terceiro dia.\n\nPedro, o mesmo que recebeu a revelação do Pai instantes antes, o leva à parte e começa a repreendê-lo: \"Nunca, Senhor! Isso nunca acontecerá contigo!\" E Jesus se volta e lhe diz: \"Para trás de mim, Satanás! Você é uma pedra de tropeço para mim, pois não pensa nas coisas de Deus, mas nas dos homens.\" Isso precisa ser entendido com cuidado para não ser mal interpretado: Jesus não está tirando de Pedro o reconhecimento que acabou de lhe dar, não está revogando a mudança de nome, não está dizendo que Pedro não foi genuinamente iluminado pelo Pai. O que ele aponta é algo bem específico -neste momento pontual, Pedro age a partir da sua humanidade, das suas emoções, do que faz sentido para ele, e não a partir da perspectiva do plano de Deus. E é exatamente isso que Satanás faz: colocar obstáculos no caminho do plano redentor de Deus, nem sempre com maldade óbvia, às vezes com afeto genuíno e boas intenções. Pedro amava Jesus; por isso não queria que ele sofresse. E foi exatamente esse amor sem revelação completa que o levou a se tornar, naquele momento, um obstáculo. A mesma pessoa pode ser canal de revelação divina e obstáculo do plano de Deus no intervalo de cinco versículos -isso não desqualifica nenhum dos dois momentos, diz algo sobre a condição humana: somos capazes de grandes momentos de clareza e grandes momentos de cegueira, às vezes quase ao mesmo tempo.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus",
+          "pedro",
+          "satanas"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 22,
+        "texto": "Então, Pedro, chamando-o à parte, começou a repreendê-lo, dizendo: ― Nunca, Senhor! Isso nunca acontecerá contigo!",
+        "comentario": "Jesus ordena que não digam a ninguém que ele é o Cristo -o mesmo princípio do \"segredo messiânico\" que já apareceu várias vezes: o tempo da revelação pública virá, mas no plano de Deus tem seu momento certo. E então começa a explicar o que vem a seguir: tem que ir a Jerusalém, sofrer muito da parte dos anciãos, dos principais sacerdotes e dos mestres da lei, ser morto, e ressuscitar no terceiro dia.\n\nPedro, o mesmo que recebeu a revelação do Pai instantes antes, o leva à parte e começa a repreendê-lo: \"Nunca, Senhor! Isso nunca acontecerá contigo!\" E Jesus se volta e lhe diz: \"Para trás de mim, Satanás! Você é uma pedra de tropeço para mim, pois não pensa nas coisas de Deus, mas nas dos homens.\" Isso precisa ser entendido com cuidado para não ser mal interpretado: Jesus não está tirando de Pedro o reconhecimento que acabou de lhe dar, não está revogando a mudança de nome, não está dizendo que Pedro não foi genuinamente iluminado pelo Pai. O que ele aponta é algo bem específico -neste momento pontual, Pedro age a partir da sua humanidade, das suas emoções, do que faz sentido para ele, e não a partir da perspectiva do plano de Deus. E é exatamente isso que Satanás faz: colocar obstáculos no caminho do plano redentor de Deus, nem sempre com maldade óbvia, às vezes com afeto genuíno e boas intenções. Pedro amava Jesus; por isso não queria que ele sofresse. E foi exatamente esse amor sem revelação completa que o levou a se tornar, naquele momento, um obstáculo. A mesma pessoa pode ser canal de revelação divina e obstáculo do plano de Deus no intervalo de cinco versículos -isso não desqualifica nenhum dos dois momentos, diz algo sobre a condição humana: somos capazes de grandes momentos de clareza e grandes momentos de cegueira, às vezes quase ao mesmo tempo.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus",
+          "pedro",
+          "satanas"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 23,
+        "texto": "Jesus virou-se e disse a Pedro: ― Para trás de mim, Satanás! Você é uma pedra de tropeço para mim, pois não pensa nas coisas de Deus, mas nas dos homens.",
+        "comentario": "Jesus ordena que não digam a ninguém que ele é o Cristo -o mesmo princípio do \"segredo messiânico\" que já apareceu várias vezes: o tempo da revelação pública virá, mas no plano de Deus tem seu momento certo. E então começa a explicar o que vem a seguir: tem que ir a Jerusalém, sofrer muito da parte dos anciãos, dos principais sacerdotes e dos mestres da lei, ser morto, e ressuscitar no terceiro dia.\n\nPedro, o mesmo que recebeu a revelação do Pai instantes antes, o leva à parte e começa a repreendê-lo: \"Nunca, Senhor! Isso nunca acontecerá contigo!\" E Jesus se volta e lhe diz: \"Para trás de mim, Satanás! Você é uma pedra de tropeço para mim, pois não pensa nas coisas de Deus, mas nas dos homens.\" Isso precisa ser entendido com cuidado para não ser mal interpretado: Jesus não está tirando de Pedro o reconhecimento que acabou de lhe dar, não está revogando a mudança de nome, não está dizendo que Pedro não foi genuinamente iluminado pelo Pai. O que ele aponta é algo bem específico -neste momento pontual, Pedro age a partir da sua humanidade, das suas emoções, do que faz sentido para ele, e não a partir da perspectiva do plano de Deus. E é exatamente isso que Satanás faz: colocar obstáculos no caminho do plano redentor de Deus, nem sempre com maldade óbvia, às vezes com afeto genuíno e boas intenções. Pedro amava Jesus; por isso não queria que ele sofresse. E foi exatamente esse amor sem revelação completa que o levou a se tornar, naquele momento, um obstáculo. A mesma pessoa pode ser canal de revelação divina e obstáculo do plano de Deus no intervalo de cinco versículos -isso não desqualifica nenhum dos dois momentos, diz algo sobre a condição humana: somos capazes de grandes momentos de clareza e grandes momentos de cegueira, às vezes quase ao mesmo tempo.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus",
+          "pedro",
+          "satanas"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 24,
+        "texto": "Então, Jesus disse aos seus discípulos: ― Se alguém quiser vir após mim, negue-se a si mesmo, tome a sua cruz e siga-me.",
+        "comentario": "\"Se alguém quiser vir após mim, negue-se a si mesmo, tome a sua cruz e siga-me\" é talvez o versículo mais contracultural de todo o evangelho em qualquer época, mas especialmente na nossa: a cultura diz encontre a si mesmo, expresse a si mesmo, priorize a si mesmo, e Jesus diz negue a si mesmo. Não é autodestruição nem masoquismo espiritual: é o reconhecimento de que o eu natural, com seus desejos, suas ambições, seus medos e sua necessidade de controle, não pode ser o centro da vida do discípulo -Jesus precisa ser o centro, e para que ele ocupe o centro, algo precisa ceder. Tomar a cruz no século I não era uma imagem suavizada: o condenado carregava sua própria cruz até o lugar da execução, a imagem mais concreta de morte pública e humilhante. Jesus não está dizendo para carregar as dificuldades cotidianas com boa atitude: está perguntando se a pessoa está disposta a perder tudo, se for necessário.\n\nDepois vem o paradoxo mais profundo do evangelho: \"Pois quem quiser salvar a sua vida a perderá, mas quem perder a própria vida por minha causa a encontrará.\" Quem vive para se proteger, para se conservar, para garantir o próprio futuro, acaba perdendo o que realmente importa; e quem solta tudo por Jesus, até mesmo o que o mundo chama de vida, descobre uma vida em seu sentido mais pleno. E a pergunta que fecha esta seção não tem uma resposta fácil: \"Pois que adianta ao homem ganhar o mundo inteiro e perder a sua vida? Ou o que pode dar o homem em troca da sua vida?\" O homem que construiu o negócio mais bem-sucedido da sua cidade, mas abandonou sua família no processo, a mulher que chegou à posição mais alta da sua carreira, mas esvaziou sua vida de tudo o que tinha sentido eterno -o que ganharam exatamente? O versículo seguinte acrescenta a dimensão escatológica: o Filho do homem virá na glória do seu Pai, com os seus anjos, e retribuirá a cada um de acordo com as suas ações. O que se faz agora importa então -não como sistema de méritos para ganhar a salvação, mas como evidência de a quem se pertence e de como se vive esse pertencimento.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 25,
+        "texto": "Pois quem quiser salvar a sua vida a perderá, mas quem perder a própria vida por minha causa a encontrará.",
+        "comentario": "\"Se alguém quiser vir após mim, negue-se a si mesmo, tome a sua cruz e siga-me\" é talvez o versículo mais contracultural de todo o evangelho em qualquer época, mas especialmente na nossa: a cultura diz encontre a si mesmo, expresse a si mesmo, priorize a si mesmo, e Jesus diz negue a si mesmo. Não é autodestruição nem masoquismo espiritual: é o reconhecimento de que o eu natural, com seus desejos, suas ambições, seus medos e sua necessidade de controle, não pode ser o centro da vida do discípulo -Jesus precisa ser o centro, e para que ele ocupe o centro, algo precisa ceder. Tomar a cruz no século I não era uma imagem suavizada: o condenado carregava sua própria cruz até o lugar da execução, a imagem mais concreta de morte pública e humilhante. Jesus não está dizendo para carregar as dificuldades cotidianas com boa atitude: está perguntando se a pessoa está disposta a perder tudo, se for necessário.\n\nDepois vem o paradoxo mais profundo do evangelho: \"Pois quem quiser salvar a sua vida a perderá, mas quem perder a própria vida por minha causa a encontrará.\" Quem vive para se proteger, para se conservar, para garantir o próprio futuro, acaba perdendo o que realmente importa; e quem solta tudo por Jesus, até mesmo o que o mundo chama de vida, descobre uma vida em seu sentido mais pleno. E a pergunta que fecha esta seção não tem uma resposta fácil: \"Pois que adianta ao homem ganhar o mundo inteiro e perder a sua vida? Ou o que pode dar o homem em troca da sua vida?\" O homem que construiu o negócio mais bem-sucedido da sua cidade, mas abandonou sua família no processo, a mulher que chegou à posição mais alta da sua carreira, mas esvaziou sua vida de tudo o que tinha sentido eterno -o que ganharam exatamente? O versículo seguinte acrescenta a dimensão escatológica: o Filho do homem virá na glória do seu Pai, com os seus anjos, e retribuirá a cada um de acordo com as suas ações. O que se faz agora importa então -não como sistema de méritos para ganhar a salvação, mas como evidência de a quem se pertence e de como se vive esse pertencimento.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 26,
+        "texto": "Pois que adianta ao homem ganhar o mundo inteiro e perder a sua vida? Ou o que pode dar o homem em troca da sua vida?",
+        "comentario": "\"Se alguém quiser vir após mim, negue-se a si mesmo, tome a sua cruz e siga-me\" é talvez o versículo mais contracultural de todo o evangelho em qualquer época, mas especialmente na nossa: a cultura diz encontre a si mesmo, expresse a si mesmo, priorize a si mesmo, e Jesus diz negue a si mesmo. Não é autodestruição nem masoquismo espiritual: é o reconhecimento de que o eu natural, com seus desejos, suas ambições, seus medos e sua necessidade de controle, não pode ser o centro da vida do discípulo -Jesus precisa ser o centro, e para que ele ocupe o centro, algo precisa ceder. Tomar a cruz no século I não era uma imagem suavizada: o condenado carregava sua própria cruz até o lugar da execução, a imagem mais concreta de morte pública e humilhante. Jesus não está dizendo para carregar as dificuldades cotidianas com boa atitude: está perguntando se a pessoa está disposta a perder tudo, se for necessário.\n\nDepois vem o paradoxo mais profundo do evangelho: \"Pois quem quiser salvar a sua vida a perderá, mas quem perder a própria vida por minha causa a encontrará.\" Quem vive para se proteger, para se conservar, para garantir o próprio futuro, acaba perdendo o que realmente importa; e quem solta tudo por Jesus, até mesmo o que o mundo chama de vida, descobre uma vida em seu sentido mais pleno. E a pergunta que fecha esta seção não tem uma resposta fácil: \"Pois que adianta ao homem ganhar o mundo inteiro e perder a sua vida? Ou o que pode dar o homem em troca da sua vida?\" O homem que construiu o negócio mais bem-sucedido da sua cidade, mas abandonou sua família no processo, a mulher que chegou à posição mais alta da sua carreira, mas esvaziou sua vida de tudo o que tinha sentido eterno -o que ganharam exatamente? O versículo seguinte acrescenta a dimensão escatológica: o Filho do homem virá na glória do seu Pai, com os seus anjos, e retribuirá a cada um de acordo com as suas ações. O que se faz agora importa então -não como sistema de méritos para ganhar a salvação, mas como evidência de a quem se pertence e de como se vive esse pertencimento.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 27,
+        "texto": "Pois o Filho do homem virá na glória do seu Pai, com os seus anjos, e então retribuirá a cada um de acordo com as suas ações.",
+        "comentario": "\"Se alguém quiser vir após mim, negue-se a si mesmo, tome a sua cruz e siga-me\" é talvez o versículo mais contracultural de todo o evangelho em qualquer época, mas especialmente na nossa: a cultura diz encontre a si mesmo, expresse a si mesmo, priorize a si mesmo, e Jesus diz negue a si mesmo. Não é autodestruição nem masoquismo espiritual: é o reconhecimento de que o eu natural, com seus desejos, suas ambições, seus medos e sua necessidade de controle, não pode ser o centro da vida do discípulo -Jesus precisa ser o centro, e para que ele ocupe o centro, algo precisa ceder. Tomar a cruz no século I não era uma imagem suavizada: o condenado carregava sua própria cruz até o lugar da execução, a imagem mais concreta de morte pública e humilhante. Jesus não está dizendo para carregar as dificuldades cotidianas com boa atitude: está perguntando se a pessoa está disposta a perder tudo, se for necessário.\n\nDepois vem o paradoxo mais profundo do evangelho: \"Pois quem quiser salvar a sua vida a perderá, mas quem perder a própria vida por minha causa a encontrará.\" Quem vive para se proteger, para se conservar, para garantir o próprio futuro, acaba perdendo o que realmente importa; e quem solta tudo por Jesus, até mesmo o que o mundo chama de vida, descobre uma vida em seu sentido mais pleno. E a pergunta que fecha esta seção não tem uma resposta fácil: \"Pois que adianta ao homem ganhar o mundo inteiro e perder a sua vida? Ou o que pode dar o homem em troca da sua vida?\" O homem que construiu o negócio mais bem-sucedido da sua cidade, mas abandonou sua família no processo, a mulher que chegou à posição mais alta da sua carreira, mas esvaziou sua vida de tudo o que tinha sentido eterno -o que ganharam exatamente? O versículo seguinte acrescenta a dimensão escatológica: o Filho do homem virá na glória do seu Pai, com os seus anjos, e retribuirá a cada um de acordo com as suas ações. O que se faz agora importa então -não como sistema de méritos para ganhar a salvação, mas como evidência de a quem se pertence e de como se vive esse pertencimento.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus"
+        ],
+        "lugar_ids": []
+      },
+      {
+        "numero": 28,
+        "texto": "Em verdade lhes digo que alguns dos que aqui se acham de modo nenhum experimentarão a morte antes de verem o Filho do homem vindo no seu reino.",
+        "comentario": "\"Em verdade lhes digo que alguns dos que aqui se acham de modo nenhum experimentarão a morte antes de verem o Filho do homem vindo no seu reino\" encerra o capítulo com uma promessa que aponta diretamente para o que vem a seguir: poucos versículos depois, no capítulo 17, três dos discípulos presentes nesta mesma conversa -Pedro, Tiago e João- vão subir com Jesus a um monte e vão ver, por um instante, a glória do seu reino desvelada. O sinal de Jonas que Jesus mencionou no início do capítulo resume tudo: três dias na escuridão e depois a vida. A cruz primeiro, a glória depois -essa é a ordem do Reino, e não há como inverter isso.",
+        "griego_ids": [],
+        "personaje_ids": [
+          "jesus"
+        ],
+        "lugar_ids": []
+      }
+    ],
+    "contexto_ids": [
+      "cesarea-de-filipo-culto-pagano",
+      "cambio-de-nombre-en-el-mundo-biblico",
+      "autoridad-rabinica-atar-y-desatar"
+    ],
+    "reflexion": [
+      "De que fermento você está se alimentando -não só nas igrejas que você frequenta, mas no que entra na sua cabeça e no seu coração todos os dias? O que entra, transforma: para o bem ou para o mal, mas transforma.",
+      "Pedro teve o momento mais alto de revelação do evangelho e cinco versículos depois foi chamado de Satanás por agir a partir da carne. Isso não o desqualificou. Você consegue reconhecer em si essa mesma oscilação entre a clareza e a cegueira, sem que uma invalide o que há de genuíno na outra?",
+      "Quem você diz que é Jesus -não na teoria, mas nas suas decisões cotidianas, com o seu tempo, o seu dinheiro e o seu coração?"
+    ]
   }
 ]

@@ -449,7 +449,8 @@
       "significado": "hipócritas (actores de teatro)",
       "nota": "En el mundo griego describía a los actores de teatro: personas que usaban una máscara para representar un papel diferente al de su vida real.",
       "capitulos": [
-        6
+        6,
+        15
       ],
       "palabra": "hipócritas"
     },
@@ -581,7 +582,9 @@
       "significado": "tener compasión (desde las entrañas)",
       "nota": "Describe una conmoción que viene desde las entrañas, un movimiento visceral y físico desde adentro: la compasión de Jesús al ver a las multitudes agobiadas y desamparadas.",
       "capitulos": [
-        9
+        9,
+        14,
+        15
       ],
       "palabra": "compasión"
     },
@@ -683,6 +686,85 @@
         13
       ],
       "palabra": "misterios"
+    },
+    {
+      "id": "oligopistos",
+      "griego": "ὀλιγόπιστος",
+      "transliteracion": "oligopistos",
+      "significado": "de poca fe",
+      "nota": "Palabra compuesta por \"poco\" y \"fe\": no describe ausencia de fe sino una fe real que se achica ante la evidencia de las circunstancias. Jesús la usa tanto con Pedro hundiéndose en el agua como con los discípulos preocupados por no tener pan.",
+      "capitulos": [
+        14,
+        16
+      ],
+      "palabra": "poca fe"
+    },
+    {
+      "id": "ego-eimi",
+      "griego": "ἐγώ εἰμι",
+      "transliteracion": "ego eimi",
+      "significado": "yo soy",
+      "nota": "El mismo nombre divino de Éxodo 3:14, donde Dios le revela a Moisés su identidad. Cuando Jesús dice \"Soy yo\" caminando sobre el agua, no es solo una identificación personal: es una declaración de identidad divina.",
+      "capitulos": [
+        14
+      ],
+      "palabra": "Soy yo"
+    },
+    {
+      "id": "phantasma",
+      "griego": "φάντασμα",
+      "transliteracion": "phantasma",
+      "significado": "fantasma, aparición",
+      "nota": "Palabra que los discípulos usan para explicar lo inexplicable: alguien caminando sobre el agua en medio de la noche. El miedo a lo sobrenatural, paradójicamente, les impide reconocer al Dios que tienen delante.",
+      "capitulos": [
+        14
+      ],
+      "palabra": "fantasma"
+    },
+    {
+      "id": "corban",
+      "griego": "κορβᾶν",
+      "transliteracion": "corbán",
+      "significado": "ofrenda dedicada a Dios",
+      "nota": "Declarar algo \"Corbán\" lo separaba formalmente para el templo y lo excluía del uso familiar. Los fariseos lo usaban para evadir la responsabilidad de sostener a sus padres ancianos, anulando un mandamiento de Dios con una tradición religiosa.",
+      "capitulos": [
+        15
+      ],
+      "palabra": "Corbán"
+    },
+    {
+      "id": "hypokritai",
+      "griego": "ὑποκριταί",
+      "transliteracion": "hypokritai",
+      "significado": "hipócritas (actores de teatro)",
+      "nota": "En el mundo griego describía a los actores de teatro: personas que usaban una máscara para representar un papel diferente al de su vida real.",
+      "capitulos": [
+        6,
+        15
+      ],
+      "palabra": "Hipócritas"
+    },
+    {
+      "id": "petros",
+      "griego": "Πέτρος",
+      "transliteracion": "petros",
+      "significado": "piedra, roca",
+      "nota": "Jesús cambia el nombre de Simón por Petros -en arameo Kepha- en el mismo momento en que el Padre le revela quién es Jesús. El cambio de nombre en el mundo bíblico era una declaración de identidad y destino, como Abram a Abraham o Jacob a Israel.",
+      "capitulos": [
+        16
+      ],
+      "palabra": "Pedro"
+    },
+    {
+      "id": "ekklesia",
+      "griego": "ἐκκλησία",
+      "transliteracion": "ekklesia",
+      "significado": "asamblea convocada, iglesia",
+      "nota": "En el griego secular del siglo I significaba una asamblea convocada, los ciudadanos llamados a reunirse. Jesús toma esa palabra y la llena de contenido nuevo: la comunidad de los que lo reconocen como Cristo.",
+      "capitulos": [
+        16
+      ],
+      "palabra": "iglesia"
     }
   ]
 }

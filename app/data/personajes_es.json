@@ -18,7 +18,10 @@
         10,
         11,
         12,
-        13
+        13,
+        14,
+        15,
+        16
       ]
     },
     {
@@ -94,7 +97,8 @@
         4,
         5,
         8,
-        11
+        11,
+        15
       ]
     },
     {
@@ -121,7 +125,8 @@
         9,
         11,
         12,
-        13
+        13,
+        15
       ]
     },
     {
@@ -132,7 +137,8 @@
       "capitulos": [
         3,
         10,
-        11
+        11,
+        14
       ]
     },
     {
@@ -148,7 +154,9 @@
         8,
         9,
         11,
-        12
+        12,
+        15,
+        16
       ]
     },
     {
@@ -157,7 +165,8 @@
       "categoria": "autoridad-religiosa",
       "descripcion": "Junto con los fariseos, uno de los grupos religiosos más influyentes del judaísmo del siglo I que se acercan al bautismo de Juan y reciben de él una fuerte confrontación por buscar la forma religiosa sin arrepentimiento genuino.",
       "capitulos": [
-        3
+        3,
+        16
       ]
     },
     {
@@ -171,7 +180,8 @@
         9,
         10,
         12,
-        13
+        13,
+        16
       ]
     },
     {
@@ -184,7 +194,9 @@
         5,
         8,
         10,
-        11
+        11,
+        14,
+        16
       ]
     },
     {
@@ -205,7 +217,8 @@
       "descripcion": "Hermano de Simón Pedro, también pescador de Galilea. Antes de seguir a Jesús fue discípulo de Juan el Bautista. En el evangelio aparece frecuentemente como el que conecta a otros con Jesús: un hombre de segundo plano con un ministerio de conexión.",
       "capitulos": [
         4,
-        10
+        10,
+        14
       ]
     },
     {
@@ -248,7 +261,8 @@
       "categoria": "otro",
       "descripcion": "Profeta del Antiguo Testamento que pasó tres días y tres noches en el vientre de un gran pez tras huir de la misión que Dios le encomendó en Nínive. Jesús usa su historia como 'la señal de Jonás': un anuncio en clave de su propia muerte y resurrección, y contrasta el arrepentimiento masivo de los ninivitas paganos con la incredulidad de 'esta generación'.",
       "capitulos": [
-        12
+        12,
+        16
       ]
     },
     {
@@ -267,6 +281,33 @@
       "descripcion": "Identificada tradicionalmente con la reina de Sabá (1 Reyes 10), viajó desde los confines del mundo conocido solo para escuchar la sabiduría de Salomón, sin acceso a las Escrituras ni herencia del pacto. Jesús la presenta como testigo que condenará en el juicio a quienes, con mucho más acceso a la revelación de Dios, no respondieron.",
       "capitulos": [
         12
+      ]
+    },
+    {
+      "id": "herodes-antipas",
+      "nombre": "Herodes Antipas",
+      "categoria": "autoridad-politica",
+      "descripcion": "Hijo de Herodes el Grande, tetrarca de Galilea y Perea bajo el dominio de Roma: un gobernante con poder real pero prestado, siempre dependiente del Imperio para sostener su posición. Encarceló y luego decapitó a Juan el Bautista por denunciar su matrimonio con Herodías, esposa de su hermano Felipe -una decisión que tomó entristecido, no por convicción sino por el miedo a quedar mal ante sus invitados. Más adelante, al oír de los milagros de Jesús, su conciencia culpable lo llevó a pensar que Juan había resucitado.",
+      "capitulos": [
+        14
+      ]
+    },
+    {
+      "id": "herodias",
+      "nombre": "Herodías",
+      "categoria": "otro",
+      "descripcion": "Nieta de Herodes el Grande, casada primero con su tío Herodes Felipe y luego con otro tío, Herodes Antipas, en un matrimonio que violaba abiertamente la Ley de Moisés. Juan el Bautista la confrontó repetidamente por esto, y ella esperó el momento para vengarse: usó la danza de su hija en el banquete de cumpleaños de Antipas para obtener, por juramento imprudente del tetrarca, la cabeza de Juan en una bandeja.",
+      "capitulos": [
+        14
+      ]
+    },
+    {
+      "id": "mujer-cananea",
+      "nombre": "La mujer cananea",
+      "categoria": "otro",
+      "descripcion": "Mujer gentil de la región de Tiro y Sidón que se acerca a Jesús clamando «Señor, Hijo de David» por su hija atormentada por un demonio. Aunque la respuesta inicial de Jesús parece reservar la misión a Israel, ella no se rinde, y su respuesta -«aun los perros comen de las migajas que caen de la mesa de sus amos»- es declarada por Jesús como una fe grande, la misma expresión que había usado para el centurión romano: otro gentil que vio con claridad lo que muchos de adentro no alcanzaban a ver.",
+      "capitulos": [
+        15
       ]
     }
   ]
