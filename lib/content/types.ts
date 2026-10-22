@@ -7,6 +7,8 @@ export interface Versiculo {
   griego_ids: string[];
   personaje_ids: string[];
   lugar_ids: string[];
+  cita_at_ids?: string[];
+  paralelo_ids?: string[];
 }
 
 export interface ChapterEntry {
@@ -22,6 +24,8 @@ export interface ChapterEntry {
 export interface GlosarioTermino {
   id: string;
   griego: string;
+  lema: string;
+  morfologia: string;
   transliteracion: string;
   significado: string;
   palabra: string;
@@ -53,6 +57,20 @@ export interface ContextoEntry {
   texto: string;
 }
 
+export interface CitaAT {
+  id: string;
+  referencia: string;
+  nota: string;
+  capitulos: number[];
+}
+
+export interface Paralelo {
+  id: string;
+  referencia: string;
+  nota?: string;
+  capitulos: number[];
+}
+
 export interface ChapterBlock {
   from: number;
   to: number;
@@ -62,4 +80,6 @@ export interface ChapterBlock {
   greekIds: string[];
   personajeIds: string[];
   lugarIds: string[];
+  citaAtIds: string[];
+  paraleloIds: string[];
 }

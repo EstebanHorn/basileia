@@ -1,0 +1,220 @@
+{
+  "citas": [
+    {
+      "id": "cita-1-23",
+      "referencia": "Isaías 7:14",
+      "nota": "Isaías anunciaba una señal para el rey Acaz en el siglo VIII a.C. Mateo la retoma para mostrar que en Jesús se cumple de forma definitiva: Dios mismo viene a estar con su pueblo.",
+      "capitulos": [
+        1
+      ]
+    },
+    {
+      "id": "cita-2-6",
+      "referencia": "Miqueas 5:2",
+      "nota": "Miqueas profetizó que de la pequeña Belén, y no de la capital Jerusalén, saldría el gobernante prometido a Israel — el detalle geográfico que los magos y los líderes religiosos confirman sin buscarlo.",
+      "capitulos": [
+        2
+      ]
+    },
+    {
+      "id": "cita-2-15",
+      "referencia": "Oseas 11:1",
+      "nota": "En Oseas, \"mi hijo\" es Israel, llamado fuera de Egipto en el éxodo. Mateo aplica la misma frase a Jesús, presentándolo como quien resume y repite la historia de su pueblo.",
+      "capitulos": [
+        2
+      ]
+    },
+    {
+      "id": "cita-2-18",
+      "referencia": "Jeremías 31:15",
+      "nota": "Jeremías describe el llanto de Raquel por el exilio de sus descendientes a Babilonia; Mateo la vuelve a citar ante otra masacre de inocentes, sin suavizar el horror del texto.",
+      "capitulos": [
+        2
+      ]
+    },
+    {
+      "id": "cita-2-23",
+      "referencia": "Isaías 11:1 (alusión; no es una cita directa de un solo pasaje)",
+      "nota": "A diferencia de las citas anteriores, \"será llamado nazareno\" no proviene de un solo versículo: probablemente juega con néser (\"vástago\", Isaías 11:1) y con el estatus marginal de Nazaret, un pueblo sin relevancia política ni religiosa.",
+      "capitulos": [
+        2
+      ]
+    },
+    {
+      "id": "cita-3-3",
+      "referencia": "Isaías 40:3",
+      "nota": "Isaías anunciaba el regreso de Dios a Jerusalén tras el exilio; Mateo identifica a Juan el Bautista como esa voz que prepara el camino, ahora para la llegada del propio Jesús.",
+      "capitulos": [
+        3
+      ]
+    },
+    {
+      "id": "cita-4-4",
+      "referencia": "Deuteronomio 8:3",
+      "nota": "Jesús responde a la primera tentación citando el mismo pasaje que recuerda cómo Dios alimentó a Israel en el desierto con maná: la obediencia a la palabra de Dios importa más que satisfacer el hambre inmediata.",
+      "capitulos": [
+        4
+      ]
+    },
+    {
+      "id": "cita-4-6",
+      "referencia": "Salmo 91:11-12 (citado por el diablo)",
+      "nota": "El diablo también cita Escritura, pero la saca de su contexto: el salmo habla de confianza en medio del peligro, no de una invitación a provocar a Dios con actos temerarios.",
+      "capitulos": [
+        4
+      ]
+    },
+    {
+      "id": "cita-4-7",
+      "referencia": "Deuteronomio 6:16",
+      "nota": "Jesús corrige la cita manipulada del diablo con otro pasaje de Deuteronomio: Israel no debe poner a prueba a Dios como lo hizo en Masá, dudando de su fidelidad.",
+      "capitulos": [
+        4
+      ]
+    },
+    {
+      "id": "cita-4-10",
+      "referencia": "Deuteronomio 6:13",
+      "nota": "Frente a la oferta de todos los reinos del mundo, Jesús responde con el mandamiento central de Israel: solo a Dios se le adora y solo a él se le sirve.",
+      "capitulos": [
+        4
+      ]
+    },
+    {
+      "id": "cita-4-16",
+      "referencia": "Isaías 9:1-2",
+      "nota": "Isaías hablaba de la oscuridad del exilio asirio sobre Galilea; Mateo muestra que es precisamente allí, en una región despreciada y mixta, donde comienza a brillar la luz del ministerio de Jesús.",
+      "capitulos": [
+        4
+      ]
+    },
+    {
+      "id": "cita-5-21",
+      "referencia": "Éxodo 20:13; Deuteronomio 5:17",
+      "nota": "Jesús no abole el mandamiento \"no matarás\": lo profundiza, mostrando que la raíz del homicidio —el odio y el desprecio sostenidos en el corazón— ya requiere atención antes de llegar al acto.",
+      "capitulos": [
+        5
+      ]
+    },
+    {
+      "id": "cita-5-27",
+      "referencia": "Éxodo 20:14; Deuteronomio 5:18",
+      "nota": "De la misma manera que con el homicidio, Jesús lleva el mandamiento contra el adulterio a su raíz: el deseo que se alimenta y se queda, no solo el acto consumado.",
+      "capitulos": [
+        5
+      ]
+    },
+    {
+      "id": "cita-5-38",
+      "referencia": "Éxodo 21:24; Levítico 24:20",
+      "nota": "La ley del \"ojo por ojo\" buscaba limitar la venganza a una proporción justa; Jesús va más allá de limitarla y llama a renunciar a ella por completo frente al agravio personal.",
+      "capitulos": [
+        5
+      ]
+    },
+    {
+      "id": "cita-5-43",
+      "referencia": "Levítico 19:18",
+      "nota": "\"Amarás a tu prójimo\" sí viene de la Ley; \"odiarás a tu enemigo\" no — es una adición popular que Jesús rechaza explícitamente al mandar amar también al enemigo.",
+      "capitulos": [
+        5
+      ]
+    },
+    {
+      "id": "cita-8-17",
+      "referencia": "Isaías 53:4",
+      "nota": "El Siervo sufriente de Isaías carga enfermedades y dolores; Mateo ve esa profecía cumplida no en la cruz todavía, sino en las sanidades físicas de Jesús — el mismo poder que después cargará el pecado.",
+      "capitulos": [
+        8
+      ]
+    },
+    {
+      "id": "cita-9-13",
+      "referencia": "Oseas 6:6",
+      "nota": "Dios, por medio de Oseas, ya había dejado claro que prefiere un corazón compasivo al cumplimiento ritual vacío; Jesús usa la misma frase para justificar por qué come con \"pecadores\".",
+      "capitulos": [
+        9
+      ]
+    },
+    {
+      "id": "cita-11-10",
+      "referencia": "Malaquías 3:1",
+      "nota": "Malaquías anunciaba un mensajero que prepararía el camino antes de la llegada de Dios; Jesús identifica a Juan el Bautista con esa figura, cerrando la época de los profetas.",
+      "capitulos": [
+        11
+      ]
+    },
+    {
+      "id": "cita-12-7",
+      "referencia": "Oseas 6:6",
+      "nota": "Jesús vuelve a citar el mismo pasaje que en Mateo 9:13, ahora frente a la acusación de que sus discípulos violan el sábado: la misericordia pesa más que la observancia ritual estricta.",
+      "capitulos": [
+        12
+      ]
+    },
+    {
+      "id": "cita-12-18",
+      "referencia": "Isaías 42:1-4",
+      "nota": "El primer Canto del Siervo describe a alguien elegido por Dios que no impone su autoridad a la fuerza ni se da por vencido con los débiles; Mateo lo aplica al Jesús que evita la confrontación pública y sana con mansedumbre.",
+      "capitulos": [
+        12
+      ]
+    },
+    {
+      "id": "cita-12-40",
+      "referencia": "Jonás 1:17",
+      "nota": "Jesús usa los tres días de Jonás en el vientre del pez como figura anticipada de su propia muerte y resurrección — la única señal que dará a una generación que exige pruebas.",
+      "capitulos": [
+        12
+      ]
+    },
+    {
+      "id": "cita-13-14",
+      "referencia": "Isaías 6:9-10",
+      "nota": "El mismo texto que Dios le dio a Isaías para describir un pueblo endurecido que ve sin percibir se repite en tiempos de Jesús: las parábolas revelan a quien quiere ver y esconden a quien ya decidió no hacerlo.",
+      "capitulos": [
+        13
+      ]
+    },
+    {
+      "id": "cita-13-35",
+      "referencia": "Salmo 78:2",
+      "nota": "El salmista ya usaba parábolas para contar la historia de Dios con Israel; Mateo ve en el método de enseñanza de Jesús el cumplimiento de ese mismo patrón: revelar misterios antiguos de una forma nueva.",
+      "capitulos": [
+        13
+      ]
+    },
+    {
+      "id": "cita-14-20",
+      "referencia": "2 Reyes 4:42-44 (eco tipológico, no cita directa)",
+      "nota": "Así como Eliseo multiplicó panes de cebada para alimentar a cien hombres con sobras, Jesús multiplica panes y peces para más de cinco mil, sin que la escena cite a Eliseo de forma explícita: la comparación se insinúa en la propia estructura del relato.",
+      "capitulos": [
+        14
+      ]
+    },
+    {
+      "id": "cita-15-4",
+      "referencia": "Éxodo 20:12; Deuteronomio 5:16",
+      "nota": "Jesús cita directamente el mandamiento de honrar a los padres para denunciar cómo la tradición del \"corbán\" lo anulaba en la práctica: la letra religiosa usada para esquivar la obediencia real.",
+      "capitulos": [
+        15
+      ]
+    },
+    {
+      "id": "cita-15-8",
+      "referencia": "Isaías 29:13",
+      "nota": "Isaías ya había descrito una religiosidad de labios que no nace del corazón; Jesús aplica la misma acusación a los fariseos de su tiempo, cuyas tradiciones reemplazan el mandamiento de Dios.",
+      "capitulos": [
+        15
+      ]
+    },
+    {
+      "id": "cita-16-4",
+      "referencia": "Jonás 1:17 (repetición de Mateo 12:39-40)",
+      "nota": "Ante fariseos y saduceos que vuelven a exigir una señal del cielo, Jesús repite la misma respuesta que ya había dado: la señal de Jonás, figura de su muerte y resurrección, es la única que recibirán.",
+      "capitulos": [
+        16
+      ]
+    }
+  ]
+}

@@ -7,6 +7,9 @@ import { usePathname, useRouter } from 'next/navigation';
 import { useApp } from '@/lib/app-context';
 import { useAuth } from '@/lib/supabase/auth-context';
 import { locales } from '@/lib/i18n/config';
+import Pressable from './Pressable';
+
+const LOCALE_NAMES: Record<string, string> = { es: 'Español', pt: 'Português' };
 
 function setLocaleCookie(next: string) {
   document.cookie = `NEXT_LOCALE=${next}; path=/; max-age=31536000`;
@@ -27,6 +30,7 @@ export default function TopNav() {
     ['personajes', dict.nav.personajes],
     ['glosario', dict.nav.glosario],
     ['contexto', dict.nav.contexto],
+    ['paralelos', dict.nav.paralelos],
     ['notas', dict.nav.notas],
   ].map(([key, label]) => [key, label]);
 
@@ -100,13 +104,35 @@ export default function TopNav() {
           ))}
         </div>
 
+        <Link
+          href={`/${lang}/buscar`}
+          aria-label={dict.buscar.navLabel}
+          style={{
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            flexShrink: 0,
+            width: 34,
+            height: 34,
+            borderRadius: 8,
+            border: `1px solid ${colors.border}`,
+            color: activeSegment === 'buscar' ? colors.accent : colors.text,
+          }}
+        >
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2.2} aria-hidden="true">
+            <circle cx="11" cy="11" r="7"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+        </Link>
+
         <div style={{ display: 'flex', gap: 4, flexShrink: 0 }}>
           {locales.map((l) => (
-            <div
+            <Pressable
               key={l}
               onClick={() => switchLocale(l)}
+              aria-label={LOCALE_NAMES[l]}
+              aria-current={l === lang ? 'true' : undefined}
               style={{
-                cursor: 'pointer',
                 fontSize: 12,
                 fontWeight: 700,
                 padding: '6px 8px',
@@ -117,14 +143,14 @@ export default function TopNav() {
               }}
             >
               {l}
-            </div>
+            </Pressable>
           ))}
         </div>
 
-        <div
+        <Pressable
           onClick={toggleTheme}
+          aria-label={dict.topnav.cambiarTema}
           style={{
-            cursor: 'pointer',
             flexShrink: 0,
             width: 34,
             height: 34,
@@ -146,31 +172,27 @@ export default function TopNav() {
             <line x1="4.9" y1="19.1" x2="6.3" y2="17.7"></line>
             <line x1="17.7" y1="6.3" x2="19.1" y2="4.9"></line>
           </svg>
-        </div>
+        </Pressable>
 
         <div className="topnav-desktop-only" style={{ gap: 16, alignItems: 'center', flexShrink: 0 }}>
           {userLabel ? (
             <>
               <div style={{ fontSize: 13.5, color: colors.muted, whiteSpace: 'nowrap' }}>{userLabel}</div>
-              <div
-                onClick={signOut}
-                style={{ cursor: 'pointer', fontSize: 14, fontWeight: 600, color: colors.text, whiteSpace: 'nowrap' }}
-              >
+              <Pressable onClick={signOut} style={{ fontSize: 14, fontWeight: 600, color: colors.text, whiteSpace: 'nowrap' }}>
                 {dict.topnav.logout}
-              </div>
+              </Pressable>
             </>
           ) : (
             <>
-              <div
+              <Pressable
                 onClick={() => openAuthModal('login')}
-                style={{ cursor: 'pointer', fontSize: 14, fontWeight: 600, color: colors.text, whiteSpace: 'nowrap' }}
+                style={{ fontSize: 14, fontWeight: 600, color: colors.text, whiteSpace: 'nowrap' }}
               >
                 {dict.topnav.login}
-              </div>
-              <div
+              </Pressable>
+              <Pressable
                 onClick={() => openAuthModal('register')}
                 style={{
-                  cursor: 'pointer',
                   fontSize: 14,
                   fontWeight: 600,
                   color: '#fff',
@@ -181,16 +203,17 @@ export default function TopNav() {
                 }}
               >
                 {dict.topnav.register}
-              </div>
+              </Pressable>
             </>
           )}
         </div>
 
-        <div
+        <Pressable
           className="topnav-mobile-only"
           onClick={() => setMobileMenuOpen((v) => !v)}
+          aria-label={mobileMenuOpen ? dict.topnav.cerrarMenu : dict.topnav.abrirMenu}
+          aria-expanded={mobileMenuOpen}
           style={{
-            cursor: 'pointer',
             flexShrink: 0,
             width: 34,
             height: 34,
@@ -205,7 +228,7 @@ export default function TopNav() {
             <line x1="3" y1="12" x2="21" y2="12"></line>
             <line x1="3" y1="18" x2="21" y2="18"></line>
           </svg>
-        </div>
+        </Pressable>
       </div>
 
       {mobileMenuOpen && (
@@ -218,6 +241,19 @@ export default function TopNav() {
             gap: 2,
           }}
         >
+          <Link
+            href={`/${lang}/buscar`}
+            onClick={() => setMobileMenuOpen(false)}
+            style={{
+              padding: '11px 4px',
+              fontSize: 15,
+              fontWeight: activeSegment === 'buscar' ? 700 : 500,
+              color: activeSegment === 'buscar' ? colors.accent : colors.text,
+              borderBottom: `1px solid ${colors.border}`,
+            }}
+          >
+            {dict.buscar.navLabel}
+          </Link>
           {navItems.map(([key, label]) => (
             <Link
               key={key}
@@ -238,11 +274,11 @@ export default function TopNav() {
           {userLabel ? (
             <div style={{ marginTop: 14 }}>
               <div style={{ fontSize: 13.5, color: colors.muted, marginBottom: 10 }}>{userLabel}</div>
-              <div
+              <Pressable
                 onClick={signOut}
                 style={{
+                  width: '100%',
                   textAlign: 'center',
-                  cursor: 'pointer',
                   fontSize: 14,
                   fontWeight: 600,
                   color: colors.text,
@@ -252,11 +288,11 @@ export default function TopNav() {
                 }}
               >
                 {dict.topnav.logout}
-              </div>
+              </Pressable>
             </div>
           ) : (
             <div style={{ display: 'flex', gap: 10, marginTop: 14 }}>
-              <div
+              <Pressable
                 onClick={() => {
                   setMobileMenuOpen(false);
                   openAuthModal('login');
@@ -264,7 +300,6 @@ export default function TopNav() {
                 style={{
                   flex: 1,
                   textAlign: 'center',
-                  cursor: 'pointer',
                   fontSize: 14,
                   fontWeight: 600,
                   color: colors.text,
@@ -274,8 +309,8 @@ export default function TopNav() {
                 }}
               >
                 {dict.topnav.login}
-              </div>
-              <div
+              </Pressable>
+              <Pressable
                 onClick={() => {
                   setMobileMenuOpen(false);
                   openAuthModal('register');
@@ -283,7 +318,6 @@ export default function TopNav() {
                 style={{
                   flex: 1,
                   textAlign: 'center',
-                  cursor: 'pointer',
                   fontSize: 14,
                   fontWeight: 600,
                   color: '#fff',
@@ -293,7 +327,7 @@ export default function TopNav() {
                 }}
               >
                 {dict.topnav.register}
-              </div>
+              </Pressable>
             </div>
           )}
         </div>

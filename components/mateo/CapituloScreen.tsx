@@ -6,8 +6,9 @@ import { useApp } from '@/lib/app-context';
 import { useNotes } from '@/lib/supabase/use-notes';
 import { writePersistedState } from '@/lib/persisted-state';
 import type { ChapterMeta, Section } from '@/lib/content/editorial';
-import type { ChapterBlock, ContextoEntry, GlosarioTermino, Lugar, Personaje } from '@/lib/content/types';
+import type { ChapterBlock, CitaAT, ContextoEntry, GlosarioTermino, Lugar, Paralelo, Personaje } from '@/lib/content/types';
 import { MAX_CHAPTER } from '@/lib/content/editorial';
+import Pressable from './Pressable';
 
 interface CapituloScreenProps {
   currentChapter: number;
@@ -19,6 +20,8 @@ interface CapituloScreenProps {
   glosarioById: Record<string, GlosarioTermino>;
   personajesById: Record<string, Personaje>;
   lugaresById: Record<string, Lugar>;
+  citasAtById: Record<string, CitaAT>;
+  paralelosById: Record<string, Paralelo>;
 }
 
 interface Segment {
@@ -27,7 +30,7 @@ interface Segment {
   term?: GlosarioTermino;
 }
 
-function segmentText(text: string, terms: GlosarioTermino[]): Segment[] {
+export function segmentText(text: string, terms: GlosarioTermino[]): Segment[] {
   const lower = text.toLowerCase();
   const matches = terms
     .filter((t) => t.palabra)
@@ -68,11 +71,15 @@ export default function CapituloScreen({
   glosarioById,
   personajesById,
   lugaresById,
+  citasAtById,
+  paralelosById,
 }: CapituloScreenProps) {
   const { colors, lang, dict, isMobile, openAuthModal } = useApp();
-  const { notes, saveNote, locked: notesLocked } = useNotes();
+  const { notes, saveNote, locked: notesLocked, status: noteStatusByChapter, retry: retryNote } = useNotes();
+  const noteStatus = noteStatusByChapter[currentChapter] ?? 'idle';
   const [soloTexto, setSoloTexto] = useState(false);
   const [openTerm, setOpenTerm] = useState<string | null>(null);
+  const [openRef, setOpenRef] = useState<string | null>(null);
   const [openContextId, setOpenContextId] = useState<string | null>(contextos[0]?.id ?? null);
 
   function TermSpan({ id, term, children }: { id: string; term: GlosarioTermino; children: string }) {
@@ -80,7 +87,17 @@ export default function CapituloScreen({
     return (
       <span style={{ position: 'relative', display: 'inline-block' }}>
         <span
+          role="button"
+          tabIndex={0}
+          aria-expanded={open}
           onClick={() => setOpenTerm(open ? null : id)}
+          onKeyDown={(e) => {
+            if (e.key === 'Enter' || e.key === ' ') {
+              e.preventDefault();
+              setOpenTerm(open ? null : id);
+            }
+            if (e.key === 'Escape') setOpenTerm(null);
+          }}
           onMouseEnter={() => !isMobile && setOpenTerm(id)}
           onMouseLeave={() => !isMobile && setOpenTerm((cur) => (cur === id ? null : cur))}
           style={{ color: colors.accent, borderBottom: `2px solid ${colors.accent}`, cursor: 'pointer', fontWeight: 600 }}
@@ -109,10 +126,17 @@ export default function CapituloScreen({
               whiteSpace: 'normal',
             }}
           >
-            <span style={{ display: 'block', marginBottom: 6 }}>
+            <span style={{ display: 'block', marginBottom: 4 }}>
               <span style={{ fontFamily: 'var(--font-lora), serif', fontSize: 17, marginRight: 8 }}>{term.griego}</span>
-              <span style={{ fontWeight: 700 }}>{term.transliteracion}</span> — {term.significado}
+              <span style={{ fontWeight: 700 }}>{term.transliteracion}</span>
             </span>
+            {term.lema !== term.griego && (
+              <span style={{ display: 'block', fontSize: 12.5, color: colors.muted, marginBottom: 4 }}>
+                {dict.capitulo.lemaLabel}: <span style={{ fontFamily: 'var(--font-lora), serif' }}>{term.lema}</span>
+              </span>
+            )}
+            <span style={{ display: 'block', fontSize: 12, fontWeight: 600, color: colors.accent, marginBottom: 6 }}>{term.morfologia}</span>
+            <span style={{ display: 'block', marginBottom: 6 }}>{term.significado}</span>
             <span style={{ display: 'block', color: colors.muted, fontSize: 13 }}>{term.nota}</span>
           </span>
         )}
@@ -154,7 +178,11 @@ export default function CapituloScreen({
           <div style={{ fontSize: 12.5, color: colors.muted, textTransform: 'uppercase', letterSpacing: '.05em' }}>
             {section ? section.name : ''}
           </div>
-          <div onClick={() => setSoloTexto((v) => !v)} style={{ display: 'flex', alignItems: 'center', gap: 7, cursor: 'pointer', fontSize: 13, color: colors.muted }}>
+          <Pressable
+            onClick={() => setSoloTexto((v) => !v)}
+            aria-pressed={soloTexto}
+            style={{ display: 'flex', alignItems: 'center', gap: 7, fontSize: 13, color: colors.muted }}
+          >
             <div style={{ width: 32, height: 18, borderRadius: 10, background: soloTexto ? colors.accent : colors.border, position: 'relative' }}>
               <div
                 style={{
@@ -170,7 +198,7 @@ export default function CapituloScreen({
               />
             </div>
             {dict.capitulo.soloTexto}
-          </div>
+          </Pressable>
         </div>
 
         <h1 style={{ fontFamily: 'var(--font-lora), serif', fontSize: 36, fontWeight: 600, margin: '0 0 4px' }}>
@@ -194,6 +222,8 @@ export default function CapituloScreen({
               const greekTerms = block.greekIds.map((id) => glosarioById[id]).filter(Boolean);
               const personajes = block.personajeIds.map((id) => personajesById[id]).filter(Boolean);
               const lugares = block.lugarIds.map((id) => lugaresById[id]).filter(Boolean);
+              const citas = block.citaAtIds.map((id) => citasAtById[id]).filter(Boolean);
+              const paralelos = block.paraleloIds.map((id) => paralelosById[id]).filter(Boolean);
               const textSegments = segmentText(block.text, greekTerms);
               const commentaryParagraphs = block.commentary
                 .split('\n\n')
@@ -281,6 +311,69 @@ export default function CapituloScreen({
                         </div>
                       )}
 
+                      {(citas.length > 0 || paralelos.length > 0) && (
+                        <div style={{ marginBottom: 14 }}>
+                          <div style={{ display: 'flex', flexWrap: 'wrap', gap: 8 }}>
+                            {citas.map((c) => {
+                              const open = openRef === c.id;
+                              return (
+                                <Pressable
+                                  key={c.id}
+                                  onClick={() => setOpenRef(open ? null : c.id)}
+                                  aria-expanded={open}
+                                  style={{
+                                    fontSize: 12.5,
+                                    fontWeight: 600,
+                                    padding: '5px 10px',
+                                    borderRadius: 14,
+                                    border: `1px solid ${colors.accent}`,
+                                    background: open ? colors.accent : 'transparent',
+                                    color: open ? '#fff' : colors.accent,
+                                  }}
+                                >
+                                  {dict.capitulo.citaAtChip(c.referencia)}
+                                </Pressable>
+                              );
+                            })}
+                            {paralelos.map((p) => {
+                              const open = openRef === p.id;
+                              return (
+                                <Pressable
+                                  key={p.id}
+                                  onClick={() => setOpenRef(open ? null : p.id)}
+                                  aria-expanded={open}
+                                  style={{
+                                    fontSize: 12.5,
+                                    fontWeight: 600,
+                                    padding: '5px 10px',
+                                    borderRadius: 14,
+                                    border: `1px solid ${colors.border}`,
+                                    background: open ? colors.text : 'transparent',
+                                    color: open ? colors.bg : colors.text,
+                                  }}
+                                >
+                                  {dict.capitulo.paraleloChip(p.referencia)}
+                                </Pressable>
+                              );
+                            })}
+                          </div>
+                          {citas
+                            .filter((c) => c.id === openRef)
+                            .map((c) => (
+                              <p key={c.id} style={{ fontSize: 13.5, lineHeight: 1.6, color: colors.muted, margin: '8px 0 0' }}>
+                                {c.nota}
+                              </p>
+                            ))}
+                          {paralelos
+                            .filter((p) => p.id === openRef && p.nota)
+                            .map((p) => (
+                              <p key={p.id} style={{ fontSize: 13.5, lineHeight: 1.6, color: colors.muted, margin: '8px 0 0' }}>
+                                {p.nota}
+                              </p>
+                            ))}
+                        </div>
+                      )}
+
                       <a href={waLink} target="_blank" rel="noreferrer" style={{ display: 'inline-flex', alignItems: 'center', gap: 6, fontSize: 12.5, color: colors.muted }}>
                         <svg width="14" height="14" viewBox="0 0 24 24" fill={colors.muted}>
                           <path d="M12 2C6.5 2 2 6.5 2 12c0 1.8.5 3.5 1.3 5L2 22l5.2-1.4c1.4.8 3.1 1.2 4.8 1.2 5.5 0 10-4.5 10-10S17.5 2 12 2zm0 18.2c-1.6 0-3.1-.4-4.4-1.2l-.3-.2-3.1.8.8-3-.2-.3C4 14.9 3.8 13.5 3.8 12 3.8 7.5 7.5 3.8 12 3.8S20.2 7.5 20.2 12 16.5 20.2 12 20.2z"></path>
@@ -329,10 +422,9 @@ export default function CapituloScreen({
                     >
                       <div style={{ fontSize: 14, color: colors.muted, marginBottom: 14 }}>{dict.capitulo.loginPrompt}</div>
                       <div style={{ display: 'flex', gap: 10, justifyContent: 'center' }}>
-                        <div
+                        <Pressable
                           onClick={() => openAuthModal('login')}
                           style={{
-                            cursor: 'pointer',
                             fontSize: 13.5,
                             fontWeight: 600,
                             color: colors.text,
@@ -343,11 +435,10 @@ export default function CapituloScreen({
                           }}
                         >
                           {dict.capitulo.iniciarSesion}
-                        </div>
-                        <div
+                        </Pressable>
+                        <Pressable
                           onClick={() => openAuthModal('register')}
                           style={{
-                            cursor: 'pointer',
                             fontSize: 13.5,
                             fontWeight: 600,
                             color: '#fff',
@@ -357,27 +448,41 @@ export default function CapituloScreen({
                           }}
                         >
                           {dict.capitulo.crearCuenta}
-                        </div>
+                        </Pressable>
                       </div>
                     </div>
                   ) : (
-                    <textarea
-                      value={notesValue}
-                      onChange={(e) => saveNote(currentChapter, e.target.value)}
-                      placeholder={dict.capitulo.notaPlaceholder}
-                      style={{
-                        width: '100%',
-                        minHeight: 90,
-                        border: `1px solid ${colors.border}`,
-                        borderRadius: 8,
-                        padding: 12,
-                        fontFamily: 'var(--font-inter), sans-serif',
-                        fontSize: 14.5,
-                        background: colors.bg,
-                        color: colors.text,
-                        resize: 'vertical',
-                      }}
-                    />
+                    <div>
+                      <textarea
+                        value={notesValue}
+                        onChange={(e) => saveNote(currentChapter, e.target.value)}
+                        placeholder={dict.capitulo.notaPlaceholder}
+                        style={{
+                          width: '100%',
+                          minHeight: 90,
+                          border: `1px solid ${colors.border}`,
+                          borderRadius: 8,
+                          padding: 12,
+                          fontFamily: 'var(--font-inter), sans-serif',
+                          fontSize: 14.5,
+                          background: colors.bg,
+                          color: colors.text,
+                          resize: 'vertical',
+                        }}
+                      />
+                      <div style={{ marginTop: 6, fontSize: 12.5, color: colors.muted, display: 'flex', alignItems: 'center', gap: 8 }}>
+                        {noteStatus === 'saving' && dict.capitulo.guardando}
+                        {noteStatus === 'saved' && dict.capitulo.guardado}
+                        {noteStatus === 'error' && (
+                          <>
+                            <span style={{ color: colors.accent }}>{dict.capitulo.errorGuardado}</span>
+                            <Pressable onClick={() => retryNote(currentChapter)} style={{ color: colors.accent, fontWeight: 600 }}>
+                              {dict.capitulo.reintentarGuardado}
+                            </Pressable>
+                          </>
+                        )}
+                      </div>
+                    </div>
                   )}
                 </div>
               </div>
@@ -419,15 +524,16 @@ export default function CapituloScreen({
           {contextos.length > 0 ? (
             contextos.map((ctx) => (
               <div key={ctx.id} style={{ border: `1px solid ${colors.border}`, borderRadius: 10, overflow: 'hidden', background: colors.panel }}>
-                <div
+                <Pressable
                   onClick={() => setOpenContextId(openContextId === ctx.id ? null : ctx.id)}
-                  style={{ padding: '14px 18px', background: colors.subtle, display: 'flex', justifyContent: 'space-between', alignItems: 'center', cursor: 'pointer', gap: 10 }}
+                  aria-expanded={openContextId === ctx.id}
+                  style={{ width: '100%', padding: '14px 18px', background: colors.subtle, display: 'flex', justifyContent: 'space-between', alignItems: 'center', gap: 10 }}
                 >
                   <span style={{ fontWeight: 600, fontSize: 14 }}>
                     {dict.capitulo.contexto}: {ctx.titulo}
                   </span>
                   <span style={{ color: colors.accent, fontWeight: 700, flexShrink: 0 }}>{openContextId === ctx.id ? '−' : '+'}</span>
-                </div>
+                </Pressable>
                 {openContextId === ctx.id && (
                   <div style={{ padding: '16px 18px', fontSize: 14, lineHeight: 1.65, color: colors.muted }}>{ctx.texto}</div>
                 )}

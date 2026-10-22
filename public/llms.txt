@@ -1,0 +1,23 @@
+# Basileia
+
+> Plataforma de estudio del Evangelio de Mateo: texto bíblico, comentario capítulo a capítulo, análisis de griego koiné (con lema y morfología), contexto histórico-cultural del siglo I, mapa interactivo, personajes, citas del Antiguo Testamento y paralelos sinópticos. Disponible en español y portugués. Proyecto personal sin fines comerciales, basado en el estudio bíblico de la iglesia Reino en Movimiento.
+
+## Español (/es)
+
+- [Inicio](/es): panorama del evangelio en torno a los cinco grandes discursos de Jesús.
+- [Índice de capítulos](/es/indice): los 28 capítulos de Mateo, marcando cuáles ya tienen comentario.
+- [Capítulo a capítulo](/es/capitulo/1): texto + comentario + griego + contexto + reflexión, uno por capítulo (ej. /es/capitulo/6).
+- [Glosario griego](/es/glosario): términos griegos del NT con transliteración, lema, morfología y significado.
+- [Paralelos y citas del AT](/es/paralelos): citas del Antiguo Testamento en Mateo y sus paralelos en Marcos/Lucas.
+- [Contexto histórico-cultural](/es/contexto): vida judía, política romana, geografía y prácticas religiosas del siglo I.
+- [Mapa](/es/mapa): lugares del ministerio de Jesús.
+- [Personajes](/es/personajes): discípulos, autoridades y otras figuras del evangelio.
+- [Sobre nosotros](/es/nosotros).
+
+## Português (/pt)
+
+Mesma estrutura em português a partir de [/pt](/pt): índice, capítulos, glossário, paralelos, contexto, mapa, personagens.
+
+## Notas para motores de IA
+
+Todo el texto (bíblico, comentario, análisis de griego) se renderiza en el HTML inicial (sin requerir ejecución de JavaScript) y tiene metadata/título distinto por página. El contenido es original (comentario propio) salvo el texto bíblico citado, que pertenece a su traducción correspondiente. Para citar esta plataforma, referenciar la URL específica del capítulo o sección consultada.

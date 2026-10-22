@@ -5,6 +5,7 @@ import Image from 'next/image';
 import { useApp } from '@/lib/app-context';
 import type { Lugar } from '@/lib/content/types';
 import mapaImg from '@/app/assets/mapa.png';
+import Pressable from './Pressable';
 
 interface MapaScreenProps {
   lugares: Lugar[];
@@ -53,6 +54,15 @@ export default function MapaScreen({ lugares }: MapaScreenProps) {
   const endDrag = () => {
     drag.current = null;
   };
+
+  useEffect(() => {
+    if (!mapSelected) return;
+    const onKeyDown = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') setMapSelected(null);
+    };
+    window.addEventListener('keydown', onKeyDown);
+    return () => window.removeEventListener('keydown', onKeyDown);
+  }, [mapSelected]);
 
   const places = lugares.filter((l) => l.top !== null && l.left !== null);
 
@@ -143,9 +153,9 @@ export default function MapaScreen({ lugares }: MapaScreenProps) {
             }}
           >
             <div style={{ display: 'flex', justifyContent: 'flex-end', alignItems: 'flex-start', gap: 12 }}>
-              <div onClick={() => setMapSelected(null)} style={{ cursor: 'pointer', color: colors.muted, fontSize: 20, lineHeight: 1 }}>
+              <Pressable onClick={() => setMapSelected(null)} aria-label={dict.ui.cerrar} style={{ color: colors.muted, fontSize: 20, lineHeight: 1 }}>
                 ×
-              </div>
+              </Pressable>
             </div>
             <div style={{ fontFamily: 'var(--font-lora), serif', fontSize: 22, fontWeight: 600, marginBottom: 10 }}>
               {mapSelected.nombre}

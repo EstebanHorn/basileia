@@ -1,36 +1,68 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Basileia
 
-## Getting Started
+Plataforma de estudio del Evangelio de Mateo: texto bíblico, comentario capítulo a capítulo, análisis de griego, contexto histórico-cultural, mapa interactivo, personajes, glosario y notas personales. Disponible en español y portugués.
 
-First, run the development server:
+## Stack
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- [Next.js](https://nextjs.org) (App Router) + React + TypeScript
+- [Tailwind CSS](https://tailwindcss.com) para utilidades puntuales (el grueso de los estilos es inline, ver `lib/theme.ts`)
+- [Supabase](https://supabase.com) para autenticación, notas y progreso de lectura
+- i18n propio (es/pt) vía segmento dinámico `app/[lang]`, ver `lib/i18n/`
+
+> Nota: este proyecto usa una versión de Next.js con cambios de convención respecto a la que la mayoría conoce (por ejemplo, `proxy.ts` en vez de `middleware.ts`). Antes de tocar rutas, metadata o convenciones de archivos especiales, revisar `node_modules/next/dist/docs/` — ver `AGENTS.md`.
+
+## Requisitos
+
+- Node.js 20+
+- Un proyecto de [Supabase](https://supabase.com)
+
+## Variables de entorno
+
+Crear un `.env` en la raíz (ver `.env.example` si existe, o copiar esta lista):
+
+```
+NEXT_PUBLIC_SUPABASE_URL=            # URL del proyecto de Supabase
+NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY= # clave pública (anon/publishable) de Supabase
+NEXT_PUBLIC_SITE_URL=                 # origen público del sitio (usado por sitemap/robots/OG).
+                                       # http://localhost:3000 en desarrollo; el dominio real en producción.
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Base de datos (Supabase)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+El esquema completo (tablas `usuarios`, `notas`, `progreso`, RLS y triggers) está en `supabase/schema.sql`. Aplicarlo una vez por proyecto de Supabase, desde el SQL Editor del dashboard o con la CLI:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+supabase db query < supabase/schema.sql
+```
 
-## Learn More
+## Desarrollo
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+npm install
+npm run dev
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Abrir [http://localhost:3000](http://localhost:3000) — redirige automáticamente a `/es` o `/pt` según el idioma del navegador (o la cookie `NEXT_LOCALE` si ya se eligió uno).
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Scripts
 
-## Deploy on Vercel
+| Script          | Qué hace                                   |
+| --------------- | ------------------------------------------- |
+| `npm run dev`   | Servidor de desarrollo                      |
+| `npm run build` | Build de producción                         |
+| `npm run start` | Sirve el build de producción                |
+| `npm run lint`  | ESLint                                      |
+| `npm test`      | Corre la suite de Vitest                    |
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Estructura
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- `app/[lang]/` — rutas por pantalla (índice, capítulo, mapa, personajes, glosario, contexto, notas, buscar, legales)
+- `app/data/` — contenido en JSON por idioma (texto bíblico, glosario, personajes, lugares, contexto)
+- `lib/content/` — tipos, loader y metadatos editoriales (secciones, discursos, qué capítulos están completos)
+- `lib/i18n/` — diccionarios es/pt y helpers de locale
+- `lib/supabase/` — cliente, contexto de auth, notas y progreso de lectura
+- `components/mateo/` — las pantallas y la navegación
+
+## Contenido
+
+El contenido teológico (texto, comentario, griego, contexto, personajes) se escribe directamente en los JSON de `app/data/`. `lib/content/editorial.ts` controla qué capítulos se consideran completos (`COMPLETED_RANGE`) — el índice, el buscador y el sitemap se actualizan solos a medida que ese rango crece.

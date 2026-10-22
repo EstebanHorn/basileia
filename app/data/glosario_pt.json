@@ -3,768 +3,892 @@
     {
       "id": "makarios",
       "griego": "μακάριος",
+      "lema": "μακάριος",
+      "morfologia": "adjetivo, nominativo singular masculino",
       "transliteracion": "makarios",
       "significado": "bem-aventurado, feliz",
+      "palabra": "bem-aventurad",
       "nota": "Não descreve uma emoção momentânea, como a alegria por algo que dá certo, nem uma promessa de que tudo estará externamente bem. Descreve um estado profundo de plenitude e bem-estar que não depende das circunstâncias: a condição de quem está bem por dentro porque está alinhado com Deus.",
       "capitulos": [
         5
-      ],
-      "palabra": "bem-aventurad"
+      ]
     },
     {
       "id": "ptochos",
       "griego": "πτωχός",
+      "lema": "πτωχός",
+      "morfologia": "adjetivo, nominativo singular masculino",
       "transliteracion": "ptochos",
       "significado": "pobre, indigente",
+      "palabra": "pobres",
       "nota": "Não descreve pobreza moderada, mas indigência completa: alguém que não tem nada próprio de que depender e vive em dependência total. Aplicado ao espírito, é reconhecer que não temos mérito nem conquista espiritual própria da qual nos orgulhar diante de Deus.",
       "capitulos": [
         5
-      ],
-      "palabra": "pobres"
+      ]
     },
     {
       "id": "pentheo",
       "griego": "πενθέω",
+      "lema": "πενθέω",
+      "morfologia": "verbo, presente ativo indicativo, 1.ª pessoa singular (forma de lema; no texto, participío presente ativo plural)",
       "transliteracion": "pentheo",
       "significado": "chorar, fazer luto",
+      "palabra": "choram",
       "nota": "É o termo mais forte que existe em grego para expressar luto e lamento profundo, o tipo de dor que não se pode esconder. Era a palavra usada para o choro pela morte de um ente querido: um quebrantamento visível e real, não uma tristeza passageira.",
       "capitulos": [
         5
-      ],
-      "palabra": "choram"
+      ]
     },
     {
       "id": "parakaleo",
       "griego": "παρακαλέω",
+      "lema": "παρακαλέω",
+      "morfologia": "verbo, presente ativo indicativo, 1.ª pessoa singular",
       "transliteracion": "parakaleo",
       "significado": "consolar, exortar, chamar para estar ao lado",
+      "palabra": "consolados",
       "nota": "Vem da mesma raiz que Parákletos, nome que Jesus usa para o Espírito Santo. Significa chamar alguém para que esteja perto, exortar, fortalecer, acompanhar: não é apenas aliviar a dor, mas a presença ativa de alguém que vem para te sustentar.",
       "capitulos": [
         5
-      ],
-      "palabra": "consolados"
+      ]
     },
     {
       "id": "praus",
       "griego": "πραΰς",
+      "lema": "πραΰς",
+      "morfologia": "adjetivo, nominativo singular masculino",
       "transliteracion": "praus",
       "significado": "manso, humilde (força submissa)",
+      "palabra": "humilde",
       "nota": "Uma das palavras mais mal compreendidas do Sermão do Monte. No mundo grego descrevia um animal selvagem que havia sido domado: não ausência de força, mas força colocada sob controle. Jesus a usa também para descrever a si mesmo em Mateus 11:29.",
       "capitulos": [
         5,
         11
-      ],
-      "palabra": "humilde"
+      ]
     },
     {
       "id": "peinao",
       "griego": "πεινάω",
+      "lema": "πεινάω",
+      "morfologia": "verbo, presente ativo indicativo, 1.ª pessoa singular",
       "transliteracion": "peinao",
       "significado": "ter fome (intensa)",
+      "palabra": "fome",
       "nota": "Junto com dipsao (sede), não descreve um apetite moderado nem um desejo ocasional, mas uma necessidade vital, urgente e constante — aplicada aqui à fome e à sede de justiça.",
       "capitulos": [
         5
-      ],
-      "palabra": "fome"
+      ]
     },
     {
       "id": "dipsao",
       "griego": "διψάω",
+      "lema": "διψάω",
+      "morfologia": "verbo, presente ativo indicativo, 1.ª pessoa singular",
       "transliteracion": "dipsao",
       "significado": "ter sede (intensa)",
+      "palabra": "sede",
       "nota": "Junto com peinao (fome), descreve uma necessidade vital e urgente, não um desejo passageiro: a intensidade com que o discípulo deveria ansiar pela justiça de Deus.",
       "capitulos": [
         5
-      ],
-      "palabra": "sede"
+      ]
     },
     {
       "id": "dikaiosyne",
       "griego": "δικαιοσύνη",
+      "lema": "δικαιοσύνη",
+      "morfologia": "substantivo, nominativo singular feminino",
       "transliteracion": "dikaiosyne",
       "significado": "justiça",
+      "palabra": "justiça",
       "nota": "Tem uma dupla dimensão que não deve ser separada: a justiça como estar bem diante de Deus (justificação) e a justiça como viver corretamente diante dos outros (justiça prática, ética).",
       "capitulos": [
         5
-      ],
-      "palabra": "justiça"
+      ]
     },
     {
       "id": "chortazo",
       "griego": "χορτάζω",
+      "lema": "χορτάζω",
+      "morfologia": "verbo, presente ativo indicativo, 1.ª pessoa singular",
       "transliteracion": "chortazo",
       "significado": "saciar por completo",
+      "palabra": "satisfeitos",
       "nota": "Originalmente era usada para descrever os animais que haviam comido até ficar completamente satisfeitos, sem mais nada a desejar. Aplicada à justiça, descreve uma satisfação total, não parcial.",
       "capitulos": [
         5
-      ],
-      "palabra": "satisfeitos"
+      ]
     },
     {
       "id": "eleemon",
       "griego": "ἐλεήμων",
+      "lema": "ἐλεήμων",
+      "morfologia": "adjetivo, nominativo singular (masculino/feminino)",
       "transliteracion": "eleemon",
       "significado": "misericordioso",
+      "palabra": "misericordiosos",
       "nota": "Vai muito além de simplesmente 'ser gentil' ou 'ter pena': descreve alguém que entra ativamente no sofrimento alheio e responde com compaixão concreta, não apenas com sentimento.",
       "capitulos": [
         5
-      ],
-      "palabra": "misericordiosos"
+      ]
     },
     {
       "id": "katharos",
       "griego": "καθαρός",
+      "lema": "καθαρός",
+      "morfologia": "adjetivo, nominativo singular masculino",
       "transliteracion": "katharos",
       "significado": "limpo, puro",
+      "palabra": "puros",
       "nota": "Dessa palavra vem o termo 'catarse'. Aplicado ao coração, descreve alguém cuja vida interior e exterior são a mesma coisa: sem duplicidade, sem máscara.",
       "capitulos": [
         5
-      ],
-      "palabra": "puros"
+      ]
     },
     {
       "id": "eirenopoios",
       "griego": "εἰρηνοποιός",
+      "lema": "εἰρηνοποιός",
+      "morfologia": "substantivo/adjetivo, nominativo singular masculino (composto de εἰρήνη + ποιέω)",
       "transliteracion": "eirenopoios",
       "significado": "o que faz a paz, pacificador",
+      "palabra": "pacificadores",
       "nota": "Vem de duas palavras: eirene (paz) e poieo (fazer). Não descreve alguém passivo que simplesmente evita o conflito, mas alguém que trabalha ativamente para construir a paz.",
       "capitulos": [
         5
-      ],
-      "palabra": "pacificadores"
+      ]
     },
     {
       "id": "eirene",
       "griego": "εἰρήνη",
+      "lema": "εἰρήνη",
+      "morfologia": "substantivo, nominativo singular feminino",
       "transliteracion": "eirene",
       "significado": "paz",
+      "palabra": "paz",
       "nota": "É o equivalente grego do hebraico shalom, que também não significa simplesmente ausência de conflito, mas plenitude, bem-estar integral e relações restauradas.",
       "capitulos": [
         5
-      ],
-      "palabra": "paz"
+      ]
     },
     {
       "id": "poieo",
       "griego": "ποιέω",
+      "lema": "ποιέω",
+      "morfologia": "verbo, presente ativo indicativo, 1.ª pessoa singular",
       "transliteracion": "poieo",
       "significado": "fazer",
+      "palabra": "pacificadores",
       "nota": "Parte composta de eirenopoios (o que 'faz' a paz): destaca que a paz bíblica não é passividade, mas uma ação deliberada.",
       "capitulos": [
         5,
         12
-      ],
-      "palabra": "pacificadores"
+      ]
     },
     {
       "id": "dioko",
       "griego": "διώκω",
+      "lema": "διώκω",
+      "morfologia": "verbo, presente ativo indicativo, 1.ª pessoa singular",
       "transliteracion": "dioko",
       "significado": "perseguir (ativamente)",
+      "palabra": "perseguidos",
       "nota": "No uso cotidiano descrevia a ação de perseguir ativamente, como um caçador que corre atrás de sua presa sem parar. Quem experimenta dioko não é apenas malvisto: é ativamente procurado para ser prejudicado.",
       "capitulos": [
         5
-      ],
-      "palabra": "perseguidos"
+      ]
     },
     {
       "id": "oneidizo",
       "griego": "ὀνειδίζω",
+      "lema": "ὀνειδίζω",
+      "morfologia": "verbo, presente ativo indicativo, 1.ª pessoa singular",
       "transliteracion": "oneidizo",
       "significado": "insultar, envergonhar publicamente",
+      "palabra": "insultarem",
       "nota": "Descreve o ato de envergonhar publicamente alguém, atacando sua reputação e sua honra diante dos outros.",
       "capitulos": [
         5
-      ],
-      "palabra": "insultarem"
+      ]
     },
     {
       "id": "pseudomai",
       "griego": "ψεύδομαι",
+      "lema": "ψεύδομαι",
+      "morfologia": "verbo (deponente), presente médio/passivo indicativo, 1.ª pessoa singular",
       "transliteracion": "pseudomai",
       "significado": "caluniar, mentir",
+      "palabra": "mentindo",
       "nota": "Traduzida como 'calúnias': mentiras fabricadas intencionalmente para destruir a reputação de alguém.",
       "capitulos": [
         5
-      ],
-      "palabra": "mentindo"
+      ]
     },
     {
       "id": "chairo",
       "griego": "χαίρω",
+      "lema": "χαίρω",
+      "morfologia": "verbo, presente ativo indicativo, 1.ª pessoa singular",
       "transliteracion": "chairo",
       "significado": "alegrar-se (com alegria interior estável)",
+      "palabra": "alegrem",
       "nota": "Descreve uma alegria interior, profunda e estável; compartilha a raiz com a palavra charis, graça.",
       "capitulos": [
         5
-      ],
-      "palabra": "alegrem"
+      ]
     },
     {
       "id": "agalliao",
       "griego": "ἀγαλλιάω",
+      "lema": "ἀγαλλιάω",
+      "morfologia": "verbo, presente ativo indicativo, 1.ª pessoa singular",
       "transliteracion": "agalliao",
       "significado": "encher-se de júbilo transbordante",
+      "palabra": "regozijem",
       "nota": "Mais intensa que chairo: descreve um júbilo transbordante, quase incontrolável, o tipo de alegria que não cabe por dentro e precisa se expressar para fora.",
       "capitulos": [
         5
-      ],
-      "palabra": "regozijem"
+      ]
     },
     {
       "id": "misthos",
       "griego": "μισθός",
+      "lema": "μισθός",
+      "morfologia": "substantivo, nominativo singular masculino",
       "transliteracion": "misthos",
       "significado": "recompensa, salário",
+      "palabra": "recompensa",
       "nota": "No mundo do século I descrevia o salário que um trabalhador recebia no final do dia: o que lhe correspondia por justiça pelo seu trabalho, não um presente arbitrário.",
       "capitulos": [
         5
-      ],
-      "palabra": "recompensa"
+      ]
     },
     {
       "id": "polys",
       "griego": "πολύς",
+      "lema": "πολύς",
+      "morfologia": "adjetivo, nominativo singular masculino",
       "transliteracion": "polys",
       "significado": "grande, abundante, muito",
+      "palabra": "grande",
       "nota": "Adjetivo usado para descrever a magnitude da recompensa no céu prometida aos perseguidos por causa da justiça.",
       "capitulos": [
         5
-      ],
-      "palabra": "grande"
+      ]
     },
     {
       "id": "halas",
       "griego": "ἅλας",
+      "lema": "ἅλας",
+      "morfologia": "substantivo, nominativo singular neutro",
       "transliteracion": "halas",
       "significado": "sal",
+      "palabra": "sal",
       "nota": "No mundo do século I o sal não era simplesmente um tempero, mas um conservante e um elemento de valor essencial na vida cotidiana.",
       "capitulos": [
         5
-      ],
-      "palabra": "sal"
+      ]
     },
     {
       "id": "moraino",
       "griego": "μωραίνω",
+      "lema": "μωραίνω",
+      "morfologia": "verbo, presente ativo indicativo, 1.ª pessoa singular",
       "transliteracion": "moraino",
       "significado": "perder o sabor, tornar-se insosso/tolo",
+      "palabra": "sabor",
       "nota": "Não significa apenas perder o sabor, mas também tornar-se insosso, tolo, sem sentido: a imagem de um sal que deixou de cumprir seu propósito.",
       "capitulos": [
         5
-      ],
-      "palabra": "sabor"
+      ]
     },
     {
       "id": "phos",
       "griego": "φῶς",
+      "lema": "φῶς",
+      "morfologia": "substantivo, nominativo singular neutro",
       "transliteracion": "phos",
       "significado": "luz",
+      "palabra": "luz",
       "nota": "Jesus a usa para descrever algo que por sua própria natureza não pode se ocultar: assim como a luz se manifesta, também deve se manifestar a vida do discípulo.",
       "capitulos": [
         5
-      ],
-      "palabra": "luz"
+      ]
     },
     {
       "id": "lychnia",
       "griego": "λυχνία",
+      "lema": "λυχνία",
+      "morfologia": "substantivo, nominativo singular feminino",
       "transliteracion": "lychnia",
       "significado": "candeeiro, suporte para lâmpada",
+      "palabra": "lâmpada",
       "nota": "Suporte onde se colocava a lâmpada de azeite doméstica para que sua luz chegasse a todo o cômodo, em vez de escondê-la.",
       "capitulos": [
         5
-      ],
-      "palabra": "lâmpada"
+      ]
     },
     {
       "id": "modios",
       "griego": "μόδιος",
+      "lema": "μόδιος",
+      "morfologia": "substantivo, nominativo singular masculino",
       "transliteracion": "modios",
       "significado": "recipiente de medida (para grãos)",
+      "palabra": "vasilha",
       "nota": "Vasilha de medida usada no comércio de grãos; Jesus a menciona como o objeto absurdo sob o qual ninguém esconderia uma lâmpada acesa.",
       "capitulos": [
         5
-      ],
-      "palabra": "vasilha"
+      ]
     },
     {
       "id": "doxazo",
       "griego": "δοξάζω",
+      "lema": "δοξάζω",
+      "morfologia": "verbo, presente ativo indicativo, 1.ª pessoa singular",
       "transliteracion": "doxazo",
       "significado": "glorificar",
+      "palabra": "glorifiquem",
       "nota": "Significa reconhecer e proclamar o valor, a honra e a grandeza de alguém; aplicado a Deus, é a resposta esperada ao ver as boas obras do discípulo.",
       "capitulos": [
         5
-      ],
-      "palabra": "glorifiquem"
+      ]
     },
     {
       "id": "pleroo",
       "griego": "πληρόω",
+      "lema": "πληρόω",
+      "morfologia": "verbo, presente ativo indicativo, 1.ª pessoa singular",
       "transliteracion": "pleroo",
       "significado": "cumprir, dar cumprimento",
+      "palabra": "cumpri",
       "nota": "Palavra-chave em 'não vim abolir a Lei... mas cumpri-la': não se trata de anular, mas de levar à sua plenitude e sentido mais profundo.",
       "capitulos": [
         5
-      ],
-      "palabra": "cumpri"
+      ]
     },
     {
       "id": "iota",
       "griego": "ἰῶτα",
+      "lema": "ἰῶτα",
+      "morfologia": "substantivo, nominativo singular neutro (indeclinável, nome de letra)",
       "transliteracion": "iota",
       "significado": "a letra mais pequena (yod hebraica)",
+      "palabra": "letra",
       "nota": "O yod era apenas um traço, a letra menor do alfabeto hebraico; Jesus a usa para destacar que nem o detalhe mais mínimo da Lei fica sem se cumprir.",
       "capitulos": [
         5
-      ],
-      "palabra": "letra"
+      ]
     },
     {
       "id": "keraia",
       "griego": "κεραία",
+      "lema": "κεραία",
+      "morfologia": "substantivo, nominativo singular feminino",
       "transliteracion": "keraia",
       "significado": "til, gancho distintivo de uma letra",
+      "palabra": "traço",
       "nota": "O pequeno gancho ou til que diferenciava uma letra hebraica de outra visualmente parecida; junto com iota, expressa a precisão absoluta com que a Lei se cumpre.",
       "capitulos": [
         5
-      ],
-      "palabra": "traço"
+      ]
     },
     {
       "id": "perisseuo",
       "griego": "περισσεύω",
+      "lema": "περισσεύω",
+      "morfologia": "verbo, presente ativo indicativo, 1.ª pessoa singular",
       "transliteracion": "perisseuo",
       "significado": "abundar, superar em muito",
+      "palabra": "superior",
       "nota": "Palavra usada em 'a menos que a justiça de vocês seja muito superior à dos fariseus': não uma superioridade moral externa, mas uma justiça que transborda porque nasce do coração.",
       "capitulos": [
         5
-      ],
-      "palabra": "superior"
+      ]
     },
     {
       "id": "orgizo",
       "griego": "ὀργίζω",
+      "lema": "ὀργίζω",
+      "morfologia": "verbo, presente ativo indicativo, 1.ª pessoa singular (no texto, voz média/passiva: ὀργίζομαι)",
       "transliteracion": "orgizo",
       "significado": "irar-se",
+      "palabra": "irar",
       "nota": "Não descreve a reação do primeiro segundo quando algo nos surpreende ou nos dói, mas uma ira sustentada e alimentada, a raiz interior que Jesus equipara ao homicídio no coração.",
       "capitulos": [
         5
-      ],
-      "palabra": "irar"
+      ]
     },
     {
       "id": "kodrantes",
       "griego": "κοδράντης",
+      "lema": "κοδράντης",
+      "morfologia": "substantivo, nominativo singular masculino (empréstimo do latim \"quadrans\")",
       "transliteracion": "kodrantes",
       "significado": "quadrante (a menor moeda do sistema romano)",
+      "palabra": "",
       "nota": "Usada em 'até que você pague o último centavo': a moeda de menor valor em todo o sistema romano, para destacar que não ficará nenhuma dívida, por menor que seja, sem ser saldada.",
       "capitulos": [
         5
-      ],
-      "palabra": ""
+      ]
     },
     {
       "id": "epithumeo",
       "griego": "ἐπιθυμέω",
+      "lema": "ἐπιθυμέω",
+      "morfologia": "verbo, presente ativo indicativo, 1.ª pessoa singular",
       "transliteracion": "epithumeo",
       "significado": "cobiçar (com desejo intenso e deliberado)",
+      "palabra": "desejá",
       "nota": "Descreve um desejo intenso e deliberado, um olhar que não é acidental, mas que se entretém, se alimenta e permanece: a raiz interior do adultério segundo Jesus.",
       "capitulos": [
         5
-      ],
-      "palabra": "desejá"
+      ]
     },
     {
       "id": "geenna",
       "griego": "γέεννα",
+      "lema": "γέεννα",
+      "morfologia": "substantivo, nominativo singular feminino (empréstimo do hebraico)",
       "transliteracion": "geenna",
       "significado": "inferno (Vale de Hinom)",
+      "palabra": "inferno",
       "nota": "Fazia referência ao Vale de Hinom, um lugar nos arredores de Jerusalém onde historicamente se queimava lixo de maneira permanente e onde em tempos antigos haviam sido realizados sacrifícios pagãos.",
       "capitulos": [
         5
-      ],
-      "palabra": "inferno"
+      ]
     },
     {
       "id": "porneia",
       "griego": "πορνεία",
+      "lema": "πορνεία",
+      "morfologia": "substantivo, nominativo singular feminino",
       "transliteracion": "porneia",
       "significado": "imoralidade sexual grave",
+      "palabra": "imoralidade sexual",
       "nota": "Palavra usada na exceção que Jesus menciona sobre o divórcio ('exceto por imoralidade sexual'): descreve uma infidelidade sexual grave, não qualquer desacordo conjugal.",
       "capitulos": [
         5
-      ],
-      "palabra": "imoralidade sexual"
+      ]
     },
     {
       "id": "omnuo",
       "griego": "ὀμνύω",
+      "lema": "ὀμνύω",
+      "morfologia": "verbo, presente ativo indicativo, 1.ª pessoa singular",
       "transliteracion": "omnuo",
       "significado": "jurar",
+      "palabra": "jur",
       "nota": "Descreve o ato formal de invocar algo superior (o céu, a terra, Jerusalém, a própria cabeça) como garantia da própria palavra.",
       "capitulos": [
         5
-      ],
-      "palabra": "jur"
+      ]
     },
     {
       "id": "agapao",
       "griego": "ἀγαπάω",
+      "lema": "ἀγαπάω",
+      "morfologia": "verbo, presente ativo indicativo, 1.ª pessoa singular",
       "transliteracion": "agapao",
       "significado": "amar (amor de decisão e vontade)",
+      "palabra": "amem",
       "nota": "Descreve o amor mais elevado que existe no grego bíblico: não eros (amor romântico) nem philia (afeto entre amigos), mas um amor de vontade e decisão, capaz de amar até o inimigo.",
       "capitulos": [
         5
-      ],
-      "palabra": "amem"
+      ]
     },
     {
       "id": "teleios",
       "griego": "τέλειος",
+      "lema": "τέλειος",
+      "morfologia": "adjetivo, nominativo singular masculino",
       "transliteracion": "teleios",
       "significado": "perfeito, completo, maduro",
+      "palabra": "perfeitos",
       "nota": "Não descreve uma perfeição moral sem defeitos, algo impossível para qualquer ser humano. Significa completo, maduro, que chegou ao seu propósito final — um chamado à integridade, não ao perfeccionismo.",
       "capitulos": [
         5
-      ],
-      "palabra": "perfeitos"
+      ]
     },
     {
       "id": "theathenai",
       "griego": "θεαθῆναι",
+      "lema": "θεάομαι",
+      "morfologia": "verbo, infinitivo aoristo passivo (lema: θεάομαι)",
       "transliteracion": "theathenai",
       "significado": "ser visto, exibir-se",
+      "palabra": "vistos",
       "nota": "Vem da mesma raiz de onde vem nossa palavra 'teatro': descreve fazer algo religioso para ser observado e admirado por outros, em vez de fazê-lo diante de Deus.",
       "capitulos": [
         6
-      ],
-      "palabra": "vistos"
+      ]
     },
     {
       "id": "hypokritai",
       "griego": "ὑποκριταί",
+      "lema": "ὑποκριτής",
+      "morfologia": "substantivo, nominativo plural masculino (lema: ὑποκριτής)",
       "transliteracion": "hypokritai",
       "significado": "hipócritas (atores de teatro)",
+      "palabra": "hipócritas",
       "nota": "No mundo grego descrevia os atores de teatro: pessoas que usavam uma máscara para representar um papel diferente do de sua vida real.",
       "capitulos": [
         6,
         15
-      ],
-      "palabra": "hipócritas"
+      ]
     },
     {
       "id": "tameion",
       "griego": "ταμεῖον",
+      "lema": "ταμεῖον",
+      "morfologia": "substantivo, acusativo singular neutro",
       "transliteracion": "tameion",
       "significado": "quarto interior, cômodo privado",
+      "palabra": "quarto",
       "nota": "Um cômodo interior sem janelas usado para guardar provisões, o lugar mais reservado da casa: o espaço de oração secreta que Jesus recomenda.",
       "capitulos": [
         6
-      ],
-      "palabra": "quarto"
+      ]
     },
     {
       "id": "battalogeo",
       "griego": "βατταλογέω",
+      "lema": "βατταλογέω",
+      "morfologia": "verbo, presente ativo indicativo, 1.ª pessoa singular",
       "transliteracion": "battalogeo",
       "significado": "falar só por falar, balbuciar",
+      "palabra": "por falar",
       "nota": "Descreve o balbucio vazio, as palavras multiplicadas sem sentido, a repetição ritual desconectada de qualquer intenção real — o oposto da oração genuína que Jesus ensina.",
       "capitulos": [
         6
-      ],
-      "palabra": "por falar"
+      ]
     },
     {
       "id": "mamonas",
       "griego": "μαμωνᾶς",
+      "lema": "μαμωνᾶς",
+      "morfologia": "substantivo, nominativo singular masculino (empréstimo do aramaico)",
       "transliteracion": "mamonas",
       "significado": "riquezas (personificadas)",
+      "palabra": "dinheiro",
       "nota": "Termo aramaico que personifica as riquezas quase como uma entidade com vontade própria, capaz de exigir a lealdade que só pertence a Deus.",
       "capitulos": [
         6
-      ],
-      "palabra": "dinheiro"
+      ]
     },
     {
       "id": "merimnao",
       "griego": "μεριμνάω",
+      "lema": "μεριμνάω",
+      "morfologia": "verbo, presente ativo indicativo, 1.ª pessoa singular",
       "transliteracion": "merimnao",
       "significado": "preocupar-se (com ansiedade)",
+      "palabra": "preocupem",
       "nota": "Descreve uma mente dividida, partida entre o presente e o futuro imaginado, incapaz de estar em um só lugar: a ansiedade que Jesus contrasta com a confiança no Pai.",
       "capitulos": [
         6
-      ],
-      "palabra": "preocupem"
+      ]
     },
     {
       "id": "krino",
       "griego": "κρίνω",
+      "lema": "κρίνω",
+      "morfologia": "verbo, presente ativo indicativo, 1.ª pessoa singular",
       "transliteracion": "krino",
       "significado": "julgar",
+      "palabra": "julguem",
       "nota": "Não descreve simplesmente opinar ou avaliar, mas o ato de condenar, de decretar sentença sobre outro — o que Jesus proíbe fazer com o coração hipócrita.",
       "capitulos": [
         7
-      ],
-      "palabra": "julguem"
+      ]
     },
     {
       "id": "aiteo",
       "griego": "αἰτέω",
+      "lema": "αἰτέω",
+      "morfologia": "verbo, presente ativo indicativo, 1.ª pessoa singular",
       "transliteracion": "aiteo",
       "significado": "pedir",
+      "palabra": "peçam",
       "nota": "Uma das três palavras que Jesus usa no presente contínuo ('peçam, busquem, batam'), descrevendo uma atitude persistente e confiante na oração.",
       "capitulos": [
         7
-      ],
-      "palabra": "peçam"
+      ]
     },
     {
       "id": "zeteo",
       "griego": "ζητέω",
+      "lema": "ζητέω",
+      "morfologia": "verbo, presente ativo indicativo, 1.ª pessoa singular",
       "transliteracion": "zeteo",
       "significado": "buscar",
+      "palabra": "busc",
       "nota": "Junto com aiteo (pedir) e krouo (bater), no presente contínuo: uma busca ativa e sustentada, não uma tentativa única.",
       "capitulos": [
         7
-      ],
-      "palabra": "busc"
+      ]
     },
     {
       "id": "krouo",
       "griego": "κρούω",
+      "lema": "κρούω",
+      "morfologia": "verbo, presente ativo indicativo, 1.ª pessoa singular",
       "transliteracion": "krouo",
       "significado": "bater (à porta)",
+      "palabra": "bat",
       "nota": "Junto com aiteo (pedir) e zeteo (buscar), no presente contínuo: a imagem de alguém que persiste batendo a uma porta até que se abra.",
       "capitulos": [
         7
-      ],
-      "palabra": "bat"
+      ]
     },
     {
       "id": "polloi",
       "griego": "πολλοί",
+      "lema": "πολύς",
+      "morfologia": "adjetivo, nominativo plural masculino (lema: πολύς)",
       "transliteracion": "polloi",
       "significado": "muitos (uma multidão numerosa)",
+      "palabra": "multidões",
       "nota": "Parte da expressão ochloi polloi: descreve uma massa de gente enorme, numerosa e variada, que seguia Jesus depois do Sermão do Monte.",
       "capitulos": [
         8
-      ],
-      "palabra": "multidões"
+      ]
     },
     {
       "id": "lepra",
       "griego": "λέπρα",
+      "lema": "λέπρα",
+      "morfologia": "substantivo, nominativo singular feminino",
       "transliteracion": "lepra",
       "significado": "doença de pele ('lepra')",
+      "palabra": "leproso",
       "nota": "Junto com o termo hebraico tzara'at, abrangia diferentes tipos de doenças de pele no século I, não apenas a lepra no sentido médico moderno, e trazia consigo impureza ritual e exclusão social.",
       "capitulos": [
         8
-      ],
-      "palabra": "leproso"
+      ]
     },
     {
       "id": "proskuneo",
       "griego": "προσκυνέω",
+      "lema": "προσκυνέω",
+      "morfologia": "verbo, presente ativo indicativo, 1.ª pessoa singular",
       "transliteracion": "proskuneo",
       "significado": "prostrar-se em adoração",
+      "palabra": "prostrou",
       "nota": "Descreve o ato de se prostrar em adoração, a mesma palavra usada para adorar a Deus — o gesto do centurião e de outros que se aproximam de Jesus reconhecendo quem Ele é.",
       "capitulos": [
         8
-      ],
-      "palabra": "prostrou"
+      ]
     },
     {
       "id": "splagchnizomai",
       "griego": "σπλαγχνίζομαι",
+      "lema": "σπλαγχνίζομαι",
+      "morfologia": "verbo (deponente), presente médio/passivo indicativo, 1.ª pessoa singular",
       "transliteracion": "splagchnizomai",
       "significado": "ter compaixão (das entranhas)",
+      "palabra": "compaixão",
       "nota": "Descreve uma comoção que vem das entranhas, um movimento visceral e físico por dentro: a compaixão de Jesus ao ver as multidões aflitas e desamparadas.",
       "capitulos": [
         9,
         14,
         15
-      ],
-      "palabra": "compaixão"
+      ]
     },
     {
       "id": "homologeo",
       "griego": "ὁμολογέω",
+      "lema": "ὁμολογέω",
+      "morfologia": "verbo, presente ativo indicativo, 1.ª pessoa singular",
       "transliteracion": "homologeo",
       "significado": "confessar, reconhecer publicamente",
+      "palabra": "confess",
       "nota": "Literalmente significa falar o mesmo, estar de acordo, declarar publicamente: o que Jesus pede a quem quer reconhecê-lo diante dos outros.",
       "capitulos": [
         10
-      ],
-      "palabra": "confess"
+      ]
     },
     {
       "id": "skandalizomai",
       "griego": "σκανδαλίζομαι",
+      "lema": "σκανδαλίζω",
+      "morfologia": "verbo, presente médio/passivo indicativo, 3.ª pessoa singular (lema: σκανδαλίζω)",
       "transliteracion": "skandalizomai",
       "significado": "tropeçar, ser escandalizado",
+      "palabra": "tropeça",
       "nota": "Descreve o ato de tropeçar numa pedra de tropeço no caminho, cair por causa de algo que se revela um obstáculo — a advertência de Jesus a João Batista e a todo aquele que duvida dele.",
       "capitulos": [
         11
-      ],
-      "palabra": "tropeça"
+      ]
     },
     {
       "id": "nepioi",
       "griego": "νήπιοι",
+      "lema": "νήπιος",
+      "morfologia": "substantivo/adjetivo, nominativo plural masculino (lema: νήπιος)",
       "transliteracion": "nepioi",
       "significado": "crianças pequenas",
+      "palabra": "simples",
       "nota": "Os 'pequenos' a quem o Pai revela o que escondeu dos sábios e instruídos: os que não têm pretensões de conhecimento, os que recebem sem calcular.",
       "capitulos": [
         11
-      ],
-      "palabra": "simples"
+      ]
     },
     {
       "id": "kopiao",
       "griego": "κοπιάω",
+      "lema": "κοπιάω",
+      "morfologia": "verbo, presente ativo indicativo, 1.ª pessoa singular",
       "transliteracion": "kopiao",
       "significado": "estar cansado (de trabalho pesado)",
+      "palabra": "cansados",
       "nota": "Descreve o cansaço que vem de um trabalho pesado, o tipo de esgotamento que deixa sem forças — linguagem do trabalho duro sob o sol que Jesus aplica ao esgotamento espiritual.",
       "capitulos": [
         11
-      ],
-      "palabra": "cansados"
+      ]
     },
     {
       "id": "phortizo",
       "griego": "φορτίζω",
+      "lema": "φορτίζω",
+      "morfologia": "verbo, presente ativo indicativo, 1.ª pessoa singular",
       "transliteracion": "phortizo",
       "significado": "estar carregado (com um peso que esmaga)",
+      "palabra": "sobrecarregados",
       "nota": "Descreve estar carregado com um peso que esmaga; junto com kopiao, descreve aqueles a quem Jesus convida a descansar em Mateus 11:28.",
       "capitulos": [
         11
-      ],
-      "palabra": "sobrecarregados"
+      ]
     },
     {
       "id": "anapausis",
       "griego": "ἀνάπαυσις",
+      "lema": "ἀνάπαυσις",
+      "morfologia": "substantivo, nominativo singular feminino",
       "transliteracion": "anapausis",
       "significado": "descanso (repouso ativo)",
+      "palabra": "descanso",
       "nota": "Descreve um estado de repouso ativo, não apenas a ausência de esforço, mas a presença de paz: o descanso que vem de ter encontrado o que se buscava.",
       "capitulos": [
         11
-      ],
-      "palabra": "descanso"
+      ]
     },
     {
       "id": "tapeinos",
       "griego": "ταπεινός",
+      "lema": "ταπεινός",
+      "morfologia": "adjetivo, nominativo singular masculino",
       "transliteracion": "tapeinos",
       "significado": "humilde (sem exigir posição própria)",
+      "palabra": "humilde",
       "nota": "Descreve alguém de posição baixa no sentido de não exigir posição própria; Jesus se descreve assim na única autocaracterização direta de todo o evangelho.",
       "capitulos": [
         11
-      ],
-      "palabra": "humilde"
+      ]
     },
     {
       "id": "argos",
       "griego": "ἀργός",
+      "lema": "ἀργός",
+      "morfologia": "adjetivo, nominativo singular masculino",
       "transliteracion": "argos",
       "significado": "ocioso, inútil, vazio",
+      "palabra": "inútil",
       "nota": "Descreve algo vazio, sem propósito, dito sem cuidado nem responsabilidade. Jesus adverte que até a palavra mais 'inútil' -a que se diz sem pensar- terá que prestar contas no juízo, porque revela o que há no coração.",
       "capitulos": [
         12
-      ],
-      "palabra": "inútil"
+      ]
     },
     {
       "id": "mysterion",
       "griego": "μυστήριον",
+      "lema": "μυστήριον",
+      "morfologia": "substantivo, nominativo singular neutro",
       "transliteracion": "mysterion",
       "significado": "mistério, segredo",
+      "palabra": "mistérios",
       "nota": "Algo que esteve oculto e agora é revelado apenas a quem tem olhos para ver. Jesus o usa para descrever os mistérios do Reino dos céus, que suas parábolas revelam aos discípulos e escondem de quem escolheu não crer.",
       "capitulos": [
         13
-      ],
-      "palabra": "mistérios"
+      ]
     },
     {
       "id": "oligopistos",
       "griego": "ὀλιγόπιστος",
+      "lema": "ὀλιγόπιστος",
+      "morfologia": "adjetivo, nominativo singular masculino (composto de ὀλίγος + πίστις)",
       "transliteracion": "oligopistos",
       "significado": "de pequena fé",
+      "palabra": "pequena fé",
       "nota": "Palavra composta por \"pouco\" e \"fé\": não descreve ausência de fé, mas uma fé real que encolhe diante da evidência das circunstâncias. Jesus a usa tanto com Pedro afundando na água quanto com os discípulos preocupados por não terem pão.",
       "capitulos": [
         14,
         16
-      ],
-      "palabra": "pequena fé"
+      ]
     },
     {
       "id": "ego-eimi",
       "griego": "ἐγώ εἰμι",
+      "lema": "ἐγώ εἰμι",
+      "morfologia": "frase: pronome pessoal (1.ª pessoa) + verbo εἰμί no presente indicativo, 1.ª pessoa singular",
       "transliteracion": "ego eimi",
       "significado": "eu sou",
+      "palabra": "Sou eu",
       "nota": "O mesmo nome divino de Êxodo 3:14, onde Deus revela a Moisés a sua identidade. Quando Jesus diz \"Sou eu\" andando sobre a água, não é apenas uma identificação pessoal: é uma declaração de identidade divina.",
       "capitulos": [
         14
-      ],
-      "palabra": "Sou eu"
+      ]
     },
     {
       "id": "phantasma",
       "griego": "φάντασμα",
+      "lema": "φάντασμα",
+      "morfologia": "substantivo, nominativo singular neutro",
       "transliteracion": "phantasma",
       "significado": "fantasma, aparição",
+      "palabra": "fantasma",
       "nota": "Palavra que os discípulos usam para explicar o inexplicável: alguém andando sobre a água no meio da noite. O medo do sobrenatural, paradoxalmente, os impede de reconhecer o Deus que têm diante de si.",
       "capitulos": [
         14
-      ],
-      "palabra": "fantasma"
+      ]
     },
     {
       "id": "corban",
       "griego": "κορβᾶν",
+      "lema": "קרבן / κορβᾶν",
+      "morfologia": "substantivo indeclinável (empréstimo do hebraico/aramaico)",
       "transliteracion": "corbã",
       "significado": "oferta dedicada a Deus",
+      "palabra": "Corbã",
       "nota": "Declarar algo \"Corbã\" o separava formalmente para o templo e o excluía do uso familiar. Os fariseus usavam isso para evitar a responsabilidade de sustentar seus pais idosos, anulando um mandamento de Deus com uma tradição religiosa.",
       "capitulos": [
         15
-      ],
-      "palabra": "Corbã"
-    },
-    {
-      "id": "hypokritai",
-      "griego": "ὑποκριταί",
-      "transliteracion": "hypokritai",
-      "significado": "hipócritas (atores de teatro)",
-      "nota": "No mundo grego descrevia os atores de teatro: pessoas que usavam uma máscara para representar um papel diferente do que eram em sua vida real.",
-      "capitulos": [
-        6,
-        15
-      ],
-      "palabra": "Hipócritas"
+      ]
     },
     {
       "id": "petros",
       "griego": "Πέτρος",
+      "lema": "Πέτρος",
+      "morfologia": "substantivo próprio, nominativo singular masculino",
       "transliteracion": "petros",
       "significado": "pedra, rocha",
+      "palabra": "Pedro",
       "nota": "Jesus muda o nome de Simão para Petros -em aramaico Kefa- no mesmo momento em que o Pai lhe revela quem é Jesus. A mudança de nome no mundo bíblico era uma declaração de identidade e destino, como Abrão para Abraão ou Jacó para Israel.",
       "capitulos": [
         16
-      ],
-      "palabra": "Pedro"
+      ]
     },
     {
       "id": "ekklesia",
       "griego": "ἐκκλησία",
+      "lema": "ἐκκλησία",
+      "morfologia": "substantivo, nominativo singular feminino",
       "transliteracion": "ekklesia",
       "significado": "assembleia convocada, igreja",
+      "palabra": "igreja",
       "nota": "No grego secular do século I significava uma assembleia convocada, os cidadãos chamados a se reunir. Jesus toma essa palavra e a enche de um conteúdo novo: a comunidade dos que o reconhecem como Cristo.",
       "capitulos": [
         16
-      ],
-      "palabra": "igreja"
+      ]
     }
   ]
 }

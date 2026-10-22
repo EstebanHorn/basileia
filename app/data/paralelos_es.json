@@ -1,0 +1,276 @@
+{
+  "paralelos": [
+    {
+      "id": "par-3-1",
+      "referencia": "Marcos 1:1-8; Lucas 3:1-18",
+      "nota": "Marcos abre su evangelio directamente con Juan; Lucas agrega un marco cronológico preciso con los gobernantes de la época.",
+      "capitulos": [
+        3
+      ]
+    },
+    {
+      "id": "par-3-13",
+      "referencia": "Marcos 1:9-11; Lucas 3:21-22",
+      "nota": "Los tres evangelios coinciden en la voz del cielo y la paloma; Mateo agrega el diálogo entre Jesús y Juan antes del bautismo.",
+      "capitulos": [
+        3
+      ]
+    },
+    {
+      "id": "par-4-1",
+      "referencia": "Marcos 1:12-13; Lucas 4:1-13",
+      "nota": "Marcos resume la tentación en dos versículos sin detalle; Mateo y Lucas comparten las tres tentaciones específicas, aunque en distinto orden.",
+      "capitulos": [
+        4
+      ]
+    },
+    {
+      "id": "par-4-18",
+      "referencia": "Marcos 1:16-20; Lucas 5:1-11",
+      "nota": "Lucas sitúa el llamado después de una pesca milagrosa; Mateo y Marcos lo narran como un llamado más directo, sin ese contexto previo.",
+      "capitulos": [
+        4
+      ]
+    },
+    {
+      "id": "par-5-1",
+      "referencia": "Lucas 6:20-26",
+      "nota": "Lucas tiene una versión más breve (cuatro bienaventuranzas con sus correspondientes \"ayes\") en un llano, no un monte; buena parte del resto del Sermón del Monte aparece dispersa en otros capítulos de Lucas.",
+      "capitulos": [
+        5
+      ]
+    },
+    {
+      "id": "par-6-9",
+      "referencia": "Lucas 11:2-4",
+      "nota": "La versión de Lucas del Padre Nuestro es más breve; Mateo la ubica dentro del Sermón del Monte, mientras que en Lucas surge de un pedido directo de los discípulos.",
+      "capitulos": [
+        6
+      ]
+    },
+    {
+      "id": "par-6-25",
+      "referencia": "Lucas 12:22-31",
+      "nota": "Lucas ubica esta enseñanza en un contexto distinto, después de la parábola del rico insensato, pero el contenido es prácticamente idéntico.",
+      "capitulos": [
+        6
+      ]
+    },
+    {
+      "id": "par-7-1",
+      "referencia": "Lucas 6:37-42",
+      "nota": "Lucas incluye esta enseñanza en el mismo bloque que su versión del Sermón del Monte.",
+      "capitulos": [
+        7
+      ]
+    },
+    {
+      "id": "par-7-24",
+      "referencia": "Lucas 6:47-49",
+      "nota": "La parábola cierra el Sermón del Monte en ambos evangelios con la misma imagen central: la roca frente a la arena.",
+      "capitulos": [
+        7
+      ]
+    },
+    {
+      "id": "par-8-1",
+      "referencia": "Marcos 1:40-45; Lucas 5:12-16",
+      "nota": "Los tres relatos coinciden en los detalles esenciales: el leproso se acerca, Jesús lo toca —algo ritualmente arriesgado— y lo sana.",
+      "capitulos": [
+        8
+      ]
+    },
+    {
+      "id": "par-8-5",
+      "referencia": "Lucas 7:1-10",
+      "nota": "Juan 4:46-54 narra una sanidad a distancia distinta, de un hijo de un oficial; no debe confundirse con este episodio del centurión.",
+      "capitulos": [
+        8
+      ]
+    },
+    {
+      "id": "par-8-23",
+      "referencia": "Marcos 4:35-41; Lucas 8:22-25",
+      "nota": "Marcos añade detalles vívidos, como que Jesús dormía sobre un cabezal en la popa.",
+      "capitulos": [
+        8
+      ]
+    },
+    {
+      "id": "par-8-28",
+      "referencia": "Marcos 5:1-20; Lucas 8:26-39",
+      "nota": "Marcos y Lucas ubican el episodio con un solo endemoniado y lo narran con mucho más detalle que Mateo, que menciona dos.",
+      "capitulos": [
+        8
+      ]
+    },
+    {
+      "id": "par-9-1",
+      "referencia": "Marcos 2:1-12; Lucas 5:17-26",
+      "nota": "Marcos y Lucas agregan el detalle de que bajaron al paralítico por el techo, algo que Mateo omite.",
+      "capitulos": [
+        9
+      ]
+    },
+    {
+      "id": "par-9-9",
+      "referencia": "Marcos 2:13-17; Lucas 5:27-32",
+      "nota": "Marcos y Lucas lo llaman \"Leví\"; Mateo usa su propio nombre, \"Mateo\", en lo que muchos ven una firma discreta del autor del evangelio.",
+      "capitulos": [
+        9
+      ]
+    },
+    {
+      "id": "par-9-18",
+      "referencia": "Marcos 5:21-43; Lucas 8:40-56",
+      "nota": "En Marcos y Lucas, Jairo es nombrado explícitamente como jefe de la sinagoga; Mateo no menciona su nombre.",
+      "capitulos": [
+        9
+      ]
+    },
+    {
+      "id": "par-10-1",
+      "referencia": "Marcos 6:7-13; Lucas 9:1-6",
+      "nota": "Lucas separa el envío de los Doce (9:1-6) del envío posterior de los setenta y dos (10:1-12), que no tiene paralelo en Mateo.",
+      "capitulos": [
+        10
+      ]
+    },
+    {
+      "id": "par-11-2",
+      "referencia": "Lucas 7:18-35",
+      "nota": "Ambos relatos coinciden casi palabra por palabra en la respuesta de Jesús y en su testimonio sobre Juan el Bautista.",
+      "capitulos": [
+        11
+      ]
+    },
+    {
+      "id": "par-12-1",
+      "referencia": "Marcos 2:23-28; Lucas 6:1-5",
+      "nota": "Marcos agrega el dicho \"el sábado se hizo para el hombre, no el hombre para el sábado\", que Mateo no incluye en este pasaje.",
+      "capitulos": [
+        12
+      ]
+    },
+    {
+      "id": "par-12-9",
+      "referencia": "Marcos 3:1-6; Lucas 6:6-11",
+      "nota": "Los tres evangelios coinciden en que esta sanidad fue la gota que colmó el vaso de la hostilidad religiosa contra Jesús.",
+      "capitulos": [
+        12
+      ]
+    },
+    {
+      "id": "par-12-22",
+      "referencia": "Marcos 3:20-30; Lucas 11:14-23",
+      "nota": "Marcos ubica este episodio justo después de que la familia de Jesús intenta contenerlo, dándole un matiz distinto al conflicto.",
+      "capitulos": [
+        12
+      ]
+    },
+    {
+      "id": "par-12-46",
+      "referencia": "Marcos 3:31-35; Lucas 8:19-21",
+      "nota": "Los tres evangelios coinciden en el mismo giro: Jesús redefine la familia alrededor de la obediencia a Dios, no del parentesco biológico.",
+      "capitulos": [
+        12
+      ]
+    },
+    {
+      "id": "par-13-1",
+      "referencia": "Marcos 4:1-20; Lucas 8:4-15",
+      "nota": "Marcos y Lucas narran la misma parábola con variaciones menores en los detalles del terreno.",
+      "capitulos": [
+        13
+      ]
+    },
+    {
+      "id": "par-13-31",
+      "referencia": "Marcos 4:30-32; Lucas 13:18-19",
+      "nota": "Lucas ubica esta parábola en un contexto narrativo diferente, más adelante en su evangelio.",
+      "capitulos": [
+        13
+      ]
+    },
+    {
+      "id": "par-13-33",
+      "referencia": "Lucas 13:20-21",
+      "nota": "Marcos no incluye la parábola de la levadura; aparece solo en Mateo y Lucas.",
+      "capitulos": [
+        13
+      ]
+    },
+    {
+      "id": "par-14-1",
+      "referencia": "Marcos 6:14-29",
+      "nota": "Marcos narra este episodio con mucho más detalle que Mateo, incluyendo el ambiente del banquete de Herodes.",
+      "capitulos": [
+        14
+      ]
+    },
+    {
+      "id": "par-14-13",
+      "referencia": "Marcos 6:30-44; Lucas 9:10-17",
+      "nota": "Es el único milagro, además de la resurrección, narrado en los cuatro evangelios.",
+      "capitulos": [
+        14
+      ]
+    },
+    {
+      "id": "par-14-22",
+      "referencia": "Marcos 6:45-52",
+      "nota": "Juan también narra este episodio, pero sin el intento de Pedro de caminar sobre el agua, que es exclusivo de Mateo.",
+      "capitulos": [
+        14
+      ]
+    },
+    {
+      "id": "par-15-1",
+      "referencia": "Marcos 7:1-23",
+      "nota": "Marcos incluye una explicación adicional para lectores no judíos sobre las prácticas de purificación.",
+      "capitulos": [
+        15
+      ]
+    },
+    {
+      "id": "par-15-21",
+      "referencia": "Marcos 7:24-30",
+      "nota": "Marcos identifica a la mujer como \"sirofenicia\"; Mateo la llama \"cananea\", un término más antiguo con resonancias del Antiguo Testamento.",
+      "capitulos": [
+        15
+      ]
+    },
+    {
+      "id": "par-15-32",
+      "referencia": "Marcos 8:1-10",
+      "nota": "Es la segunda multiplicación de panes narrada en Mateo y Marcos, distinta de la de los cinco mil.",
+      "capitulos": [
+        15
+      ]
+    },
+    {
+      "id": "par-16-13",
+      "referencia": "Marcos 8:27-30; Lucas 9:18-21",
+      "nota": "Lucas omite el nombre del lugar (Cesarea de Filipo); Mateo es el único que incluye la respuesta de Jesús sobre la iglesia y las llaves.",
+      "capitulos": [
+        16
+      ]
+    },
+    {
+      "id": "par-16-21",
+      "referencia": "Marcos 8:31-33; Lucas 9:22",
+      "nota": "Los tres evangelios coinciden en que esta fue la primera vez que Jesús anunció abiertamente su muerte y resurrección.",
+      "capitulos": [
+        16
+      ]
+    },
+    {
+      "id": "par-16-24",
+      "referencia": "Marcos 8:34-9:1; Lucas 9:23-27",
+      "nota": "Los tres evangelios coinciden casi palabra por palabra en el llamado a tomar la cruz y negarse a sí mismo.",
+      "capitulos": [
+        16
+      ]
+    }
+  ]
+}

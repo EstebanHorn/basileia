@@ -2,21 +2,18 @@
 
 import Link from 'next/link';
 import { useApp } from '@/lib/app-context';
-import { usePersistedState, writePersistedState } from '@/lib/persisted-state';
+import { useProgress } from '@/lib/supabase/use-progress';
 import { useNotes } from '@/lib/supabase/use-notes';
 import { MAX_CHAPTER } from '@/lib/content/editorial';
+import Pressable from './Pressable';
 
 export default function NotasScreen() {
   const { colors, lang, dict } = useApp();
-  const { readChapters } = usePersistedState();
+  const { readChapters, toggleRead } = useProgress();
   const { notes } = useNotes();
 
   const readCount = Object.values(readChapters).filter(Boolean).length;
   const notesEntries = Object.entries(notes).filter(([, text]) => text && text.trim());
-
-  const toggleRead = (n: number) => {
-    writePersistedState({ readChapters: { ...readChapters, [n]: !readChapters[n] } });
-  };
 
   return (
     <div style={{ maxWidth: 760, margin: '0 auto', padding: '40px 24px 80px' }}>
@@ -26,16 +23,17 @@ export default function NotasScreen() {
         {Array.from({ length: MAX_CHAPTER }, (_, i) => i + 1).map((n) => {
           const checked = !!readChapters[n];
           return (
-            <div
+            <Pressable
               key={n}
               onClick={() => toggleRead(n)}
+              aria-pressed={checked}
               style={{
                 display: 'flex',
                 alignItems: 'center',
                 gap: 10,
                 padding: '8px 10px',
                 borderRadius: 8,
-                cursor: 'pointer',
+                width: '100%',
                 background: colors.panel,
                 border: `1px solid ${colors.border}`,
               }}
@@ -61,7 +59,7 @@ export default function NotasScreen() {
               <span style={{ fontSize: 13.5 }}>
                 {dict.capitulo.mateoPrefix} {n}
               </span>
-            </div>
+            </Pressable>
           );
         })}
       </div>

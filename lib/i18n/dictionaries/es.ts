@@ -7,19 +7,68 @@ const es: Dictionary = {
       'Basileia — plataforma de estudio del Evangelio de Mateo: análisis griego, contexto histórico-cultural y comentario capítulo a capítulo.',
   },
 
+  ui: { cerrar: 'Cerrar' },
+
+  seo: {
+    indice: {
+      title: 'Índice de capítulos',
+      description: 'Los 28 capítulos del Evangelio de Mateo organizados por secciones temáticas: Sermón del Monte, Parábolas del Reino, Semana de Pasión y más.',
+    },
+    mapa: {
+      title: 'Mapa del ministerio de Jesús',
+      description: 'Belén, Nazaret, Cafarnaún, Jerusalén y los demás lugares clave del ministerio de Jesús según el Evangelio de Mateo, con su contexto histórico.',
+    },
+    personajes: {
+      title: 'Personajes de Mateo',
+      description: 'Discípulos, autoridades religiosas y políticas, familia de Jesús y otras figuras del Evangelio de Mateo, con su trasfondo y los capítulos donde aparecen.',
+    },
+    glosario: {
+      title: 'Glosario griego del Nuevo Testamento',
+      description: 'Términos griegos clave del Evangelio de Mateo con transliteración, lema, morfología y significado — el análisis de griego koiné detrás del comentario.',
+    },
+    contexto: {
+      title: 'Contexto histórico-cultural',
+      description: 'Vida judía del siglo I, política romana, geografía y prácticas religiosas que iluminan el Evangelio de Mateo.',
+    },
+    nosotros: {
+      title: 'Sobre nosotros',
+      description: 'Qué es Basileia y de dónde nace este estudio capítulo a capítulo del Evangelio de Mateo.',
+    },
+    privacidad: {
+      title: 'Política de privacidad',
+      description: 'Qué datos guarda Basileia, para qué los usa y cómo podés acceder a ellos o eliminarlos.',
+    },
+    terminos: {
+      title: 'Términos de uso',
+      description: 'Condiciones de uso de la plataforma Basileia.',
+    },
+    paralelos: {
+      title: 'Citas del Antiguo Testamento y paralelos sinópticos',
+      description: 'Dónde cita Mateo al Antiguo Testamento y cómo se comparan sus relatos con los paralelos en Marcos y Lucas, capítulo a capítulo.',
+    },
+  },
+
   nav: {
     indice: 'Índice',
     mapa: 'Mapa',
     personajes: 'Personajes',
     glosario: 'Glosario',
     contexto: 'Contexto',
+    paralelos: 'Paralelos',
     notas: 'Notas',
     nosotros: 'Sobre nosotros',
     privacidad: 'Privacidad',
     terminos: 'Términos de uso',
   },
 
-  topnav: { login: 'Iniciar sesión', register: 'Registrarse', logout: 'Cerrar sesión' },
+  topnav: {
+    login: 'Iniciar sesión',
+    register: 'Registrarse',
+    logout: 'Cerrar sesión',
+    cambiarTema: 'Cambiar entre modo claro y oscuro',
+    abrirMenu: 'Abrir menú',
+    cerrarMenu: 'Cerrar menú',
+  },
 
   auth: {
     loginTitle: 'Iniciar sesión',
@@ -86,6 +135,13 @@ const es: Dictionary = {
     contexto: 'Contexto',
     sinContexto: 'Sin nota de contexto adicional para este capítulo.',
     mateoPrefix: 'Mateo',
+    lemaLabel: 'Lema',
+    citaAtChip: (ref) => `Cita AT: ${ref}`,
+    paraleloChip: (ref) => `Paralelo: ${ref}`,
+    guardando: 'Guardando...',
+    guardado: 'Guardado',
+    errorGuardado: 'No se pudo guardar la nota.',
+    reintentarGuardado: 'Reintentar',
   },
 
   mapa: {
@@ -107,14 +163,51 @@ const es: Dictionary = {
     statLine: (count) => `${count} términos del estudio de los capítulos.`,
     searchPlaceholder: 'Buscar término...',
     verEnMateo: (ref) => `Ver en Mateo ${ref} →`,
+    categoriaTodos: 'Todos',
+    categoriaVerbo: 'Verbos',
+    categoriaSustantivo: 'Sustantivos',
+    categoriaAdjetivo: 'Adjetivos',
+    categoriaOtro: 'Otros',
   },
 
   contexto: { title: 'Contexto histórico-cultural' },
+
+  paralelos: {
+    title: 'Paralelos y citas del AT',
+    subtitle: 'Dónde cita Mateo al Antiguo Testamento, y cómo se compara cada pasaje con su paralelo en Marcos y Lucas.',
+    tipoCitaAT: 'Citas del Antiguo Testamento',
+    tipoParalelo: 'Paralelos sinópticos',
+  },
+
+  buscar: {
+    navLabel: 'Buscar',
+    title: 'Buscar',
+    placeholder: 'Palabra clave, término griego o referencia (ej. "Mt 6:9")...',
+    referenciaResultado: (n) => `Ir a Mateo ${n}`,
+    tipoTexto: 'Texto bíblico',
+    tipoComentario: 'Comentario',
+    tipoGriego: 'Griego',
+    tipoPersonajes: 'Personajes',
+    tipoLugares: 'Lugares',
+    tipoContexto: 'Contexto',
+    sinResultados: 'No encontramos resultados para esa búsqueda.',
+    empiezaAEscribir: 'Escribí una palabra, un término griego o una referencia como "Mt 6:9".',
+  },
 
   notas: {
     title: 'Mis notas y progreso',
     stats: (read, total) => `${read} de ${total} capítulos marcados como leídos.`,
     notasGuardadas: 'Notas guardadas en esta sesión',
+  },
+
+  errores: {
+    cargando: 'Cargando...',
+    notFoundTitle: 'No encontramos esta página',
+    notFoundBody: 'El enlace puede estar roto o la página puede haberse movido.',
+    errorTitle: 'Algo salió mal',
+    errorBody: 'Ocurrió un error inesperado. Podés intentar de nuevo.',
+    reintentar: 'Reintentar',
+    volverInicio: 'Volver al inicio',
   },
 
   nosotros: {

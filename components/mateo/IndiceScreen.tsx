@@ -2,8 +2,9 @@
 
 import { useState } from 'react';
 import { useApp } from '@/lib/app-context';
-import { usePersistedState, writePersistedState } from '@/lib/persisted-state';
+import { useProgress } from '@/lib/supabase/use-progress';
 import { COMPLETED_RANGE, MAX_CHAPTER, isCompleted, type Section } from '@/lib/content/editorial';
+import Pressable from './Pressable';
 
 interface IndiceScreenProps {
   sections: Section[];
@@ -11,17 +12,13 @@ interface IndiceScreenProps {
 
 export default function IndiceScreen({ sections }: IndiceScreenProps) {
   const { colors, lang, dict } = useApp();
-  const { readChapters } = usePersistedState();
+  const { readChapters, toggleRead } = useProgress();
   const [indexFilter, setIndexFilter] = useState('all');
 
   const chips = [{ id: 'all', name: dict.indice.all }, ...sections];
   const activeSection = indexFilter === 'all' ? null : sections.find((s) => s.id === indexFilter);
   const completedCount = COMPLETED_RANGE[1] - COMPLETED_RANGE[0] + 1;
   const readCount = Object.values(readChapters).filter(Boolean).length;
-
-  const toggleRead = (n: number) => {
-    writePersistedState({ readChapters: { ...readChapters, [n]: !readChapters[n] } });
-  };
 
   return (
     <div style={{ maxWidth: 900, margin: '0 auto', padding: '40px 24px 80px' }}>
@@ -35,22 +32,22 @@ export default function IndiceScreen({ sections }: IndiceScreenProps) {
         {chips.map((c) => {
           const active = indexFilter === c.id;
           return (
-            <div
+            <Pressable
               key={c.id}
               onClick={() => setIndexFilter(c.id)}
+              aria-pressed={active}
               style={{
                 padding: '7px 13px',
                 borderRadius: 20,
                 fontSize: 12.5,
                 fontWeight: 600,
-                cursor: 'pointer',
                 border: `1px solid ${active ? colors.accent : colors.border}`,
                 background: active ? colors.accent : colors.panel,
                 color: active ? '#fff' : colors.text,
               }}
             >
               {c.name}
-            </div>
+            </Pressable>
           );
         })}
       </div>
@@ -60,33 +57,29 @@ export default function IndiceScreen({ sections }: IndiceScreenProps) {
           const read = !!readChapters[n];
           const inFilter = !activeSection || (n >= activeSection.range[0] && n <= activeSection.range[1]);
           return (
-            <a
-              key={n}
-              href={`/${lang}/capitulo/${n}`}
-              style={{
-                position: 'relative',
-                aspectRatio: '1',
-                borderRadius: 10,
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center',
-                fontWeight: 700,
-                fontSize: 16,
-                cursor: 'pointer',
-                opacity: inFilter ? 1 : 0.3,
-                background: completed ? colors.accent : colors.panel,
-                color: completed ? '#fff' : colors.muted,
-                border: `1px solid ${completed ? colors.accent : colors.border}`,
-              }}
-            >
-              {n}
-              <div
-                onClick={(e) => {
-                  e.preventDefault();
-                  e.stopPropagation();
-                  toggleRead(n);
+            <div key={n} style={{ position: 'relative', opacity: inFilter ? 1 : 0.3 }}>
+              <a
+                href={`/${lang}/capitulo/${n}`}
+                style={{
+                  aspectRatio: '1',
+                  borderRadius: 10,
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  fontWeight: 700,
+                  fontSize: 16,
+                  cursor: 'pointer',
+                  background: completed ? colors.accent : colors.panel,
+                  color: completed ? '#fff' : colors.muted,
+                  border: `1px solid ${completed ? colors.accent : colors.border}`,
                 }}
-                title={read ? dict.indice.markUnread : dict.indice.markRead}
+              >
+                {n}
+              </a>
+              <Pressable
+                onClick={() => toggleRead(n)}
+                aria-label={read ? dict.indice.markUnread : dict.indice.markRead}
+                aria-pressed={read}
                 style={{
                   position: 'absolute',
                   top: -6,
@@ -97,7 +90,6 @@ export default function IndiceScreen({ sections }: IndiceScreenProps) {
                   display: 'flex',
                   alignItems: 'center',
                   justifyContent: 'center',
-                  cursor: 'pointer',
                   background: read ? colors.text : colors.panel,
                   border: `1.5px solid ${read ? colors.text : colors.border}`,
                 }}
@@ -107,8 +99,8 @@ export default function IndiceScreen({ sections }: IndiceScreenProps) {
                     <polyline points="20 6 9 17 4 12"></polyline>
                   </svg>
                 )}
-              </div>
-            </a>
+              </Pressable>
+            </div>
           );
         })}
       </div>

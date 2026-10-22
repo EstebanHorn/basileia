@@ -20,6 +20,8 @@ export function buildBlocks(entry: ChapterEntry): ChapterBlock[] {
       last.greekIds = union(last.greekIds, v.griego_ids);
       last.personajeIds = union(last.personajeIds, v.personaje_ids);
       last.lugarIds = union(last.lugarIds, v.lugar_ids);
+      last.citaAtIds = union(last.citaAtIds, v.cita_at_ids ?? []);
+      last.paraleloIds = union(last.paraleloIds, v.paralelo_ids ?? []);
       continue;
     }
 
@@ -32,6 +34,8 @@ export function buildBlocks(entry: ChapterEntry): ChapterBlock[] {
       greekIds: [...v.griego_ids],
       personajeIds: [...v.personaje_ids],
       lugarIds: [...v.lugar_ids],
+      citaAtIds: [...(v.cita_at_ids ?? [])],
+      paraleloIds: [...(v.paralelo_ids ?? [])],
     });
   }
 

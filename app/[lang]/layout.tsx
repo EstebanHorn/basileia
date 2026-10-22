@@ -4,6 +4,8 @@ import { notFound } from 'next/navigation';
 import '../globals.css';
 import { hasLocale, locales } from '@/lib/i18n/config';
 import { getDictionary } from '@/lib/i18n/get-dictionary';
+import { getSiteUrl } from '@/lib/site';
+import { OG_LOCALE } from '@/lib/seo';
 import { AuthProvider } from '@/lib/supabase/auth-context';
 import { AppProvider } from '@/lib/app-context';
 import AppChrome from '@/components/mateo/AppChrome';
@@ -29,7 +31,32 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
   const { lang } = await params;
   if (!hasLocale(lang)) return {};
   const dict = await getDictionary(lang);
-  return { title: dict.meta.title, description: dict.meta.description };
+  const siteUrl = getSiteUrl();
+
+  return {
+    metadataBase: new URL(siteUrl),
+    title: { template: `%s — ${dict.meta.title}`, default: dict.meta.title },
+    description: dict.meta.description,
+    alternates: {
+      canonical: `/${lang}`,
+      languages: Object.fromEntries(locales.map((locale) => [locale, `/${locale}`])),
+    },
+    openGraph: {
+      title: dict.meta.title,
+      description: dict.meta.description,
+      url: `/${lang}`,
+      siteName: dict.meta.title,
+      locale: OG_LOCALE[lang as keyof typeof OG_LOCALE] ?? 'es_AR',
+      images: ['/icon.png'],
+      type: 'website',
+    },
+    twitter: {
+      card: 'summary',
+      title: dict.meta.title,
+      description: dict.meta.description,
+      images: ['/icon.png'],
+    },
+  };
 }
 
 export default async function LangLayout({

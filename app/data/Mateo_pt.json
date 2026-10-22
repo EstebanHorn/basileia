@@ -313,7 +313,10 @@
         "personaje_ids": [
           "isaias"
         ],
-        "lugar_ids": []
+        "lugar_ids": [],
+        "cita_at_ids": [
+          "cita-1-23"
+        ]
       },
       {
         "numero": 24,
@@ -445,6 +448,9 @@
         "lugar_ids": [
           "belen",
           "judea"
+        ],
+        "cita_at_ids": [
+          "cita-2-6"
         ]
       },
       {
@@ -556,6 +562,9 @@
         ],
         "lugar_ids": [
           "egipto"
+        ],
+        "cita_at_ids": [
+          "cita-2-15"
         ]
       },
       {
@@ -596,6 +605,9 @@
         "lugar_ids": [
           "belen",
           "rama"
+        ],
+        "cita_at_ids": [
+          "cita-2-18"
         ]
       },
       {
@@ -677,6 +689,9 @@
           "nazaret",
           "galilea",
           "judea"
+        ],
+        "cita_at_ids": [
+          "cita-2-23"
         ]
       }
     ],
@@ -709,6 +724,9 @@
         "lugar_ids": [
           "judea",
           "desierto-de-judea"
+        ],
+        "paralelo_ids": [
+          "par-3-1"
         ]
       },
       {
@@ -730,6 +748,9 @@
         ],
         "lugar_ids": [
           "desierto-de-judea"
+        ],
+        "cita_at_ids": [
+          "cita-3-3"
         ]
       },
       {
@@ -852,6 +873,9 @@
         "lugar_ids": [
           "galilea",
           "rio-jordan"
+        ],
+        "paralelo_ids": [
+          "par-3-13"
         ]
       },
       {
@@ -924,6 +948,9 @@
         ],
         "lugar_ids": [
           "desierto-de-judea"
+        ],
+        "paralelo_ids": [
+          "par-4-1"
         ]
       },
       {
@@ -963,6 +990,9 @@
         ],
         "lugar_ids": [
           "desierto-de-judea"
+        ],
+        "cita_at_ids": [
+          "cita-4-4"
         ]
       },
       {
@@ -991,6 +1021,9 @@
         "lugar_ids": [
           "jerusalen",
           "desierto-de-judea"
+        ],
+        "cita_at_ids": [
+          "cita-4-6"
         ]
       },
       {
@@ -1005,6 +1038,9 @@
         "lugar_ids": [
           "jerusalen",
           "desierto-de-judea"
+        ],
+        "cita_at_ids": [
+          "cita-4-7"
         ]
       },
       {
@@ -1038,7 +1074,10 @@
           "jesus",
           "satanas"
         ],
-        "lugar_ids": []
+        "lugar_ids": [],
+        "cita_at_ids": [
+          "cita-4-10"
+        ]
       },
       {
         "numero": 11,
@@ -1130,6 +1169,9 @@
           "jerusalen",
           "galilea",
           "capernaum"
+        ],
+        "cita_at_ids": [
+          "cita-4-16"
         ]
       },
       {
@@ -1157,6 +1199,9 @@
         "lugar_ids": [
           "galilea",
           "mar-de-galilea"
+        ],
+        "paralelo_ids": [
+          "par-4-18"
         ]
       },
       {
@@ -1276,7 +1321,10 @@
         "personaje_ids": [
           "jesus"
         ],
-        "lugar_ids": []
+        "lugar_ids": [],
+        "paralelo_ids": [
+          "par-5-1"
+        ]
       },
       {
         "numero": 2,
@@ -1551,7 +1599,10 @@
         "personaje_ids": [
           "jesus"
         ],
-        "lugar_ids": []
+        "lugar_ids": [],
+        "cita_at_ids": [
+          "cita-5-21"
+        ]
       },
       {
         "numero": 22,
@@ -1615,7 +1666,10 @@
         "personaje_ids": [
           "jesus"
         ],
-        "lugar_ids": []
+        "lugar_ids": [],
+        "cita_at_ids": [
+          "cita-5-27"
+        ]
       },
       {
         "numero": 28,
@@ -1754,7 +1808,10 @@
           "jesus",
           "mateo"
         ],
-        "lugar_ids": []
+        "lugar_ids": [],
+        "cita_at_ids": [
+          "cita-5-38"
+        ]
       },
       {
         "numero": 39,
@@ -1805,7 +1862,10 @@
           "jesus",
           "mateo"
         ],
-        "lugar_ids": []
+        "lugar_ids": [],
+        "cita_at_ids": [
+          "cita-5-43"
+        ]
       },
       {
         "numero": 44,
@@ -2000,7 +2060,10 @@
           "jesus",
           "fariseos"
         ],
-        "lugar_ids": []
+        "lugar_ids": [],
+        "paralelo_ids": [
+          "par-6-9"
+        ]
       },
       {
         "numero": 10,
@@ -2186,7 +2249,10 @@
         "personaje_ids": [
           "jesus"
         ],
-        "lugar_ids": []
+        "lugar_ids": [],
+        "paralelo_ids": [
+          "par-6-25"
+        ]
       },
       {
         "numero": 26,
@@ -2312,7 +2378,10 @@
         "personaje_ids": [
           "jesus"
         ],
-        "lugar_ids": []
+        "lugar_ids": [],
+        "paralelo_ids": [
+          "par-7-1"
+        ]
       },
       {
         "numero": 2,
@@ -2573,7 +2642,10 @@
         "personaje_ids": [
           "jesus"
         ],
-        "lugar_ids": []
+        "lugar_ids": [],
+        "paralelo_ids": [
+          "par-7-24"
+        ]
       },
       {
         "numero": 25,
@@ -2657,7 +2729,10 @@
         "personaje_ids": [
           "jesus"
         ],
-        "lugar_ids": []
+        "lugar_ids": [],
+        "paralelo_ids": [
+          "par-8-1"
+        ]
       },
       {
         "numero": 2,
@@ -2706,6 +2781,9 @@
         "lugar_ids": [
           "galilea",
           "capernaum"
+        ],
+        "paralelo_ids": [
+          "par-8-5"
         ]
       },
       {
@@ -2845,7 +2923,10 @@
           "pedro",
           "isaias"
         ],
-        "lugar_ids": []
+        "lugar_ids": [],
+        "cita_at_ids": [
+          "cita-8-17"
+        ]
       },
       {
         "numero": 18,
@@ -2908,6 +2989,9 @@
         "lugar_ids": [
           "galilea",
           "mar-de-galilea"
+        ],
+        "paralelo_ids": [
+          "par-8-23"
         ]
       },
       {
@@ -2964,6 +3048,9 @@
         ],
         "lugar_ids": [
           "region-de-los-gadarenos"
+        ],
+        "paralelo_ids": [
+          "par-8-28"
         ]
       },
       {
@@ -3053,7 +3140,10 @@
         "personaje_ids": [
           "jesus"
         ],
-        "lugar_ids": []
+        "lugar_ids": [],
+        "paralelo_ids": [
+          "par-9-1"
+        ]
       },
       {
         "numero": 2,
@@ -3139,7 +3229,10 @@
           "jesus",
           "mateo"
         ],
-        "lugar_ids": []
+        "lugar_ids": [],
+        "paralelo_ids": [
+          "par-9-9"
+        ]
       },
       {
         "numero": 10,
@@ -3182,7 +3275,10 @@
         "personaje_ids": [
           "jesus"
         ],
-        "lugar_ids": []
+        "lugar_ids": [],
+        "cita_at_ids": [
+          "cita-9-13"
+        ]
       },
       {
         "numero": 14,
@@ -3234,7 +3330,10 @@
         "personaje_ids": [
           "jesus"
         ],
-        "lugar_ids": []
+        "lugar_ids": [],
+        "paralelo_ids": [
+          "par-9-18"
+        ]
       },
       {
         "numero": 19,
@@ -3483,7 +3582,10 @@
         "personaje_ids": [
           "jesus"
         ],
-        "lugar_ids": []
+        "lugar_ids": [],
+        "paralelo_ids": [
+          "par-10-1"
+        ]
       },
       {
         "numero": 2,
@@ -4005,6 +4107,9 @@
         "lugar_ids": [
           "desierto-de-judea",
           "tiro-y-sidon"
+        ],
+        "paralelo_ids": [
+          "par-11-2"
         ]
       },
       {
@@ -4115,6 +4220,9 @@
         "lugar_ids": [
           "rio-jordan",
           "desierto-de-judea"
+        ],
+        "cita_at_ids": [
+          "cita-11-10"
         ]
       },
       {
@@ -4428,7 +4536,10 @@
           "jesus",
           "fariseos"
         ],
-        "lugar_ids": []
+        "lugar_ids": [],
+        "paralelo_ids": [
+          "par-12-1"
+        ]
       },
       {
         "numero": 2,
@@ -4499,7 +4610,10 @@
           "fariseos",
           "david"
         ],
-        "lugar_ids": []
+        "lugar_ids": [],
+        "cita_at_ids": [
+          "cita-12-7"
+        ]
       },
       {
         "numero": 8,
@@ -4522,7 +4636,10 @@
           "jesus",
           "fariseos"
         ],
-        "lugar_ids": []
+        "lugar_ids": [],
+        "paralelo_ids": [
+          "par-12-9"
+        ]
       },
       {
         "numero": 10,
@@ -4617,7 +4734,10 @@
         "personaje_ids": [
           "jesus"
         ],
-        "lugar_ids": []
+        "lugar_ids": [],
+        "cita_at_ids": [
+          "cita-12-18"
+        ]
       },
       {
         "numero": 19,
@@ -4658,7 +4778,10 @@
           "jesus",
           "fariseos"
         ],
-        "lugar_ids": []
+        "lugar_ids": [],
+        "paralelo_ids": [
+          "par-12-22"
+        ]
       },
       {
         "numero": 23,
@@ -4861,7 +4984,10 @@
           "maestros-de-la-ley",
           "jonas"
         ],
-        "lugar_ids": []
+        "lugar_ids": [],
+        "cita_at_ids": [
+          "cita-12-40"
+        ]
       },
       {
         "numero": 41,
@@ -4928,7 +5054,10 @@
           "jesus",
           "maria"
         ],
-        "lugar_ids": []
+        "lugar_ids": [],
+        "paralelo_ids": [
+          "par-12-46"
+        ]
       },
       {
         "numero": 47,
@@ -5003,6 +5132,9 @@
         ],
         "lugar_ids": [
           "mar-de-galilea"
+        ],
+        "paralelo_ids": [
+          "par-13-1"
         ]
       },
       {
@@ -5143,7 +5275,10 @@
         "personaje_ids": [
           "jesus"
         ],
-        "lugar_ids": []
+        "lugar_ids": [],
+        "cita_at_ids": [
+          "cita-13-14"
+        ]
       },
       {
         "numero": 15,
@@ -5320,7 +5455,10 @@
         "personaje_ids": [
           "jesus"
         ],
-        "lugar_ids": []
+        "lugar_ids": [],
+        "paralelo_ids": [
+          "par-13-31"
+        ]
       },
       {
         "numero": 32,
@@ -5340,7 +5478,10 @@
         "personaje_ids": [
           "jesus"
         ],
-        "lugar_ids": []
+        "lugar_ids": [],
+        "paralelo_ids": [
+          "par-13-33"
+        ]
       },
       {
         "numero": 34,
@@ -5360,7 +5501,10 @@
         "personaje_ids": [
           "jesus"
         ],
-        "lugar_ids": []
+        "lugar_ids": [],
+        "cita_at_ids": [
+          "cita-13-35"
+        ]
       },
       {
         "numero": 36,
@@ -5647,7 +5791,10 @@
           "jesus",
           "herodes-antipas"
         ],
-        "lugar_ids": []
+        "lugar_ids": [],
+        "paralelo_ids": [
+          "par-14-1"
+        ]
       },
       {
         "numero": 2,
@@ -5788,7 +5935,10 @@
           "jesus",
           "juan-bautista"
         ],
-        "lugar_ids": []
+        "lugar_ids": [],
+        "paralelo_ids": [
+          "par-14-13"
+        ]
       },
       {
         "numero": 14,
@@ -5885,6 +6035,9 @@
         "lugar_ids": [
           "mar-de-galilea",
           "betsaida"
+        ],
+        "cita_at_ids": [
+          "cita-14-20"
         ]
       },
       {
@@ -5913,6 +6066,9 @@
           "mar-de-galilea",
           "betsaida",
           "capernaum"
+        ],
+        "paralelo_ids": [
+          "par-14-22"
         ]
       },
       {
@@ -6139,6 +6295,9 @@
         ],
         "lugar_ids": [
           "jerusalen"
+        ],
+        "paralelo_ids": [
+          "par-15-1"
         ]
       },
       {
@@ -6178,7 +6337,10 @@
           "jesus",
           "fariseos"
         ],
-        "lugar_ids": []
+        "lugar_ids": [],
+        "cita_at_ids": [
+          "cita-15-4"
+        ]
       },
       {
         "numero": 5,
@@ -6232,7 +6394,10 @@
           "fariseos",
           "isaias"
         ],
-        "lugar_ids": []
+        "lugar_ids": [],
+        "cita_at_ids": [
+          "cita-15-8"
+        ]
       },
       {
         "numero": 9,
@@ -6378,6 +6543,9 @@
         ],
         "lugar_ids": [
           "tiro-y-sidon"
+        ],
+        "paralelo_ids": [
+          "par-15-21"
         ]
       },
       {
@@ -6510,6 +6678,9 @@
         ],
         "lugar_ids": [
           "decapolis"
+        ],
+        "paralelo_ids": [
+          "par-15-32"
         ]
       },
       {
@@ -6676,7 +6847,10 @@
           "saduceos",
           "jonas"
         ],
-        "lugar_ids": []
+        "lugar_ids": [],
+        "cita_at_ids": [
+          "cita-16-4"
+        ]
       },
       {
         "numero": 5,
@@ -6780,6 +6954,9 @@
         ],
         "lugar_ids": [
           "cesarea-de-filipo"
+        ],
+        "paralelo_ids": [
+          "par-16-13"
         ]
       },
       {
@@ -6876,7 +7053,10 @@
           "pedro",
           "satanas"
         ],
-        "lugar_ids": []
+        "lugar_ids": [],
+        "paralelo_ids": [
+          "par-16-21"
+        ]
       },
       {
         "numero": 22,
@@ -6910,7 +7090,10 @@
         "personaje_ids": [
           "jesus"
         ],
-        "lugar_ids": []
+        "lugar_ids": [],
+        "paralelo_ids": [
+          "par-16-24"
+        ]
       },
       {
         "numero": 25,

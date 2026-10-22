@@ -1,8 +1,9 @@
 'use client';
 
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useAuth } from '@/lib/supabase/auth-context';
 import { useApp } from '@/lib/app-context';
+import Pressable from './Pressable';
 
 interface AuthModalProps {
   mode: 'login' | 'register';
@@ -30,6 +31,14 @@ export default function AuthModal({ mode, onClose, onSetLoginMode, onSetRegister
     setInfo(null);
     fn();
   };
+
+  useEffect(() => {
+    const onKeyDown = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') onClose();
+    };
+    window.addEventListener('keydown', onKeyDown);
+    return () => window.removeEventListener('keydown', onKeyDown);
+  }, [onClose]);
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -100,9 +109,9 @@ export default function AuthModal({ mode, onClose, onSetLoginMode, onSetRegister
       >
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 22 }}>
           <div style={{ fontFamily: 'var(--font-lora), serif', fontSize: 21, fontWeight: 600 }}>{title}</div>
-          <div onClick={onClose} style={{ cursor: 'pointer', color: colors.muted, fontSize: 20, lineHeight: 1 }}>
+          <Pressable onClick={onClose} aria-label={dict.ui.cerrar} style={{ color: colors.muted, fontSize: 20, lineHeight: 1 }}>
             ×
-          </div>
+          </Pressable>
         </div>
 
         <div
@@ -115,8 +124,9 @@ export default function AuthModal({ mode, onClose, onSetLoginMode, onSetRegister
             marginBottom: 20,
           }}
         >
-          <div
+          <Pressable
             onClick={() => switchMode(onSetLoginMode)}
+            aria-pressed={!isRegister}
             style={{
               flex: 1,
               textAlign: 'center',
@@ -124,15 +134,15 @@ export default function AuthModal({ mode, onClose, onSetLoginMode, onSetRegister
               borderRadius: 7,
               fontSize: 13.5,
               fontWeight: 600,
-              cursor: 'pointer',
               background: !isRegister ? colors.panel : 'transparent',
               color: !isRegister ? colors.accent : colors.muted,
             }}
           >
             {dict.auth.loginTab}
-          </div>
-          <div
+          </Pressable>
+          <Pressable
             onClick={() => switchMode(onSetRegisterMode)}
+            aria-pressed={isRegister}
             style={{
               flex: 1,
               textAlign: 'center',
@@ -140,13 +150,12 @@ export default function AuthModal({ mode, onClose, onSetLoginMode, onSetRegister
               borderRadius: 7,
               fontSize: 13.5,
               fontWeight: 600,
-              cursor: 'pointer',
               background: isRegister ? colors.panel : 'transparent',
               color: isRegister ? colors.accent : colors.muted,
             }}
           >
             {dict.auth.registerTab}
-          </div>
+          </Pressable>
         </div>
 
         <form onSubmit={handleSubmit}>

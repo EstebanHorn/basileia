@@ -14,8 +14,27 @@ export interface AboutFeature {
   desc: string;
 }
 
+export interface SeoEntry {
+  title: string;
+  description: string;
+}
+
 export interface Dictionary {
   meta: { title: string; description: string };
+
+  ui: { cerrar: string };
+
+  seo: {
+    indice: SeoEntry;
+    mapa: SeoEntry;
+    personajes: SeoEntry;
+    glosario: SeoEntry;
+    contexto: SeoEntry;
+    nosotros: SeoEntry;
+    privacidad: SeoEntry;
+    terminos: SeoEntry;
+    paralelos: SeoEntry;
+  };
 
   nav: {
     indice: string;
@@ -23,13 +42,21 @@ export interface Dictionary {
     personajes: string;
     glosario: string;
     contexto: string;
+    paralelos: string;
     notas: string;
     nosotros: string;
     privacidad: string;
     terminos: string;
   };
 
-  topnav: { login: string; register: string; logout: string };
+  topnav: {
+    login: string;
+    register: string;
+    logout: string;
+    cambiarTema: string;
+    abrirMenu: string;
+    cerrarMenu: string;
+  };
 
   auth: {
     loginTitle: string;
@@ -89,6 +116,13 @@ export interface Dictionary {
     contexto: string;
     sinContexto: string;
     mateoPrefix: string;
+    lemaLabel: string;
+    citaAtChip: (referencia: string) => string;
+    paraleloChip: (referencia: string) => string;
+    guardando: string;
+    guardado: string;
+    errorGuardado: string;
+    reintentarGuardado: string;
   };
 
   mapa: {
@@ -110,14 +144,51 @@ export interface Dictionary {
     statLine: (count: number) => string;
     searchPlaceholder: string;
     verEnMateo: (ref: string) => string;
+    categoriaTodos: string;
+    categoriaVerbo: string;
+    categoriaSustantivo: string;
+    categoriaAdjetivo: string;
+    categoriaOtro: string;
   };
 
   contexto: { title: string };
+
+  paralelos: {
+    title: string;
+    subtitle: string;
+    tipoCitaAT: string;
+    tipoParalelo: string;
+  };
+
+  buscar: {
+    navLabel: string;
+    title: string;
+    placeholder: string;
+    referenciaResultado: (chapter: number) => string;
+    tipoTexto: string;
+    tipoComentario: string;
+    tipoGriego: string;
+    tipoPersonajes: string;
+    tipoLugares: string;
+    tipoContexto: string;
+    sinResultados: string;
+    empiezaAEscribir: string;
+  };
 
   notas: {
     title: string;
     stats: (read: number, total: number) => string;
     notasGuardadas: string;
+  };
+
+  errores: {
+    cargando: string;
+    notFoundTitle: string;
+    notFoundBody: string;
+    errorTitle: string;
+    errorBody: string;
+    reintentar: string;
+    volverInicio: string;
   };
 
   nosotros: {
