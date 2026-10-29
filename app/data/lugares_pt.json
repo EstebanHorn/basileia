@@ -101,7 +101,8 @@
         8,
         11,
         14,
-        13
+        13,
+        17
       ]
     },
     {
@@ -129,7 +130,8 @@
         4,
         8,
         10,
-        11
+        11,
+        17
       ]
     },
     {
@@ -206,7 +208,7 @@
       "nombre": "Cesareia de Filipe",
       "top": 10,
       "left": 62,
-      "nota": "Cidade ao pé do monte Hermon, no extremo norte do território. Ali Pedro confessa que Jesus é o Cristo, o Filho do Deus vivo — momento decisivo do evangelho.",
+      "nota": "Cidade ao pé do monte Hermon, no extremo norte do território. Ali Pedro confessa que Jesus é o Cristo, o Filho do Deus vivo - momento decisivo do evangelho.",
       "capitulos": [
         16
       ]
@@ -326,6 +328,16 @@
       "nota": "Fértil planície costeira a noroeste do Mar da Galileia, densamente povoada, descrita por Josefo como \"o jardim da Galileia\". Ali o povo suplica a Jesus para tocar apenas na borda do seu manto, e todos os que o tocam ficam curados.",
       "capitulos": [
         14
+      ]
+    },
+    {
+      "id": "monte-de-la-transfiguracion",
+      "nombre": "O monte da transfiguração",
+      "top": 9,
+      "left": 65,
+      "nota": "A tradição cristã apontou durante séculos para o monte Tabor, na baixa Galileia, mas boa parte dos estudiosos atuais propõe o monte Hermon, bem mais próximo de Cesareia de Filipe -onde Jesus e seus discípulos estavam ao final do capítulo anterior. O evangelho não o identifica com precisão: o que importa é que é 'um monte alto', o lugar bíblico do encontro com Deus.",
+      "capitulos": [
+        17
       ]
     }
   ]

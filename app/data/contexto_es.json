@@ -166,7 +166,7 @@
       "id": "discurso-de-envio-los-doce-apostoles",
       "titulo": "El discurso de envío de los doce apóstoles",
       "tema": "vida-judia",
-      "texto": "Mateo 10 es el segundo gran bloque de enseñanza del evangelio, y el primero dirigido exclusivamente a los discípulos y no a la multitud. Jesús reúne a los doce, les da autoridad para expulsar espíritus malignos y sanar enfermedades, y los envía con instrucciones concretas de misión: es un manual de instrucciones para el discipulado que, según el PDF, sigue hablando a cualquier persona que decide seguir a Jesús con seriedad."
+      "texto": "Mateo 10 es el segundo gran bloque de enseñanza del evangelio, y el primero dirigido exclusivamente a los discípulos y no a la multitud. Jesús reúne a los doce, les da autoridad para expulsar espíritus malignos y sanar enfermedades, y los envía con instrucciones concretas de misión: es un manual de instrucciones para el discipulado que sigue hablando a cualquier persona que decide seguir a Jesús con seriedad."
     },
     {
       "id": "persecucion-y-discipulado-costoso",
@@ -184,7 +184,7 @@
       "id": "juan-bautista-en-prision",
       "titulo": "Juan el Bautista en prisión",
       "tema": "politica-romana",
-      "texto": "Encarcelado por orden de Herodes, Juan el Bautista -quien había proclamado a Jesús y preparado su camino- envía desde la cárcel a sus discípulos a preguntarle si realmente es 'el que ha de venir'. El PDF señala que ni siquiera el precursor del Mesías estuvo exento de una crisis de fe genuina, y que Jesús no lo reprende por dudar sino que responde su pregunta con evidencia concreta de lo que está haciendo."
+      "texto": "Encarcelado por orden de Herodes, Juan el Bautista -quien había proclamado a Jesús y preparado su camino- envía desde la cárcel a sus discípulos a preguntarle si realmente es 'el que ha de venir'. Ni siquiera el precursor del Mesías estuvo exento de una crisis de fe genuina, y Jesús no lo reprende por dudar sino que responde su pregunta con evidencia concreta de lo que está haciendo."
     },
     {
       "id": "ciudades-de-galilea-corazin-betsaida-capernaum",
@@ -287,6 +287,24 @@
       "titulo": "Atar y desatar: autoridad rabínica de declarar",
       "tema": "practicas-religiosas",
       "texto": "En el lenguaje rabínico del siglo I, \"atar\" y \"desatar\" eran términos técnicos para la autoridad de declarar algo prohibido o permitido, y de incluir o excluir a alguien de la comunidad religiosa. Al darle a Pedro -y luego a los demás apóstoles en Mateo 18:18- las llaves y la autoridad de atar y desatar, Jesús usa un concepto que sus oyentes reconocían de inmediato: una autoridad real de gobierno sobre la comunidad del Reino, pero subordinada a lo que ya está establecido en el cielo, no independiente de ello."
+    },
+    {
+      "id": "la-shekina-la-gloria-visible-de-dios",
+      "titulo": "La shekiná: la gloria visible de Dios",
+      "tema": "vida-judia",
+      "texto": "En el pensamiento judío, shekiná (del hebreo shakan, morar) nombra la presencia visible de Dios habitando entre su pueblo: la nube que cubrió el tabernáculo en el desierto y que llenó el templo de Salomón al dedicarse, tan densa que los sacerdotes no podían ministrar (1 Reyes 8:10-11). Es la misma gloria que hizo resplandecer el rostro de Moisés al bajar del Sinaí (Éxodo 34:29-35), aunque en su caso era luz reflejada, no propia. En el monte de la transfiguración, los discípulos ven esa misma gloria -la nube luminosa, la voz, el rostro resplandeciente- pero esta vez no envuelve un objeto ni un edificio: brilla desde un rostro humano. Es la confirmación visual de que en Jesús, Dios mismo volvió a habitar visiblemente entre los hombres."
+    },
+    {
+      "id": "la-fiesta-de-los-tabernaculos",
+      "titulo": "La fiesta de los Tabernáculos",
+      "tema": "practicas-religiosas",
+      "texto": "Sucot, la fiesta de los Tabernáculos, era una de las tres peregrinaciones anuales obligatorias del calendario judío, junto con la Pascua y Pentecostés. Durante siete días, las familias construían y habitaban cabañas temporales (sucot, de donde Pedro toma la palabra que usa en el monte) para recordar cómo Dios protegió y proveyó para el pueblo durante los cuarenta años en el desierto. Era una fiesta de alegría y gratitud, con una fuerte expectativa escatológica: varios profetas asociaban la restauración final de Israel con esta celebración. Cuando Pedro ofrece construir tres tabernáculos en el monte, probablemente está leyendo el momento en esa clave -como si la era mesiánica final hubiera llegado- sin entender todavía que antes de esa gloria permanente tenía que pasar la cruz."
+    },
+    {
+      "id": "el-impuesto-del-templo-y-el-medio-siclo",
+      "titulo": "El impuesto del templo y el medio siclo",
+      "tema": "practicas-religiosas",
+      "texto": "Según Éxodo 30:11-16, todo israelita varón mayor de veinte años debía pagar un medio siclo anual para el sostenimiento del culto en el tabernáculo, y más tarde del templo, descrito como «rescate por su vida» ante un eventual censo. La ley es explícita en su igualdad: «El rico no pagará más, ni el pobre pagará menos» (Éxodo 30:15). En tiempos de Jesús, ese medio siclo equivalía a la didracma griega, y se recaudaba anualmente antes de la Pascua, generalmente en el mes de Adar. Negarse a pagarlo podía leerse como una señal pública de ruptura con la comunidad del templo, lo cual explica por qué Jesús, aun teniendo el derecho de no pagar como Hijo, elige hacerlo para no generar una ofensa innecesaria."
     }
   ]
 }

@@ -74,7 +74,7 @@
       "transliteracion": "peinao",
       "significado": "ter fome (intensa)",
       "palabra": "fome",
-      "nota": "Junto com dipsao (sede), não descreve um apetite moderado nem um desejo ocasional, mas uma necessidade vital, urgente e constante — aplicada aqui à fome e à sede de justiça.",
+      "nota": "Junto com dipsao (sede), não descreve um apetite moderado nem um desejo ocasional, mas uma necessidade vital, urgente e constante - aplicada aqui à fome e à sede de justiça.",
       "capitulos": [
         5
       ]
@@ -504,7 +504,7 @@
       "transliteracion": "teleios",
       "significado": "perfeito, completo, maduro",
       "palabra": "perfeitos",
-      "nota": "Não descreve uma perfeição moral sem defeitos, algo impossível para qualquer ser humano. Significa completo, maduro, que chegou ao seu propósito final — um chamado à integridade, não ao perfeccionismo.",
+      "nota": "Não descreve uma perfeição moral sem defeitos, algo impossível para qualquer ser humano. Significa completo, maduro, que chegou ao seu propósito final - um chamado à integridade, não ao perfeccionismo.",
       "capitulos": [
         5
       ]
@@ -557,7 +557,7 @@
       "transliteracion": "battalogeo",
       "significado": "falar só por falar, balbuciar",
       "palabra": "por falar",
-      "nota": "Descreve o balbucio vazio, as palavras multiplicadas sem sentido, a repetição ritual desconectada de qualquer intenção real — o oposto da oração genuína que Jesus ensina.",
+      "nota": "Descreve o balbucio vazio, as palavras multiplicadas sem sentido, a repetição ritual desconectada de qualquer intenção real - o oposto da oração genuína que Jesus ensina.",
       "capitulos": [
         6
       ]
@@ -596,7 +596,7 @@
       "transliteracion": "krino",
       "significado": "julgar",
       "palabra": "julguem",
-      "nota": "Não descreve simplesmente opinar ou avaliar, mas o ato de condenar, de decretar sentença sobre outro — o que Jesus proíbe fazer com o coração hipócrita.",
+      "nota": "Não descreve simplesmente opinar ou avaliar, mas o ato de condenar, de decretar sentença sobre outro - o que Jesus proíbe fazer com o coração hipócrita.",
       "capitulos": [
         7
       ]
@@ -674,7 +674,7 @@
       "transliteracion": "proskuneo",
       "significado": "prostrar-se em adoração",
       "palabra": "prostrou",
-      "nota": "Descreve o ato de se prostrar em adoração, a mesma palavra usada para adorar a Deus — o gesto do centurião e de outros que se aproximam de Jesus reconhecendo quem Ele é.",
+      "nota": "Descreve o ato de se prostrar em adoração, a mesma palavra usada para adorar a Deus - o gesto do centurião e de outros que se aproximam de Jesus reconhecendo quem Ele é.",
       "capitulos": [
         8
       ]
@@ -715,7 +715,7 @@
       "transliteracion": "skandalizomai",
       "significado": "tropeçar, ser escandalizado",
       "palabra": "tropeça",
-      "nota": "Descreve o ato de tropeçar numa pedra de tropeço no caminho, cair por causa de algo que se revela um obstáculo — a advertência de Jesus a João Batista e a todo aquele que duvida dele.",
+      "nota": "Descreve o ato de tropeçar numa pedra de tropeço no caminho, cair por causa de algo que se revela um obstáculo - a advertência de Jesus a João Batista e a todo aquele que duvida dele.",
       "capitulos": [
         11
       ]
@@ -741,7 +741,7 @@
       "transliteracion": "kopiao",
       "significado": "estar cansado (de trabalho pesado)",
       "palabra": "cansados",
-      "nota": "Descreve o cansaço que vem de um trabalho pesado, o tipo de esgotamento que deixa sem forças — linguagem do trabalho duro sob o sol que Jesus aplica ao esgotamento espiritual.",
+      "nota": "Descreve o cansaço que vem de um trabalho pesado, o tipo de esgotamento que deixa sem forças - linguagem do trabalho duro sob o sol que Jesus aplica ao esgotamento espiritual.",
       "capitulos": [
         11
       ]
@@ -888,6 +888,123 @@
       "nota": "No grego secular do século I significava uma assembleia convocada, os cidadãos chamados a se reunir. Jesus toma essa palavra e a enche de um conteúdo novo: a comunidade dos que o reconhecem como Cristo.",
       "capitulos": [
         16
+      ]
+    },
+    {
+      "id": "metamorphoo",
+      "griego": "μετεμορφώθη",
+      "lema": "μεταμορφόω",
+      "morfologia": "verbo, aoristo passivo indicativo, 3.ª pessoa do singular (lema: μεταμορφόω)",
+      "transliteracion": "metemorphothe",
+      "significado": "foi transformado, transfigurou-se",
+      "palabra": "transfigurado",
+      "nota": "Dessa palavra vem 'metamorfose': uma mudança de forma que sai de dentro para fora, não uma luz que ilumina de fora. O que os discípulos veem não é algo que Jesus recebeu, mas o que ele sempre foi e havia mantido velado. Paulo usa o mesmo verbo para descrever o que Deus faz no crente (Romanos 12:2; 2 Coríntios 3:18).",
+      "capitulos": [
+        17
+      ]
+    },
+    {
+      "id": "oligopistia",
+      "griego": "ὀλιγοπιστίαν",
+      "lema": "ὀλιγοπιστία",
+      "morfologia": "substantivo, acusativo singular feminino (composto de ὀλίγος + πίστις)",
+      "transliteracion": "oligopistian",
+      "significado": "pouca fé, falta de fé",
+      "palabra": "pouca fé",
+      "nota": "Variante substantiva de oligopistos (ὀλιγόπιστος), 'o de pouca fé'. Não descreve ausência de fé, mas uma fé real que não alcança a profundidade necessária: existe, mas duvida no fundo de que Deus vá agir. Por isso Jesus não pede mais quantidade de fé, mas outra qualidade, comparando-a a um grão de mostarda.",
+      "capitulos": [
+        17
+      ]
+    },
+    {
+      "id": "skandalizo",
+      "griego": "σκανδαλίσωμεν",
+      "lema": "σκανδαλίζω",
+      "morfologia": "verbo, aoristo subjuntivo ativo, 1.ª pessoa do plural (lema: σκανδαλίζω)",
+      "transliteracion": "skandalisomen",
+      "significado": "fazer tropeçar, escandalizar, ofender",
+      "palabra": "ofendermos",
+      "nota": "A mesma raiz do capítulo 11, mas na voz ativa: não se trata de tropeçar, mas de fazer o outro tropeçar. Jesus abre mão de um direito legítimo -não pagar o imposto do templo- para não se tornar pedra de tropeço para quem não entenderia a razão por trás disso.",
+      "capitulos": [
+        17
+      ]
+    },
+    {
+      "id": "statera",
+      "griego": "στατῆρα",
+      "lema": "στατήρ",
+      "morfologia": "substantivo, acusativo singular masculino",
+      "transliteracion": "statera",
+      "significado": "estáter (moeda de quatro dracmas)",
+      "palabra": "moeda",
+      "nota": "O estáter valia exatamente o dobro da didracma: o imposto de duas pessoas, nem mais nem menos. Jesus sabe qual peixe a tem na boca antes de Pedro lançar o anzol -o mesmo senhorio sobre os detalhes da criação que já vimos com o vento e o mar.",
+      "capitulos": [
+        17
+      ]
+    },
+    {
+      "id": "seleniazetai",
+      "griego": "σεληνιάζεται",
+      "lema": "σεληνιάζομαι",
+      "morfologia": "verbo, presente passivo indicativo, 3.ª pessoa do singular",
+      "transliteracion": "seleniazetai",
+      "significado": "literalmente 'é tocado pela lua'; termo usado para o que hoje se descreve como epilepsia",
+      "palabra": "convulsões",
+      "nota": "Formado sobre selene, \"lua\", porque se acreditava que esses episódios se relacionavam com as fases lunares. O evangelho não reduz a condição do menino a uma única causa: descreve uma realidade com dimensão física e espiritual ao mesmo tempo, que o relato não separa como se uma excluísse a outra.",
+      "capitulos": [
+        17
+      ]
+    },
+    {
+      "id": "shekina",
+      "griego": "שְׁכִינָה",
+      "lema": "שְׁכִינָה",
+      "morfologia": "substantivo hebraico pós-bíblico (da raiz שכן, 'habitar')",
+      "transliteracion": "shekiná",
+      "significado": "a presença visível e habitante de Deus",
+      "palabra": "shekiná",
+      "nota": "Não aparece no texto grego do evangelho, mas nomeia o que os discípulos estão vendo: a mesma glória que encheu o tabernáculo no deserto e o templo de Salomão, agora visível num rosto humano.",
+      "capitulos": [
+        17
+      ]
+    },
+    {
+      "id": "skenas",
+      "griego": "σκηνάς",
+      "lema": "σκηνή",
+      "morfologia": "substantivo, acusativo plural feminino",
+      "transliteracion": "skenas",
+      "significado": "tendas, tabernáculos, cabanas",
+      "palabra": "tendas",
+      "nota": "As mesmas cabanas temporárias que os judeus construíam todo ano na festa dos Tabernáculos para lembrar o cuidado de Deus no deserto. Pedro quer construir uma festa que nunca termine.",
+      "capitulos": [
+        17
+      ]
+    },
+    {
+      "id": "exodos",
+      "griego": "ἔξοδος",
+      "lema": "ἔξοδος",
+      "morfologia": "substantivo, nominativo singular feminino",
+      "transliteracion": "exodos",
+      "significado": "saída, partida, êxodo",
+      "palabra": "partida",
+      "nota": "Não uma partida qualquer, mas um êxodo: assim como Moisés tirou o povo da escravidão do Egito, Jesus estava prestes a tirar o seu povo da escravidão do pecado, e o caminho passava pela cruz.",
+      "capitulos": [
+        17
+      ]
+    },
+    {
+      "id": "lypeo",
+      "griego": "ἐλυπήθησαν",
+      "lema": "λυπέω",
+      "morfologia": "verbo, aoristo passivo indicativo, 3.ª pessoa do plural (lema: λυπέω)",
+      "transliteracion": "elypethesan",
+      "significado": "entristeceram-se, afligiram-se",
+      "palabra": "entristeceram",
+      "nota": "Indica uma tristeza profunda, não um simples desconforto. Os discípulos ouvem o anúncio da morte de Jesus e ainda não conseguem processar a promessa de ressurreição que o acompanha.",
+      "capitulos": [
+        17
       ]
     }
   ]

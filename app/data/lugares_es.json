@@ -101,7 +101,8 @@
         8,
         11,
         14,
-        13
+        13,
+        17
       ]
     },
     {
@@ -129,7 +130,8 @@
         4,
         8,
         10,
-        11
+        11,
+        17
       ]
     },
     {
@@ -206,7 +208,7 @@
       "nombre": "Cesarea de Filipo",
       "top": 10,
       "left": 62,
-      "nota": "Ciudad al pie del Monte Hermón, en el extremo norte del territorio. Allí Pedro confiesa que Jesús es el Cristo, el Hijo del Dios viviente — momento bisagra del evangelio.",
+      "nota": "Ciudad al pie del Monte Hermón, en el extremo norte del territorio. Allí Pedro confiesa que Jesús es el Cristo, el Hijo del Dios viviente - momento bisagra del evangelio.",
       "capitulos": [
         16
       ]
@@ -326,6 +328,16 @@
       "nota": "Fértil llanura costera al noroeste del Mar de Galilea, densamente poblada, descrita por Josefo como \"el jardín de Galilea\". Allí la gente le suplica a Jesús tocar solo el borde de su manto, y todos los que lo tocan quedan sanos.",
       "capitulos": [
         14
+      ]
+    },
+    {
+      "id": "monte-de-la-transfiguracion",
+      "nombre": "El monte de la transfiguración",
+      "top": 9,
+      "left": 65,
+      "nota": "La tradición cristiana señaló durante siglos al monte Tabor, en la baja Galilea, pero buena parte de los estudiosos actuales proponen el monte Hermón, mucho más cercano a Cesarea de Filipo -donde Jesús y sus discípulos estaban al cerrar el capítulo anterior. El evangelio no lo identifica con precisión: lo que importa es que es 'un monte alto', el lugar bíblico del encuentro con Dios.",
+      "capitulos": [
+        17
       ]
     }
   ]

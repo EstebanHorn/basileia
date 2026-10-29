@@ -166,7 +166,7 @@
       "id": "discurso-de-envio-los-doce-apostoles",
       "titulo": "O discurso de envio dos doze apóstolos",
       "tema": "vida-judia",
-      "texto": "Mateus 10 é o segundo grande bloco de ensino do evangelho, e o primeiro dirigido exclusivamente aos discípulos e não à multidão. Jesus reúne os doze, dá-lhes autoridade para expulsar espíritos malignos e curar doenças, e os envia com instruções concretas de missão: é um manual de instruções para o discipulado que, segundo o PDF, continua falando a qualquer pessoa que decide seguir Jesus a sério."
+      "texto": "Mateus 10 é o segundo grande bloco de ensino do evangelho, e o primeiro dirigido exclusivamente aos discípulos e não à multidão. Jesus reúne os doze, dá-lhes autoridade para expulsar espíritos malignos e curar doenças, e os envia com instruções concretas de missão: é um manual de instruções para o discipulado que continua falando a qualquer pessoa que decide seguir Jesus a sério."
     },
     {
       "id": "persecucion-y-discipulado-costoso",
@@ -184,7 +184,7 @@
       "id": "juan-bautista-en-prision",
       "titulo": "João Batista na prisão",
       "tema": "politica-romana",
-      "texto": "Preso por ordem de Herodes, João Batista -que havia proclamado Jesus e preparado seu caminho- envia da prisão seus discípulos para perguntar a Jesus se ele realmente é 'aquele que havia de vir'. O PDF observa que nem mesmo o precursor do Messias esteve isento de uma crise de fé genuína, e que Jesus não o repreende por duvidar, mas responde à sua pergunta com evidências concretas do que está fazendo."
+      "texto": "Preso por ordem de Herodes, João Batista -que havia proclamado Jesus e preparado seu caminho- envia da prisão seus discípulos para perguntar a Jesus se ele realmente é 'aquele que havia de vir'. Nem mesmo o precursor do Messias esteve isento de uma crise de fé genuína, e Jesus não o repreende por duvidar, mas responde à sua pergunta com evidências concretas do que está fazendo."
     },
     {
       "id": "ciudades-de-galilea-corazin-betsaida-capernaum",
@@ -287,6 +287,24 @@
       "titulo": "Ligar e desligar: autoridade rabínica de declarar",
       "tema": "practicas-religiosas",
       "texto": "Na linguagem rabínica do século I, \"ligar\" e \"desligar\" eram termos técnicos para a autoridade de declarar algo proibido ou permitido, e de incluir ou excluir alguém da comunidade religiosa. Ao dar a Pedro -e depois aos demais apóstolos em Mateus 18:18- as chaves e a autoridade de ligar e desligar, Jesus usa um conceito que seus ouvintes reconheciam de imediato: uma autoridade real de governo sobre a comunidade do Reino, mas subordinada ao que já está estabelecido no céu, não independente disso."
+    },
+    {
+      "id": "a-shekina-a-gloria-visivel-de-deus",
+      "titulo": "A shekiná: a glória visível de Deus",
+      "tema": "vida-judia",
+      "texto": "No pensamento judaico, shekiná (do hebraico shakan, habitar) nomeia a presença visível de Deus habitando entre o seu povo: a nuvem que cobriu o tabernáculo no deserto e que encheu o templo de Salomão em sua dedicação, tão densa que os sacerdotes não conseguiam ministrar (1 Reis 8:10-11). É a mesma glória que fez o rosto de Moisés resplandecer ao descer do Sinai (Êxodo 34:29-35), ainda que no seu caso fosse luz refletida, não própria. No monte da transfiguração, os discípulos veem essa mesma glória -a nuvem luminosa, a voz, o rosto resplandecente- mas dessa vez ela não envolve um objeto nem um edifício: brilha a partir de um rosto humano. É a confirmação visual de que em Jesus, Deus voltou a habitar visivelmente entre os homens."
+    },
+    {
+      "id": "a-festa-dos-tabernaculos",
+      "titulo": "A festa dos Tabernáculos",
+      "tema": "practicas-religiosas",
+      "texto": "Sucot, a festa dos Tabernáculos, era uma das três peregrinações anuais obrigatórias do calendário judaico, junto com a Páscoa e Pentecostes. Durante sete dias, as famílias construíam e habitavam cabanas temporárias (sucot, de onde Pedro tira a palavra que usa no monte) para lembrar como Deus protegeu e proveu para o povo durante os quarenta anos no deserto. Era uma festa de alegria e gratidão, com uma forte expectativa escatológica: vários profetas associavam a restauração final de Israel a essa celebração. Quando Pedro se oferece para construir três tendas no monte, provavelmente está lendo o momento nessa chave -como se a era messiânica final tivesse chegado- sem entender ainda que, antes dessa glória permanente, era preciso passar pela cruz."
+    },
+    {
+      "id": "o-imposto-do-templo-e-o-meio-siclo",
+      "titulo": "O imposto do templo e o meio siclo",
+      "tema": "practicas-religiosas",
+      "texto": "Segundo Êxodo 30:11-16, todo israelita do sexo masculino maior de vinte anos devia pagar meio siclo por ano para a manutenção do culto no tabernáculo, e mais tarde no templo, descrito como \"resgate pela sua vida\" diante de um eventual censo. A lei é explícita quanto à igualdade: \"O rico não dará mais, nem o pobre dará menos\" (Êxodo 30:15). Na época de Jesus, esse meio siclo equivalia à didracma grega, e era cobrado anualmente antes da Páscoa, geralmente no mês de Adar. Recusar-se a pagá-lo podia ser lido como um sinal público de ruptura com a comunidade do templo, o que explica por que Jesus, mesmo tendo o direito de não pagar como Filho, escolhe pagar para não causar uma ofensa desnecessária."
     }
   ]
 }

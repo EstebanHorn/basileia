@@ -75,7 +75,7 @@
     {
       "id": "par-8-1",
       "referencia": "Marcos 1:40-45; Lucas 5:12-16",
-      "nota": "Los tres relatos coinciden en los detalles esenciales: el leproso se acerca, Jesús lo toca —algo ritualmente arriesgado— y lo sana.",
+      "nota": "Los tres relatos coinciden en los detalles esenciales: el leproso se acerca, Jesús lo toca -algo ritualmente arriesgado- y lo sana.",
       "capitulos": [
         8
       ]
@@ -270,6 +270,30 @@
       "nota": "Los tres evangelios coinciden casi palabra por palabra en el llamado a tomar la cruz y negarse a sí mismo.",
       "capitulos": [
         16
+      ]
+    },
+    {
+      "id": "par-17-1",
+      "referencia": "Marcos 9:2-13; Lucas 9:28-36",
+      "nota": "Lucas agrega el detalle de que Moisés y Elías hablaban con Jesús 'de su partida, que iba a cumplirse en Jerusalén' (9:31), y que Pedro y los otros estaban cargados de sueño.",
+      "capitulos": [
+        17
+      ]
+    },
+    {
+      "id": "par-17-14",
+      "referencia": "Marcos 9:14-29; Lucas 9:37-43",
+      "nota": "Marcos ofrece el relato más extenso de los tres, con el diálogo del padre -'creo; ayúdame en mi incredulidad'- y el detalle de que el espíritu dejaba mudo al muchacho.",
+      "capitulos": [
+        17
+      ]
+    },
+    {
+      "id": "par-17-22",
+      "referencia": "Marcos 9:30-32; Lucas 9:43-45",
+      "nota": "Marcos y Lucas coinciden en que los discípulos no entendían lo que Jesús decía y tenían miedo de preguntarle.",
+      "capitulos": [
+        17
       ]
     }
   ]

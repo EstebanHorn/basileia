@@ -188,7 +188,7 @@
       "id": "pedro",
       "nombre": "Pedro",
       "categoria": "discipulo",
-      "descripcion": "Simón, llamado Pedro: pescador de Galilea, impulsivo, apasionado y contradictorio. Es de los primeros llamados junto a su hermano Andrés, y su casa en Capernaúm es escenario de la sanidad de su suegra. Su historia -incluida la futura negación y restauración- es, según el PDF, la demostración más clara de que el llamado de Jesús no depende de la perfección del llamado.",
+      "descripcion": "Simón, llamado Pedro: pescador de Galilea, impulsivo, apasionado y contradictorio. Es de los primeros llamados junto a su hermano Andrés, y su casa en Capernaúm es escenario de la sanidad de su suegra. Su historia -incluida la futura negación y restauración- es la demostración más clara de que el llamado de Jesús no depende de la perfección del llamado.",
       "capitulos": [
         4,
         5,
@@ -203,7 +203,7 @@
       "id": "santiago-hijo-de-zebedeo",
       "nombre": "Santiago, hijo de Zebedeo",
       "categoria": "discipulo",
-      "descripcion": "Uno de los 'hijos del trueno', apodo puesto por Jesús probablemente por su temperamento. Pescador de Galilea, hermano de Juan, llamado junto a él mientras remendaban las redes con su padre Zebedeo. Según el PDF, será el primer apóstol martirizado.",
+      "descripcion": "Uno de los 'hijos del trueno', apodo puesto por Jesús probablemente por su temperamento. Pescador de Galilea, hermano de Juan, llamado junto a él mientras remendaban las redes con su padre Zebedeo. Será el primer apóstol martirizado.",
       "capitulos": [
         4,
         5,
@@ -308,6 +308,24 @@
       "descripcion": "Mujer gentil de la región de Tiro y Sidón que se acerca a Jesús clamando «Señor, Hijo de David» por su hija atormentada por un demonio. Aunque la respuesta inicial de Jesús parece reservar la misión a Israel, ella no se rinde, y su respuesta -«aun los perros comen de las migajas que caen de la mesa de sus amos»- es declarada por Jesús como una fe grande, la misma expresión que había usado para el centurión romano: otro gentil que vio con claridad lo que muchos de adentro no alcanzaban a ver.",
       "capitulos": [
         15
+      ]
+    },
+    {
+      "id": "moises",
+      "nombre": "Moisés",
+      "categoria": "otro",
+      "descripcion": "El libertador y legislador de Israel, quien recibió la Ley en el monte Sinaí y guió al pueblo durante cuarenta años en el desierto. Su rostro resplandeció al bajar del monte por haber estado en la presencia de Dios, y según Deuteronomio murió sin que nadie conociera su tumba. Aparece junto a Elías en el monte de la transfiguración, representando la Ley que da testimonio de Jesús.",
+      "capitulos": [
+        17
+      ]
+    },
+    {
+      "id": "elias",
+      "nombre": "Elías",
+      "categoria": "otro",
+      "descripcion": "El profeta que confrontó a Acab y Jezabel y defendió la adoración exclusiva al Señor frente a los profetas de Baal. Tuvo un encuentro decisivo con Dios en el monte Horeb y fue llevado al cielo en un torbellino sin pasar por la muerte. La tradición judía esperaba su regreso antes de la llegada del Mesías -una expectativa que Jesús identifica como cumplida en Juan el Bautista.",
+      "capitulos": [
+        17
       ]
     }
   ]

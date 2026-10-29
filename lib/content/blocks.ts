@@ -22,6 +22,7 @@ export function buildBlocks(entry: ChapterEntry): ChapterBlock[] {
       last.lugarIds = union(last.lugarIds, v.lugar_ids);
       last.citaAtIds = union(last.citaAtIds, v.cita_at_ids ?? []);
       last.paraleloIds = union(last.paraleloIds, v.paralelo_ids ?? []);
+      last.referenciaIds = union(last.referenciaIds, v.referencia_ids ?? []);
       continue;
     }
 
@@ -36,6 +37,7 @@ export function buildBlocks(entry: ChapterEntry): ChapterBlock[] {
       lugarIds: [...v.lugar_ids],
       citaAtIds: [...(v.cita_at_ids ?? [])],
       paraleloIds: [...(v.paralelo_ids ?? [])],
+      referenciaIds: [...(v.referencia_ids ?? [])],
     });
   }
 

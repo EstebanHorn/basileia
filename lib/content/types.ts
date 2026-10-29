@@ -9,6 +9,7 @@ export interface Versiculo {
   lugar_ids: string[];
   cita_at_ids?: string[];
   paralelo_ids?: string[];
+  referencia_ids?: string[];
 }
 
 export interface ChapterEntry {
@@ -71,6 +72,16 @@ export interface Paralelo {
   capitulos: number[];
 }
 
+// Cualquier referencia bíblica (AT o NT) mencionada en el comentario que no sea
+// una cita del AT incrustada en el propio texto del versículo (eso es CitaAT)
+// ni un paralelo sinóptico (eso es Paralelo).
+export interface ReferenciaBiblica {
+  id: string;
+  referencia: string;
+  nota: string;
+  capitulos: number[];
+}
+
 export interface ChapterBlock {
   from: number;
   to: number;
@@ -82,4 +93,5 @@ export interface ChapterBlock {
   lugarIds: string[];
   citaAtIds: string[];
   paraleloIds: string[];
+  referenciaIds: string[];
 }

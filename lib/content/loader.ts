@@ -1,5 +1,5 @@
 import type { Locale } from '@/lib/i18n/config';
-import type { ChapterEntry, CitaAT, ContextoEntry, GlosarioTermino, Lugar, Paralelo, Personaje } from './types';
+import type { ChapterEntry, CitaAT, ContextoEntry, GlosarioTermino, Lugar, Paralelo, Personaje, ReferenciaBiblica } from './types';
 
 import mateoEs from '@/app/data/Mateo_es.json';
 import mateoPt from '@/app/data/Mateo_pt.json';
@@ -15,6 +15,8 @@ import citasAtEs from '@/app/data/citas_at_es.json';
 import citasAtPt from '@/app/data/citas_at_pt.json';
 import paralelosEs from '@/app/data/paralelos_es.json';
 import paralelosPt from '@/app/data/paralelos_pt.json';
+import referenciasEs from '@/app/data/referencias_es.json';
+import referenciasPt from '@/app/data/referencias_pt.json';
 
 type MateoJson = ChapterEntry[];
 
@@ -25,6 +27,7 @@ const LUGARES: Record<Locale, Lugar[]> = { es: lugaresEs.lugares, pt: lugaresPt.
 const CONTEXTO: Record<Locale, ContextoEntry[]> = { es: contextoEs.contexto, pt: contextoPt.contexto };
 const CITAS_AT: Record<Locale, CitaAT[]> = { es: citasAtEs.citas, pt: citasAtPt.citas };
 const PARALELOS: Record<Locale, Paralelo[]> = { es: paralelosEs.paralelos, pt: paralelosPt.paralelos };
+const REFERENCIAS: Record<Locale, ReferenciaBiblica[]> = { es: referenciasEs.referencias, pt: referenciasPt.referencias };
 
 export function getMateo(lang: Locale): Record<number, ChapterEntry> {
   const byKey = MATEO[lang];
@@ -63,6 +66,10 @@ export function getParalelos(lang: Locale): Paralelo[] {
   return PARALELOS[lang];
 }
 
+export function getReferencias(lang: Locale): ReferenciaBiblica[] {
+  return REFERENCIAS[lang];
+}
+
 export function getGlosarioById(lang: Locale): Map<string, GlosarioTermino> {
   return new Map(getGlosario(lang).map((t) => [t.id, t]));
 }
@@ -85,4 +92,8 @@ export function getCitasATById(lang: Locale): Map<string, CitaAT> {
 
 export function getParalelosById(lang: Locale): Map<string, Paralelo> {
   return new Map(getParalelos(lang).map((p) => [p.id, p]));
+}
+
+export function getReferenciasById(lang: Locale): Map<string, ReferenciaBiblica> {
+  return new Map(getReferencias(lang).map((r) => [r.id, r]));
 }

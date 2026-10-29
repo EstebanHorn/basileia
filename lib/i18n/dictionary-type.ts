@@ -119,6 +119,7 @@ export interface Dictionary {
     lemaLabel: string;
     citaAtChip: (referencia: string) => string;
     paraleloChip: (referencia: string) => string;
+    referenciaChip: (referencia: string) => string;
     guardando: string;
     guardado: string;
     errorGuardado: string;

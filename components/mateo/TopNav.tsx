@@ -72,6 +72,7 @@ export default function TopNav() {
             priority
           />
           <div
+            className="topnav-brand-text"
             style={{
               fontFamily: 'var(--font-lora), serif',
               fontWeight: 600,

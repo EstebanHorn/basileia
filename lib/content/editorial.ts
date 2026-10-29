@@ -1,7 +1,7 @@
 // Metadatos editoriales que no vienen en los JSON de app/data (estructura del índice,
 // títulos/introducciones de capítulo, y etiquetas para los slugs de categoría/tema).
 
-import type { Locale } from '@/lib/i18n/config';
+import type { Locale } from "@/lib/i18n/config";
 
 export interface Section {
   id: string;
@@ -23,215 +23,307 @@ export interface ChapterMeta {
 
 const SECTIONS: Record<Locale, Section[]> = {
   es: [
-    { id: 's1', name: 'Orígenes y preparación', range: [1, 4] },
-    { id: 's2', name: 'Sermón del Monte', range: [5, 7] },
-    { id: 's3', name: 'Milagros y autoridad', range: [8, 9] },
-    { id: 's4', name: 'Discurso de Misión', range: [10, 11] },
-    { id: 's5', name: 'Conflicto y controversias', range: [12, 12] },
-    { id: 's6', name: 'Parábolas del Reino', range: [13, 13] },
-    { id: 's7', name: 'Milagros, fe e inclusión', range: [14, 17] },
-    { id: 's8', name: 'Discurso Eclesial', range: [18, 20] },
-    { id: 's9', name: 'Semana de Pasión', range: [21, 28] },
+    { id: "s1", name: "Orígenes y preparación", range: [1, 4] },
+    { id: "s2", name: "Sermón del Monte", range: [5, 7] },
+    { id: "s3", name: "Milagros y autoridad", range: [8, 9] },
+    { id: "s4", name: "Discurso de Misión", range: [10, 11] },
+    { id: "s5", name: "Conflicto y controversias", range: [12, 12] },
+    { id: "s6", name: "Parábolas del Reino", range: [13, 13] },
+    { id: "s7", name: "Milagros, fe e inclusión", range: [14, 17] },
+    { id: "s8", name: "Discurso Eclesial", range: [18, 20] },
+    { id: "s9", name: "Semana de Pasión", range: [21, 28] },
   ],
   pt: [
-    { id: 's1', name: 'Origens e preparação', range: [1, 4] },
-    { id: 's2', name: 'Sermão do Monte', range: [5, 7] },
-    { id: 's3', name: 'Milagres e autoridade', range: [8, 9] },
-    { id: 's4', name: 'Discurso de Missão', range: [10, 11] },
-    { id: 's5', name: 'Conflito e controvérsias', range: [12, 12] },
-    { id: 's6', name: 'Parábolas do Reino', range: [13, 13] },
-    { id: 's7', name: 'Milagres, fé e inclusão', range: [14, 17] },
-    { id: 's8', name: 'Discurso Eclesial', range: [18, 20] },
-    { id: 's9', name: 'Semana da Paixão', range: [21, 28] },
+    { id: "s1", name: "Origens e preparação", range: [1, 4] },
+    { id: "s2", name: "Sermão do Monte", range: [5, 7] },
+    { id: "s3", name: "Milagres e autoridade", range: [8, 9] },
+    { id: "s4", name: "Discurso de Missão", range: [10, 11] },
+    { id: "s5", name: "Conflito e controvérsias", range: [12, 12] },
+    { id: "s6", name: "Parábolas do Reino", range: [13, 13] },
+    { id: "s7", name: "Milagres, fé e inclusão", range: [14, 17] },
+    { id: "s8", name: "Discurso Eclesial", range: [18, 20] },
+    { id: "s9", name: "Semana da Paixão", range: [21, 28] },
   ],
 };
 
 const DISCOURSES: Record<Locale, Discourse[]> = {
   es: [
-    { id: 'd1', name: 'Sermón del Monte', chapters: [5, 6, 7], summary: 'La constitución del Reino: cómo vive quien sigue a Jesús.' },
-    { id: 'd2', name: 'Discurso de Misión', chapters: [10], summary: 'Instrucciones a los doce para anunciar el Reino.' },
-    { id: 'd3', name: 'Parábolas del Reino', chapters: [13], summary: 'Historias que revelan y esconden los misterios del Reino.' },
-    { id: 'd4', name: 'Discurso Eclesial', chapters: [18], summary: 'Cómo vive la comunidad que sigue a Jesús.' },
-    { id: 'd5', name: 'Discurso Escatológico', chapters: [24, 25], summary: 'El fin de los tiempos y la vigilancia del discípulo.' },
+    {
+      id: "d1",
+      name: "Sermón del Monte",
+      chapters: [5, 6, 7],
+      summary: "La constitución del Reino: cómo vive quien sigue a Jesús.",
+    },
+    {
+      id: "d2",
+      name: "Discurso de Misión",
+      chapters: [10],
+      summary: "Instrucciones a los doce para anunciar el Reino.",
+    },
+    {
+      id: "d3",
+      name: "Parábolas del Reino",
+      chapters: [13],
+      summary: "Historias que revelan y esconden los misterios del Reino.",
+    },
+    {
+      id: "d4",
+      name: "Discurso Eclesial",
+      chapters: [18],
+      summary: "Cómo vive la comunidad que sigue a Jesús.",
+    },
+    {
+      id: "d5",
+      name: "Discurso Escatológico",
+      chapters: [24, 25],
+      summary: "El fin de los tiempos y la vigilancia del discípulo.",
+    },
   ],
   pt: [
-    { id: 'd1', name: 'Sermão do Monte', chapters: [5, 6, 7], summary: 'A constituição do Reino: como vive quem segue a Jesus.' },
-    { id: 'd2', name: 'Discurso de Missão', chapters: [10], summary: 'Instruções aos doze para anunciar o Reino.' },
-    { id: 'd3', name: 'Parábolas do Reino', chapters: [13], summary: 'Histórias que revelam e escondem os mistérios do Reino.' },
-    { id: 'd4', name: 'Discurso Eclesial', chapters: [18], summary: 'Como vive a comunidade que segue a Jesus.' },
-    { id: 'd5', name: 'Discurso Escatológico', chapters: [24, 25], summary: 'O fim dos tempos e a vigilância do discípulo.' },
+    {
+      id: "d1",
+      name: "Sermão do Monte",
+      chapters: [5, 6, 7],
+      summary: "A constituição do Reino: como vive quem segue a Jesus.",
+    },
+    {
+      id: "d2",
+      name: "Discurso de Missão",
+      chapters: [10],
+      summary: "Instruções aos doze para anunciar o Reino.",
+    },
+    {
+      id: "d3",
+      name: "Parábolas do Reino",
+      chapters: [13],
+      summary: "Histórias que revelam e escondem os mistérios do Reino.",
+    },
+    {
+      id: "d4",
+      name: "Discurso Eclesial",
+      chapters: [18],
+      summary: "Como vive a comunidade que segue a Jesus.",
+    },
+    {
+      id: "d5",
+      name: "Discurso Escatológico",
+      chapters: [24, 25],
+      summary: "O fim dos tempos e a vigilância do discípulo.",
+    },
   ],
 };
 
 const CHAPTER_META: Record<Locale, Record<number, ChapterMeta>> = {
   es: {
     1: {
-      title: 'Genealogía: honor y gracia',
-      intro: 'Mateo abre su evangelio no con un relato de acción sino con una lista de nombres. En el mundo bíblico, una genealogía no era un simple registro familiar: servía para demostrar origen, honor y herencia. Mateo la organiza en tres bloques de catorce generaciones desde Abraham hasta Jesús, pasando por David — y lo que revela es tan sorprendente como la inclusión de cuatro mujeres marcadas por escándalo en una lista que la costumbre reservaba solo a hombres.',
+      title: "Genealogía: honor y gracia",
+      intro:
+        "Mateo abre su evangelio no con un relato de acción sino con una lista de nombres. En el mundo bíblico, una genealogía no era un simple registro familiar: servía para demostrar origen, honor y herencia. Mateo la organiza en tres bloques de catorce generaciones desde Abraham hasta Jesús, pasando por David - y lo que revela es tan sorprendente como la inclusión de cuatro mujeres marcadas por escándalo en una lista que la costumbre reservaba solo a hombres.",
     },
     2: {
-      title: 'El Rey perseguido',
-      intro: 'Cuando comienza el capítulo 2, Jesús ya no es un recién nacido: María y José viven en una casa y el niño podría tener desde varios meses hasta casi dos años. Gobierna Herodes el Grande, un rey impuesto por Roma que sostenía su trono con violencia, manipulación y miedo — el contraste exacto con el Rey que acaba de nacer.',
+      title: "El Rey perseguido",
+      intro:
+        "Cuando comienza el capítulo 2, Jesús ya no es un recién nacido: María y José viven en una casa y el niño podría tener desde varios meses hasta casi dos años. Gobierna Herodes el Grande, un rey impuesto por Roma que sostenía su trono con violencia, manipulación y miedo - el contraste exacto con el Rey que acaba de nacer.",
     },
     3: {
-      title: 'La voz que prepara el camino',
-      intro: 'Han pasado unos treinta años desde el nacimiento de Jesús. Mateo salta directo al inicio del ministerio público, y después de casi 400 años sin profetas desde Malaquías, aparece Juan el Bautista en el desierto — no desde el templo ni el sistema religioso oficial, vestido como los antiguos profetas, con un mensaje directo: el reino de los cielos se ha acercado.',
+      title: "La voz que prepara el camino",
+      intro:
+        "Han pasado unos treinta años desde el nacimiento de Jesús. Mateo salta directo al inicio del ministerio público, y después de casi 400 años sin profetas desde Malaquías, aparece Juan el Bautista en el desierto - no desde el templo ni el sistema religioso oficial, vestido como los antiguos profetas, con un mensaje directo: el reino de los cielos se ha acercado.",
     },
     4: {
-      title: 'Tentado en el desierto, llamado junto al lago',
-      intro: 'Antes del ministerio público hubo formación privada. El mismo Espíritu que descendió sobre Jesús en el bautismo ahora lo conduce al desierto — no para destruirlo, sino para probar y afirmar una identidad que el enemigo intentará cuestionar tres veces.',
+      title: "Tentado en el desierto, llamado junto al lago",
+      intro:
+        "Antes del ministerio público hubo formación privada. El mismo Espíritu que descendió sobre Jesús en el bautismo ahora lo conduce al desierto - no para destruirlo, sino para probar y afirmar una identidad que el enemigo intentará cuestionar tres veces.",
     },
     5: {
-      title: 'El Sermón del Monte: las bienaventuranzas y la ley del corazón',
-      intro: 'Después de la genealogía, el nacimiento, el bautismo y la victoria en el desierto, Jesús sube a un monte y se sienta: la postura del maestro que enseña con autoridad, evocando a Moisés en el Sinaí. Frente a multitudes de Galilea, Decápolis, Jerusalén, Judea y más allá del Jordán, dirige la enseñanza a los discípulos que ya lo siguen — no es evangelismo masivo, es formación.',
+      title: "El Sermón del Monte: las bienaventuranzas y la ley del corazón",
+      intro:
+        "Después de la genealogía, el nacimiento, el bautismo y la victoria en el desierto, Jesús sube a un monte y se sienta: la postura del maestro que enseña con autoridad, evocando a Moisés en el Sinaí. Frente a multitudes de Galilea, Decápolis, Jerusalén, Judea y más allá del Jordán, dirige la enseñanza a los discípulos que ya lo siguen - no es evangelismo masivo, es formación.",
     },
     6: {
-      title: 'Piedad secreta y el tesoro del corazón',
-      intro: 'Jesús acaba de hablar de amar al enemigo y de ser perfectos como el Padre. Ahora baja a algo más cotidiano pero igual de profundo: no solo qué hacemos, sino para quién lo hacemos. Limosna, oración y ayuno —las tres prácticas centrales de la piedad judía— se examinan bajo la misma pregunta, y el capítulo cierra con una advertencia sobre dónde ponemos el corazón: en el tesoro que se acumula o en el Padre que ya sabe lo que necesitamos.',
+      title: "Piedad secreta y el tesoro del corazón",
+      intro:
+        "Jesús acaba de hablar de amar al enemigo y de ser perfectos como el Padre. Ahora baja a algo más cotidiano pero igual de profundo: no solo qué hacemos, sino para quién lo hacemos. Limosna, oración y ayuno -las tres prácticas centrales de la piedad judía- se examinan bajo la misma pregunta, y el capítulo cierra con una advertencia sobre dónde ponemos el corazón: en el tesoro que se acumula o en el Padre que ya sabe lo que necesitamos.",
     },
     7: {
-      title: 'Juzgar, pedir y edificar sobre la roca',
-      intro: 'Jesús cierra el Sermón del Monte con una serie de instrucciones prácticas para la vida en comunidad: cómo mirar los errores propios antes que los ajenos, la promesa de un Padre que responde a quien le pide, la regla de oro, y una advertencia final sobre la diferencia entre escuchar y obedecer.',
+      title: "Juzgar, pedir y edificar sobre la roca",
+      intro:
+        "Jesús cierra el Sermón del Monte con una serie de instrucciones prácticas para la vida en comunidad: cómo mirar los errores propios antes que los ajenos, la promesa de un Padre que responde a quien le pide, la regla de oro, y una advertencia final sobre la diferencia entre escuchar y obedecer.",
     },
     8: {
-      title: 'Autoridad sobre la enfermedad, la naturaleza y los demonios',
-      intro: 'Tras el Sermón del Monte, una multitud enorme y creciente —Mateo usa una expresión griega más intensa que antes, ochloi polloi— sigue a Jesús montaña abajo. Lo que viene ahora es esa misma autoridad puesta en acción: cruzando, una tras otra, las fronteras más infranqueables del mundo del siglo I. La social con un leproso, la étnica con un centurión romano, la doméstica en la casa de Pedro, la natural en una tormenta y la espiritual en territorio gentil.',
+      title: "Autoridad sobre la enfermedad, la naturaleza y los demonios",
+      intro:
+        "Tras el Sermón del Monte, una multitud enorme y creciente -Mateo usa una expresión griega más intensa que antes, ochloi polloi- sigue a Jesús montaña abajo. Lo que viene ahora es esa misma autoridad puesta en acción: cruzando, una tras otra, las fronteras más infranqueables del mundo del siglo I. La social con un leproso, la étnica con un centurión romano, la doméstica en la casa de Pedro, la natural en una tormenta y la espiritual en territorio gentil.",
     },
     9: {
-      title: 'Autoridad para perdonar y una mesa inesperada',
-      intro: 'Mateo 9 continúa el ritmo del capítulo anterior —Jesús en movimiento constante, actuando con autoridad— pero la tensión con los fariseos se intensifica: ya no observan desde lejos, empiezan a confrontar directamente. Y el capítulo muestra algo que el 8 solo insinuó: Jesús no separa el cuerpo del alma como compartimentos distintos. Sana, perdona, restaura e incluye como acciones que brotan de la misma fuente.',
+      title: "Autoridad para perdonar y una mesa inesperada",
+      intro:
+        "Mateo 9 continúa el ritmo del capítulo anterior -Jesús en movimiento constante, actuando con autoridad- pero la tensión con los fariseos se intensifica: ya no observan desde lejos, empiezan a confrontar directamente. Y el capítulo muestra algo que el 8 solo insinuó: Jesús no separa el cuerpo del alma como compartimentos distintos. Sana, perdona, restaura e incluye como acciones que brotan de la misma fuente.",
     },
     10: {
-      title: 'El envío de los doce',
-      intro: 'Jesús acaba de recorrer todos los pueblos y aldeas, vio a la multitud agobiada y desamparada como ovejas sin pastor, y declaró que la cosecha es abundante pero los obreros son pocos. Mateo 10 es el segundo gran bloque de enseñanza del evangelio, y el primero que no está dirigido a la multitud sino exclusivamente a los discípulos: un manual de instrucciones para el discipulado en misión que sigue hablando a cualquiera que decida seguir a Jesús con seriedad.',
+      title: "El envío de los doce",
+      intro:
+        "Jesús acaba de recorrer todos los pueblos y aldeas, vio a la multitud agobiada y desamparada como ovejas sin pastor, y declaró que la cosecha es abundante pero los obreros son pocos. Mateo 10 es el segundo gran bloque de enseñanza del evangelio, y el primero que no está dirigido a la multitud sino exclusivamente a los discípulos: un manual de instrucciones para el discipulado en misión que sigue hablando a cualquiera que decida seguir a Jesús con seriedad.",
     },
     11: {
-      title: 'Dudas desde la cárcel y descanso para el alma',
-      intro: 'Los capítulos anteriores mostraron a Jesús enseñando con autoridad, sanando y enviando a sus discípulos: todo apuntaba hacia arriba. En Mateo 11 empieza a aparecer una sombra —duda, resistencia, rechazo— y no de parte de los enemigos obvios sino de personajes inesperados, empezando por el propio Juan el Bautista.',
+      title: "Dudas desde la cárcel y descanso para el alma",
+      intro:
+        "Los capítulos anteriores mostraron a Jesús enseñando con autoridad, sanando y enviando a sus discípulos: todo apuntaba hacia arriba. En Mateo 11 empieza a aparecer una sombra -duda, resistencia, rechazo- y no de parte de los enemigos obvios sino de personajes inesperados, empezando por el propio Juan el Bautista.",
     },
     12: {
-      title: 'Conflicto abierto: el Señor del sábado',
-      intro: 'Mateo 12 marca un punto de quiebre: la oposición de los fariseos, creciente pero contenida hasta ahora, cruza una línea y empieza a conspirar abiertamente para matar a Jesús. La tensión se enciende en torno a algo que a primera vista parece menor —el sábado— y escala hasta la acusación más grave que Jesús enfrentará en todo el evangelio: que actúa por el poder de Beelzebú.',
+      title: "Conflicto abierto: el Señor del sábado",
+      intro:
+        "Mateo 12 marca un punto de quiebre: la oposición de los fariseos, creciente pero contenida hasta ahora, cruza una línea y empieza a conspirar abiertamente para matar a Jesús. La tensión se enciende en torno a algo que a primera vista parece menor -el sábado- y escala hasta la acusación más grave que Jesús enfrentará en todo el evangelio: que actúa por el poder de Beelzebú.",
     },
     13: {
-      title: 'Parábolas del Reino: lo que se revela y lo que se esconde',
-      intro: 'Después del rechazo frontal del capítulo 12, Jesús cambia de método: abandona el discurso directo y comienza a hablar exclusivamente en parábolas. Desde este momento, sus palabras revelarán a los que quieren ver y ocultarán a los que eligieron no hacerlo —el sembrador, la cizaña, el grano de mostaza, la levadura, el tesoro, la perla y la red describen, cada una desde un ángulo distinto, cómo opera el Reino de los cielos.',
+      title: "Parábolas del Reino: lo que se revela y lo que se esconde",
+      intro:
+        "Después del rechazo frontal del capítulo 12, Jesús cambia de método: abandona el discurso directo y comienza a hablar exclusivamente en parábolas. Desde este momento, sus palabras revelarán a los que quieren ver y ocultarán a los que eligieron no hacerlo -el sembrador, la cizaña, el grano de mostaza, la levadura, el tesoro, la perla y la red describen, cada una desde un ángulo distinto, cómo opera el Reino de los cielos.",
     },
     14: {
-      title: 'La compasión que no retrocede',
-      intro: 'Mateo 14 abre con una muerte: la del único hombre que Jesús declaró el más grande nacido de mujer, ejecutado por el capricho de una noche de fiesta. Y cierra con personas enfermas tocando el borde del manto de Jesús y siendo sanadas. Entre esos dos extremos hay un milagro que alimentó a más de cinco mil familias, y una de las escenas más humanas de todo el evangelio: Pedro caminando sobre el agua y hundiéndose al desviar la mirada. Algo atraviesa todo el capítulo: cada vez que Jesús intenta retirarse, la necesidad lo alcanza, y cada vez que eso ocurre no hay impaciencia ni rechazo, sino compasión.',
+      title: "La compasión que no retrocede",
+      intro:
+        "Mateo 14 abre con una muerte: la del único hombre que Jesús declaró el más grande nacido de mujer, ejecutado por el capricho de una noche de fiesta. Y cierra con personas enfermas tocando el borde del manto de Jesús y siendo sanadas. Entre esos dos extremos hay un milagro que alimentó a más de cinco mil familias, y una de las escenas más humanas de todo el evangelio: Pedro caminando sobre el agua y hundiéndose al desviar la mirada. Algo atraviesa todo el capítulo: cada vez que Jesús intenta retirarse, la necesidad lo alcanza, y cada vez que eso ocurre no hay impaciencia ni rechazo, sino compasión.",
     },
     15: {
-      title: 'El corazón verdadero y la fe que cruza fronteras',
-      intro: 'Mateo 15 tiene tres movimientos que a primera vista parecen no conectarse: una confrontación sobre la tradición religiosa, la sanidad de la hija de una mujer gentil, y un segundo milagro de multiplicación de panes. Pero leídos juntos, el hilo conductor es claro: Jesús expande los límites de quién puede recibir lo que Él tiene para dar, desmantelando las barreras que los seres humanos construyen para restringirlo.',
+      title: "El corazón verdadero y la fe que cruza fronteras",
+      intro:
+        "Mateo 15 tiene tres movimientos que a primera vista parecen no conectarse: una confrontación sobre la tradición religiosa, la sanidad de la hija de una mujer gentil, y un segundo milagro de multiplicación de panes. Pero leídos juntos, el hilo conductor es claro: Jesús expande los límites de quién puede recibir lo que Él tiene para dar, desmantelando las barreras que los seres humanos construyen para restringirlo.",
     },
     16: {
-      title: '¿Quién dicen ustedes que soy yo?',
-      intro: 'Mateo 16 es uno de los capítulos más densos en revelación progresiva: Jesús confronta a los líderes religiosos, advierte a sus discípulos sobre las influencias que los pueden desviar, y hace la pregunta más importante del evangelio -¿quién dicen ustedes que soy yo?-. La respuesta de Pedro abre una de las declaraciones más significativas del Nuevo Testamento sobre la iglesia y la identidad de Jesús, y casi de inmediato ese mismo Pedro queda expuesto como completamente humano ante el anuncio de la cruz.',
+      title: "¿Quién dicen ustedes que soy yo?",
+      intro:
+        "Mateo 16 es uno de los capítulos más densos en revelación progresiva: Jesús confronta a los líderes religiosos, advierte a sus discípulos sobre las influencias que los pueden desviar, y hace la pregunta más importante del evangelio -¿quién dicen ustedes que soy yo?-. La respuesta de Pedro abre una de las declaraciones más significativas del Nuevo Testamento sobre la iglesia y la identidad de Jesús, y casi de inmediato ese mismo Pedro queda expuesto como completamente humano ante el anuncio de la cruz.",
+    },
+    17: {
+      title: "En el monte y en el valle: gloria, fe y humildad",
+      intro:
+        "Mateo 17 conecta directamente con el final del capítulo 16: Jesús acaba de anunciar su muerte en Jerusalén y de llamar a sus discípulos a cargar su propia cruz, y antes de llegar a ella les muestra un anticipo de la gloria que hay del otro lado. El capítulo tiene un movimiento marcado -de la cima de un monte a un valle con un muchacho sufriendo, y de ahí a una discusión sobre impuestos que termina en un milagro junto al lago- y en esos tres escenarios aparece el mismo Jesús: el Hijo glorificado, el Señor con autoridad sobre lo espiritual y el Rey que se hace pequeño por amor.",
     },
   },
   pt: {
     1: {
-      title: 'Genealogia: honra e graça',
-      intro: 'Mateus abre seu evangelho não com um relato de ação, mas com uma lista de nomes. No mundo bíblico, uma genealogia não era um simples registro familiar: servia para demonstrar origem, honra e herança. Mateus a organiza em três blocos de catorze gerações desde Abraão até Jesus, passando por Davi — e o que ela revela é tão surpreendente quanto a inclusão de quatro mulheres marcadas por escândalo em uma lista que o costume reservava apenas aos homens.',
+      title: "Genealogia: honra e graça",
+      intro:
+        "Mateus abre seu evangelho não com um relato de ação, mas com uma lista de nomes. No mundo bíblico, uma genealogia não era um simples registro familiar: servia para demonstrar origem, honra e herança. Mateus a organiza em três blocos de catorze gerações desde Abraão até Jesus, passando por Davi - e o que ela revela é tão surpreendente quanto a inclusão de quatro mulheres marcadas por escândalo em uma lista que o costume reservava apenas aos homens.",
     },
     2: {
-      title: 'O Rei perseguido',
-      intro: 'Quando começa o capítulo 2, Jesus já não é um recém-nascido: Maria e José vivem em uma casa e o menino pode ter entre alguns meses e quase dois anos. Governa Herodes, o Grande, um rei imposto por Roma que sustentava seu trono com violência, manipulação e medo — o contraste exato com o Rei que acaba de nascer.',
+      title: "O Rei perseguido",
+      intro:
+        "Quando começa o capítulo 2, Jesus já não é um recém-nascido: Maria e José vivem em uma casa e o menino pode ter entre alguns meses e quase dois anos. Governa Herodes, o Grande, um rei imposto por Roma que sustentava seu trono com violência, manipulação e medo - o contraste exato com o Rei que acaba de nascer.",
     },
     3: {
-      title: 'A voz que prepara o caminho',
-      intro: 'Passaram-se cerca de trinta anos desde o nascimento de Jesus. Mateus salta direto para o início do ministério público, e depois de quase 400 anos sem profetas desde Malaquias, aparece João Batista no deserto — não a partir do templo nem do sistema religioso oficial, vestido como os antigos profetas, com uma mensagem direta: o reino dos céus se aproximou.',
+      title: "A voz que prepara o caminho",
+      intro:
+        "Passaram-se cerca de trinta anos desde o nascimento de Jesus. Mateus salta direto para o início do ministério público, e depois de quase 400 anos sem profetas desde Malaquias, aparece João Batista no deserto - não a partir do templo nem do sistema religioso oficial, vestido como os antigos profetas, com uma mensagem direta: o reino dos céus se aproximou.",
     },
     4: {
-      title: 'Tentado no deserto, chamado junto ao lago',
-      intro: 'Antes do ministério público houve formação privada. O mesmo Espírito que desceu sobre Jesus no batismo agora o conduz ao deserto — não para destruí-lo, mas para provar e afirmar uma identidade que o inimigo tentará questionar três vezes.',
+      title: "Tentado no deserto, chamado junto ao lago",
+      intro:
+        "Antes do ministério público houve formação privada. O mesmo Espírito que desceu sobre Jesus no batismo agora o conduz ao deserto - não para destruí-lo, mas para provar e afirmar uma identidade que o inimigo tentará questionar três vezes.",
     },
     5: {
-      title: 'O Sermão do Monte: as bem-aventuranças e a lei do coração',
-      intro: 'Depois da genealogia, do nascimento, do batismo e da vitória no deserto, Jesus sobe a um monte e se senta: a postura do mestre que ensina com autoridade, evocando Moisés no Sinai. Diante de multidões da Galileia, Decápolis, Jerusalém, Judeia e além do Jordão, ele dirige o ensino aos discípulos que já o seguem — não é evangelismo de massa, é formação.',
+      title: "O Sermão do Monte: as bem-aventuranças e a lei do coração",
+      intro:
+        "Depois da genealogia, do nascimento, do batismo e da vitória no deserto, Jesus sobe a um monte e se senta: a postura do mestre que ensina com autoridade, evocando Moisés no Sinai. Diante de multidões da Galileia, Decápolis, Jerusalém, Judeia e além do Jordão, ele dirige o ensino aos discípulos que já o seguem - não é evangelismo de massa, é formação.",
     },
     6: {
-      title: 'Piedade secreta e o tesouro do coração',
-      intro: 'Jesus acaba de falar sobre amar o inimigo e ser perfeito como o Pai. Agora desce a algo mais cotidiano, mas igualmente profundo: não apenas o que fazemos, mas para quem o fazemos. Esmola, oração e jejum — as três práticas centrais da piedade judaica — são examinadas sob a mesma pergunta, e o capítulo se fecha com uma advertência sobre onde colocamos o coração: no tesouro que se acumula ou no Pai que já sabe do que precisamos.',
+      title: "Piedade secreta e o tesouro do coração",
+      intro:
+        "Jesus acaba de falar sobre amar o inimigo e ser perfeito como o Pai. Agora desce a algo mais cotidiano, mas igualmente profundo: não apenas o que fazemos, mas para quem o fazemos. Esmola, oração e jejum - as três práticas centrais da piedade judaica - são examinadas sob a mesma pergunta, e o capítulo se fecha com uma advertência sobre onde colocamos o coração: no tesouro que se acumula ou no Pai que já sabe do que precisamos.",
     },
     7: {
-      title: 'Julgar, pedir e edificar sobre a rocha',
-      intro: 'Jesus encerra o Sermão do Monte com uma série de instruções práticas para a vida em comunidade: como olhar para os próprios erros antes dos alheios, a promessa de um Pai que responde a quem lhe pede, a regra de ouro, e uma advertência final sobre a diferença entre ouvir e obedecer.',
+      title: "Julgar, pedir e edificar sobre a rocha",
+      intro:
+        "Jesus encerra o Sermão do Monte com uma série de instruções práticas para a vida em comunidade: como olhar para os próprios erros antes dos alheios, a promessa de um Pai que responde a quem lhe pede, a regra de ouro, e uma advertência final sobre a diferença entre ouvir e obedecer.",
     },
     8: {
-      title: 'Autoridade sobre a doença, a natureza e os demônios',
-      intro: 'Depois do Sermão do Monte, uma multidão enorme e crescente — Mateus usa uma expressão grega mais intensa que antes, ochloi polloi — segue Jesus montanha abaixo. O que vem agora é essa mesma autoridade posta em ação: cruzando, uma após outra, as fronteiras mais intransponíveis do mundo do século I. A social com um leproso, a étnica com um centurião romano, a doméstica na casa de Pedro, a natural em uma tempestade e a espiritual em território gentio.',
+      title: "Autoridade sobre a doença, a natureza e os demônios",
+      intro:
+        "Depois do Sermão do Monte, uma multidão enorme e crescente - Mateus usa uma expressão grega mais intensa que antes, ochloi polloi - segue Jesus montanha abaixo. O que vem agora é essa mesma autoridade posta em ação: cruzando, uma após outra, as fronteiras mais intransponíveis do mundo do século I. A social com um leproso, a étnica com um centurião romano, a doméstica na casa de Pedro, a natural em uma tempestade e a espiritual em território gentio.",
     },
     9: {
-      title: 'Autoridade para perdoar e uma mesa inesperada',
-      intro: 'Mateus 9 continua o ritmo do capítulo anterior — Jesus em movimento constante, agindo com autoridade — mas a tensão com os fariseus se intensifica: eles já não observam de longe, começam a confrontar diretamente. E o capítulo mostra algo que o 8 apenas insinuou: Jesus não separa o corpo da alma como compartimentos distintos. Cura, perdoa, restaura e inclui como ações que brotam da mesma fonte.',
+      title: "Autoridade para perdoar e uma mesa inesperada",
+      intro:
+        "Mateus 9 continua o ritmo do capítulo anterior - Jesus em movimento constante, agindo com autoridade - mas a tensão com os fariseus se intensifica: eles já não observam de longe, começam a confrontar diretamente. E o capítulo mostra algo que o 8 apenas insinuou: Jesus não separa o corpo da alma como compartimentos distintos. Cura, perdoa, restaura e inclui como ações que brotam da mesma fonte.",
     },
     10: {
-      title: 'O envio dos doze',
-      intro: 'Jesus acaba de percorrer todas as cidades e aldeias, viu a multidão aflita e desamparada como ovelhas sem pastor, e declarou que a colheita é grande, mas os trabalhadores são poucos. Mateus 10 é o segundo grande bloco de ensino do evangelho, e o primeiro que não é dirigido à multidão, mas exclusivamente aos discípulos: um manual de instruções para o discipulado em missão que continua falando a qualquer um que decida seguir Jesus a sério.',
+      title: "O envio dos doze",
+      intro:
+        "Jesus acaba de percorrer todas as cidades e aldeias, viu a multidão aflita e desamparada como ovelhas sem pastor, e declarou que a colheita é grande, mas os trabalhadores são poucos. Mateus 10 é o segundo grande bloco de ensino do evangelho, e o primeiro que não é dirigido à multidão, mas exclusivamente aos discípulos: um manual de instruções para o discipulado em missão que continua falando a qualquer um que decida seguir Jesus a sério.",
     },
     11: {
-      title: 'Dúvidas desde a prisão e descanso para a alma',
-      intro: 'Os capítulos anteriores mostraram Jesus ensinando com autoridade, curando e enviando seus discípulos: tudo apontava para cima. Em Mateus 11 começa a aparecer uma sombra — dúvida, resistência, rejeição — e não da parte dos inimigos óbvios, mas de personagens inesperados, começando pelo próprio João Batista.',
+      title: "Dúvidas desde a prisão e descanso para a alma",
+      intro:
+        "Os capítulos anteriores mostraram Jesus ensinando com autoridade, curando e enviando seus discípulos: tudo apontava para cima. Em Mateus 11 começa a aparecer uma sombra - dúvida, resistência, rejeição - e não da parte dos inimigos óbvios, mas de personagens inesperados, começando pelo próprio João Batista.",
     },
     12: {
-      title: 'Conflito aberto: o Senhor do sábado',
-      intro: 'Mateus 12 marca um ponto de virada: a oposição dos fariseus, crescente mas até então contida, cruza uma linha e começa a conspirar abertamente para matar Jesus. A tensão se acende em torno de algo que à primeira vista parece menor — o sábado — e escala até a acusação mais grave que Jesus enfrentará em todo o evangelho: que ele age pelo poder de Belzebu.',
+      title: "Conflito aberto: o Senhor do sábado",
+      intro:
+        "Mateus 12 marca um ponto de virada: a oposição dos fariseus, crescente mas até então contida, cruza uma linha e começa a conspirar abertamente para matar Jesus. A tensão se acende em torno de algo que à primeira vista parece menor - o sábado - e escala até a acusação mais grave que Jesus enfrentará em todo o evangelho: que ele age pelo poder de Belzebu.",
     },
     13: {
-      title: 'Parábolas do Reino: o que se revela e o que se esconde',
-      intro: 'Depois da rejeição frontal do capítulo 12, Jesus muda de método: abandona o discurso direto e passa a falar exclusivamente em parábolas. A partir deste momento, suas palavras revelarão aos que querem ver e ocultarão dos que escolheram não fazê-lo — o semeador, o joio, o grão de mostarda, o fermento, o tesouro, a pérola e a rede descrevem, cada uma a partir de um ângulo diferente, como opera o Reino dos céus.',
+      title: "Parábolas do Reino: o que se revela e o que se esconde",
+      intro:
+        "Depois da rejeição frontal do capítulo 12, Jesus muda de método: abandona o discurso direto e passa a falar exclusivamente em parábolas. A partir deste momento, suas palavras revelarão aos que querem ver e ocultarão dos que escolheram não fazê-lo - o semeador, o joio, o grão de mostarda, o fermento, o tesouro, a pérola e a rede descrevem, cada uma a partir de um ângulo diferente, como opera o Reino dos céus.",
     },
     14: {
-      title: 'A compaixão que não recua',
-      intro: 'Mateus 14 abre com uma morte: a do único homem que Jesus declarou o maior nascido de mulher, executado pelo capricho de uma noite de festa. E se fecha com pessoas doentes tocando na borda do manto de Jesus e sendo curadas. Entre esses dois extremos há um milagre que alimentou mais de cinco mil famílias, e uma das cenas mais humanas de todo o evangelho: Pedro andando sobre a água e afundando ao desviar o olhar. Algo atravessa todo o capítulo: cada vez que Jesus tenta se retirar, a necessidade o alcança, e cada vez que isso acontece não há impaciência nem rejeição, mas compaixão.',
+      title: "A compaixão que não recua",
+      intro:
+        "Mateus 14 abre com uma morte: a do único homem que Jesus declarou o maior nascido de mulher, executado pelo capricho de uma noite de festa. E se fecha com pessoas doentes tocando na borda do manto de Jesus e sendo curadas. Entre esses dois extremos há um milagre que alimentou mais de cinco mil famílias, e uma das cenas mais humanas de todo o evangelho: Pedro andando sobre a água e afundando ao desviar o olhar. Algo atravessa todo o capítulo: cada vez que Jesus tenta se retirar, a necessidade o alcança, e cada vez que isso acontece não há impaciência nem rejeição, mas compaixão.",
     },
     15: {
-      title: 'O coração verdadeiro e a fé que cruza fronteiras',
-      intro: 'Mateus 15 tem três movimentos que à primeira vista parecem não se conectar: um confronto sobre a tradição religiosa, a cura da filha de uma mulher gentia, e um segundo milagre de multiplicação de pães. Mas lidos juntos, o fio condutor é claro: Jesus expande os limites de quem pode receber o que ele tem para dar, desmontando as barreiras que os seres humanos constroem para restringi-lo.',
+      title: "O coração verdadeiro e a fé que cruza fronteiras",
+      intro:
+        "Mateus 15 tem três movimentos que à primeira vista parecem não se conectar: um confronto sobre a tradição religiosa, a cura da filha de uma mulher gentia, e um segundo milagre de multiplicação de pães. Mas lidos juntos, o fio condutor é claro: Jesus expande os limites de quem pode receber o que ele tem para dar, desmontando as barreiras que os seres humanos constroem para restringi-lo.",
     },
     16: {
-      title: 'Quem vocês dizem que eu sou?',
-      intro: 'Mateus 16 é um dos capítulos mais densos em revelação progressiva: Jesus confronta os líderes religiosos, adverte seus discípulos sobre as influências que podem desviá-los, e faz a pergunta mais importante do evangelho -quem vocês dizem que eu sou?-. A resposta de Pedro abre uma das declarações mais significativas do Novo Testamento sobre a igreja e a identidade de Jesus, e quase imediatamente esse mesmo Pedro é exposto como completamente humano diante do anúncio da cruz.',
+      title: "Quem vocês dizem que eu sou?",
+      intro:
+        "Mateus 16 é um dos capítulos mais densos em revelação progressiva: Jesus confronta os líderes religiosos, adverte seus discípulos sobre as influências que podem desviá-los, e faz a pergunta mais importante do evangelho -quem vocês dizem que eu sou?-. A resposta de Pedro abre uma das declarações mais significativas do Novo Testamento sobre a igreja e a identidade de Jesus, e quase imediatamente esse mesmo Pedro é exposto como completamente humano diante do anúncio da cruz.",
+    },
+    17: {
+      title: "No monte e no vale: glória, fé e humildade",
+      intro:
+        "Mateus 17 se conecta diretamente com o final do capítulo 16: Jesus acaba de anunciar sua morte em Jerusalém e de chamar seus discípulos a carregar a própria cruz, e antes de chegar a ela lhes mostra um antecipo da glória que existe do outro lado. O capítulo tem um movimento marcado -do topo de um monte a um vale com um menino sofrendo, e dali a uma discussão sobre impostos que termina num milagre junto ao lago- e nesses três cenários aparece o mesmo Jesus: o Filho glorificado, o Senhor com autoridade sobre o espiritual e o Rei que se faz pequeno por amor.",
     },
   },
 };
 
 const CATEGORIA_LABELS: Record<Locale, Record<string, string>> = {
   es: {
-    principal: 'Principal',
-    otro: 'Otros',
-    'autoridad-politica': 'Autoridades políticas',
-    'autoridad-religiosa': 'Autoridades religiosas',
-    discipulo: 'Discípulos',
+    principal: "Principal",
+    otro: "Otros",
+    "autoridad-politica": "Autoridades políticas",
+    "autoridad-religiosa": "Autoridades religiosas",
+    discipulo: "Discípulos",
   },
   pt: {
-    principal: 'Principal',
-    otro: 'Outros',
-    'autoridad-politica': 'Autoridades políticas',
-    'autoridad-religiosa': 'Autoridades religiosas',
-    discipulo: 'Discípulos',
+    principal: "Principal",
+    otro: "Outros",
+    "autoridad-politica": "Autoridades políticas",
+    "autoridad-religiosa": "Autoridades religiosas",
+    discipulo: "Discípulos",
   },
 };
 
 const TEMA_LABELS: Record<Locale, Record<string, string>> = {
   es: {
-    'vida-judia': 'Vida judía',
-    'politica-romana': 'Política romana',
-    geografia: 'Geografía',
-    'practicas-religiosas': 'Prácticas religiosas',
+    "vida-judia": "Vida judía",
+    "politica-romana": "Política romana",
+    geografia: "Geografía",
+    "practicas-religiosas": "Prácticas religiosas",
   },
   pt: {
-    'vida-judia': 'Vida judaica',
-    'politica-romana': 'Política romana',
-    geografia: 'Geografia',
-    'practicas-religiosas': 'Práticas religiosas',
+    "vida-judia": "Vida judaica",
+    "politica-romana": "Política romana",
+    geografia: "Geografia",
+    "practicas-religiosas": "Práticas religiosas",
   },
 };
 
 export const MAX_CHAPTER = 28;
-export const COMPLETED_RANGE: [number, number] = [1, 16];
+export const COMPLETED_RANGE: [number, number] = [1, 17];
 
 export function isCompleted(n: number): boolean {
   return n >= COMPLETED_RANGE[0] && n <= COMPLETED_RANGE[1];
@@ -249,7 +341,10 @@ export function getDiscourses(lang: Locale): Discourse[] {
   return DISCOURSES[lang];
 }
 
-export function getChapterMeta(lang: Locale, n: number): ChapterMeta | undefined {
+export function getChapterMeta(
+  lang: Locale,
+  n: number,
+): ChapterMeta | undefined {
   return CHAPTER_META[lang][n];
 }
 
@@ -258,7 +353,13 @@ export function categoriaLabel(lang: Locale, categoria: string): string {
 }
 
 export function categoriaOrder(): string[] {
-  return ['principal', 'discipulo', 'autoridad-religiosa', 'autoridad-politica', 'otro'];
+  return [
+    "principal",
+    "discipulo",
+    "autoridad-religiosa",
+    "autoridad-politica",
+    "otro",
+  ];
 }
 
 export function temaLabel(lang: Locale, tema: string): string {

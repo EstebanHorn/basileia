@@ -4,7 +4,7 @@ import { hasLocale } from '@/lib/i18n/config';
 import { getDictionary } from '@/lib/i18n/get-dictionary';
 import { buildMetadata } from '@/lib/seo';
 import { getSiteUrl } from '@/lib/site';
-import { getChapter, getGlosario, getPersonajes, getLugares, getContextoById, getCitasATById, getParalelosById } from '@/lib/content/loader';
+import { getChapter, getGlosario, getPersonajes, getLugares, getContextoById, getCitasATById, getParalelosById, getReferenciasById } from '@/lib/content/loader';
 import { buildBlocks } from '@/lib/content/blocks';
 import { MAX_CHAPTER, getChapterMeta, sectionFor } from '@/lib/content/editorial';
 import CapituloScreen from '@/components/mateo/CapituloScreen';
@@ -48,6 +48,7 @@ export default async function CapituloPage({ params }: { params: Promise<{ lang:
   const lugaresById = Object.fromEntries(getLugares(lang).map((l) => [l.id, l]));
   const citasAtById = Object.fromEntries(getCitasATById(lang));
   const paralelosById = Object.fromEntries(getParalelosById(lang));
+  const referenciasById = Object.fromEntries(getReferenciasById(lang));
 
   const dict = await getDictionary(lang);
   const siteUrl = getSiteUrl();
@@ -90,6 +91,7 @@ export default async function CapituloPage({ params }: { params: Promise<{ lang:
         lugaresById={lugaresById}
         citasAtById={citasAtById}
         paralelosById={paralelosById}
+        referenciasById={referenciasById}
       />
     </>
   );

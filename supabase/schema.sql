@@ -1,4 +1,4 @@
--- Estudio de Mateo — esquema de base de datos
+-- Estudio de Mateo - esquema de base de datos
 -- Ejecutar en el SQL Editor de Supabase (o via `supabase db query < supabase/schema.sql`).
 --
 -- Tablas:

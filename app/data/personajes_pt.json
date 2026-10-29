@@ -188,7 +188,7 @@
       "id": "pedro",
       "nombre": "Pedro",
       "categoria": "discipulo",
-      "descripcion": "Simão, chamado Pedro: pescador da Galileia, impulsivo, apaixonado e contraditório. É um dos primeiros chamados junto com seu irmão André, e sua casa em Cafarnaum é cenário da cura de sua sogra. Sua história -incluindo a futura negação e restauração- é, segundo o PDF, a demonstração mais clara de que o chamado de Jesus não depende da perfeição de quem é chamado.",
+      "descripcion": "Simão, chamado Pedro: pescador da Galileia, impulsivo, apaixonado e contraditório. É um dos primeiros chamados junto com seu irmão André, e sua casa em Cafarnaum é cenário da cura de sua sogra. Sua história -incluindo a futura negação e restauração- é a demonstração mais clara de que o chamado de Jesus não depende da perfeição de quem é chamado.",
       "capitulos": [
         4,
         5,
@@ -203,7 +203,7 @@
       "id": "santiago-hijo-de-zebedeo",
       "nombre": "Tiago, filho de Zebedeu",
       "categoria": "discipulo",
-      "descripcion": "Um dos 'filhos do trovão', apelido dado por Jesus provavelmente por seu temperamento. Pescador da Galileia, irmão de João, chamado junto com ele enquanto remendavam as redes com seu pai Zebedeu. Segundo o PDF, será o primeiro apóstolo martirizado.",
+      "descripcion": "Um dos 'filhos do trovão', apelido dado por Jesus provavelmente por seu temperamento. Pescador da Galileia, irmão de João, chamado junto com ele enquanto remendavam as redes com seu pai Zebedeu. Será o primeiro apóstolo martirizado.",
       "capitulos": [
         4,
         5,
@@ -308,6 +308,24 @@
       "descripcion": "Mulher gentia da região de Tiro e Sidom que se aproxima de Jesus clamando \"Senhor, Filho de Davi\" por sua filha atormentada por um demônio. Embora a resposta inicial de Jesus pareça reservar a missão a Israel, ela não desiste, e sua resposta -\"até os cachorrinhos comem das migalhas que caem da mesa dos seus donos\"- é declarada por Jesus como uma grande fé, a mesma expressão que ele havia usado para o centurião romano: outro gentio que viu com clareza o que muitos de dentro não conseguiam ver.",
       "capitulos": [
         15
+      ]
+    },
+    {
+      "id": "moises",
+      "nombre": "Moisés",
+      "categoria": "otro",
+      "descripcion": "O libertador e legislador de Israel, que recebeu a Lei no monte Sinai e guiou o povo por quarenta anos no deserto. Seu rosto resplandeceu ao descer do monte por ter estado na presença de Deus, e segundo Deuteronômio morreu sem que ninguém conhecesse seu túmulo. Aparece ao lado de Elias no monte da transfiguração, representando a Lei que dá testemunho de Jesus.",
+      "capitulos": [
+        17
+      ]
+    },
+    {
+      "id": "elias",
+      "nombre": "Elias",
+      "categoria": "otro",
+      "descripcion": "O profeta que confrontou Acabe e Jezabel e defendeu a adoração exclusiva ao Senhor diante dos profetas de Baal. Teve um encontro decisivo com Deus no monte Horebe e foi levado ao céu num redemoinho, sem passar pela morte. A tradição judaica esperava seu retorno antes da vinda do Messias -uma expectativa que Jesus identifica como cumprida em João Batista.",
+      "capitulos": [
+        17
       ]
     }
   ]
