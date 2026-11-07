@@ -8,12 +8,15 @@ import AuthModal from './AuthModal';
 import Footer from './Footer';
 
 export default function AppChrome({ children }: { children: ReactNode }) {
-  const { colors, lang, authModal, authMode, openAuthModal, closeAuthModal } = useApp();
+  const { colors, theme, lang, authModal, authMode, openAuthModal, closeAuthModal } = useApp();
   const pathname = usePathname();
   const isFullBleed = pathname === `/${lang}/mapa`;
+  const isHome = pathname === `/${lang}`;
 
   return (
     <div
+      // El mapa ya es una ilustración antigua; el grano encima lo lavaba.
+      className={`${theme === 'dark' ? 'np-dark' : 'np-light'}${isFullBleed ? '' : ' np-grain'}`}
       style={{
         height: isFullBleed ? '100vh' : undefined,
         minHeight: isFullBleed ? undefined : '100vh',
@@ -22,11 +25,12 @@ export default function AppChrome({ children }: { children: ReactNode }) {
         flexDirection: 'column',
         background: colors.bg,
         color: colors.text,
-        fontFamily: 'var(--font-inter), sans-serif',
-        transition: 'background .2s,color .2s',
+        fontFamily: 'var(--font-lora), Georgia, serif',
+        transition: 'background .3s,color .3s',
       }}
     >
-      <TopNav />
+      {/* Portada: cabecera gigante. Mapa: sin cabecera. Resto: cabecera mediana. */}
+      <TopNav variant={isHome ? 'home' : isFullBleed ? 'compact' : 'page'} />
 
       {authModal && (
         <AuthModal

@@ -1,0 +1,115 @@
+.footer {
+  margin-top: 48px;
+  padding: 0 clamp(16px, 4vw, 48px) 24px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: minmax(0, 2fr) minmax(0, 1fr) minmax(0, 1fr);
+  gap: 32px;
+  padding: 28px 0 24px;
+}
+
+.brandCol {
+  padding-right: 24px;
+  border-right: 1px solid var(--rule);
+}
+
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  font-family: var(--font-anton), Impact, sans-serif;
+  font-size: 46px;
+  line-height: 0.9;
+  letter-spacing: 0.02em;
+  color: var(--ink) !important;
+  text-shadow: 2px 1px 0 rgba(228, 87, 46, 0.55);
+  transition: transform 0.2s;
+}
+
+.brand img {
+  display: block;
+  flex: none;
+}
+
+.brand:hover {
+  transform: rotate(-2deg);
+}
+
+.tagline {
+  font-family: var(--font-playfair), Georgia, serif;
+  font-style: italic;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--ink-soft);
+  margin: 10px 0 14px;
+  max-width: 380px;
+}
+
+.note {
+  display: inline-block;
+  font-family: var(--font-caveat), cursive;
+  font-size: 24px;
+  color: var(--accent) !important;
+  transform: rotate(-2deg);
+  transition: transform 0.2s;
+}
+
+.note:hover {
+  transform: rotate(0deg) scale(1.04);
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.col > :first-child {
+  margin-bottom: 8px;
+}
+
+.link {
+  font-size: 15px;
+  color: var(--ink) !important;
+  width: fit-content;
+  background: linear-gradient(var(--orange), var(--orange)) 0 100% / 0 2px no-repeat;
+  transition: background-size 0.25s;
+}
+
+.link:hover {
+  background-size: 100% 2px;
+}
+
+.bottom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 8px 16px;
+  padding-top: 12px;
+  border-top: 1px solid var(--rule);
+  font-family: var(--font-typewriter), monospace;
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.printed {
+  color: var(--ink-soft);
+}
+
+@media (max-width: 760px) {
+  .grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .brandCol {
+    grid-column: 1 / -1;
+    border-right: 0;
+    padding-right: 0;
+    padding-bottom: 20px;
+    border-bottom: 1px solid var(--rule);
+  }
+}

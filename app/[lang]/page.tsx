@@ -2,8 +2,9 @@ import { hasLocale } from '@/lib/i18n/config';
 import { notFound } from 'next/navigation';
 import { getDictionary } from '@/lib/i18n/get-dictionary';
 import { getSiteUrl } from '@/lib/site';
-import { getDiscourses } from '@/lib/content/editorial';
-import InicioScreen from '@/components/mateo/InicioScreen';
+import { getDiscourses, MAX_CHAPTER } from '@/lib/content/editorial';
+import { buildEditions } from '@/lib/content/editions';
+import PeriodicoScreen from '@/components/mateo/periodico/PeriodicoScreen';
 import JsonLd from '@/components/mateo/JsonLd';
 
 export default async function InicioPage({ params }: { params: Promise<{ lang: string }> }) {
@@ -30,7 +31,11 @@ export default async function InicioPage({ params }: { params: Promise<{ lang: s
           },
         }}
       />
-      <InicioScreen discourses={getDiscourses(lang)} />
+      <PeriodicoScreen
+        editions={buildEditions(lang)}
+        totalChapters={MAX_CHAPTER}
+        discourses={getDiscourses(lang).map((d) => ({ name: d.name, summary: d.summary, chapters: d.chapters }))}
+      />
     </>
   );
 }

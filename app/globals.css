@@ -6,27 +6,364 @@
 
 body {
   margin: 0;
-  font-family: var(--font-inter), sans-serif;
+  font-family: var(--font-lora), Georgia, serif;
+}
+
+/* ---------- Paleta periódico (ver lib/theme.ts) ---------- */
+.np-light {
+  --paper: #efe6d3;
+  --card: #f7f0df;
+  --paper-dark: #e6d9bd;
+  --ink: #1f1b16;
+  --ink-soft: #4a4136;
+  --muted: #6e6150;
+  --orange: #e4572e;
+  --accent: #a8321e;
+  --maroon: #8b1e2d;
+  --olive: #4a5a3a;
+  --olive-dark: #2f3a26;
+  --tan: #b8925e;
+  --cream: #f7f0df;
+  --rule: rgba(31, 27, 22, 0.75);
+  --rule-soft: rgba(31, 27, 22, 0.25);
+  --grain-opacity: 0.45;
+  --grain-blend: multiply;
+  color-scheme: light;
+}
+
+.np-dark {
+  --paper: #1a1712;
+  --card: #231f19;
+  --paper-dark: #2e271e;
+  --ink: #ede4d0;
+  --ink-soft: #cfc4ae;
+  --muted: #a3957d;
+  --orange: #e8673e;
+  --accent: #e8673e;
+  --maroon: #e0846f;
+  --olive: #7c8e60;
+  --olive-dark: #263021;
+  --tan: #c9a77a;
+  --cream: #f7f0df;
+  --rule: rgba(237, 228, 208, 0.55);
+  --rule-soft: rgba(237, 228, 208, 0.18);
+  --grain-opacity: 0.22;
+  --grain-blend: screen;
+  color-scheme: dark;
+}
+
+/* Grano de papel sobre toda la app */
+.np-grain::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 100;
+  opacity: var(--grain-opacity);
+  mix-blend-mode: var(--grain-blend);
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .35 0 0 0 0 .28 0 0 0 0 .2 0 0 0 .5 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
 }
 
 ::selection {
-  background: #b22222;
-  color: #fff;
+  background: var(--orange, #e4572e);
+  color: var(--cream, #fff);
 }
 
 a {
-  color: #b22222;
+  color: var(--accent, #a8321e);
   text-decoration: none;
 }
 
 a:hover {
-  color: #8f1b2c;
-  text-decoration: underline;
+  color: var(--orange, #e4572e);
+  text-decoration: none;
 }
 
 input::placeholder,
 textarea::placeholder {
-  color: #a39c98;
+  color: var(--muted, #a39c98);
+}
+
+/* ---------- Piezas tipográficas reutilizables ---------- */
+.np-kicker {
+  font-family: var(--font-typewriter), monospace;
+  font-size: 11px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+.np-display {
+  font-family: var(--font-anton), Impact, sans-serif;
+  font-weight: 400;
+  line-height: 0.9;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+}
+
+.np-headline {
+  font-family: var(--font-playfair), Georgia, serif;
+  font-weight: 900;
+  line-height: 1.08;
+  text-wrap: balance;
+}
+
+.np-hand {
+  font-family: var(--font-caveat), cursive;
+}
+
+.np-type {
+  font-family: var(--font-typewriter), monospace;
+}
+
+.np-halftone {
+  background:
+    radial-gradient(circle, rgba(31, 27, 22, 0.25) 0.9px, transparent 1.4px) 0 0 / 4px 4px,
+    var(--orange);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* Cabecera de página: kicker + título enorme + bajada, cerrada con regla doble */
+.np-pagehead {
+  padding: 8px 0 20px;
+  margin-bottom: 28px;
+  border-bottom: 4px double var(--rule);
+  animation: npPress 0.6s ease-out backwards;
+}
+
+.np-pagehead h1 {
+  font-family: var(--font-anton), Impact, sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: clamp(48px, 9vw, 104px);
+  line-height: 0.9;
+  letter-spacing: 0.01em;
+  margin: 8px 0 12px;
+  color: var(--ink);
+}
+
+.np-pagehead p {
+  font-family: var(--font-playfair), Georgia, serif;
+  font-style: italic;
+  font-size: clamp(16px, 1.8vw, 20px);
+  line-height: 1.5;
+  color: var(--ink-soft);
+  margin: 0;
+  max-width: 680px;
+}
+
+/* Tarjeta de papel con sombra de tinta dura */
+.np-card {
+  background: var(--card);
+  border: 1.5px solid var(--ink);
+  box-shadow: 4px 4px 0 var(--ink);
+  color: var(--ink);
+  transition:
+    transform 0.18s cubic-bezier(0.3, 1.5, 0.5, 1),
+    box-shadow 0.18s;
+}
+
+a.np-card:hover,
+button.np-card:hover,
+.np-card.np-lift:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 6px 6px 0 var(--orange);
+  color: var(--ink);
+}
+
+/* Recorte pegado con cinta */
+.np-clip {
+  position: relative;
+  background: var(--card);
+  color: var(--ink);
+  box-shadow: 3px 6px 14px rgba(40, 25, 10, 0.2);
+  transform: rotate(var(--tilt, -1deg));
+  transition:
+    transform 0.3s cubic-bezier(0.3, 1.5, 0.5, 1),
+    box-shadow 0.3s;
+}
+
+.np-clip:hover {
+  transform: rotate(0deg) translateY(-4px);
+  box-shadow: 6px 12px 24px rgba(40, 25, 10, 0.25);
+  color: var(--ink);
+}
+
+.np-clip::before {
+  content: '';
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  width: 70px;
+  height: 20px;
+  transform: translateX(-50%) rotate(-3deg);
+  background: rgba(214, 196, 150, 0.75);
+}
+
+/* Botón sello */
+.np-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 11px 20px;
+  border: 2px solid var(--ink);
+  background: var(--orange);
+  color: var(--cream) !important;
+  font-family: var(--font-anton), Impact, sans-serif;
+  font-size: 17px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  box-shadow: 4px 4px 0 var(--ink);
+  cursor: pointer;
+  transition:
+    transform 0.15s,
+    box-shadow 0.15s;
+}
+
+.np-btn:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 6px 6px 0 var(--ink);
+}
+
+.np-btn:active {
+  transform: translate(3px, 3px);
+  box-shadow: 1px 1px 0 var(--ink);
+}
+
+.np-btn:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+  transform: none;
+}
+
+/* Chip de filtro con letra de máquina de escribir */
+.np-chip {
+  font-family: var(--font-typewriter), monospace;
+  font-size: 12px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 7px 12px;
+  border: 1.5px solid var(--ink);
+  background: transparent;
+  color: var(--ink);
+  cursor: pointer;
+  transition:
+    transform 0.15s,
+    box-shadow 0.15s,
+    background 0.15s;
+}
+
+.np-chip:hover {
+  transform: translate(-1px, -1px);
+  box-shadow: 2px 2px 0 var(--ink);
+}
+
+.np-chip[aria-pressed='true'],
+.np-chip[data-active] {
+  background: var(--ink);
+  color: var(--paper);
+  box-shadow: 2px 2px 0 var(--orange);
+}
+
+/* Campo de texto */
+.np-input {
+  width: 100%;
+  font-family: var(--font-typewriter), monospace;
+  font-size: 15px;
+  padding: 12px 14px;
+  background: var(--card);
+  color: var(--ink);
+  border: 1.5px solid var(--ink);
+  outline: none;
+  border-radius: 0;
+  transition: box-shadow 0.15s;
+}
+
+.np-input:focus {
+  box-shadow: 3px 3px 0 var(--orange);
+}
+
+.np-rule-double {
+  height: 6px;
+  border: 0;
+  border-top: 3px solid var(--rule);
+  border-bottom: 1px solid var(--rule);
+  margin: 0;
+}
+
+/* Aparición escalonada de listas */
+.np-stagger > * {
+  animation: npPress 0.5s ease-out backwards;
+}
+
+.np-stagger > *:nth-child(2) { animation-delay: 40ms; }
+.np-stagger > *:nth-child(3) { animation-delay: 80ms; }
+.np-stagger > *:nth-child(4) { animation-delay: 120ms; }
+.np-stagger > *:nth-child(5) { animation-delay: 160ms; }
+.np-stagger > *:nth-child(6) { animation-delay: 200ms; }
+.np-stagger > *:nth-child(7) { animation-delay: 240ms; }
+.np-stagger > *:nth-child(n + 8) { animation-delay: 280ms; }
+
+/* Indicador de carga: renglones que se "imprimen" */
+.np-press-lines {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.np-press-lines span {
+  display: block;
+  height: 8px;
+  background: var(--ink);
+  transform-origin: left;
+  animation: npInk 1.2s ease-in-out infinite;
+}
+
+.np-press-lines span:nth-child(2) {
+  width: 85%;
+  animation-delay: 0.15s;
+}
+
+.np-press-lines span:nth-child(3) {
+  width: 60%;
+  background: var(--orange);
+  animation-delay: 0.3s;
+}
+
+@keyframes npInk {
+  0% {
+    transform: scaleX(0);
+  }
+  50% {
+    transform: scaleX(1);
+  }
+  100% {
+    transform: scaleX(1);
+    opacity: 0;
+  }
+}
+
+@keyframes npPress {
+  from {
+    opacity: 0;
+    filter: blur(2px);
+    transform: translateY(10px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .np-pagehead,
+  .np-stagger > *,
+  .np-card,
+  .np-clip,
+  .np-btn,
+  .np-chip {
+    animation: none !important;
+    transition: none !important;
+  }
 }
 
 @keyframes popIn {
@@ -59,7 +396,7 @@ textarea::placeholder {
   position: absolute;
   inset: 0;
   border-radius: 50%;
-  border: 3px solid #fff;
+  border: 3px solid var(--cream, #fff);
 }
 
 .map-pin-pulse {
@@ -104,7 +441,8 @@ textarea::placeholder {
   }
 }
 
-.btn-reset {
+/* :where() deja este reset sin especificidad, para que .np-chip / .np-btn ganen. */
+:where(.btn-reset) {
   background: none;
   border: none;
   padding: 0;

@@ -1,17 +1,23 @@
 'use client';
 
 import { useState } from 'react';
+import Link from 'next/link';
 import { useApp } from '@/lib/app-context';
 import { useProgress } from '@/lib/supabase/use-progress';
 import { COMPLETED_RANGE, MAX_CHAPTER, isCompleted, type Section } from '@/lib/content/editorial';
+import { getNewspaper } from '@/lib/i18n/newspaper';
 import Pressable from './Pressable';
+import PageHead from './PageHead';
+import styles from './screens.module.css';
 
 interface IndiceScreenProps {
   sections: Section[];
+  titles: Record<number, string>;
 }
 
-export default function IndiceScreen({ sections }: IndiceScreenProps) {
-  const { colors, lang, dict } = useApp();
+export default function IndiceScreen({ sections, titles }: IndiceScreenProps) {
+  const { lang, dict } = useApp();
+  const np = getNewspaper(lang);
   const { readChapters, toggleRead } = useProgress();
   const [indexFilter, setIndexFilter] = useState('all');
 
@@ -19,104 +25,76 @@ export default function IndiceScreen({ sections }: IndiceScreenProps) {
   const activeSection = indexFilter === 'all' ? null : sections.find((s) => s.id === indexFilter);
   const completedCount = COMPLETED_RANGE[1] - COMPLETED_RANGE[0] + 1;
   const readCount = Object.values(readChapters).filter(Boolean).length;
+  const sectionOf = (n: number) => sections.find((s) => n >= s.range[0] && n <= s.range[1]);
 
   return (
-    <div style={{ maxWidth: 900, margin: '0 auto', padding: '40px 24px 80px' }}>
-      <h1 style={{ fontFamily: 'var(--font-lora), serif', fontSize: 32, fontWeight: 600, margin: '0 0 6px' }}>
-        {dict.indice.title}
-      </h1>
-      <p style={{ fontSize: 14, color: colors.muted, margin: '0 0 20px' }}>
+    <div className={styles.page}>
+      <PageHead kicker={np.kicker.indice} title={dict.indice.title}>
         {dict.indice.stats(MAX_CHAPTER, completedCount, readCount)}
-      </p>
-      <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap', marginBottom: 24 }}>
-        {chips.map((c) => {
-          const active = indexFilter === c.id;
-          return (
-            <Pressable
-              key={c.id}
-              onClick={() => setIndexFilter(c.id)}
-              aria-pressed={active}
-              style={{
-                padding: '7px 13px',
-                borderRadius: 20,
-                fontSize: 12.5,
-                fontWeight: 600,
-                border: `1px solid ${active ? colors.accent : colors.border}`,
-                background: active ? colors.accent : colors.panel,
-                color: active ? '#fff' : colors.text,
-              }}
-            >
-              {c.name}
-            </Pressable>
-          );
-        })}
+      </PageHead>
+
+      <div className={styles.progressRow}>
+        <span className="np-type">
+          {readCount} / {MAX_CHAPTER}
+        </span>
+        <span className={styles.inkBar}>
+          <span style={{ width: `${(readCount / MAX_CHAPTER) * 100}%` }} />
+        </span>
       </div>
-      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(7,1fr)', gap: 10 }}>
-        {Array.from({ length: MAX_CHAPTER }, (_, i) => i + 1).map((n) => {
-          const completed = isCompleted(n);
-          const read = !!readChapters[n];
-          const inFilter = !activeSection || (n >= activeSection.range[0] && n <= activeSection.range[1]);
-          return (
-            <div key={n} style={{ position: 'relative', opacity: inFilter ? 1 : 0.3 }}>
-              <a
-                href={`/${lang}/capitulo/${n}`}
-                style={{
-                  aspectRatio: '1',
-                  borderRadius: 10,
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                  fontWeight: 700,
-                  fontSize: 16,
-                  cursor: 'pointer',
-                  background: completed ? colors.accent : colors.panel,
-                  color: completed ? '#fff' : colors.muted,
-                  border: `1px solid ${completed ? colors.accent : colors.border}`,
-                }}
-              >
-                {n}
-              </a>
-              <Pressable
-                onClick={() => toggleRead(n)}
-                aria-label={read ? dict.indice.markUnread : dict.indice.markRead}
-                aria-pressed={read}
-                style={{
-                  position: 'absolute',
-                  top: -6,
-                  right: -6,
-                  width: 18,
-                  height: 18,
-                  borderRadius: '50%',
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                  background: read ? colors.text : colors.panel,
-                  border: `1.5px solid ${read ? colors.text : colors.border}`,
-                }}
-              >
-                {read && (
-                  <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke={colors.bg} strokeWidth={3.5}>
-                    <polyline points="20 6 9 17 4 12"></polyline>
-                  </svg>
-                )}
-              </Pressable>
-            </div>
-          );
-        })}
+
+      <div className={styles.chips}>
+        {chips.map((c) => (
+          <Pressable key={c.id} onClick={() => setIndexFilter(c.id)} aria-pressed={indexFilter === c.id} className="np-chip">
+            {c.name}
+          </Pressable>
+        ))}
       </div>
-      <div style={{ display: 'flex', gap: 20, marginTop: 24, fontSize: 12.5, color: colors.muted, flexWrap: 'wrap' }}>
-        <div style={{ display: 'flex', alignItems: 'center', gap: 6 }}>
-          <div style={{ width: 11, height: 11, borderRadius: 3, background: colors.accent }} />
-          {dict.indice.legendCompleted}
-        </div>
-        <div style={{ display: 'flex', alignItems: 'center', gap: 6 }}>
-          <div style={{ width: 11, height: 11, borderRadius: 3, border: `1px solid ${colors.border}` }} />
-          {dict.indice.legendPending}
-        </div>
-        <div style={{ display: 'flex', alignItems: 'center', gap: 6 }}>
-          <div style={{ width: 11, height: 11, borderRadius: '50%', background: colors.text }} />
-          {dict.indice.legendRead}
-        </div>
+
+      <div className={`${styles.issueGrid} np-stagger`} key={indexFilter}>
+        {Array.from({ length: MAX_CHAPTER }, (_, i) => i + 1)
+          .filter((n) => !activeSection || (n >= activeSection.range[0] && n <= activeSection.range[1]))
+          .map((n) => {
+            const completed = isCompleted(n);
+            const read = !!readChapters[n];
+            return (
+              <div key={n} className={styles.issueWrap}>
+                <Link
+                  href={`/${lang}/capitulo/${n}`}
+                  className={`${styles.issue} ${completed ? 'np-card' : ''}`}
+                  data-pending={completed ? undefined : ''}
+                >
+                  <span className={styles.issueTop}>
+                    <span className="np-kicker">Nº {n}</span>
+                    <span className={styles.issueSection}>{sectionOf(n)?.name}</span>
+                  </span>
+                  <span className={`${styles.issueNum} ${completed ? 'np-halftone' : ''}`}>{n}</span>
+                  <span className={styles.issueTitle}>{completed ? titles[n] : np.printing}</span>
+                </Link>
+                <Pressable
+                  onClick={() => toggleRead(n)}
+                  aria-label={read ? dict.indice.markUnread : dict.indice.markRead}
+                  aria-pressed={read}
+                  title={read ? dict.indice.markUnread : dict.indice.markRead}
+                  className={styles.readStamp}
+                  data-read={read ? '' : undefined}
+                >
+                  {read ? np.read : '○'}
+                </Pressable>
+              </div>
+            );
+          })}
+      </div>
+
+      <div className={styles.legend}>
+        <span>
+          <i className={styles.legendCard} /> {dict.indice.legendCompleted}
+        </span>
+        <span>
+          <i className={styles.legendPending} /> {dict.indice.legendPending}
+        </span>
+        <span>
+          <i className={styles.legendRead} /> {dict.indice.legendRead}
+        </span>
       </div>
     </div>
   );

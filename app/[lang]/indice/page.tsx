@@ -3,7 +3,7 @@ import { hasLocale } from '@/lib/i18n/config';
 import { notFound } from 'next/navigation';
 import { getDictionary } from '@/lib/i18n/get-dictionary';
 import { buildMetadata } from '@/lib/seo';
-import { getSections } from '@/lib/content/editorial';
+import { getChapterMeta, getSections, MAX_CHAPTER } from '@/lib/content/editorial';
 import IndiceScreen from '@/components/mateo/IndiceScreen';
 
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
@@ -17,5 +17,11 @@ export default async function IndicePage({ params }: { params: Promise<{ lang: s
   const { lang } = await params;
   if (!hasLocale(lang)) notFound();
 
-  return <IndiceScreen sections={getSections(lang)} />;
+  const titles: Record<number, string> = {};
+  for (let n = 1; n <= MAX_CHAPTER; n++) {
+    const meta = getChapterMeta(lang, n);
+    if (meta) titles[n] = meta.title;
+  }
+
+  return <IndiceScreen sections={getSections(lang)} titles={titles} />;
 }

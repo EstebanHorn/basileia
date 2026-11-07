@@ -1,9 +1,12 @@
 'use client';
 
-import { useEffect, useMemo, useState } from 'react';
+import { useEffect, useMemo, useState, type ReactNode } from 'react';
 import Link from 'next/link';
 import { useApp } from '@/lib/app-context';
 import { filterResults, parseChapterReference, type SearchResult, type SearchResultType } from '@/lib/content/search';
+import { getNewspaper } from '@/lib/i18n/newspaper';
+import PageHead from './PageHead';
+import styles from './screens.module.css';
 
 interface BuscarScreenProps {
   index: SearchResult[];
@@ -13,8 +16,23 @@ interface BuscarScreenProps {
 const TYPE_ORDER: SearchResultType[] = ['texto', 'comentario', 'griego', 'personajes', 'lugares', 'contexto'];
 const MAX_PER_GROUP = 20;
 
+// Resalta la búsqueda dentro del fragmento, como un marcador sobre el papel.
+function highlight(text: string, query: string): ReactNode {
+  if (!query) return text;
+  const i = text.toLowerCase().indexOf(query.toLowerCase());
+  if (i < 0) return text;
+  return (
+    <>
+      {text.slice(0, i)}
+      <mark>{text.slice(i, i + query.length)}</mark>
+      {text.slice(i + query.length)}
+    </>
+  );
+}
+
 export default function BuscarScreen({ index, initialQuery = '' }: BuscarScreenProps) {
-  const { colors, lang, dict } = useApp();
+  const { lang, dict } = useApp();
+  const np = getNewspaper(lang);
   const [query, setQuery] = useState(initialQuery);
   const trimmed = query.trim();
 
@@ -43,63 +61,43 @@ export default function BuscarScreen({ index, initialQuery = '' }: BuscarScreenP
   );
 
   return (
-    <div style={{ maxWidth: 760, margin: '0 auto', padding: '40px 24px 80px' }}>
-      <h1 style={{ fontFamily: 'var(--font-lora), serif', fontSize: 32, fontWeight: 600, margin: '0 0 20px' }}>{dict.buscar.title}</h1>
-      <input
-        autoFocus
-        value={query}
-        onChange={(e) => setQuery(e.target.value)}
-        placeholder={dict.buscar.placeholder}
-        style={{
-          width: '100%',
-          padding: '11px 14px',
-          borderRadius: 9,
-          border: `1px solid ${colors.border}`,
-          background: colors.panel,
-          color: colors.text,
-          fontSize: 14.5,
-          marginBottom: 24,
-        }}
-      />
+    <div className={styles.page}>
+      <PageHead kicker={np.kicker.buscar} title={dict.buscar.title} />
 
-      {!trimmed && <p style={{ fontSize: 14, color: colors.muted }}>{dict.buscar.empiezaAEscribir}</p>}
+      <div className={`${styles.searchBox} ${styles.bigSearch}`}>
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2.2} aria-hidden="true">
+          <circle cx="11" cy="11" r="7"></circle>
+          <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+        <input className="np-input" autoFocus value={query} onChange={(e) => setQuery(e.target.value)} placeholder={dict.buscar.placeholder} />
+      </div>
+
+      {!trimmed && <p className={styles.empty}>{dict.buscar.empiezaAEscribir}</p>}
+      {trimmed && results.length > 0 && <div className={styles.resultCount}>{np.results(results.length)}</div>}
 
       {trimmed && chapterRef && (
-        <Link
-          href={chapterRef.href}
-          style={{
-            display: 'block',
-            background: colors.subtle,
-            border: `1px solid ${colors.accent}`,
-            borderRadius: 10,
-            padding: '14px 18px',
-            marginBottom: 20,
-            fontWeight: 600,
-            color: colors.accent,
-          }}
-        >
-          {dict.buscar.referenciaResultado(chapterRef.chapter)} →
+        <Link href={chapterRef.href} className={`np-card ${styles.jump}`}>
+          {dict.buscar.referenciaResultado(chapterRef.chapter)}
+          <span aria-hidden>→</span>
         </Link>
       )}
 
-      {trimmed && results.length === 0 && !chapterRef && <p style={{ fontSize: 14, color: colors.muted }}>{dict.buscar.sinResultados}</p>}
+      {trimmed && results.length === 0 && !chapterRef && <p className={styles.empty}>{dict.buscar.sinResultados}</p>}
 
       {groups.map((g) => (
-        <div key={g.type} style={{ marginBottom: 28 }}>
-          <div style={{ fontSize: 12, fontWeight: 700, textTransform: 'uppercase', letterSpacing: '.05em', color: colors.accent, marginBottom: 10 }}>
-            {typeLabels[g.type]}
+        <section key={g.type}>
+          <h2 className={styles.sectionTitle}>
+            {typeLabels[g.type]} <small>{g.items.length}</small>
+          </h2>
+          <div className={styles.results}>
+            {g.items.map((r) => (
+              <Link key={r.id} href={r.href} className={styles.result}>
+                <b>{r.label}</b>
+                <span>{highlight(r.snippet, trimmed)}</span>
+              </Link>
+            ))}
           </div>
-          {g.items.map((r) => (
-            <Link
-              key={r.id}
-              href={r.href}
-              style={{ display: 'block', padding: '12px 0', borderBottom: `1px solid ${colors.border}` }}
-            >
-              <div style={{ fontSize: 14, fontWeight: 600, color: colors.text, marginBottom: 2 }}>{r.label}</div>
-              <div style={{ fontSize: 13.5, lineHeight: 1.5, color: colors.muted }}>{r.snippet}</div>
-            </Link>
-          ))}
-        </div>
+        </section>
       ))}
     </div>
   );

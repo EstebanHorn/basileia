@@ -1,11 +1,21 @@
 'use client';
 
-import Image from 'next/image';
 import Link from 'next/link';
 import { useApp } from '@/lib/app-context';
+import { usePersistedState } from '@/lib/persisted-state';
+import styles from './Footer.module.css';
+
+const NOTE = {
+  es: (n: number) => `Seguí donde lo dejaste — Mateo ${n} ♡`,
+  pt: (n: number) => `Continue de onde parou — Mateus ${n} ♡`,
+};
+
+const PRINTED = { es: 'Impreso con tinta y gracia', pt: 'Impresso com tinta e graça' };
 
 export default function Footer() {
-  const { colors, theme, isMobile, lang, dict } = useApp();
+  const { lang, dict, theme } = useApp();
+  const iconSrc = `/brand/icono-chico-${theme === 'dark' ? 'dark' : 'light'}.svg`;
+  const { lastChapter } = usePersistedState();
   const year = new Date().getFullYear();
 
   const EXPLORAR: [string, string][] = [
@@ -14,6 +24,7 @@ export default function Footer() {
     ['personajes', dict.nav.personajes],
     ['glosario', dict.nav.glosario],
     ['contexto', dict.nav.contexto],
+    ['paralelos', dict.nav.paralelos],
   ];
 
   const PROYECTO: [string, string][] = [
@@ -22,105 +33,46 @@ export default function Footer() {
     ['terminos', dict.nav.terminos],
   ];
 
-  const linkStyle: React.CSSProperties = {
-    cursor: 'pointer',
-    fontSize: 13.5,
-    color: colors.muted,
-    lineHeight: 1.9,
-  };
-
   return (
-    <footer
-      style={{
-        borderTop: `1px solid ${colors.border}`,
-        background: colors.panel,
-        marginTop: 40,
-      }}
-    >
-      <div
-        style={{
-          maxWidth: 1170,
-          margin: '0 auto',
-          padding: isMobile ? '36px 24px 20px' : '48px 24px 24px',
-          display: 'flex',
-          flexDirection: isMobile ? 'column' : 'row',
-          gap: isMobile ? 28 : 48,
-        }}
-      >
-        <div style={{ flex: '1 1 260px', minWidth: 200 }}>
-          <Link href={`/${lang}`} style={{ display: 'flex', alignItems: 'center', gap: 8, cursor: 'pointer', marginBottom: 10 }}>
-            <Image
-              src={theme === 'dark' ? '/darkmode.png' : '/iconosinfondo.png'}
-              alt=""
-              width={22}
-              height={22}
-              style={{ display: 'block' }}
-            />
-            <div style={{ fontFamily: 'var(--font-lora), serif', fontWeight: 600, fontSize: 18, color: colors.accent }}>
-              Basileia
-            </div>
+    <footer className={styles.footer}>
+      <div className="np-rule-double" />
+      <div className={styles.grid}>
+        <div className={styles.brandCol}>
+          <Link href={`/${lang}`} className={styles.brand}>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src={iconSrc} alt="" width={44} height={44} />
+            BASILEIA
           </Link>
-          <p style={{ fontSize: 13.5, lineHeight: 1.65, color: colors.muted, margin: 0, maxWidth: 320 }}>{dict.footer.tagline}</p>
+          <p className={styles.tagline}>{dict.footer.tagline}</p>
+          <Link href={`/${lang}/capitulo/${lastChapter}`} className={styles.note}>
+            {NOTE[lang](lastChapter)}
+          </Link>
         </div>
 
-        <div style={{ display: 'flex', gap: 48, flex: '2 1 400px' }}>
-          <div>
-            <div style={{ fontSize: 11, textTransform: 'uppercase', letterSpacing: '.05em', color: colors.text, fontWeight: 700, marginBottom: 10 }}>
-              {dict.footer.explorar}
-            </div>
-            <div style={{ display: 'flex', flexDirection: 'column' }}>
-              {EXPLORAR.map(([key, label]) => (
-                <Link key={key} href={`/${lang}/${key}`} style={linkStyle}>
-                  {label}
-                </Link>
-              ))}
-            </div>
-          </div>
+        <div className={styles.col}>
+          <div className="np-kicker">{dict.footer.explorar}</div>
+          {EXPLORAR.map(([key, label]) => (
+            <Link key={key} href={`/${lang}/${key}`} className={styles.link}>
+              {label}
+            </Link>
+          ))}
+        </div>
 
-          <div>
-            <div style={{ fontSize: 11, textTransform: 'uppercase', letterSpacing: '.05em', color: colors.text, fontWeight: 700, marginBottom: 10 }}>
-              {dict.footer.proyecto}
-            </div>
-            <div style={{ display: 'flex', flexDirection: 'column' }}>
-              {PROYECTO.map(([key, label]) => (
-                <Link key={key} href={`/${lang}/${key}`} style={linkStyle}>
-                  {label}
-                </Link>
-              ))}
-            </div>
-          </div>
+        <div className={styles.col}>
+          <div className="np-kicker">{dict.footer.proyecto}</div>
+          {PROYECTO.map(([key, label]) => (
+            <Link key={key} href={`/${lang}/${key}`} className={styles.link}>
+              {label}
+            </Link>
+          ))}
         </div>
       </div>
 
-      <div
-        style={{
-          borderTop: `1px solid ${colors.border}`,
-          padding: '16px 24px',
-        }}
-      >
-        <div
-          style={{
-            maxWidth: 1170,
-            margin: '0 auto',
-            display: 'flex',
-            flexDirection: isMobile ? 'column' : 'row',
-            justifyContent: 'space-between',
-            alignItems: isMobile ? 'flex-start' : 'center',
-            gap: 8,
-          }}
-        >
-          <div style={{ fontSize: 12, color: colors.muted }}>
-            © {year} Basileia. {dict.footer.rights}
-          </div>
-          <div style={{ display: 'flex', gap: 16 }}>
-            <Link href={`/${lang}/privacidad`} style={{ fontSize: 12, color: colors.muted, cursor: 'pointer' }}>
-              {dict.nav.privacidad}
-            </Link>
-            <Link href={`/${lang}/terminos`} style={{ fontSize: 12, color: colors.muted, cursor: 'pointer' }}>
-              {dict.nav.terminos}
-            </Link>
-          </div>
-        </div>
+      <div className={styles.bottom}>
+        <span>
+          © {year} Basileia. {dict.footer.rights}
+        </span>
+        <span className={styles.printed}>✦ {PRINTED[lang]} ✦</span>
       </div>
     </footer>
   );

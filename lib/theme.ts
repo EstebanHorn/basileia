@@ -1,3 +1,6 @@
+// Paleta "periódico vintage". Los mismos valores existen como variables CSS
+// (--paper, --ink, --orange...) en app/globals.css, bajo .np-light / .np-dark.
+
 export interface Colors {
   bg: string;
   panel: string;
@@ -7,28 +10,41 @@ export interface Colors {
   border: string;
   accent: string;
   accentDark: string;
+  /** Texto sobre fondos de acento (botones, sellos). */
+  onAccent: string;
+  orange: string;
+  olive: string;
+  ink: string;
 }
 
 export const LIGHT: Colors = {
-  bg: '#FAFAFA',
-  panel: '#FFFFFF',
-  subtle: '#FDF0F0',
-  text: '#262322',
-  muted: '#6b6663',
-  border: '#ECE6E4',
-  accent: '#B22222',
-  accentDark: '#8f1b2c',
+  bg: '#EFE6D3',
+  panel: '#F7F0DF',
+  subtle: '#E6D9BD',
+  text: '#1F1B16',
+  muted: '#6E6150',
+  border: '#C9B996',
+  accent: '#A8321E',
+  accentDark: '#7E2416',
+  onAccent: '#F7F0DF',
+  orange: '#E4572E',
+  olive: '#4A5A3A',
+  ink: '#1F1B16',
 };
 
 export const DARK: Colors = {
-  bg: '#1C1917',
-  panel: '#262220',
-  subtle: '#2B1E1F',
-  text: '#F5F1EF',
-  muted: '#B8B0AC',
-  border: '#3A3532',
-  accent: '#E0524B',
-  accentDark: '#C43F3F',
+  bg: '#1A1712',
+  panel: '#231F19',
+  subtle: '#2E271E',
+  text: '#EDE4D0',
+  muted: '#A3957D',
+  border: '#433A2D',
+  accent: '#E8673E',
+  accentDark: '#C8501F',
+  onAccent: '#1A1712',
+  orange: '#E8673E',
+  olive: '#7C8E60',
+  ink: '#EDE4D0',
 };
 
 export type Theme = 'light' | 'dark';

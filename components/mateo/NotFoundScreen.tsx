@@ -2,33 +2,29 @@
 
 import Link from 'next/link';
 import { useApp } from '@/lib/app-context';
+import { getNewspaper } from '@/lib/i18n/newspaper';
+import styles from './screens.module.css';
+
+const STAMP = { es: 'Extraviada', pt: 'Extraviada' };
 
 export default function NotFoundScreen() {
-  const { colors, lang, dict } = useApp();
+  const { lang, dict } = useApp();
+  const np = getNewspaper(lang);
 
   return (
-    <div style={{ flex: 1, display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '60px 24px' }}>
-      <div style={{ maxWidth: 440, textAlign: 'center' }}>
-        <div style={{ fontFamily: 'var(--font-lora), serif', fontSize: 56, fontWeight: 600, color: colors.accent, margin: '0 0 6px' }}>
+    <div className={styles.lost}>
+      <div className={styles.lostInner}>
+        <div className="np-kicker">{np.kicker.notFound}</div>
+        <div className={`${styles.lostNum} np-halftone`} aria-hidden>
           404
         </div>
-        <h1 style={{ fontFamily: 'var(--font-lora), serif', fontSize: 24, fontWeight: 600, margin: '0 0 10px', color: colors.text }}>
-          {dict.errores.notFoundTitle}
-        </h1>
-        <p style={{ fontSize: 15, lineHeight: 1.6, color: colors.muted, margin: '0 0 28px' }}>{dict.errores.notFoundBody}</p>
-        <Link
-          href={`/${lang}`}
-          style={{
-            display: 'inline-block',
-            fontSize: 14.5,
-            fontWeight: 600,
-            color: '#fff',
-            background: colors.accent,
-            padding: '11px 20px',
-            borderRadius: 9,
-          }}
-        >
-          {dict.errores.volverInicio}
+        <div className={styles.lostStamp} aria-hidden>
+          {STAMP[lang]}
+        </div>
+        <h1>{dict.errores.notFoundTitle}</h1>
+        <p>{dict.errores.notFoundBody}</p>
+        <Link href={`/${lang}`} className="np-btn">
+          {dict.errores.volverInicio} →
         </Link>
       </div>
     </div>

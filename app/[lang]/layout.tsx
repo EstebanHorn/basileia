@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter, Lora } from "next/font/google";
+import { Anton, Caveat, Inter, Lora, Playfair_Display, Special_Elite } from "next/font/google";
 import { notFound } from "next/navigation";
 import { Analytics } from "@vercel/analytics/next";
 import "../globals.css";
@@ -20,9 +20,21 @@ const inter = Inter({
 const lora = Lora({
   variable: "--font-lora",
   subsets: ["latin"],
-  weight: ["400", "500", "600"],
+  weight: ["400", "500", "600", "700"],
   style: ["normal", "italic"],
 });
+
+// Tipografías del estilo "periódico": titulares condensados, titulares serif,
+// máquina de escribir y notas a mano.
+const anton = Anton({ variable: "--font-anton", subsets: ["latin"], weight: "400" });
+const playfair = Playfair_Display({
+  variable: "--font-playfair",
+  subsets: ["latin"],
+  weight: ["700", "900"],
+  style: ["normal", "italic"],
+});
+const typewriter = Special_Elite({ variable: "--font-typewriter", subsets: ["latin"], weight: "400" });
+const caveat = Caveat({ variable: "--font-caveat", subsets: ["latin"], weight: ["500", "700"] });
 
 export async function generateStaticParams() {
   return locales.map((lang) => ({ lang }));
@@ -77,7 +89,7 @@ export default async function LangLayout({
   if (!hasLocale(lang)) notFound();
 
   return (
-    <html lang={lang} className={`${inter.variable} ${lora.variable} h-full`}>
+    <html lang={lang} className={`${inter.variable} ${lora.variable} ${anton.variable} ${playfair.variable} ${typewriter.variable} ${caveat.variable} h-full`}>
       <body className="min-h-full flex flex-col">
         <AuthProvider>
           <AppProvider lang={lang}>

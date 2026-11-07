@@ -13,7 +13,7 @@ interface AuthModalProps {
 }
 
 export default function AuthModal({ mode, onClose, onSetLoginMode, onSetRegisterMode }: AuthModalProps) {
-  const { colors, dict } = useApp();
+  const { colors, dict, lang } = useApp();
   const { signIn, signUp } = useAuth();
   const isRegister = mode === 'register';
   const title = isRegister ? dict.auth.registerTitle : dict.auth.loginTitle;
@@ -71,16 +71,7 @@ export default function AuthModal({ mode, onClose, onSetLoginMode, onSetRegister
     onClose();
   };
 
-  const inputStyle: React.CSSProperties = {
-    width: '100%',
-    padding: '11px 13px',
-    marginBottom: 10,
-    borderRadius: 8,
-    border: `1px solid ${colors.border}`,
-    background: colors.bg,
-    color: colors.text,
-    fontSize: 14,
-  };
+  const kicker = lang === 'pt' ? 'Ficha de assinatura' : 'Ficha de suscripción';
 
   return (
     <div
@@ -88,127 +79,74 @@ export default function AuthModal({ mode, onClose, onSetLoginMode, onSetRegister
       style={{
         position: 'fixed',
         inset: 0,
-        background: 'rgba(0,0,0,.45)',
-        zIndex: 100,
+        background: 'rgba(20,15,10,.55)',
+        zIndex: 90,
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
-        padding: 20,
+        padding: 16,
+        animation: 'popIn .2s ease-out',
       }}
     >
       <div
         onClick={(e) => e.stopPropagation()}
+        className="np-card"
+        role="dialog"
+        aria-modal="true"
+        aria-label={title}
         style={{
-          background: colors.panel,
-          borderRadius: 14,
-          padding: '30px 28px',
+          padding: '24px 24px 26px',
           width: '100%',
-          maxWidth: 380,
-          boxShadow: '0 20px 50px rgba(0,0,0,.25)',
+          maxWidth: 400,
+          boxShadow: `8px 8px 0 ${colors.orange}`,
+          animation: 'npPress .35s ease-out backwards',
         }}
       >
-        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 22 }}>
-          <div style={{ fontFamily: 'var(--font-lora), serif', fontSize: 21, fontWeight: 600 }}>{title}</div>
-          <Pressable onClick={onClose} aria-label={dict.ui.cerrar} style={{ color: colors.muted, fontSize: 20, lineHeight: 1 }}>
+        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: 6 }}>
+          <div className="np-kicker">{kicker}</div>
+          <Pressable onClick={onClose} aria-label={dict.ui.cerrar} style={{ color: colors.muted, fontSize: 24, lineHeight: 1, marginTop: -6 }}>
             ×
           </Pressable>
         </div>
+        <div className="np-headline" style={{ fontSize: 30, marginBottom: 16, paddingBottom: 12, borderBottom: '4px double var(--rule)' }}>
+          {title}
+        </div>
 
-        <div
-          style={{
-            display: 'flex',
-            gap: 4,
-            background: colors.subtle,
-            borderRadius: 9,
-            padding: 4,
-            marginBottom: 20,
-          }}
-        >
-          <Pressable
-            onClick={() => switchMode(onSetLoginMode)}
-            aria-pressed={!isRegister}
-            style={{
-              flex: 1,
-              textAlign: 'center',
-              padding: 8,
-              borderRadius: 7,
-              fontSize: 13.5,
-              fontWeight: 600,
-              background: !isRegister ? colors.panel : 'transparent',
-              color: !isRegister ? colors.accent : colors.muted,
-            }}
-          >
+        <div style={{ display: 'flex', gap: 8, marginBottom: 18 }}>
+          <Pressable onClick={() => switchMode(onSetLoginMode)} aria-pressed={!isRegister} className="np-chip" style={{ flex: 1, textAlign: 'center' }}>
             {dict.auth.loginTab}
           </Pressable>
-          <Pressable
-            onClick={() => switchMode(onSetRegisterMode)}
-            aria-pressed={isRegister}
-            style={{
-              flex: 1,
-              textAlign: 'center',
-              padding: 8,
-              borderRadius: 7,
-              fontSize: 13.5,
-              fontWeight: 600,
-              background: isRegister ? colors.panel : 'transparent',
-              color: isRegister ? colors.accent : colors.muted,
-            }}
-          >
+          <Pressable onClick={() => switchMode(onSetRegisterMode)} aria-pressed={isRegister} className="np-chip" style={{ flex: 1, textAlign: 'center' }}>
             {dict.auth.registerTab}
           </Pressable>
         </div>
 
-        <form onSubmit={handleSubmit}>
+        <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', gap: 10 }}>
           {isRegister && (
-            <input
-              placeholder={dict.auth.namePlaceholder}
-              value={nombre}
-              onChange={(e) => setNombre(e.target.value)}
-              style={inputStyle}
-            />
+            <input className="np-input" placeholder={dict.auth.namePlaceholder} value={nombre} onChange={(e) => setNombre(e.target.value)} />
           )}
           <input
+            className="np-input"
             type="email"
             placeholder={dict.auth.emailPlaceholder}
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             required
-            style={inputStyle}
           />
           <input
+            className="np-input"
             type="password"
             placeholder={dict.auth.passwordPlaceholder}
             value={password}
             onChange={(e) => setPassword(e.target.value)}
             required
             minLength={6}
-            style={{ ...inputStyle, marginBottom: 18 }}
           />
 
-          {error && (
-            <div style={{ fontSize: 13, color: colors.accent, marginBottom: 14, lineHeight: 1.4 }}>{error}</div>
-          )}
-          {info && (
-            <div style={{ fontSize: 13, color: colors.muted, marginBottom: 14, lineHeight: 1.4 }}>{info}</div>
-          )}
+          {error && <div style={{ fontSize: 14, color: colors.accent, lineHeight: 1.4 }}>{error}</div>}
+          {info && <div style={{ fontSize: 14, color: colors.muted, lineHeight: 1.4 }}>{info}</div>}
 
-          <button
-            type="submit"
-            disabled={submitting}
-            style={{
-              width: '100%',
-              textAlign: 'center',
-              background: colors.accent,
-              color: '#fff',
-              padding: 12,
-              borderRadius: 9,
-              fontWeight: 600,
-              fontSize: 14.5,
-              cursor: submitting ? 'default' : 'pointer',
-              opacity: submitting ? 0.7 : 1,
-              border: 'none',
-            }}
-          >
+          <button type="submit" disabled={submitting} className="np-btn" style={{ width: '100%', marginTop: 8 }}>
             {submitting ? dict.auth.submitting : cta}
           </button>
         </form>

@@ -18,39 +18,18 @@ export default function Error({
   }, [error]);
 
   return (
-    <div style={{ flex: 1, display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '60px 24px' }}>
-      <div style={{ maxWidth: 440, textAlign: 'center' }}>
-        <h1 style={{ fontFamily: 'var(--font-lora), serif', fontSize: 26, fontWeight: 600, margin: '0 0 10px', color: colors.text }}>
+    <div style={{ flex: 1, display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '60px 16px' }}>
+      <div style={{ maxWidth: 480, textAlign: 'center' }}>
+        <div className="np-kicker">{lang === 'pt' ? 'Problema na impressão' : 'Problema en la imprenta'}</div>
+        <h1 className="np-headline" style={{ fontSize: 34, margin: '10px 0 10px', color: colors.text }}>
           {dict.errores.errorTitle}
         </h1>
-        <p style={{ fontSize: 15, lineHeight: 1.6, color: colors.muted, margin: '0 0 28px' }}>{dict.errores.errorBody}</p>
-        <div style={{ display: 'flex', gap: 12, justifyContent: 'center', flexWrap: 'wrap' }}>
-          <button
-            type="button"
-            className="btn-reset"
-            onClick={() => unstable_retry()}
-            style={{
-              fontSize: 14.5,
-              fontWeight: 600,
-              color: '#fff',
-              background: colors.accent,
-              padding: '11px 20px',
-              borderRadius: 9,
-            }}
-          >
+        <p style={{ fontSize: 16, lineHeight: 1.6, color: colors.muted, margin: '0 0 28px' }}>{dict.errores.errorBody}</p>
+        <div style={{ display: 'flex', gap: 14, justifyContent: 'center', flexWrap: 'wrap' }}>
+          <button type="button" className="np-btn" onClick={() => unstable_retry()}>
             {dict.errores.reintentar}
           </button>
-          <Link
-            href={`/${lang}`}
-            style={{
-              fontSize: 14.5,
-              fontWeight: 600,
-              color: colors.text,
-              border: `1px solid ${colors.border}`,
-              padding: '11px 20px',
-              borderRadius: 9,
-            }}
-          >
+          <Link href={`/${lang}`} className="np-chip" style={{ display: 'inline-flex', alignItems: 'center' }}>
             {dict.errores.volverInicio}
           </Link>
         </div>

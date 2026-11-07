@@ -1,14 +1,21 @@
 'use client';
 
+import type { CSSProperties } from 'react';
 import Link from 'next/link';
 import { useApp } from '@/lib/app-context';
 import { useProgress } from '@/lib/supabase/use-progress';
 import { useNotes } from '@/lib/supabase/use-notes';
 import { MAX_CHAPTER } from '@/lib/content/editorial';
+import { getNewspaper } from '@/lib/i18n/newspaper';
 import Pressable from './Pressable';
+import PageHead from './PageHead';
+import styles from './screens.module.css';
+
+const TILTS = [-1.6, 1.2, -0.8, 1.8, -1.2, 0.8];
 
 export default function NotasScreen() {
-  const { colors, lang, dict } = useApp();
+  const { lang, dict } = useApp();
+  const np = getNewspaper(lang);
   const { readChapters, toggleRead } = useProgress();
   const { notes } = useNotes();
 
@@ -16,71 +23,57 @@ export default function NotasScreen() {
   const notesEntries = Object.entries(notes).filter(([, text]) => text && text.trim());
 
   return (
-    <div style={{ maxWidth: 760, margin: '0 auto', padding: '40px 24px 80px' }}>
-      <h1 style={{ fontFamily: 'var(--font-lora), serif', fontSize: 32, fontWeight: 600, margin: '0 0 6px' }}>{dict.notas.title}</h1>
-      <p style={{ fontSize: 14, color: colors.muted, margin: '0 0 24px' }}>{dict.notas.stats(readCount, MAX_CHAPTER)}</p>
-      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill,minmax(210px,1fr))', gap: 8, marginBottom: 36 }}>
+    <div className={styles.page}>
+      <PageHead kicker={np.kicker.notas} title={dict.notas.title}>
+        {dict.notas.stats(readCount, MAX_CHAPTER)}
+      </PageHead>
+
+      <div className={styles.progressRow}>
+        <span className="np-type">
+          {readCount} / {MAX_CHAPTER}
+        </span>
+        <span className={styles.inkBar}>
+          <span style={{ width: `${(readCount / MAX_CHAPTER) * 100}%` }} />
+        </span>
+      </div>
+
+      <div className={styles.ticketGrid}>
         {Array.from({ length: MAX_CHAPTER }, (_, i) => i + 1).map((n) => {
           const checked = !!readChapters[n];
           return (
-            <Pressable
-              key={n}
-              onClick={() => toggleRead(n)}
-              aria-pressed={checked}
-              style={{
-                display: 'flex',
-                alignItems: 'center',
-                gap: 10,
-                padding: '8px 10px',
-                borderRadius: 8,
-                width: '100%',
-                background: colors.panel,
-                border: `1px solid ${colors.border}`,
-              }}
-            >
-              <div
-                style={{
-                  width: 18,
-                  height: 18,
-                  borderRadius: 5,
-                  background: checked ? colors.accent : colors.border,
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                  flexShrink: 0,
-                }}
-              >
-                {checked && (
-                  <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth={3.5}>
-                    <polyline points="20 6 9 17 4 12"></polyline>
-                  </svg>
-                )}
-              </div>
-              <span style={{ fontSize: 13.5 }}>
+            <Pressable key={n} onClick={() => toggleRead(n)} aria-pressed={checked} className={styles.ticket}>
+              <span>
                 {dict.capitulo.mateoPrefix} {n}
+              </span>
+              <span className={styles.ticketMark} aria-hidden>
+                {checked ? '✓' : ''}
               </span>
             </Pressable>
           );
         })}
       </div>
+
       {notesEntries.length > 0 && (
-        <div>
-          <div style={{ fontSize: 13, fontWeight: 700, textTransform: 'uppercase', letterSpacing: '.05em', color: colors.muted, marginBottom: 12 }}>
-            {dict.notas.notasGuardadas}
+        <section>
+          <h2 className={styles.sectionTitle}>
+            {dict.notas.notasGuardadas} <small>{notesEntries.length}</small>
+          </h2>
+          <div className={`${styles.noteGrid} np-stagger`}>
+            {notesEntries.map(([num, text], i) => (
+              <Link
+                key={num}
+                href={`/${lang}/capitulo/${num}`}
+                className={`np-clip ${styles.noteCard}`}
+                style={{ '--tilt': `${TILTS[i % TILTS.length]}deg` } as CSSProperties}
+              >
+                <span className="np-kicker">
+                  {dict.capitulo.mateoPrefix} {num}
+                </span>
+                <div className={styles.noteText}>{text}</div>
+              </Link>
+            ))}
           </div>
-          {notesEntries.map(([num, text]) => (
-            <Link
-              key={num}
-              href={`/${lang}/capitulo/${num}`}
-              style={{ display: 'block', background: colors.subtle, borderRadius: 10, padding: '14px 18px', marginBottom: 10, cursor: 'pointer' }}
-            >
-              <div style={{ fontSize: 12, fontWeight: 700, color: colors.accent, marginBottom: 4 }}>
-                {dict.capitulo.mateoPrefix.toUpperCase()} {num}
-              </div>
-              <div style={{ fontSize: 14, lineHeight: 1.5, color: colors.text }}>{text}</div>
-            </Link>
-          ))}
-        </div>
+        </section>
       )}
     </div>
   );

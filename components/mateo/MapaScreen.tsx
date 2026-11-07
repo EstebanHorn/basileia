@@ -5,6 +5,7 @@ import Image from 'next/image';
 import { useApp } from '@/lib/app-context';
 import type { Lugar } from '@/lib/content/types';
 import mapaImg from '@/app/assets/mapa.png';
+import { getNewspaper } from '@/lib/i18n/newspaper';
 import Pressable from './Pressable';
 
 interface MapaScreenProps {
@@ -16,6 +17,8 @@ const DRAG_THRESHOLD = 6; // px of movement before a press counts as a drag, not
 
 export default function MapaScreen({ lugares }: MapaScreenProps) {
   const { colors, lang, dict } = useApp();
+  const np = getNewspaper(lang);
+  const hint = lang === 'pt' ? 'Arraste para explorar · toque num ponto' : 'Arrastrá para explorar · tocá un punto';
   const [mapSelected, setMapSelected] = useState<Lugar | null>(null);
   const containerRef = useRef<HTMLDivElement>(null);
   const [pos, setPos] = useState({ x: 0, y: 0 });
@@ -80,12 +83,12 @@ export default function MapaScreen({ lugares }: MapaScreenProps) {
       >
         <div
           className="map-pin-pulse"
-          style={{ color: selected ? colors.accentDark : colors.accent, background: selected ? colors.accentDark : colors.accent }}
+          style={{ color: colors.orange, background: colors.orange }}
         />
-        <div className="map-pin-dot" style={{ background: selected ? colors.accentDark : colors.accent }} />
+        <div className="map-pin-dot" style={{ background: selected ? colors.ink : colors.orange }} />
         <div
           className="map-pin-label"
-          style={{ background: colors.panel, color: colors.text, border: `1px solid ${colors.border}` }}
+          style={{ background: colors.panel, color: colors.text, border: `1.5px solid ${colors.ink}` }}
         >
           {place.nombre}
         </div>
@@ -121,8 +124,22 @@ export default function MapaScreen({ lugares }: MapaScreenProps) {
           transform: `translate3d(${pos.x}px, ${pos.y}px, 0)`,
         }}
       >
-        <Image src={mapaImg} alt={dict.mapa.title} fill sizes="160vw" style={{ objectFit: 'cover' }} priority draggable={false} />
+        <Image src={mapaImg} alt={dict.mapa.title} fill sizes="160vw" style={{ objectFit: 'cover', filter: 'sepia(.45) contrast(1.05) saturate(.85)' }} priority draggable={false} />
         {pins}
+      </div>
+
+      {/* Recuadro de título, como la leyenda de un mapa impreso */}
+      <div
+        className="np-card"
+        style={{ position: 'absolute', left: 16, bottom: 16, padding: '12px 16px', maxWidth: 'calc(100% - 32px)', pointerEvents: 'none', zIndex: 3 }}
+      >
+        <div className="np-kicker">{np.kicker.mapa}</div>
+        <div className="np-display" style={{ fontSize: 30, margin: '4px 0 2px' }}>
+          {dict.mapa.title}
+        </div>
+        <div className="np-hand" style={{ fontSize: 19, color: colors.muted }}>
+          {hint}
+        </div>
       </div>
 
       {mapSelected && (
@@ -131,8 +148,8 @@ export default function MapaScreen({ lugares }: MapaScreenProps) {
           style={{
             position: 'fixed',
             inset: 0,
-            background: 'rgba(0,0,0,.45)',
-            zIndex: 100,
+            background: 'rgba(20,15,10,.5)',
+            zIndex: 90,
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'center',
@@ -141,41 +158,34 @@ export default function MapaScreen({ lugares }: MapaScreenProps) {
         >
           <div
             onClick={(e) => e.stopPropagation()}
-            style={{
-              background: colors.panel,
-              borderTop: `4px solid ${colors.accent}`,
-              borderRadius: 12,
-              padding: '26px 26px 22px',
-              width: '100%',
-              maxWidth: 380,
-              boxShadow: '0 20px 50px rgba(0,0,0,.25)',
-              animation: 'popIn .15s ease',
-            }}
+            className="np-clip"
+            style={
+              {
+                '--tilt': '-1.5deg',
+                padding: '22px 24px',
+                width: '100%',
+                maxWidth: 400,
+                animation: 'npPress .3s ease-out backwards',
+              } as React.CSSProperties
+            }
           >
-            <div style={{ display: 'flex', justifyContent: 'flex-end', alignItems: 'flex-start', gap: 12 }}>
+            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', gap: 12 }}>
+              <div className="np-kicker">{np.kicker.mapa}</div>
               <Pressable onClick={() => setMapSelected(null)} aria-label={dict.ui.cerrar} style={{ color: colors.muted, fontSize: 20, lineHeight: 1 }}>
                 ×
               </Pressable>
             </div>
-            <div style={{ fontFamily: 'var(--font-lora), serif', fontSize: 22, fontWeight: 600, marginBottom: 10 }}>
+            <div className="np-headline" style={{ fontSize: 30, margin: '6px 0 10px' }}>
               {mapSelected.nombre}
             </div>
-            <p style={{ fontSize: 14.5, lineHeight: 1.6, color: colors.muted, margin: '0 0 16px' }}>{mapSelected.nota}</p>
+            <p style={{ fontSize: 15.5, lineHeight: 1.6, color: colors.muted, margin: '0 0 16px' }}>{mapSelected.nota}</p>
             {mapSelected.capitulos.length > 0 && (
               <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap' }}>
                 {mapSelected.capitulos.map((num) => (
                   <a
                     key={num}
                     href={`/${lang}/capitulo/${num}`}
-                    style={{
-                      fontSize: 12.5,
-                      fontWeight: 600,
-                      padding: '6px 11px',
-                      borderRadius: 16,
-                      background: colors.subtle,
-                      color: colors.accent,
-                      cursor: 'pointer',
-                    }}
+                    className="np-chip"
                   >
                     {dict.capitulo.mateoPrefix} {num}
                   </a>

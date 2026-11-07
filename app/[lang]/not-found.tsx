@@ -12,7 +12,7 @@ export default function NotFound() {
 
   return (
     <div style={{ minHeight: '60vh', display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '60px 24px' }}>
-      <div style={{ maxWidth: 440, textAlign: 'center', fontFamily: 'system-ui, sans-serif' }}>
+      <div style={{ maxWidth: 440, textAlign: 'center', fontFamily: 'Georgia, serif' }}>
         <div style={{ fontSize: 56, fontWeight: 600, color: colors.accent, margin: '0 0 6px' }}>404</div>
         <h1 style={{ fontSize: 22, fontWeight: 600, margin: '0 0 20px', color: colors.text }}>Página no encontrada / Página não encontrada</h1>
         <Link
@@ -21,10 +21,10 @@ export default function NotFound() {
             display: 'inline-block',
             fontSize: 14.5,
             fontWeight: 600,
-            color: '#fff',
+            color: colors.onAccent,
             background: colors.accent,
             padding: '11px 20px',
-            borderRadius: 9,
+            borderRadius: 0,
             textDecoration: 'none',
           }}
         >
