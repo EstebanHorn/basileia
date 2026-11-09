@@ -3,6 +3,7 @@ import { hasLocale } from '@/lib/i18n/config';
 import { notFound } from 'next/navigation';
 import { getDictionary } from '@/lib/i18n/get-dictionary';
 import { buildMetadata } from '@/lib/seo';
+import PageLd from '@/components/mateo/PageLd';
 import { getCitasAT, getParalelos } from '@/lib/content/loader';
 import ParalelosScreen from '@/components/mateo/ParalelosScreen';
 
@@ -23,5 +24,10 @@ export default async function ParalelosPage({ params }: { params: Promise<{ lang
   const { lang } = await params;
   if (!hasLocale(lang)) notFound();
 
-  return <ParalelosScreen citas={getCitasAT(lang)} paralelos={getParalelos(lang)} />;
+  return (
+    <>
+      <PageLd lang={lang} path="/paralelos" seoKey="paralelos" />
+      <ParalelosScreen citas={getCitasAT(lang)} paralelos={getParalelos(lang)} />
+    </>
+  );
 }

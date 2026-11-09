@@ -3,6 +3,7 @@ import { hasLocale } from '@/lib/i18n/config';
 import { notFound } from 'next/navigation';
 import { getDictionary } from '@/lib/i18n/get-dictionary';
 import { buildMetadata } from '@/lib/seo';
+import PageLd from '@/components/mateo/PageLd';
 import { getLugares } from '@/lib/content/loader';
 import MapaScreen from '@/components/mateo/MapaScreen';
 
@@ -17,5 +18,11 @@ export default async function MapaPage({ params }: { params: Promise<{ lang: str
   const { lang } = await params;
   if (!hasLocale(lang)) notFound();
 
-  return <MapaScreen lugares={getLugares(lang)} />;
+  const lugares = getLugares(lang);
+  return (
+    <>
+      <PageLd lang={lang} path="/mapa" seoKey="mapa" items={lugares.map((l) => ({ name: l.nombre, description: l.nota }))} />
+      <MapaScreen lugares={lugares} />
+    </>
+  );
 }

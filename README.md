@@ -24,8 +24,21 @@ Crear un `.env` en la raíz (ver `.env.example` si existe, o copiar esta lista):
 NEXT_PUBLIC_SUPABASE_URL=            # URL del proyecto de Supabase
 NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY= # clave pública (anon/publishable) de Supabase
 NEXT_PUBLIC_SITE_URL=                 # origen público del sitio (usado por sitemap/robots/OG).
-                                       # http://localhost:3000 en desarrollo; el dominio real en producción.
+                                       # http://localhost:3000 en desarrollo. En producción, si falta (o es localhost),
+                                       # se usa https://www.basileia.mov (ver lib/site.ts).
+NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION= # (opcional) código de verificación de Google Search Console
+NEXT_PUBLIC_BING_SITE_VERIFICATION=   # (opcional) código de verificación de Bing Webmaster Tools
 ```
+
+## SEO
+
+- **Metadata por página:** `lib/seo.ts` (`buildMetadata`) genera título, descripción, canonical, hreflang (`es`, `pt`, `x-default`), Open Graph y Twitter.
+- **Datos estructurados (JSON-LD):** `lib/jsonld.ts`. Organización y sitio en la portada, `Article` por capítulo, `DefinedTermSet` en el glosario y migas de pan en todas las páginas internas.
+- **Imágenes para compartir:** `app/[lang]/opengraph-image.tsx` (portada) y `app/[lang]/capitulo/[n]/opengraph-image.tsx` (una por capítulo), dibujadas con `lib/og.tsx`.
+- **Indexación:** `app/sitemap.ts` lista solo páginas indexables (sin `/buscar`, `/notas` ni capítulos sin comentario). `lastmod` usa `SITE_UPDATED` de `lib/site.ts`: **actualizarlo al publicar contenido nuevo**.
+- **404 reales:** `proxy.ts` valida las rutas y responde 404 de verdad a las que no existen. Si se agrega una ruta nueva bajo `/[lang]/`, sumarla a `VALID_PATH` en `proxy.ts`.
+- **Capítulos nuevos:** al ampliar `COMPLETED_RANGE` en `lib/content/editorial.ts`, el capítulo pasa a indexarse y entra al sitemap y a `llms.txt` automáticamente.
+- **IA / GEO:** `/llms.txt` y `/llms-full.txt` se generan desde los datos del sitio (`lib/llms.ts`); `robots.ts` permite explícitamente a los crawlers de IA.
 
 ## Base de datos (Supabase)
 

@@ -26,8 +26,7 @@ body {
   --cream: #f7f0df;
   --rule: rgba(31, 27, 22, 0.75);
   --rule-soft: rgba(31, 27, 22, 0.25);
-  --grain-opacity: 0.45;
-  --grain-blend: multiply;
+  --grain-opacity: 0.34;
   color-scheme: light;
 }
 
@@ -47,8 +46,7 @@ body {
   --cream: #f7f0df;
   --rule: rgba(237, 228, 208, 0.55);
   --rule-soft: rgba(237, 228, 208, 0.18);
-  --grain-opacity: 0.22;
-  --grain-blend: screen;
+  --grain-opacity: 0.16;
   color-scheme: dark;
 }
 
@@ -60,7 +58,6 @@ body {
   pointer-events: none;
   z-index: 100;
   opacity: var(--grain-opacity);
-  mix-blend-mode: var(--grain-blend);
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .35 0 0 0 0 .28 0 0 0 0 .2 0 0 0 .5 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
 }
 

@@ -3,6 +3,7 @@ import { hasLocale } from '@/lib/i18n/config';
 import { notFound } from 'next/navigation';
 import { getDictionary } from '@/lib/i18n/get-dictionary';
 import { buildMetadata } from '@/lib/seo';
+import PageLd from '@/components/mateo/PageLd';
 import { getPersonajes } from '@/lib/content/loader';
 import PersonajesScreen from '@/components/mateo/PersonajesScreen';
 
@@ -23,5 +24,11 @@ export default async function PersonajesPage({ params }: { params: Promise<{ lan
   const { lang } = await params;
   if (!hasLocale(lang)) notFound();
 
-  return <PersonajesScreen personajes={getPersonajes(lang)} />;
+  const personajes = getPersonajes(lang);
+  return (
+    <>
+      <PageLd lang={lang} path="/personajes" seoKey="personajes" items={personajes.map((p) => ({ name: p.nombre, description: p.descripcion.slice(0, 200) }))} />
+      <PersonajesScreen personajes={personajes} />
+    </>
+  );
 }

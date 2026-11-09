@@ -3,6 +3,7 @@ import { hasLocale } from '@/lib/i18n/config';
 import { notFound } from 'next/navigation';
 import { getDictionary } from '@/lib/i18n/get-dictionary';
 import { buildMetadata } from '@/lib/seo';
+import PageLd from '@/components/mateo/PageLd';
 import PrivacidadScreen from '@/components/mateo/PrivacidadScreen';
 
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
@@ -22,5 +23,10 @@ export default async function PrivacidadPage({ params }: { params: Promise<{ lan
   const { lang } = await params;
   if (!hasLocale(lang)) notFound();
 
-  return <PrivacidadScreen />;
+  return (
+    <>
+      <PageLd lang={lang} path="/privacidad" seoKey="privacidad" type="WebPage" />
+      <PrivacidadScreen />
+    </>
+  );
 }

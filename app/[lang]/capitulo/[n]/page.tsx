@@ -3,10 +3,10 @@ import { notFound } from 'next/navigation';
 import { hasLocale } from '@/lib/i18n/config';
 import { getDictionary } from '@/lib/i18n/get-dictionary';
 import { buildMetadata } from '@/lib/seo';
-import { getSiteUrl } from '@/lib/site';
+import { articleLd, breadcrumbLd } from '@/lib/jsonld';
 import { getChapter, getGlosario, getPersonajes, getLugares, getContextoById, getCitasATById, getParalelosById, getReferenciasById } from '@/lib/content/loader';
 import { buildBlocks } from '@/lib/content/blocks';
-import { MAX_CHAPTER, getChapterMeta, sectionFor } from '@/lib/content/editorial';
+import { MAX_CHAPTER, getChapterMeta, isCompleted, sectionFor } from '@/lib/content/editorial';
 import CapituloScreen from '@/components/mateo/CapituloScreen';
 import JsonLd from '@/components/mateo/JsonLd';
 
@@ -23,9 +23,10 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
   const dict = await getDictionary(lang);
   const meta = getChapterMeta(lang, chapter);
   const title = meta ? `${dict.capitulo.mateoPrefix} ${chapter}: ${meta.title}` : `${dict.capitulo.mateoPrefix} ${chapter}`;
-  const description = meta ? meta.intro.slice(0, 300) : dict.capitulo.pendingBody;
+  const description = meta ? meta.intro : dict.capitulo.pendingBody;
 
-  return buildMetadata({ lang, path: `/capitulo/${chapter}`, title, description, siteName: dict.meta.title });
+  // Los capítulos todavía sin comentario no se indexan: serían contenido vacío para Google.
+  return buildMetadata({ lang, path: `/capitulo/${chapter}`, title, description, siteName: dict.meta.title, type: 'article', noindex: !isCompleted(chapter), image: `/${lang}/capitulo/${chapter}/opengraph-image` });
 }
 
 export default async function CapituloPage({ params }: { params: Promise<{ lang: string; n: string }> }) {
@@ -51,33 +52,22 @@ export default async function CapituloPage({ params }: { params: Promise<{ lang:
   const referenciasById = Object.fromEntries(getReferenciasById(lang));
 
   const dict = await getDictionary(lang);
-  const siteUrl = getSiteUrl();
-  const pageUrl = `${siteUrl}/${lang}/capitulo/${currentChapter}`;
+  const headline = meta ? `${dict.capitulo.mateoPrefix} ${currentChapter}: ${meta.title}` : `${dict.capitulo.mateoPrefix} ${currentChapter}`;
+  const wordCount = blocks.reduce((sum, b) => sum + (b.text + ' ' + b.commentary).split(/\s+/).filter(Boolean).length, 0);
 
   return (
     <>
+      {isCompleted(currentChapter) && (
+        <JsonLd
+          data={articleLd({ lang, chapter: currentChapter, headline, description: meta?.intro, wordCount, siteName: dict.meta.title })}
+        />
+      )}
       <JsonLd
-        data={{
-          '@context': 'https://schema.org',
-          '@type': 'Article',
-          headline: meta ? `${dict.capitulo.mateoPrefix} ${currentChapter}: ${meta.title}` : `${dict.capitulo.mateoPrefix} ${currentChapter}`,
-          description: meta?.intro,
-          inLanguage: lang,
-          url: pageUrl,
-          isPartOf: { '@type': 'Book', name: dict.meta.title },
-          publisher: { '@type': 'Organization', name: dict.meta.title },
-        }}
-      />
-      <JsonLd
-        data={{
-          '@context': 'https://schema.org',
-          '@type': 'BreadcrumbList',
-          itemListElement: [
-            { '@type': 'ListItem', position: 1, name: dict.inicio.title, item: `${siteUrl}/${lang}` },
-            { '@type': 'ListItem', position: 2, name: dict.indice.title, item: `${siteUrl}/${lang}/indice` },
-            { '@type': 'ListItem', position: 3, name: `${dict.capitulo.mateoPrefix} ${currentChapter}`, item: pageUrl },
-          ],
-        }}
+        data={breadcrumbLd([
+          { name: dict.meta.title, path: `/${lang}` },
+          { name: dict.indice.title, path: `/${lang}/indice` },
+          { name: `${dict.capitulo.mateoPrefix} ${currentChapter}`, path: `/${lang}/capitulo/${currentChapter}` },
+        ])}
       />
       <CapituloScreen
         currentChapter={currentChapter}

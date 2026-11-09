@@ -3,6 +3,7 @@ import { hasLocale } from '@/lib/i18n/config';
 import { notFound } from 'next/navigation';
 import { getDictionary } from '@/lib/i18n/get-dictionary';
 import { buildMetadata } from '@/lib/seo';
+import PageLd from '@/components/mateo/PageLd';
 import { getContexto } from '@/lib/content/loader';
 import ContextoScreen from '@/components/mateo/ContextoScreen';
 
@@ -23,5 +24,11 @@ export default async function ContextoPage({ params }: { params: Promise<{ lang:
   const { lang } = await params;
   if (!hasLocale(lang)) notFound();
 
-  return <ContextoScreen contexto={getContexto(lang)} />;
+  const contexto = getContexto(lang);
+  return (
+    <>
+      <PageLd lang={lang} path="/contexto" seoKey="contexto" items={contexto.map((c) => ({ name: c.titulo }))} />
+      <ContextoScreen contexto={contexto} />
+    </>
+  );
 }

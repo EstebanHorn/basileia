@@ -3,6 +3,7 @@ import { hasLocale } from '@/lib/i18n/config';
 import { notFound } from 'next/navigation';
 import { getDictionary } from '@/lib/i18n/get-dictionary';
 import { buildMetadata } from '@/lib/seo';
+import PageLd from '@/components/mateo/PageLd';
 import SobreNosotrosScreen from '@/components/mateo/SobreNosotrosScreen';
 
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
@@ -22,5 +23,10 @@ export default async function NosotrosPage({ params }: { params: Promise<{ lang:
   const { lang } = await params;
   if (!hasLocale(lang)) notFound();
 
-  return <SobreNosotrosScreen />;
+  return (
+    <>
+      <PageLd lang={lang} path="/nosotros" seoKey="nosotros" type="AboutPage" />
+      <SobreNosotrosScreen />
+    </>
+  );
 }

@@ -12,8 +12,8 @@ import styles from './TopNav.module.css';
 const LOCALE_NAMES: Record<string, string> = { es: 'Español', pt: 'Português' };
 
 const STRINGS = {
-  es: { vol: 'Vol. I', dateline: 'Vol. I · Galilea, año 30 d.C.', kicker: 'El Evangelio según Mateo · Edición de estudio', price: 'Gratis, por gracia', tagline: 'Noticias de un Reino que no es de este mundo', night: 'Edición nocturna', day: 'Edición matutina' },
-  pt: { vol: 'Vol. I', dateline: 'Vol. I · Galileia, ano 30 d.C.', kicker: 'O Evangelho segundo Mateus · Edição de estudo', price: 'Grátis, pela graça', tagline: 'Notícias de um Reino que não é deste mundo', night: 'Edição noturna', day: 'Edição matutina' },
+  es: { vol: 'Vol. I', seoH1: 'Basileia: estudio del Evangelio de Mateo con análisis del griego y contexto histórico. ', dateline: 'Vol. I · Galilea, año 30 d.C.', kicker: 'El Evangelio según Mateo · Edición de estudio', price: 'Gratis, por gracia', tagline: 'Noticias de un Reino que no es de este mundo', night: 'Edición nocturna', day: 'Edición matutina' },
+  pt: { vol: 'Vol. I', seoH1: 'Basileia: estudo do Evangelho de Mateus com análise do grego e contexto histórico. ', dateline: 'Vol. I · Galileia, ano 30 d.C.', kicker: 'O Evangelho segundo Mateus · Edição de estudo', price: 'Grátis, pela graça', tagline: 'Notícias de um Reino que não é deste mundo', night: 'Edição noturna', day: 'Edição matutina' },
 };
 
 function setLocaleCookie(next: string) {
@@ -163,7 +163,13 @@ export default function TopNav({ variant = 'page' }: { variant?: 'home' | 'page'
             <div className={styles.rules} data-bottom aria-hidden />
             <div className={styles.foot}>
               <span className={styles.vol}>{t.vol}</span>
-              {isHome ? <h1 className={styles.tagline}>{t.tagline}</h1> : <div className={styles.tagline}>{t.tagline}</div>}
+              {isHome ? (
+                <h1 className={styles.tagline}>
+                  {/* El h1 de la portada incluye el tema del sitio para buscadores, sin cambiar lo que se ve. */}
+                  <span className="sr-only">{t.seoH1}</span>
+                  {t.tagline}
+                </h1>
+              ) : <div className={styles.tagline}>{t.tagline}</div>}
               <span className={styles.footDots} aria-hidden>
                 <i style={{ background: 'var(--tan)' }} />
                 <i style={{ background: 'var(--maroon)' }} />
