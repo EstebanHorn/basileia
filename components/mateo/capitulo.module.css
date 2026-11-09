@@ -149,6 +149,7 @@
 
 /* ---------- Bloques de versículos ---------- */
 .block {
+  scroll-margin-top: 90px;
   margin-bottom: 40px;
   padding-bottom: 28px;
   border-bottom: 1px dotted var(--rule);

@@ -19,6 +19,7 @@ import type {
 import { MAX_CHAPTER } from "@/lib/content/editorial";
 import { useProgress } from "@/lib/supabase/use-progress";
 import { getNewspaper } from "@/lib/i18n/newspaper";
+import { getSiteUrl } from "@/lib/site";
 import Pressable from "./Pressable";
 import styles from "./capitulo.module.css";
 
@@ -219,6 +220,17 @@ export default function CapituloScreen({
     writePersistedState({ lastChapter: currentChapter });
   }, [currentChapter]);
 
+  // Enlaces compartidos (#v13): el navegador no baja solo porque el contenido monta después de cargar.
+  useEffect(() => {
+    const id = window.location.hash.slice(1);
+    if (!/^v\d+$/.test(id)) return;
+    const go = () => document.getElementById(id)?.scrollIntoView({ block: "start" });
+    go();
+    // Segundo intento cuando las fuentes terminan de cargar y cambia la altura del texto.
+    const timer = window.setTimeout(go, 400);
+    return () => window.clearTimeout(timer);
+  }, [currentChapter]);
+
   const chExists = blocks.length > 0 || !!meta;
   const showFullChapter = !soloTexto;
   const notesValue = notes[currentChapter] || "";
@@ -281,7 +293,10 @@ export default function CapituloScreen({
               )}
 
               {blocks.map((block, i) => {
-                const waText = `"${block.text}" - ${dict.capitulo.mateoPrefix} ${block.ref}\n\n${block.commentary.slice(0, 180)}...`;
+                const firstVerse = /:(\d+)/.exec(block.ref)?.[1];
+                const verseHash = firstVerse ? `#v${firstVerse}` : "";
+                const shareUrl = `${getSiteUrl()}/${lang}/capitulo/${currentChapter}${verseHash}`;
+                const waText = `"${block.text}" - ${dict.capitulo.mateoPrefix} ${block.ref}\n\n${block.commentary.slice(0, 180)}...\n\n${shareUrl}`;
                 const waLink =
                   "https://wa.me/?text=" + encodeURIComponent(waText);
                 const greekTerms = block.greekIds
@@ -314,7 +329,7 @@ export default function CapituloScreen({
                   referencias.find((r) => r.id === openRef)?.nota;
 
                 return (
-                  <section key={i} className={styles.block}>
+                  <section key={i} id={firstVerse ? `v${firstVerse}` : undefined} className={styles.block}>
                     <div className={styles.verseRef}>
                       <span className={styles.verseBadge}>{block.ref.split(":")[1] ?? block.ref}</span>
                       {dict.capitulo.mateoPrefix} {block.ref}
